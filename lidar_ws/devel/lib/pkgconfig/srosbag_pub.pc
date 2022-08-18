@@ -1,0 +1,8 @@
+prefix=/home/zxj/桌面/lidar_ws/devel
+
+Name: srosbag_pub
+Description: Description of srosbag_pub
+Version: 0.0.0
+Cflags: -I/home/zxj/桌面/lidar_ws/src/srosbag_pub/include/srosbag
+Libs: -L${prefix}/lib -lsros_bag
+Requires: sensor_msgs
