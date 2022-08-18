@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  sros:
+    image: harbor.standard-robots.com:9004/sros/sros_docker:v1.1
+    restart: always
+    container_name: sros-docker
+    volumes:              
+      - "~/workspace:/workspace"   ## 挂载文件夹  前面为本地  后面为docker
+      - "/etc/localtime:/etc/localtime:ro"  # 设置与宿主机时间同步
+    environment:                                # 设置环境变量,相当于docker run命令中的-e
+      TZ: Asia/Shanghai 
+      LANG: zh_CN.UTF-8
+
+## 使用说明   本地电脑网络一定要是dhcp
+##  1.修改本地docker配置  增加如下
+#  
+#  cat /etc/docker/daemon.json 
+#  {
+#      "insecure-registries": ["harbor.standard-robots.com:9004"]
+#  }
+#   ping  harbor.standard-robots.com   如果ping不通证明连接公司网络存在问题
+##  2. sudo systemctl restart docker 重启docker
+##  3. docker-compose-sros.yml 当前目录启动  
+##  ！！！启动前注意修改  volumes: 的挂载目录 需要改为自己的工作目录 
+##  启动命令为：   docker-compose -f docker-compose-sros.yml -p sros up -d 
+##  如果启动不成功  需要安装 docker-compose  建议使用python安装  pip install docker-compose
+##  4.  编译方法一
+##  docker exec -it srosContainer /build.sh release 
+##  编译方法二
+##  docker exec -it srosContainer bash  #  进入docker编译 
+##
+##  问题：
+##  1.编出的包为 SROS-v4.18.0-.update  没有提交编号
+##  解决办法：docker exec -it srosContainer git config --global --add safe.directory /workspace/sros-core

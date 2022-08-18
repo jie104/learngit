@@ -1,0 +1,13 @@
+[Unit]
+Description=SROS UDP Server Service
+After=multi-user.target network.target
+
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/sros
+ExecStart=/usr/bin/python /sros/web/udp_server.py
+
+[Install]
+WantedBy=multi-user.target
+

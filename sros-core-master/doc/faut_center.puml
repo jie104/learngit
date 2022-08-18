@@ -1,0 +1,57 @@
+@startuml
+MainModule o--> FaultCenter
+VSCModule o--> FaultCenter
+Device o--> FaultCenter
+FaultCenter *--> Fault
+
+class MainModule {
+    - performAreaOperation()
+}
+
+class Device {
+    + setStateError()
+    - cleanFault()
+}
+
+class VSCModule {
+    - handleSafetyUnitData()
+}
+
+class FaultCenter {
+    + addFault(int fault_code)
+    + removeFault(int fault_code)
+
+    - vector<Fault> fault_list
+}
+
+note right
+<b> removeFault(int fault_code)
+1. 设备故障解除可以从Device::cleanFault()中监听
+2. 区域故障解除可以从MainModule::performAreaOperation()中监听
+end note
+
+class Fault {
+    + FaultCode id
+    + FaultLevel level
+    + bool deal_immediately = true
+    + int priority = 0
+    + Music music
+    + bool auto_continue = false
+    + int continue_delay_time
+}
+
+enum Music {
+
+}
+
+enum FaultCode {
+    FAULT_CODE_ENTER_NO_ENTER_AREA
+}
+
+enum FaultLevel {
+    INFO
+    WARNING
+    ERROR
+    FATAL
+}
+@enduml

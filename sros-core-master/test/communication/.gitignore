@@ -1,0 +1,3 @@
+# 不上传生成的protobuf文件
+main_pb2.py
+monitor_pb2.py

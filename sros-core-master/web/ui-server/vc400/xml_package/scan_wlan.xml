@@ -1,0 +1,208 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- Automatically generated XML -->
+<!DOCTYPE function [
+   <!ELEMENT function (return)>
+   <!ELEMENT return (result,message+)>
+   <!ELEMENT result (#PCDATA)>
+   <!ELEMENT message (#PCDATA)>
+   <!ATTLIST function version CDATA #IMPLIED>
+]>
+<function version = "0.1.0.0">
+   <return>
+   <statusgroup name = "WLAN Scan">
+      <statusitem name = "Number of responses">
+         <value>21</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "1">
+         <value name = "SSID">SR_guest</value>
+         <value name = "BSSID">2A:E8:29:6A:F7:66</value>
+         <value name = "Channel">11</value>
+         <value name = "RSSI">-48</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "2">
+         <value name = "SSID">SR_office</value>
+         <value name = "BSSID">2A:E8:29:6B:F7:66</value>
+         <value name = "Channel">36</value>
+         <value name = "RSSI">-53</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">Yes</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "3">
+         <value name = "SSID">SR_guest</value>
+         <value name = "BSSID">3A:E8:29:6B:F7:66</value>
+         <value name = "Channel">36</value>
+         <value name = "RSSI">-53</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "4">
+         <value name = "SSID">SR_work</value>
+         <value name = "BSSID">1A:E8:29:6B:F7:66</value>
+         <value name = "Channel">36</value>
+         <value name = "RSSI">-53</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "5">
+         <value name = "SSID">SR_work_2.4G</value>
+         <value name = "BSSID">1A:E8:29:6A:F7:84</value>
+         <value name = "Channel">6</value>
+         <value name = "RSSI">-54</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "6">
+         <value name = "SSID">SR_guest</value>
+         <value name = "BSSID">2A:E8:29:6A:F7:84</value>
+         <value name = "Channel">6</value>
+         <value name = "RSSI">-54</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "7">
+         <value name = "SSID">SR-admin</value>
+         <value name = "BSSID">3A:E8:29:6A:F7:84</value>
+         <value name = "Channel">6</value>
+         <value name = "RSSI">-54</value>
+         <value name = "Scaled RSSI">5</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "8">
+         <value name = "SSID">Xiaomi_F069</value>
+         <value name = "BSSID">EC:41:18:E0:F0:6A</value>
+         <value name = "Channel">11</value>
+         <value name = "RSSI">-61</value>
+         <value name = "Scaled RSSI">4</value>
+         <value name = "Security Suite">WPA2-CCMP-TKIP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "9">
+         <value name = "SSID">JST-01</value>
+         <value name = "BSSID">04:02:1F:7A:9C:B4</value>
+         <value name = "Channel">4</value>
+         <value name = "RSSI">-62</value>
+         <value name = "Scaled RSSI">4</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "10">
+         <value name = "SSID">SR_office</value>
+         <value name = "BSSID">1A:E8:29:6B:F7:84</value>
+         <value name = "Channel">64</value>
+         <value name = "RSSI">-62</value>
+         <value name = "Scaled RSSI">4</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "11">
+         <value name = "SSID">SR_guest</value>
+         <value name = "BSSID">2A:E8:29:6B:F7:84</value>
+         <value name = "Channel">64</value>
+         <value name = "RSSI">-62</value>
+         <value name = "Scaled RSSI">4</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "12">
+         <value name = "SSID">SR_work</value>
+         <value name = "BSSID">18:E8:29:6B:F7:84</value>
+         <value name = "Channel">64</value>
+         <value name = "RSSI">-63</value>
+         <value name = "Scaled RSSI">4</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "13">
+         <value name = "SSID">REETOO</value>
+         <value name = "BSSID">80:E4:55:83:98:3F</value>
+         <value name = "Channel">1</value>
+         <value name = "RSSI">-69</value>
+         <value name = "Scaled RSSI">3</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "14">
+         <value name = "SSID">SR_work</value>
+         <value name = "BSSID">18:E8:29:6B:B3:50</value>
+         <value name = "Channel">48</value>
+         <value name = "RSSI">-74</value>
+         <value name = "Scaled RSSI">2</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "15">
+         <value name = "SSID">SR_office</value>
+         <value name = "BSSID">1A:E8:29:6B:B3:50</value>
+         <value name = "Channel">48</value>
+         <value name = "RSSI">-75</value>
+         <value name = "Scaled RSSI">2</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "16">
+         <value name = "SSID">SR_guest</value>
+         <value name = "BSSID">2A:E8:29:6B:B3:50</value>
+         <value name = "Channel">48</value>
+         <value name = "RSSI">-75</value>
+         <value name = "Scaled RSSI">2</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "17">
+         <value name = "SSID">StandardAGV</value>
+         <value name = "BSSID">A0:62:60:A3:73:0B</value>
+         <value name = "Channel">149</value>
+         <value name = "RSSI">-79</value>
+         <value name = "Scaled RSSI">2</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "18">
+         <value name = "SSID">midea_ca_0013</value>
+         <value name = "BSSID">84:7C:9B:03:38:92</value>
+         <value name = "Channel">4</value>
+         <value name = "RSSI">-79</value>
+         <value name = "Scaled RSSI">2</value>
+         <value name = "Security Suite">WPA2-CCMP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "19">
+         <value name = "SSID">Xiaomi_F069_5G</value>
+         <value name = "BSSID">EC:41:18:E0:F0:6B</value>
+         <value name = "Channel">149</value>
+         <value name = "RSSI">-82</value>
+         <value name = "Scaled RSSI">1</value>
+         <value name = "Security Suite">WPA2-CCMP-TKIP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "20">
+         <value name = "SSID">JST-01</value>
+         <value name = "BSSID">50:D2:F5:7D:38:20</value>
+         <value name = "Channel">157</value>
+         <value name = "RSSI">-82</value>
+         <value name = "Scaled RSSI">1</value>
+         <value name = "Security Suite">WPA2-CCMP-TKIP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+      <statusitem name = "Response" instance = "21">
+         <value name = "SSID">SR_KUN_5G</value>
+         <value name = "BSSID">28:6C:07:66:03:41</value>
+         <value name = "Channel">157</value>
+         <value name = "RSSI">-85</value>
+         <value name = "Scaled RSSI">1</value>
+         <value name = "Security Suite">WPA2-CCMP-TKIP</value>
+         <value name = "Is Active">No</value>
+      </statusitem>
+   </statusgroup>
+      <result>Succeeded</result>
+   </return>
+</function>

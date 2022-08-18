@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+sros_major_version=@SROS_MAJOR_VERSION@
+sros_minor_version=@SROS_MINOR_VERSION@
+sros_patch_version=@SROS_PATCH_VERSION@
+
+sros_version_str="v@SROS_VERSION@"

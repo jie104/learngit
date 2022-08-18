@@ -1,0 +1,22 @@
+
+sr_library(core_monitor
+        SRCS
+            cpu_usage.cpp
+            cpu_monitor.cpp
+            network_monitor.cpp
+            memory_usage.cpp
+            disk_usage.cpp
+            temperature.cpp
+            network_stat.cpp
+            soc_id.cpp
+        HDRS
+            cpu_usage.h
+            cpu_monitor.h
+            network_monitor.h
+            memory_usage.h
+            disk_usage.h
+            temperature.h
+            monitor.h
+            network_stat.h
+            soc_id.h
+        )

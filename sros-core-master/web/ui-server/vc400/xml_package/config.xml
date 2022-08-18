@@ -1,0 +1,1726 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- Automatically generated XML -->
+<!DOCTYPE configrecord [
+   <!ELEMENT configrecord (configgroup+)>
+   <!ELEMENT configgroup (configitem+)>
+   <!ELEMENT configitem (value+)>
+   <!ELEMENT value (#PCDATA)>
+   <!ATTLIST configrecord version CDATA #IMPLIED>
+   <!ATTLIST configgroup name CDATA #IMPLIED>
+   <!ATTLIST configgroup instance CDATA #IMPLIED>
+   <!ATTLIST configitem name CDATA #IMPLIED>
+   <!ATTLIST configitem instance CDATA #IMPLIED>
+   <!ATTLIST value name CDATA #IMPLIED>
+]>
+<configrecord version = "0.1.0.1">
+   <configgroup name = "Access Point" instance = "ap0">
+      <configitem name = "SSID">
+         <value>standard001</value>
+      </configitem>
+      <configitem name = "Guest">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Channel">
+         <value>&lt;Auto&gt;</value>
+      </configitem>
+      <configitem name = "Auto Channel Scan Interval">
+         <value>1 hour</value>
+      </configitem>
+      <configitem name = "Suite">
+         <value>WPA2</value>
+      </configitem>
+      <configitem name = "Encryption">
+         <value>CCMP</value>
+      </configitem>
+      <configitem name = "Passphrase">
+         <value>&lt;Configured&gt;</value>
+      </configitem>
+      <configitem name = "Mode">
+         <value>Always Up</value>
+      </configitem>
+      <configitem name = "DNS Redirect">
+         <value>xPico200.lantronix.com</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Clock">
+      <configitem name = "Source">
+         <value>Manual</value>
+      </configitem>
+      <configitem name = "UTC Offset">
+         <value>480 minutes</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "CPM">
+      <configitem name = "Role" instance = "AP Trigger">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "Ethernet Link">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "GSPI Slave Interrupt">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "HTTP Server Trigger">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "Keep AWAKE">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "Line 1 DSR">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "Line 1 DTR">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "Radio Trigger">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "SPI.CS">
+         <value name = "CP">8</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "SPI.MISO">
+         <value name = "CP">3</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "SPI.MOSI">
+         <value name = "CP">4</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "SPI.SCK">
+         <value name = "CP">7</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "User Data Updated">
+         <value name = "CP">&lt;No CP Selected&gt;</value>
+         <value name = "State">Disabled</value>
+         <value name = "Assert">High</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+      <configitem name = "Role" instance = "WLAN Active">
+         <value name = "CP">9</value>
+         <value name = "State">Enabled</value>
+         <value name = "Assert">Low</value>
+         <value name = "Mode">Push-Pull</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Ethernet" instance = "eth0">
+      <configitem name = "RMII Mode">
+         <value>Switch</value>
+      </configitem>
+      <configitem name = "EAP Authentication">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "HTTP Server">
+      <configitem name = "Mode">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Port">
+         <value>8080</value>
+      </configitem>
+      <configitem name = "Secure Port">
+         <value>443</value>
+      </configitem>
+      <configitem name = "Secure Credential">
+         <value></value>
+      </configitem>
+      <configitem name = "Authentication Timeout">
+         <value>30 minutes</value>
+      </configitem>
+      <configitem name = "Inactivity Timeout">
+         <value>5 minutes</value>
+      </configitem>
+      <configitem name = "Access-Control-Allow-Origin">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "HTTP Server Security">
+      <configitem name = "Access Control" instance = "1">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "2">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "3">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "4">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "5">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "6">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "7">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "8">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Access Control" instance = "9">
+         <value name = "URI"></value>
+         <value name = "AuthType">Digest</value>
+         <value name = "User Level">User</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "1">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "2">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "3">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "4">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "5">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "6">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "7">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "8">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Config" instance = "9">
+         <value name = "Group"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "1">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "2">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "3">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "4">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "5">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "6">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "7">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "8">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+      <configitem name = "Status" instance = "9">
+         <value name = "Group"></value>
+         <value name = "Optional Item"></value>
+         <value name = "Optional Action"></value>
+         <value name = "User Level">Admin</value>
+         <value name = "Zones">None</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Interface" instance = "ap0">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Priority">
+         <value>1</value>
+      </configitem>
+      <configitem name = "MSS">
+         <value>1460 bytes</value>
+      </configitem>
+      <configitem name = "IP Address">
+         <value>192.168.0.1/24</value>
+      </configitem>
+      <configitem name = "Default Gateway">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Primary DNS">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Secondary DNS">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "DHCP IP Address Range">
+         <value name = "Start">192.168.0.6</value>
+         <value name = "End">192.168.0.220</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Interface" instance = "eth0">
+      <configitem name = "State">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Hostname">
+         <value></value>
+      </configitem>
+      <configitem name = "Priority">
+         <value>1</value>
+      </configitem>
+      <configitem name = "MSS">
+         <value>1460 bytes</value>
+      </configitem>
+      <configitem name = "DHCP Client">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "IP Address">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Domain">
+         <value></value>
+      </configitem>
+      <configitem name = "Default Gateway">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "DNS">
+         <value>DHCP</value>
+      </configitem>
+      <configitem name = "Primary DNS">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Secondary DNS">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "IPv6 State">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Interface" instance = "wlan0">
+      <configitem name = "State">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Hostname">
+         <value></value>
+      </configitem>
+      <configitem name = "Priority">
+         <value>1</value>
+      </configitem>
+      <configitem name = "MSS">
+         <value>1460 bytes</value>
+      </configitem>
+      <configitem name = "DHCP Client">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "IP Address">
+         <value>10.10.70.94/22</value>
+      </configitem>
+      <configitem name = "Domain">
+         <value></value>
+      </configitem>
+      <configitem name = "Default Gateway">
+         <value>10.10.70.1</value>
+      </configitem>
+      <configitem name = "Primary DNS">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Secondary DNS">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "IPv6 State">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Interface" instance = "lo0">
+      <configitem name = "State">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Priority">
+         <value>1</value>
+      </configitem>
+      <configitem name = "MSS">
+         <value>1460 bytes</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "1">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "Interface">
+         <value>RS232</value>
+      </configitem>
+      <configitem name = "State">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>Command Line</value>
+      </configitem>
+      <configitem name = "Baud Rate">
+         <value>9600 bits per second</value>
+      </configitem>
+      <configitem name = "Parity">
+         <value>None</value>
+      </configitem>
+      <configitem name = "Data Bits">
+         <value>8</value>
+      </configitem>
+      <configitem name = "Stop Bits">
+         <value>1</value>
+      </configitem>
+      <configitem name = "Flow Control">
+         <value>None</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "Virtual_1">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>None</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "Virtual_2">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>None</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "gSPI_1">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>Command Line</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "gSPI_2">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>Command Line</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "gSPI_3">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>Command Line</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Line" instance = "gSPI_4">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>Command Line</value>
+      </configitem>
+      <configitem name = "Gap Timer">
+         <value>&lt;Four Character Periods&gt;</value>
+      </configitem>
+      <configitem name = "Threshold">
+         <value>56 bytes</value>
+      </configitem>
+      <configitem name = "Push">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Power">
+      <configitem name = "Dynamic Power Mode">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Radio">
+      <configitem name = "Mode">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Band">
+         <value>Dual</value>
+      </configitem>
+      <configitem name = "Antenna Selection">
+         <value>Auto</value>
+      </configitem>
+      <configitem name = "Keep Alive">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Max Volley Delay">
+         <value>1 minute</value>
+      </configitem>
+      <configitem name = "TX Power Maximum">
+         <value>19 dBm</value>
+      </configitem>
+      <configitem name = "Log">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Event Log">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Roaming">
+         <value name = "State">Enabled</value>
+         <value name = "Scan Period">5 seconds</value>
+         <value name = "Band 2.4GHz Trigger Delta">5 dBm</value>
+         <value name = "Band 2.4GHz RSSI Floor">-65 dBm</value>
+         <value name = "Band 5GHz Trigger Delta">5 dBm</value>
+         <value name = "Band 5GHz RSSI Floor">-65 dBm</value>
+      </configitem>
+      <configitem name = "Scanning">
+         <value name = "RSSI Floor">-85 dBm</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "SPI" instance = "1">
+      <configitem name = "Name">
+         <value></value>
+      </configitem>
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value></value>
+      </configitem>
+      <configitem name = "Target Speed">
+         <value>&lt;Minimum&gt;</value>
+      </configitem>
+      <configitem name = "CS Active">
+         <value>Low</value>
+      </configitem>
+      <configitem name = "Idle Clock Level">
+         <value>Low</value>
+      </configitem>
+      <configitem name = "Clock Edge">
+         <value>First</value>
+      </configitem>
+      <configitem name = "Bits Per Word">
+         <value>8</value>
+      </configitem>
+      <configitem name = "First Transfer">
+         <value>Most Significant Bit</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "User" instance = "admin">
+      <configitem name = "Password">
+         <value>&lt;Configured&gt;</value>
+      </configitem>
+      <configitem name = "Privilege">
+         <value>Admin</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "WLAN Profile" instance = "onlythis">
+      <configitem name = "Basic">
+         <value name = "Network Name">test</value>
+         <value name = "State">Enabled</value>
+      </configitem>
+      <configitem name = "Security">
+         <value name = "Suite">WPA2</value>
+         <value name = "WEP Key Size">40</value>
+         <value name = "WEP TX Key Index">1</value>
+         <value name = "WEP Key 1 Key"></value>
+         <value name = "WEP Key 2 Key"></value>
+         <value name = "WEP Key 3 Key"></value>
+         <value name = "WEP Key 4 Key"></value>
+         <value name = "WPAx Authentication">PSK</value>
+         <value name = "WPAx IEEE 80211r">Disabled</value>
+         <value name = "WPAx Roam over DS">Enabled</value>
+         <value name = "WPAx Key Type">Passphrase</value>
+         <value name = "WPAx Passphrase">&lt;Configured&gt;</value>
+         <value name = "WPAx Key"></value>
+         <value name = "WPAx IEEE 8021X">PEAP</value>
+         <value name = "WPAx Verify Expired CA Cert">Disabled</value>
+         <value name = "WPAx Username"></value>
+         <value name = "WPAx Password"></value>
+         <value name = "WPAx Credentials"></value>
+         <value name = "WPAx EAP-TTLS Option">EAP-MSCHAPV2</value>
+         <value name = "WPAx PEAP ver">0</value>
+         <value name = "WPAx PEAP Option">EAP-MSCHAPV2</value>
+         <value name = "WPAx PEAP Credentials"></value>
+         <value name = "WPAx FAST Option">MD5</value>
+      </configitem>
+      <configitem name = "Advanced">
+         <value name = "TX Power Maximum">19 dBm</value>
+         <value name = "Power Management">Disabled</value>
+         <value name = "PM Interval">1 beacons (100 ms each)</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "WLAN Profile" instance = "SR_office">
+      <configitem name = "Basic">
+         <value name = "Network Name">SR_office</value>
+         <value name = "State">Enabled</value>
+      </configitem>
+      <configitem name = "Security">
+         <value name = "Suite">WPA2</value>
+         <value name = "WEP Key Size">40</value>
+         <value name = "WEP TX Key Index">1</value>
+         <value name = "WEP Key 1 Key"></value>
+         <value name = "WEP Key 2 Key"></value>
+         <value name = "WEP Key 3 Key"></value>
+         <value name = "WEP Key 4 Key"></value>
+         <value name = "WPAx Authentication">PSK</value>
+         <value name = "WPAx IEEE 80211r">Disabled</value>
+         <value name = "WPAx Roam over DS">Enabled</value>
+         <value name = "WPAx Key Type">Passphrase</value>
+         <value name = "WPAx Passphrase">&lt;Configured&gt;</value>
+         <value name = "WPAx Key"></value>
+         <value name = "WPAx IEEE 8021X">PEAP</value>
+         <value name = "WPAx Verify Expired CA Cert">Disabled</value>
+         <value name = "WPAx Username"></value>
+         <value name = "WPAx Password"></value>
+         <value name = "WPAx Credentials"></value>
+         <value name = "WPAx EAP-TTLS Option">EAP-MSCHAPV2</value>
+         <value name = "WPAx PEAP ver">0</value>
+         <value name = "WPAx PEAP Option">EAP-MSCHAPV2</value>
+         <value name = "WPAx PEAP Credentials"></value>
+         <value name = "WPAx FAST Option">MD5</value>
+      </configitem>
+      <configitem name = "Advanced">
+         <value name = "TX Power Maximum">19 dBm</value>
+         <value name = "Power Management">Disabled</value>
+         <value name = "PM Interval">1 beacons (100 ms each)</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "XML Import Control">
+      <configitem name = "Restore Factory Configuration">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Reboot">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Missing Values">
+         <value>Set to Default</value>
+      </configitem>
+      <configitem name = "Delete WLAN Profiles">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "WLAN Profile delete">
+         <value name = "name"></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Bridge">
+      <configitem name = "Interface">
+         <value>wlan0</value>
+      </configitem>
+      <configitem name = "Ethernet">
+         <value name = "State">Enabled</value>
+         <value name = "Mode">Dynamic</value>
+         <value name = "MAC Address">00 80 A3 01 19 CB</value>
+      </configitem>
+      <configitem name = "Allow All Multicast">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "IGMP" instance = "1">
+         <value name = "IP Address"></value>
+      </configitem>
+      <configitem name = "IGMP" instance = "2">
+         <value name = "IP Address"></value>
+      </configitem>
+      <configitem name = "IGMP" instance = "3">
+         <value name = "IP Address"></value>
+      </configitem>
+      <configitem name = "IGMP" instance = "4">
+         <value name = "IP Address"></value>
+      </configitem>
+      <configitem name = "IGMP" instance = "5">
+         <value name = "IP Address"></value>
+      </configitem>
+      <configitem name = "IGMP" instance = "6">
+         <value name = "IP Address"></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "CLI Server">
+      <configitem name = "Inactivity Timeout">
+         <value>15 minutes</value>
+      </configitem>
+      <configitem name = "Telnet">
+         <value name = "Mode">Enabled</value>
+         <value name = "Interface">Any</value>
+         <value name = "Port">23</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Device">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>1 minute</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+      <configitem name = "Apply Firmware Updates">
+         <value>Enabled</value>
+      </configitem>
+      <configitem name = "Apply Configuration Updates">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Reboot After Configuration Update">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Device Name">
+         <value>xPico240</value>
+      </configitem>
+      <configitem name = "Device Description">
+         <value></value>
+      </configitem>
+      <configitem name = "Additional Logging">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Active Connection">
+         <value>1</value>
+      </configitem>
+      <configitem name = "Connection" instance = "1">
+         <value name = "Domain">api.consoleflow.com</value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "MQTT State">Disabled</value>
+         <value name = "MQTT Domain">mqtt.consoleflow.com</value>
+         <value name = "MQTT Local Port">&lt;Random&gt;</value>
+      </configitem>
+      <configitem name = "Connection" instance = "2">
+         <value name = "Domain">api.consoleflow.com</value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "MQTT State">Disabled</value>
+         <value name = "MQTT Domain">mqtt.consoleflow.com</value>
+         <value name = "MQTT Local Port">&lt;Random&gt;</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "1">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "Virtual_1">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "Virtual_2">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "gSPI_1">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "gSPI_2">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "gSPI_3">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "ConsoleFlow Line" instance = "gSPI_4">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Project Tag">
+         <value></value>
+      </configitem>
+      <configitem name = "Status Update Interval">
+         <value>10 minutes</value>
+      </configitem>
+      <configitem name = "Content Check Interval">
+         <value>1 day</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Discovery" instance = "ap0">
+      <configitem name = "Query Port">
+         <value name = "State">Enabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Discovery" instance = "eth0">
+      <configitem name = "Query Port">
+         <value name = "State">Enabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Discovery" instance = "wlan0">
+      <configitem name = "Query Port">
+         <value name = "State">Enabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "NTP">
+      <configitem name = "Server Hostname">
+         <value>203.107.6.88</value>
+      </configitem>
+      <configitem name = "Sync Time">
+         <value>8 hours</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "1">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "1">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "1">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "1">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "1">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "Virtual_1">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "Virtual_1">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "Virtual_1">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "Virtual_1">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "Virtual_1">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "Virtual_2">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "Virtual_2">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "Virtual_2">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "Virtual_2">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "Virtual_2">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "gSPI_1">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "gSPI_1">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "gSPI_1">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "gSPI_1">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "gSPI_1">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "gSPI_2">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "gSPI_2">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "gSPI_2">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "gSPI_2">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "gSPI_2">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "gSPI_3">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "gSPI_3">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "gSPI_3">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "gSPI_3">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "gSPI_3">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Accept" instance = "gSPI_4">
+      <configitem name = "Mode">
+         <value>Always</value>
+      </configitem>
+      <configitem name = "Local Port">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Multiple Connections">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Protocol">
+         <value>TCP</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Password">
+         <value></value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Line" instance = "gSPI_4">
+      <configitem name = "DTR">
+         <value>Asserted while connected</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Connect" instance = "gSPI_4">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+      <configitem name = "Host" instance = "1">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "2">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "3">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Host" instance = "4">
+         <value name = "Address"></value>
+         <value name = "Port">&lt;None&gt;</value>
+         <value name = "Protocol">TCP</value>
+         <value name = "Credential"></value>
+         <value name = "Initial Send"></value>
+         <value name = "Local Port">&lt;Random&gt;</value>
+         <value name = "Reception">Restricted</value>
+      </configitem>
+      <configitem name = "Connections">
+         <value>Sequential</value>
+      </configitem>
+      <configitem name = "Reconnect Time">
+         <value>15 seconds</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Line">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Block Network">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Disconnect" instance = "gSPI_4">
+      <configitem name = "Stop Character">
+         <value>&lt;None&gt;</value>
+      </configitem>
+      <configitem name = "Modem Control">
+         <value>Disabled</value>
+      </configitem>
+      <configitem name = "Timeout">
+         <value>&lt;Disabled&gt;</value>
+      </configitem>
+      <configitem name = "Flush Line">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "Tunnel Packing" instance = "gSPI_4">
+      <configitem name = "Mode">
+         <value>Disable</value>
+      </configitem>
+   </configgroup>
+   <configgroup name = "USB Device">
+      <configitem name = "State">
+         <value>Disabled</value>
+      </configitem>
+   </configgroup>
+</configrecord>

@@ -1,0 +1,14 @@
+[Unit]
+Description=MQTT Client Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Restart=on-failure
+RestartSec=5s
+WorkingDirectory=/sros/web/mqtt
+ExecStart=/usr/bin/python /sros/web/mqtt/mqtt-client.py
+
+[Install]
+WantedBy=multi-user.target

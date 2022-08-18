@@ -1,0 +1,39 @@
+$def with (route, ms)
+  
+$:render.header(route)
+
+<h3>地图列表</h3>
+
+<hr>
+
+    <div class="panel panel-info">
+
+    <div class="panel-heading"><strong>地图列表</strong></div>
+
+    <table class="table table-hover table-striped">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>MD5校验值</th>
+            <th>更新时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody id="res">
+
+    $for item in ms:
+        <tr id="">
+            <td>$item['name']</td>
+            <td>$item['md5']</td>
+            <td>$item['modify_time']</td>
+            <td><a href="api/v0/map/$item['name']">下载</a></td>
+        </tr>
+
+
+    </tbody>
+    </table>
+
+    </div>
+
+$:render.footer()
+

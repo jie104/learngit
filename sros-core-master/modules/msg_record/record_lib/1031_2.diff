@@ -1,0 +1,687 @@
+diff --git a/modules/msg_record/record_lib/record_lib/CMakeLists.txt b/modules/msg_record/record_lib/record_lib/CMakeLists.txt
+deleted file mode 100644
+index 3f201ee..0000000
+--- a/modules/msg_record/record_lib/record_lib/CMakeLists.txt
++++ /dev/null
+@@ -1,18 +0,0 @@
+-cmake_minimum_required(VERSION 2.8)
+-project(record_operat)
+-
+-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+-
+-aux_source_directory(. MODULE_SRCS)
+-
+-set(MODULE_SRCS
+-        record_operator.h
+-        record_operator.cpp
+-        play_operator.h
+-        play_operator.cpp
+-        record_msg/base_record_msg.hpp
+-        record_msg/base_record_msg.cpp
+-        record_msg/obstacle_record_msg.hpp record_msg/base_record_msg.cpp
+-        record_msg/record_msg_factory.cpp record_msg/record_msg_factory.h)
+-
+-add_library(record_operate ${MODULE_SRCS})
+diff --git a/modules/msg_record/record_lib/record_lib/play_operator.cpp b/modules/msg_record/record_lib/record_lib/play_operator.cpp
+deleted file mode 100644
+index 11efb58..0000000
+--- a/modules/msg_record/record_lib/record_lib/play_operator.cpp
++++ /dev/null
+@@ -1,111 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#include "play_operator.h"
+-#include <dirent.h>
+-#include <sys/stat.h>
+-#include <boost/thread.hpp>
+-#include "record_msg/record_msg_factory.h"
+-namespace record{
+-
+-PlayOperator::PlayOperator(PlayOption option) {
+-    play = option;
+-
+-}
+-
+-PlayOperator::~PlayOperator() {
+-
+-}
+-
+-bool PlayOperator::open(const char *path) {
+-    std::string path_=getPath(path);
+-    if (opendir(path_.c_str()) == NULL) {
+-        LOG(INFO) << "no dir! will create!" << path;
+-        if (mkdir(path_.c_str(), 0777) < 0) {
+-            LOG(INFO) << "error to create!";
+-            return false;
+-        }
+-    }
+-    op_file.open(path, std::ios::in);
+-
+-    boost::thread(boost::bind(&PlayOperator::playThread, this));
+-    return op_file.is_open();
+-}
+-
+-void PlayOperator::close() {
+-    op_file.close();
+-}
+-
+-bool PlayOperator::isOpen() {
+-    return op_file.is_open();
+-}
+-
+-void PlayOperator::playThread() {
+-    while (isOpen()) {
+-        MsgMap msg_map;
+-        if (decodeMsg(msg_map)) {
+-            auto type_iter= msg_map.find(convertToStr(type));
+-            if (type_iter != msg_map.end()) {
+-                auto msg = RecordMsgFactory::getRecordMsg(RecordMsgType(type_iter->second[0]));
+-                if (msg) {
+-                    msg->decode(msg_map);
+-                    play.msgCallback(msg);//发布msg
+-                }
+-            }else {
+-                LOG(INFO) << "err to get the msg!";
+-            }
+-
+-        }else {
+-            LOG(INFO) << "get the stop signal!";
+-            play.playStop();//stopmsg
+-            close();
+-            return;
+-        }
+-    }
+-
+-}
+-
+-std::string PlayOperator::getPath(const char *path) {
+-    std::string file_name(path);
+-    int str_length = file_name.find_last_of('/');
+-    return file_name.substr(0, str_length);
+-}
+-
+-bool PlayOperator::readLine(std::stringstream &data) {
+-    if (!op_file.eof()) {
+-        std::string tmp_str;
+-        std::getline(op_file, tmp_str);
+-        data << tmp_str;
+-        return true;
+-    }else {
+-        LOG(INFO) << "get the end! will return!";
+-        return false;
+-    }
+-}
+-
+-bool PlayOperator::decodeMsg(MsgMap& msg_map) {
+-    std::stringstream stream_;
+-    if (readLine(stream_)) {
+-        std::string value_name;
+-        stream_ >> value_name;
+-        while (value_name != end_tag){
+-
+-            double value;
+-            while (stream_ >> value) {
+-                msg_map[value_name].push_back(value);
+-            }
+-            stream_.clear();
+-            stream_.str("");
+-            if (!readLine(stream_)) {
+-                LOG(INFO) << "read file end! will return!";
+-                return false;
+-            }
+-            stream_ >> value_name;
+-        }
+-        return true;
+-    }
+-    LOG(INFO) << "read file end! will return!";
+-    return false;
+-}
+-}
+\ No newline at end of file
+diff --git a/modules/msg_record/record_lib/record_lib/play_operator.h b/modules/msg_record/record_lib/record_lib/play_operator.h
+deleted file mode 100644
+index 382b008..0000000
+--- a/modules/msg_record/record_lib/record_lib/play_operator.h
++++ /dev/null
+@@ -1,59 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#ifndef SROS_PLAY_OPERATOR_H
+-#define SROS_PLAY_OPERATOR_H
+-
+-#include "record_msg/base_record_msg.hpp"
+-#include <boost/function.hpp>
+-namespace record{
+-
+-typedef boost::function<void()> StopCallbackFunc;
+-typedef boost::function<void(BaseRecordMsg_Ptr)> MsgCallbackFunc;
+-
+-struct PlayOption{
+-    StopCallbackFunc playStop;
+-    MsgCallbackFunc msgCallback;
+-};
+-
+-
+-class PlayOperator {
+-public:
+-
+-    PlayOperator(PlayOption option);
+-
+-    virtual ~PlayOperator();
+-
+-    bool open(const char *path);
+-
+-    void close();
+-
+-    bool isOpen();
+-
+-
+-private:
+-    std::string getPath(const char *path);
+-
+-    bool readLine(std::stringstream &data);
+-
+-    bool decodeMsg(MsgMap& msg_map);
+-
+-    void playThread();
+-
+-    PlayOperator(){
+-
+-    }
+-
+-    PlayOption play;
+-
+-    std::fstream op_file;
+-
+-    const std::string end_tag = "END";
+-
+-};
+-
+-}
+-
+-
+-#endif //SROS_PLAY_OPERATOR_H
+diff --git a/modules/msg_record/record_lib/record_lib/record_msg/base_record_msg.cpp b/modules/msg_record/record_lib/record_lib/record_msg/base_record_msg.cpp
+deleted file mode 100644
+index aa02d59..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_msg/base_record_msg.cpp
++++ /dev/null
+@@ -1,25 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-#include "base_record_msg.hpp"
+-
+-namespace record{
+-std::shared_ptr<RecordMsgMap> RecordMsgMap::record_msg_module;
+-
+-std::string record::RecordMsgMap::getNameByType(record::RecordMsgType type) {
+-    auto map_module = RecordMsgMap::getInstance();
+-    return map_module->getName(type);
+-}
+-
+-std::shared_ptr<RecordMsgMap> record::RecordMsgMap::getInstance() {
+-    if (!record_msg_module) {
+-        record_msg_module.reset(new RecordMsgMap());
+-    }
+-    return record_msg_module;
+-}
+-
+-int RecordMsgMap::getTypeByName(std::string name) {
+-    auto map_module = RecordMsgMap::getInstance();
+-    return map_module->getType(name);
+-}
+-}
+diff --git a/modules/msg_record/record_lib/record_lib/record_msg/base_record_msg.hpp b/modules/msg_record/record_lib/record_lib/record_msg/base_record_msg.hpp
+deleted file mode 100644
+index 3698613..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_msg/base_record_msg.hpp
++++ /dev/null
+@@ -1,194 +0,0 @@
+-//
+-// Created by lfc on 17-10-26.
+-//
+-
+-#ifndef SROS_BASE_RECORD_MSG_HPP
+-#define SROS_BASE_RECORD_MSG_HPP
+-
+-#include <string>
+-#include <fstream>
+-#include <glog/logging.h>
+-#include <map>
+-#include <memory>
+-
+-#ifndef convertToStr
+-#define convertToStr(value_name) #value_name
+-#endif
+-namespace record{
+-
+-typedef std::map<std::string, std::vector<double>> MsgMap;
+-
+-enum RecordMsgType{
+-    TYPE_RECORD_OBSTACLE = 1,
+-    TYPE_RECORD_SCAN = 2,
+-    TYPE_RECORD_CMD = 3,//TODO:第一步,需要新建一个type类型
+-};
+-
+-class RecordMsgMap{
+-public:
+-    RecordMsgMap() {
+-        type_str_map[int(TYPE_RECORD_OBSTACLE)] = convertToStr(TYPE_RECORD_OBSTACLE);
+-        type_str_map[int(TYPE_RECORD_SCAN)] = convertToStr(TYPE_RECORD_SCAN);
+-        type_str_map[int(TYPE_RECORD_CMD)] = convertToStr(TYPE_RECORD_CMD);//TODO:第二步,需要新建一个map类型,实现字符串与type映射
+-
+-        for (auto &iter:type_str_map) {
+-            str_type_map[iter.second] = iter.first;
+-        }
+-    }
+-
+-    static std::string getNameByType(RecordMsgType type);
+-
+-    static int getTypeByName(std::string name);
+-
+-    std::string getName(RecordMsgType type){
+-        auto tmp_iter = type_str_map.find(int(type));
+-        if (tmp_iter != type_str_map.end()) {
+-            return tmp_iter->second;
+-        }else {
+-            LOG(INFO) << "err to get the type:" << type;
+-            return std::string();
+-        }
+-    }
+-    int getType(std::string name){
+-        auto tmp_iter = str_type_map.find(name);
+-        if (tmp_iter != str_type_map.end()) {
+-            return tmp_iter->second;
+-        }else {
+-            LOG(INFO) << "err to get the type:" << name;
+-            return 0;
+-        }
+-    }
+-
+-    static std::shared_ptr<RecordMsgMap> getInstance();
+-
+-private:
+-
+-    std::map<int,std::string> type_str_map;
+-
+-    std::map<std::string,int> str_type_map;
+-
+-    static std::shared_ptr<RecordMsgMap> record_msg_module;
+-
+-};
+-
+-class BaseRecordMsg {
+-public:
+-    BaseRecordMsg(RecordMsgType type_):type(type_){
+-
+-    }
+-
+-    bool encode(std::ostream& record_stream) {
+-        encodeHeader(record_stream);
+-
+-        encodeBody(record_stream);//虚函数,由子类实现
+-
+-        encodeEnd(record_stream);
+-
+-        return true;
+-    }
+-
+-    void decode(MsgMap& msg_map) {
+-
+-        decodeHeader(msg_map);
+-
+-        decodeBody(msg_map);
+-    }
+-
+-    virtual ~BaseRecordMsg() {
+-
+-
+-    };
+-
+-    RecordMsgType getType() {
+-        return type;
+-    }
+-
+-
+-public:
+-    int64_t stamp;
+-protected:
+-    virtual void encodeBody(std::ostream& record_stream){//TODO:第三步,子类复写encodeBody虚函数
+-
+-    }
+-
+-    virtual void decodeBody(MsgMap& msg_map){//TODO:第四步,子类复写decodeBody虚函数
+-
+-    }
+-
+-    template<typename T_SAVE>
+-    void writeData(T_SAVE &data,std::ostream& record_stream) {
+-            record_stream.width(20);
+-            record_stream << data;
+-            record_stream << " ";
+-    }
+-
+-    void writeName(std::string name,std::ostream& record_stream) {//引用的实现方法就是地址调用,因此,可以用基类引用子类
+-        writeData(name,record_stream);
+-    }
+-
+-    void writeEndl(std::ostream& record_stream) {
+-        record_stream << std::endl;
+-    }
+-
+-    void writeEndStr(std::ostream& record_stream) {
+-        writeName("END",record_stream);
+-        writeEndl(record_stream);
+-    }
+-
+-private:
+-    void encodeHeader(std::ostream& record_stream){
+-        writeType(record_stream);
+-        writeStamp(record_stream);
+-    }
+-
+-    void encodeEnd(std::ostream& record_stream) {
+-        writeEndl(record_stream);
+-        writeEndStr(record_stream);
+-    }
+-
+-    bool decodeHeader(MsgMap& msg_map){
+-        auto msg_iter = msg_map.find(RecordMsgMap::getNameByType(type));
+-        if (msg_iter != msg_map.end()) {
+-            auto stamp_iter = msg_map.find(convertToStr(stamp));
+-            if (stamp_iter != msg_map.end()) {
+-                stamp = stamp_iter->second[0];
+-            }else {
+-                LOG(INFO) << "err to get the stamp!";
+-            }
+-            return true;
+-        }else {
+-            LOG(INFO) << "err to get the header!:" << type;
+-            return false;
+-        }
+-    }
+-
+-    void writeType(std::ostream& record_stream) {
+-        writeName(convertToStr(type), record_stream);
+-        writeData(type, record_stream);
+-        writeEndl(record_stream);
+-        writeName(RecordMsgMap::getNameByType(type), record_stream);
+-        writeData(type, record_stream);
+-        writeEndl(record_stream);
+-    }
+-
+-    void writeStamp(std::ostream& record_stream) {
+-        writeName(convertToStr(stamp), record_stream);
+-        writeData(stamp, record_stream);
+-        writeEndl(record_stream);
+-    }
+-
+-
+-    RecordMsgType type;
+-
+-
+-    BaseRecordMsg(){
+-
+-    }
+-
+-};
+-typedef std::shared_ptr<BaseRecordMsg> BaseRecordMsg_Ptr;
+-
+-}
+-
+-
+-#endif //SROS_BASE_RECORD_MSG_HPP
+diff --git a/modules/msg_record/record_lib/record_lib/record_msg/obstacle_record_msg.hpp b/modules/msg_record/record_lib/record_lib/record_msg/obstacle_record_msg.hpp
+deleted file mode 100644
+index 2b615bf..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_msg/obstacle_record_msg.hpp
++++ /dev/null
+@@ -1,62 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#ifndef SROS_OBASTACLE_RECORD_MSG_HPP
+-#define SROS_OBASTACLE_RECORD_MSG_HPP
+-
+-#include "base_record_msg.hpp"
+-namespace record{
+-struct RecordPoint{
+-    float x;
+-    float y;
+-};
+-
+-class ObstacleRecordMsg :public BaseRecordMsg{
+-public:
+-    ObstacleRecordMsg() : BaseRecordMsg(TYPE_RECORD_OBSTACLE){
+-
+-    }
+-
+-    virtual ~ObstacleRecordMsg(){
+-
+-    }
+-
+-    virtual void encodeBody(std::ostream& record_stream) {//TODO:第三步,子类复写encodeBody虚函数
+-        writeName(convertToStr(points), record_stream);//将变量名编码
+-        for (auto &point:points) {
+-            writeData(point.x, record_stream);
+-            writeData(point.y, record_stream);
+-        }//将变量编码
+-        writeEndl(record_stream);//结束换行符
+-    }
+-
+-    virtual void decodeBody(MsgMap& msg_map) {//TODO:第四步,子类复写decodeBody虚函数
+-        for (auto &iter:msg_map) {
+-            if (iter.first == convertToStr(points)) {
+-                auto &datas = iter.second;
+-                int data_size = datas.size();
+-                if (data_size % 2 == 0) {
+-                    for (int i = 0; i < data_size; i = i + 2) {
+-                        points.emplace_back();
+-                        points.back().x = datas[i];
+-                        points.back().y = datas[i+1];
+-                    }
+-                }
+-            }
+-        }
+-    }
+-
+-    std::vector<RecordPoint> points;
+-
+-
+-
+-
+-};
+-
+-typedef std::shared_ptr<ObstacleRecordMsg> ObstacleRecordMsg_Ptr; //TODO:需要类型定义一个共享指针
+-
+-}
+-
+-
+-#endif //SROS_OBASTACLE_RECORD_MSG_HPP
+diff --git a/modules/msg_record/record_lib/record_lib/record_msg/record_msg_factory.cpp b/modules/msg_record/record_lib/record_lib/record_msg/record_msg_factory.cpp
+deleted file mode 100644
+index 93a9429..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_msg/record_msg_factory.cpp
++++ /dev/null
+@@ -1,28 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#include "record_msg_factory.h"
+-#include "obstacle_record_msg.hpp"
+-
+-namespace record{
+-
+-BaseRecordMsg_Ptr RecordMsgFactory::getRecordMsg(RecordMsgType type) {//TODO:第五步需要在该函数创建相对应msg
+-    BaseRecordMsg_Ptr msg;
+-    switch (type) {
+-        case TYPE_RECORD_OBSTACLE:
+-            msg = std::make_shared<ObstacleRecordMsg>();
+-            break;
+-        case TYPE_RECORD_SCAN:
+-//            msg =
+-            break;
+-        case TYPE_RECORD_CMD:
+-
+-            break;
+-        default:
+-            LOG(INFO) << "err to get the msg!" << type;
+-    }
+-
+-    return msg;
+-}
+-}
+\ No newline at end of file
+diff --git a/modules/msg_record/record_lib/record_lib/record_msg/record_msg_factory.h b/modules/msg_record/record_lib/record_lib/record_msg/record_msg_factory.h
+deleted file mode 100644
+index 6228673..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_msg/record_msg_factory.h
++++ /dev/null
+@@ -1,21 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#ifndef SROS_RECORD_MSG_FACTORY_H
+-#define SROS_RECORD_MSG_FACTORY_H
+-#include "base_record_msg.hpp"
+-
+-namespace record{
+-class RecordMsgFactory {
+-public:
+-    static BaseRecordMsg_Ptr getRecordMsg(RecordMsgType type);
+-private:
+-
+-
+-};
+-
+-}
+-
+-
+-#endif //SROS_RECORD_MSG_FACTORY_H
+diff --git a/modules/msg_record/record_lib/record_lib/record_operator.cpp b/modules/msg_record/record_lib/record_lib/record_operator.cpp
+deleted file mode 100644
+index 09186de..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_operator.cpp
++++ /dev/null
+@@ -1,52 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#include "record_operator.h"
+-namespace record{
+-
+-RecordOperator::RecordOperator() {
+-
+-}
+-
+-RecordOperator::~RecordOperator() {
+-    close();
+-}
+-
+-bool RecordOperator::open(const char *path, bool add_file) {
+-    if (add_file) {
+-        record_stream.open(path, std::ios::app);
+-    } else {
+-        record_stream.open(path, std::ios::out);
+-    }
+-    if (record_stream.is_open()) {
+-        file_name = path;
+-        is_open = true;
+-        record_stream.width(20);
+-//            record_stream.precision(10);
+-        record_stream.setf(std::ios::fixed, std::ios::floatfield);
+-        record_stream.setf(record_stream.left);
+-        return true;
+-    }
+-    LOG(INFO) << "cannot open the file!";
+-    is_open = false;
+-    return false;
+-}
+-
+-void RecordOperator::close() {
+-    is_open = false;
+-    record_stream.close();
+-}
+-
+-bool RecordOperator::isOpen() {
+-    return is_open;
+-}
+-
+-void RecordOperator::recordMsg(BaseRecordMsg_Ptr base_msg) {
+-    if (is_open) {
+-        base_msg->encode(record_stream);
+-    }else {
+-        LOG(INFO) << "the file is not open!";
+-    }
+-}
+-}
+\ No newline at end of file
+diff --git a/modules/msg_record/record_lib/record_lib/record_operator.h b/modules/msg_record/record_lib/record_lib/record_operator.h
+deleted file mode 100644
+index add4550..0000000
+--- a/modules/msg_record/record_lib/record_lib/record_operator.h
++++ /dev/null
+@@ -1,37 +0,0 @@
+-//
+-// Created by lfc on 17-10-27.
+-//
+-
+-#ifndef SROS_RECORD_OPERATOR_H
+-#define SROS_RECORD_OPERATOR_H
+-
+-#include "record_msg/base_record_msg.hpp"
+-namespace record{
+-class RecordOperator {
+-public:
+-    RecordOperator();
+-
+-    virtual ~RecordOperator();
+-
+-    bool open(const char *path, bool add_file = false);
+-
+-    void close();
+-
+-    bool isOpen();
+-
+-    void recordMsg(BaseRecordMsg_Ptr base_msg);
+-
+-
+-private:
+-    std::fstream record_stream;
+-    bool is_open;
+-    std::string file_name;
+-
+-};
+-
+-typedef std::shared_ptr<RecordOperator> RecordOperator_Ptr;
+-
+-}
+-
+-
+-#endif //SROS_RECORD_OPERATOR_H
+diff --git a/modules/navigation/navigation_module.cpp b/modules/navigation/navigation_module.cpp
+index 8694a67..406c09f 100644
+--- a/modules/navigation/navigation_module.cpp
++++ b/modules/navigation/navigation_module.cpp
+@@ -1665,6 +1665,12 @@ void NavigationModule::onObstacleMsg(sros::core::base_msg_ptr m) {
+ 	    obstacle_points_2 = obstacle_points_1;
+     }
+ 
++    auto obaSendMsg = make_shared<sros::core::ObstacleMsg>("RECORD_TOPIC_OBSTACLE");
++    obaSendMsg->time_= msg->time_;
++    obaSendMsg->point_cloud = msg->point_cloud;
++    sendMsg(obaSendMsg);
++
++
+     BLOCK_TYPE collision;
+     // 仅当启用避障时才检测,否则认为无障碍
+     if (obstacle_avoid_enable_) {

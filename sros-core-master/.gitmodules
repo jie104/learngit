@@ -1,0 +1,3 @@
+[submodule "cfg/sros-resources"]
+	path = cfg/sros-resources
+	url = ../../SROS/sros-resources.git

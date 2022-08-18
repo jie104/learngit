@@ -1,0 +1,53 @@
+From a2cf586eb8699fec64ffa261c8a37a09a2477c29 Mon Sep 17 00:00:00 2001
+From: Hongxiang Li <hongxiang.li@standard-robots.com>
+Date: Tue, 15 May 2018 09:44:39 +0800
+Subject: [PATCH] Fix GPIO6 usage conflict
+
+---
+ arch/arm/boot/dts/tegra124-apalis-eval.dts      | 2 ++
+ arch/arm/boot/dts/tegra124-apalis-v1.2-eval.dts | 2 ++
+ 2 files changed, 4 insertions(+)
+
+diff --git a/arch/arm/boot/dts/tegra124-apalis-eval.dts b/arch/arm/boot/dts/tegra124-apalis-eval.dts
+index 8b39ca0..33bbb9f 100644
+--- a/arch/arm/boot/dts/tegra124-apalis-eval.dts
++++ b/arch/arm/boot/dts/tegra124-apalis-eval.dts
+@@ -93,6 +93,7 @@
+ 		};
+ 
+ 		/* Atmel MXT touchscreen on 10.1" capacitive display */
++		/*
+ 		mxt-ts@4a {
+ 			compatible = "atmel,maxtouch";
+ 			reg = <0x4a>;
+@@ -101,6 +102,7 @@
+ 			interrupts = <TEGRA_GPIO(DD, 5) IRQ_TYPE_EDGE_FALLING>;
+ 			status = "okay";
+ 		};
++		*/
+ 	};
+ 
+ 	/* PWR_I2C: power I2C to audio codec, PMIC and temperature sensor */
+diff --git a/arch/arm/boot/dts/tegra124-apalis-v1.2-eval.dts b/arch/arm/boot/dts/tegra124-apalis-v1.2-eval.dts
+index 10456e3..e886211 100644
+--- a/arch/arm/boot/dts/tegra124-apalis-v1.2-eval.dts
++++ b/arch/arm/boot/dts/tegra124-apalis-v1.2-eval.dts
+@@ -93,6 +93,7 @@
+ 		};
+ 
+ 		/* Atmel MXT touchscreen on 10.1" capacitive display */
++		/*
+ 		mxt-ts@4a {
+ 			compatible = "atmel,maxtouch";
+ 			reg = <0x4a>;
+@@ -101,6 +102,7 @@
+ 			interrupts = <TEGRA_GPIO(DD, 5) IRQ_TYPE_EDGE_FALLING>;
+ 			status = "okay";
+ 		};
++		*/
+ 	};
+ 
+ 	/* PWR_I2C: power I2C to audio codec, PMIC and temperature sensor */
+-- 
+1.9.1
+

@@ -1,0 +1,9 @@
+id,type(1:Station;2:Edge;3:EdgeGroup),title,key,key_val
+1,1,func,func,
+2,1,func_receiver,func_receiver,
+3,1,elevator_direction,elevator_direction,
+4,1,group,group,
+5,1,enter_exit,enter_exit,
+6,1,sync_rotate,sync_rotate,
+7,1,gulf_load_station,gulf_load_station,
+8,1,link_point,link_point,

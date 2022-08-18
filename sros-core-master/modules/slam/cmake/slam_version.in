@@ -1,0 +1,15 @@
+/**
+ * @file slam_version.hpp
+ * @author zmy (626670628@qq.com)
+ * @brief 记录SLAM库对应的内部版本
+ * @version 0.1
+ * @date 2022-05-11
+ * 
+ * 
+ */
+
+
+stdslam-lib: @STDSLAM-LIB_HASH@
+slam_common_lib: @SLAM_COMMON_LIB_HASH@
+normalslam: @NORMALSLAM_HASH@
+slam_lib: @SLAM_LIB_HASH@

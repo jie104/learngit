@@ -1,0 +1,21 @@
+$def with (route)
+
+$def if_active(it):
+  $if it == route :
+    active
+
+
+<div class="row" style="margin-top:30px;">
+
+<div class="col-md-3">
+    <ul class="nav nav-pills nav-stacked" role="tablist">
+      <!-- <li class="$if_active('home')"><a href="$config.root">Home</a></li> -->
+      <li class="$if_active('top10')"><a href="$config.root/top10">每年发病率前9位肿瘤(饼图)</a></li>
+      <li class="$if_active('cancer')"><a href="$config.root/cancer">肿瘤每年发病数(折线图)</a></li>
+      <li class="$if_active('gender')"><a href="$config.root/gender">肿瘤男女性别发病数据(bar图)</a></li>
+      <li class="$if_active('age')"><a href="$config.root/age">每年肿瘤发病与年龄(箱式图)</a></li>
+      <li class="$if_active('top102')"><a href="$config.root/top102">发病率最高的10种肿瘤(雷达图)</a></li>
+    </ul>
+</div>
+
+<div class="col-md-9">

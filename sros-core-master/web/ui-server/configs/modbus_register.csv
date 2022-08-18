@@ -1,0 +1,24 @@
+key,type(1:Coil;2:Discrete Input;3:Holding Register;4:Input Register),addr,property(0:read;1:write;2:read-write),quantity
+"gpioOutput0",1,0x0020,2,1
+"gpioOutput1",1,0x0021,2,1
+"gpioOutput2",1,0x0022,2,1
+"gpioOutput3",1,0x0023,2,1
+"gpioOutput4",1,0x0024,2,1
+"gpioOutput5",1,0x0025,2,1
+"gpioOutput6",1,0x0026,2,1
+"gpioOutput7",1,0x0027,2,1
+"gpioInputput0",2,0x0010,0,1
+"gpioInputput1",2,0x0011,0,1
+"gpioInputput2",2,0x0012,0,1
+"gpioInputput3",2,0x0013,0,1
+"gpioInputput4",2,0x0014,0,1
+"gpioInputput5",2,0x0015,0,1
+"gpioInputput6",2,0x0016,0,1
+"gpioInputput7",2,0x0017,0,1
+"commonRegister0",3,0x0020,2,1
+"commonRegister1",3,0x0021,2,1
+"commonRegister2",3,0x0022,2,1
+"commonRegister3",3,0x0023,2,1
+"DIState",4,0x0014,0,1
+"DOState",4,0x0015,0,1
+"batteryQuantity",4,0x0024,0,1

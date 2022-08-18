@@ -1,0 +1,13 @@
+[Unit]
+Description=SROS Service
+After=multi-user.target,network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart="/sros/bin/startup.sh"
+ExecStop="/bin/pkill sros"
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(module-rackquery)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CORE_DIR ~/workspace/sros/)
+include_directories(${CORE_DIR})
+add_library(module-rackquery rack_query_module.h rack_query_module.cpp)

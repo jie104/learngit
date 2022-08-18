@@ -1,0 +1,13 @@
+include_directories(
+        include
+        include/FITXXX
+        include/LIM
+)
+sr_library(module-laser_MINGZHI
+        SRCS
+        mingzhi_laser_module.cpp
+        src/FITXXX.cpp
+        src/lim.cpp
+        HDRS
+        mingzhi_laser_module.h
+        )

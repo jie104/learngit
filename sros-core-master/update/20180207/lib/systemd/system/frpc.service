@@ -1,0 +1,14 @@
+[Unit]
+Description=Frp Client Service
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Restart=on-failure
+RestartSec=5s
+ExecStart=/sros/tool/frp/frpc -c /sros/tool/frp/frpc.ini
+ExecReload=/sros/tool/frp/frpc reload -c /sros/tool/frp/frpc.ini
+
+[Install]
+WantedBy=multi-user.target

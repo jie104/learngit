@@ -1,0 +1,17 @@
+.settings/
+*.~
+*.d
+*.o
+*.a
+*.so
+*/CMakeFiles
+*.cmake
+*.cproject
+*.project
+*/transform/*.launch
+CMakeCache.*
+.idea
+module_slam
+Makefile
+*/build
+

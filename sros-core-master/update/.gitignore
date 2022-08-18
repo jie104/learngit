@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+content/
+# Matrix打包后的文件夹
+dist/
+# 从gitlab上下载的Matrix打包文件
+artifacts-matrix-SAP.zip
+
+sros
+sros*.update
+SROS*.update
+
+*.pyc
+
+*.bin
+
+!_*.so
+!fcntl.so

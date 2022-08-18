@@ -1,0 +1,132 @@
+{
+  "vehicleTypeAllList": [
+    {
+      "name": "MP15",
+      "type": "forklift"
+    },
+    {
+      "name": "MSL-14",
+      "type": "forklift"
+    },
+    {
+      "name": "1400-CDD",
+      "type": "forklift"
+    },
+    {
+      "name": "1500-CPD",
+      "type": "forklift"
+    },
+    {
+      "name": "ZB-20",
+      "type": "forklift"
+    },
+    {
+      "name": "1000-CPD",
+      "type": "forklift"
+    }
+  ],
+  "calibrationFunctionTypeList": [
+    {
+      "type": "camera",
+      "name": "CamInstrinsic",
+      "label": "相机内参标定",
+      "vehicleTypeList": [
+        "MP15",
+        "MSL-14",
+        "1400-CDD",
+        "1500-CPD",
+        "ZB-20",
+        "1000-CPD"
+      ]
+    },
+    {
+      "type": "camera",
+      "name": "CamtoCamExtrinsic",
+      "label": "相机对相机外参标定",
+      "vehicleTypeList": [
+        "MP15"
+      ]
+    },
+    {
+      "type": "camera",
+      "name": "CamtoAGVExtrinsic",
+      "label": "相机对车体外参标定",
+      "vehicleTypeList": [
+        "MP15",
+        "MSL-14",
+        "1400-CDD",
+        "1500-CPD",
+        "ZB-20",
+        "1000-CPD"
+      ]
+    }
+  ],
+  "sensorAllList": [
+    {
+      "type": "camera",
+      "name": "CAMERA_O3D303",
+      "imgUrl": "/sros/debug_data/CALIBR_DEVICE_CAMERA_O3D303.png",
+      "vehicleTypeList": [
+        "MP15",
+        "MSL-14",
+        "1400-CDD",
+        "1500-CPD",
+        "ZB-20",
+        "1000-CPD"
+      ]
+    },
+    {
+      "type": "camera",
+      "name": "CAMERA_MV_CE013",
+      "imgUrl": "/sros/debug_data/CALIBR_DEVICE_CAMERA_MV_CE013.png",
+      "vehicleTypeList": [
+        "MP15"
+      ]
+    },
+    {
+      "type": "camera",
+      "name": "CAMERA_BASLER_BLAZE101",
+      "imgUrl": "/sros/debug_data/CALIBR_DEVICE_CAMERA_BASLER_BLAZE101.png",
+      "vehicleTypeList": [
+        "MP15"
+      ]
+    }
+  ],
+  "calibrationBoardTypeList": [
+    {
+      "name": "Chessboard",
+      "label": "棋盘格标定板",
+      "vehicleTypeList": [
+        "MP15",
+        "MSL-14",
+        "1400-CDD",
+        "1500-CPD",
+        "ZB-20",
+        "1000-CPD"
+      ]
+    },
+    {
+      "name": "FractalMarker",
+      "label": "FM标定板",
+      "vehicleTypeList": [
+        "MP15",
+        "MSL-14",
+        "1400-CDD",
+        "1500-CPD",
+        "ZB-20",
+        "1000-CPD"
+      ]
+    }
+  ],
+  "calibrationFractalMarkerList": [
+    {
+      "name": "Fractal_Marker_1L"
+    },
+    {
+      "name": "Fractal_Marker_2L"
+    },
+    {
+      "name": "Fractal_Marker_3L"
+    }
+  ]
+}
