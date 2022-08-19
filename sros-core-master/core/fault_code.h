@@ -1,1 +1,0 @@
-../cfg/sros-resources/target/fault_code.h

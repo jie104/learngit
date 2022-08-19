@@ -1,4 +1,0 @@
-# 不上传生成的protobuf文件
-monitor_protobuf_full.pb.cc
-monitor_protobuf_full.pb.h
-monitor_protobuf_full.proto

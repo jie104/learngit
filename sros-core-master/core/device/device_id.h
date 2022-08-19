@@ -1,1 +1,0 @@
-../../cfg/sros-resources/target/device_id.h

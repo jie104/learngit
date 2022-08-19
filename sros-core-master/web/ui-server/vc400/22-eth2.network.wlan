@@ -1,8 +1,0 @@
-[Match]
-Name=eth2
-
-[Network]
-DHCP=no
-Address=10.10.70.94/22
-Gateway=10.10.70.1
-
