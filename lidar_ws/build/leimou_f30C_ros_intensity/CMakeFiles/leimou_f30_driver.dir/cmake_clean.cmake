@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/lidar_ws/devel/lib/libleimou_f30_driver.pdb"
-  "/home/zxj/桌面/lidar_ws/devel/lib/libleimou_f30_driver.so"
+  "/home/zxj/learngit/lidar_ws/devel/lib/libleimou_f30_driver.pdb"
+  "/home/zxj/learngit/lidar_ws/devel/lib/libleimou_f30_driver.so"
   "CMakeFiles/leimou_f30_driver.dir/src/leimou_f30_driver.cpp.o"
 )
 

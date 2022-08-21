@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/lidar_ws/src/scan_filter/src/lidar_scan_filter.cpp
+/home/zxj/learngit/lidar_ws/src/scan_filter/src/lidar_scan_filter.cpp
 ros/ros.h
-/home/zxj/桌面/lidar_ws/src/scan_filter/src/ros/ros.h
+/home/zxj/learngit/lidar_ws/src/scan_filter/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/zxj/桌面/lidar_ws/src/scan_filter/src/sensor_msgs/LaserScan.h
-glog/logging.h
+/home/zxj/learngit/lidar_ws/src/scan_filter/src/sensor_msgs/LaserScan.h
+vector
+-
+cmath
 -
 
 /opt/ros/noetic/include/ros/advertise_options.h

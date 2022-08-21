@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/lidar_ws/install
+prefix=/home/zxj/learngit/lidar_ws/install
 
 Name: wj_716_lidar
 Description: Description of wj_716_lidar

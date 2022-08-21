@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/lidar_ws/build
+CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
 
 # Include any dependencies generated for this target.
 include standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/depend.make
@@ -58,17 +58,17 @@ include standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/progress.make
 include standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/flags.make
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/flags.make
-standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o: /home/zxj/桌面/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/桌面/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o"
-	cd /home/zxj/桌面/lidar_ws/build/standard_lidar_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o -c /home/zxj/桌面/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp
+standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o: /home/zxj/learngit/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/learngit/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o"
+	cd /home/zxj/learngit/lidar_ws/build/standard_lidar_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o -c /home/zxj/learngit/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i"
-	cd /home/zxj/桌面/lidar_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/桌面/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp > CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i
+	cd /home/zxj/learngit/lidar_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/learngit/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp > CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s"
-	cd /home/zxj/桌面/lidar_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/桌面/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s
+	cd /home/zxj/learngit/lidar_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/learngit/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s
 
 # Object files for target lidar_driver_node
 lidar_driver_node_OBJECTS = \
@@ -77,66 +77,66 @@ lidar_driver_node_OBJECTS = \
 # External object files for target lidar_driver_node
 lidar_driver_node_EXTERNAL_OBJECTS =
 
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build.make
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libactionlib.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librostime.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libactionlib.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librostime.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/桌面/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node"
-	cd /home/zxj/桌面/lidar_ws/build/standard_lidar_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_driver_node.dir/link.txt --verbose=$(VERBOSE)
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build.make
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2_ros.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libactionlib.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libmessage_filters.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librostime.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2_ros.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libactionlib.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libmessage_filters.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libtf2.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/librostime.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/learngit/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node"
+	cd /home/zxj/learngit/lidar_ws/build/standard_lidar_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_driver_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build: /home/zxj/桌面/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node
+standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build: /home/zxj/learngit/lidar_ws/devel/lib/standard_lidar_driver/lidar_driver_node
 
 .PHONY : standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/clean:
-	cd /home/zxj/桌面/lidar_ws/build/standard_lidar_driver && $(CMAKE_COMMAND) -P CMakeFiles/lidar_driver_node.dir/cmake_clean.cmake
+	cd /home/zxj/learngit/lidar_ws/build/standard_lidar_driver && $(CMAKE_COMMAND) -P CMakeFiles/lidar_driver_node.dir/cmake_clean.cmake
 .PHONY : standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/clean
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/depend:
-	cd /home/zxj/桌面/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/lidar_ws/src /home/zxj/桌面/lidar_ws/src/standard_lidar_driver /home/zxj/桌面/lidar_ws/build /home/zxj/桌面/lidar_ws/build/standard_lidar_driver /home/zxj/桌面/lidar_ws/build/standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src/standard_lidar_driver /home/zxj/learngit/lidar_ws/build /home/zxj/learngit/lidar_ws/build/standard_lidar_driver /home/zxj/learngit/lidar_ws/build/standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/depend
 

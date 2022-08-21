@@ -67,14 +67,14 @@ set(srosbag_pub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(srosbag_pub_SOURCE_PREFIX /home/zxj/桌面/lidar_ws/src/srosbag_pub)
-  set(srosbag_pub_DEVEL_PREFIX /home/zxj/桌面/lidar_ws/devel)
+  set(srosbag_pub_SOURCE_PREFIX /home/zxj/learngit/lidar_ws/src/srosbag_pub)
+  set(srosbag_pub_DEVEL_PREFIX /home/zxj/learngit/lidar_ws/devel)
   set(srosbag_pub_INSTALL_PREFIX "")
   set(srosbag_pub_PREFIX ${srosbag_pub_DEVEL_PREFIX})
 else()
   set(srosbag_pub_SOURCE_PREFIX "")
   set(srosbag_pub_DEVEL_PREFIX "")
-  set(srosbag_pub_INSTALL_PREFIX /home/zxj/桌面/lidar_ws/install)
+  set(srosbag_pub_INSTALL_PREFIX /home/zxj/learngit/lidar_ws/install)
   set(srosbag_pub_PREFIX ${srosbag_pub_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(srosbag_pub_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/zxj/桌面/lidar_ws/src/srosbag_pub/include/srosbag " STREQUAL " ")
+if(NOT "/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag " STREQUAL " ")
   set(srosbag_pub_INCLUDE_DIRS "")
-  set(_include_dirs "/home/zxj/桌面/lidar_ws/src/srosbag_pub/include/srosbag")
+  set(_include_dirs "/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/zxj/桌面/lidar_ws/src/srosbag_pub/include/srosbag " STREQUAL " "
         message(FATAL_ERROR "Project 'srosbag_pub' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'srosbag_pub' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/桌面/lidar_ws/src/srosbag_pub/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'srosbag_pub' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/learngit/lidar_ws/src/srosbag_pub/${idir}'.  ${_report}")
     endif()
     _list_append_unique(srosbag_pub_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/桌面/lidar_ws/devel/lib;/home/zxj/桌面/lidar_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/learngit/lidar_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
