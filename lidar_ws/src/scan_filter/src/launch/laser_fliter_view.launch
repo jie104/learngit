@@ -1,8 +1,0 @@
-<launch>
-  <!-- leimou f30 ros node -->
-  <include file = "$(find srosbag_pub)/launch/srosbag_pub.launch" />
-  <!--name:节点名称，pkg：功能包名称，type:所运行的节点名（C++文件）-->
-  <node name="sub_pub" pkg="scan_filter" type="lidar_scan_filter"  output="screen" />
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find scan_filter)/src/config/scan_fliter.rviz" />
-
-</launch>
