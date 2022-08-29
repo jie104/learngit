@@ -1,0 +1,58 @@
+#! /usr/bin/env python
+#! coding: utf-8
+# author: wuji228@163.com
+# date:2018.10.21
+
+import socket
+import time
+import sys
+
+HOST = '<broadcast>'
+PORT = 7000
+BUFSIZE = 1024
+
+ADDR = (HOST,PORT)
+
+
+#time.sleep(2) # sleep 2s.
+
+try:
+	s2 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+except socket.error, msg:
+	print("Failed to create socket. Error code: " + str(msg[0]) + "Error message: " + str(msg[1]))
+	sys.exit(1)
+
+s2.bind(('',0))
+s2.setsockopt(socket.SOL_SOCKET,socket.SO_BROADCAST,1)
+print('Start Scan for....Please Wait......,20s')
+
+try:
+	s2.sendto('IPANDMAC'.encode('utf-8'),ADDR)
+except socket.error, msg:
+	print("Send failed")
+	sys.exit(1)
+
+s2.settimeout(5)
+
+laser_count = 0
+j = 0;
+while j < 3:
+    try:
+        data,addr = s2.recvfrom(4096)
+        data = data.encode('hex') # str
+        print('Received from {}:{}'.format(addr,data))
+        print ('Laser MAC: ' + data[2:14]+'  Data Port:'+data[14:22])
+
+        laser_count += 1
+        print('%d Laser found!!'%(laser_count)) 
+    except socket.timeout:
+        print "*********"
+    j = j + 1
+
+if (laser_count == 0):
+    print "No lasers found.\n"
+else:
+    #print ('Data Port: ' + data[15:22])
+    print("Recevie intelly laser sucessfully.")
+
+s2.close()

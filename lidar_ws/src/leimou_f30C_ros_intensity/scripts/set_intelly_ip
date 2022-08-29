@@ -1,0 +1,110 @@
+#! /usr/bin/env python
+# coding: utf-8
+# author: jun@2018.11
+# Software License Agreement (BSD)
+"""
+Usage:
+rosrun intelly_ros set_intelly_ip <origin_ip> <setting_ip>
+eg. rosrun intelly_ros set_intelly_ip 192.168.0.111 192.168.1.0
+"""
+import socket
+import time
+import sys
+import struct
+
+if len(sys.argv) != 3:
+	print "Not enough arguments."
+	print "Usage: rosrun intelly_ros set_intelly_ip <origin_ip> <setting_ip>"
+	sys.exit(1)
+
+# ip
+origin_ip = str(sys.argv[1])
+setting_ip = str(sys.argv[2])
+print ("origin ip: " + origin_ip)
+print ("setting ip: " + setting_ip)
+
+data_port = 4001 # data port 
+debug_port = 4002 # set port
+
+#1 Create socket.
+try:
+	sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	# s.settimeout(2)
+except socket.error, msg:
+	print ("Failed to create socket. Error code: " + str(msg[0]) + "Error message: " + str(msg[1]))
+	sys.exit(1)
+print ("Socket created.")
+
+ # timeout.
+sock.settimeout(1.0)	 # timeout.
+sock.setblocking(1)	# None block mode.
+
+#2 Connect origin_ip
+print ("Connectting to ip: " + origin_ip + "...")
+try:
+    sock.connect((origin_ip, debug_port))
+except socket.error as msg:
+	print msg
+	sock.close()
+	sys.exit(1)
+
+print ("Connectting to ip: " + origin_ip + " Succeed.")
+
+#3 Setting ip
+# aa 77 77 aa a3 01 00 00 00 13 c0 a8 00 6f b6 77 aa aa 77
+frame_head = ['aa', '77', '77', 'aa']
+frame_end = ['77', 'aa', 'aa', '77']
+cmd = ['a3', '01']
+length = ['00', '00', '00', '13']
+# Split "192.168.0.111" => ['192', '168', '1', '111']
+data = setting_ip.split(".")
+# IP data
+hex_data = []
+for dat in data:
+	hex_data.append(str(hex(int(dat)).split('x')[1]).zfill(2))
+
+# XOR
+xor_data = cmd + length + hex_data
+
+# check
+check = 0
+check_list = []
+for dat in xor_data:
+	check ^= int(dat, 16)
+check_list.append(str(hex(check).split('x')[1]).zfill(2)) 
+
+# One package data.
+package_data = frame_head + xor_data + check_list + frame_end
+print ("package_data: " + str(package_data))
+
+# string to buffer.
+package_buf = ''
+for dat in package_data:
+	package_buf += struct.pack('B', int(dat, 16))
+# print ("assert: ", (package_buf == "\xaa\x77\x77\xaa\xa3\x01\x00\x00\x00\x13\xc0\xa8\x00\x6f\xb6\x77\xaa\xaa\x77"))
+
+# Send.
+try:
+	sock.sendall(package_buf)
+except socket.error:
+	print ("Send buffer data Failed.")
+	sock.close()
+	sys.exit(1)
+
+# time.sleep(2)
+#4 Parse received
+# aa7777aab3010000001000a277aaaa77
+reply = sock.recv(1024)
+reply = reply.encode('hex')
+print ("reply: " + reply)
+if reply == 'aa7777aab3010000001000a277aaaa77':
+	print ("Set intelly laser ip Success.")
+else:
+	print ("Set intelly laser ip Failed.")
+	sock.close()
+	sys.exit(1)
+
+#5 Close socket.
+print ('Closing socket ...')
+sock.close()
+print ("Socket closed.")
