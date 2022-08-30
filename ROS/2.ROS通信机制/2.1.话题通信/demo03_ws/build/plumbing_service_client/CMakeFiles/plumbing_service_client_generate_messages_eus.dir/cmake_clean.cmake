@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/share/roseus/ros/plumbing_service_client/manifest.l"
-  "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/share/roseus/ros/plumbing_service_client/srv/Addints.l"
+  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/share/roseus/ros/plumbing_service_client/manifest.l"
+  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/share/roseus/ros/plumbing_service_client/srv/Addints.l"
   "CMakeFiles/plumbing_service_client_generate_messages_eus"
 )
 

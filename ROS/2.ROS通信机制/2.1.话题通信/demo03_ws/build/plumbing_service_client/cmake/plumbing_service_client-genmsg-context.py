@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/srv/Addints.srv"
+services_str = "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/srv/Addints.srv"
 pkg_name = "plumbing_service_client"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

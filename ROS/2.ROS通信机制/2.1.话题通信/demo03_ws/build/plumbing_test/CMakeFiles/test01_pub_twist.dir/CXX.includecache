@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_test/src/test01_pub_twist.cpp
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_test/src/test01_pub_twist.cpp
 ros/ros.h
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_test/src/ros/ros.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_test/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_test/src/geometry_msgs/Twist.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_test/src/geometry_msgs/Twist.h
 
 /opt/ros/noetic/include/geometry_msgs/Twist.h
 string

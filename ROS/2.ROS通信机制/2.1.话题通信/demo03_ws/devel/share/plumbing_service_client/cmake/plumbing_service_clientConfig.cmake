@@ -67,14 +67,14 @@ set(plumbing_service_client_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(plumbing_service_client_SOURCE_PREFIX /home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client)
-  set(plumbing_service_client_DEVEL_PREFIX /home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel)
+  set(plumbing_service_client_SOURCE_PREFIX /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client)
+  set(plumbing_service_client_DEVEL_PREFIX /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel)
   set(plumbing_service_client_INSTALL_PREFIX "")
   set(plumbing_service_client_PREFIX ${plumbing_service_client_DEVEL_PREFIX})
 else()
   set(plumbing_service_client_SOURCE_PREFIX "")
   set(plumbing_service_client_DEVEL_PREFIX "")
-  set(plumbing_service_client_INSTALL_PREFIX /home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install)
+  set(plumbing_service_client_INSTALL_PREFIX /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install)
   set(plumbing_service_client_PREFIX ${plumbing_service_client_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(plumbing_service_client_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include " STREQUAL " ")
+if(NOT "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include " STREQUAL " ")
   set(plumbing_service_client_INCLUDE_DIRS "")
-  set(_include_dirs "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include")
+  set(_include_dirs "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/
         message(FATAL_ERROR "Project 'plumbing_service_client' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'plumbing_service_client' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'plumbing_service_client' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/${idir}'.  ${_report}")
     endif()
     _list_append_unique(plumbing_service_client_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib;/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

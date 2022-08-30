@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/src/demo04_sub_person.cpp" "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o"
+  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/src/demo04_sub_person.cpp" "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include"
+  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

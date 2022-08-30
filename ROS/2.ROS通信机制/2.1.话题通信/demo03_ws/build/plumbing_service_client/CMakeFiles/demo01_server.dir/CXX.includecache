@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/Addints.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/Addints.h
 ros/service_traits.h
 -
 plumbing_service_client/AddintsRequest.h
@@ -14,7 +14,7 @@ plumbing_service_client/AddintsRequest.h
 plumbing_service_client/AddintsResponse.h
 -
 
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/AddintsRequest.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/AddintsRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/AddintsResponse.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/AddintsResponse.h
 string
 -
 vector
@@ -46,11 +46,11 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/src/demo01_server.cpp
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/src/demo01_server.cpp
 ros/ros.h
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/src/ros/ros.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/src/ros/ros.h
 plumbing_service_client/Addints.h
-/home/zxj/桌面/Study/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/src/plumbing_service_client/Addints.h
+/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client/src/plumbing_service_client/Addints.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
