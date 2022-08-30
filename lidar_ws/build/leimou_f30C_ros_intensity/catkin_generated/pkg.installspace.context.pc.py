@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "leimou_f30_ros"
-PROJECT_SPACE_DIR = "/home/zxj/learngit/lidar_ws/install"
+PROJECT_SPACE_DIR = "/home/zxj/桌面/learngit/lidar_ws/install"
 PROJECT_VERSION = "0.1.0"

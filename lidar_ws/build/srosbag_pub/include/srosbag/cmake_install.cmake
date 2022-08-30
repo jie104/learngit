@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag
+# Install script for directory: /home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub/include/srosbag
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/learngit/lidar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/lidar_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/srosbag" TYPE DIRECTORY FILES "/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg")
+file(INSTALL DESTINATION "/usr/local/include/srosbag" TYPE DIRECTORY FILES "/home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/srosbag" TYPE DIRECTORY FILES "/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule")
+file(INSTALL DESTINATION "/usr/local/include/srosbag" TYPE DIRECTORY FILES "/home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,6 +70,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/zxj/learngit/lidar_ws/devel/lib/libsros_bag.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/zxj/桌面/learngit/lidar_ws/devel/lib/libsros_bag.a")
 endif()
 

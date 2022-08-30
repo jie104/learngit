@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/zxj/learngit/lidar_ws/devel/lib/libsros_bag.a  CMakeFiles/sros_bag.dir/bagmodule/bag.cpp.o CMakeFiles/sros_bag.dir/bagmodule/global_bag_config.cpp.o CMakeFiles/sros_bag.dir/bagmodule/bag_play.cpp.o CMakeFiles/sros_bag.dir/bagmodule/bag_record.cpp.o CMakeFiles/sros_bag.dir/bag_manager_singleton.cpp.o CMakeFiles/sros_bag.dir/msg/pub_msg/core/util/time.cpp.o
-/usr/bin/ranlib /home/zxj/learngit/lidar_ws/devel/lib/libsros_bag.a
+/usr/bin/ar qc /home/zxj/桌面/learngit/lidar_ws/devel/lib/libsros_bag.a  CMakeFiles/sros_bag.dir/bagmodule/bag.cpp.o CMakeFiles/sros_bag.dir/bagmodule/global_bag_config.cpp.o CMakeFiles/sros_bag.dir/bagmodule/bag_play.cpp.o CMakeFiles/sros_bag.dir/bagmodule/bag_record.cpp.o CMakeFiles/sros_bag.dir/bag_manager_singleton.cpp.o CMakeFiles/sros_bag.dir/msg/pub_msg/core/util/time.cpp.o
+/usr/bin/ranlib /home/zxj/桌面/learngit/lidar_ws/devel/lib/libsros_bag.a

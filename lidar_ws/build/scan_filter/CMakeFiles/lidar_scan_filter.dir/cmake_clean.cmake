@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/learngit/lidar_ws/devel/lib/scan_filter/lidar_scan_filter"
-  "/home/zxj/learngit/lidar_ws/devel/lib/scan_filter/lidar_scan_filter.pdb"
+  "/home/zxj/桌面/learngit/lidar_ws/devel/lib/scan_filter/lidar_scan_filter"
+  "/home/zxj/桌面/learngit/lidar_ws/devel/lib/scan_filter/lidar_scan_filter.pdb"
   "CMakeFiles/lidar_scan_filter.dir/src/lidar_scan_filter.cpp.o"
 )
 

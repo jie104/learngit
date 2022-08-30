@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
+/home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
 string
 -
 cstdint
@@ -24,9 +24,9 @@ boost/bind.hpp
 boost/thread.hpp
 -
 
-/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/test/test_leimou_f30.cpp
+/home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/test/test_leimou_f30.cpp
 ../src/leimou_f30_driver.h
-/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
+/home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
 iostream
 -
 sys/time.h
