@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/zhengxiaojie/桌面/bagfile-master/src/conv_record_bag/include/**",
+        "/home/zhengxiaojie/桌面/bagfile-master/src/srosbag_pub/include/**",
+        "/home/zhengxiaojie/桌面/bagfile-master/src/sroslog_play/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

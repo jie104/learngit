@@ -1,0 +1,31 @@
+<!--xml version = "1.0"-->
+
+<launch>
+  <!-- leimou f30 ros node -->
+  <node name = "leimou_f30_node" pkg = "leimou_f30_ros" type = "leimou_f30_node" respawn = "false" required="true" output = "screen">
+    <!--ip address now.-->
+    <param name = "host_ip" type="string" value = "192.168.71.202" />
+   <!--port-->
+    <param name = "data_port" type = "int" value = "2007" />
+    <!-- <param name = "debug_port" type = "int" value = "4002" /> -->
+    <!--frame id in ros-->
+    <param name = "frame_id" type = "string" value = "laser_leimou_f30" />
+    <!--start & stop angles, [-45,225] degree.-->
+    <param name = "start_angle" type = "int" value = "-45" />
+    <param name = "stop_angle" type = "int" value = "225" />
+    <!--reporting interval-->
+	<param name = "protocol_type" type = "int" value = "0" />
+    <param name = "transmission_mode" type = "int" value = "0" />
+    <param name = "reporting_interval" type = "int" value = "66" />
+    <!--laser range distance.-->
+    <param name = "range_min" type = "double" value = "0.0" />
+    <param name = "range_max" type = "double" value = "25.0" />
+    <!--for some cases, reverse laser scan.-->
+    <param name = "inverted" type = "bool" value = "false" />
+    <param name = "angle_resolution" type = "double" value = "0.25" />
+    <!--laser type 0:f30   1:f30-c-->
+    <param name = "lidar_type" type = "int" value = "1"  />
+    
+  </node>
+
+</launch>

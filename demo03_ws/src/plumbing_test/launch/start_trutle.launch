@@ -1,0 +1,9 @@
+<!-- 启动五桂GUI键盘控制节点-->
+<launch>
+    <!-- 乌龟GUI -->
+    <!--pkg：功能包，type：cpp文件名称，name:节点名称(可设置），output:输出日志-->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" output="screen" />
+    <!-- 键盘控制 -->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key" output="screen" />
+
+</launch>
