@@ -54,22 +54,26 @@ CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通
 
 # The main recursive "all" target.
 all: gtest/all
+all: plumbing_my/all
 all: plumbing_head/all
 all: plumbing_head_src/all
 all: plumbing_param_server/all
 all: plumbing_pub_sub/all
 all: plumbing_service_client/all
+all: launch01_basic/all
 all: plumbing_test/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
+preinstall: plumbing_my/preinstall
 preinstall: plumbing_head/preinstall
 preinstall: plumbing_head_src/preinstall
 preinstall: plumbing_param_server/preinstall
 preinstall: plumbing_pub_sub/preinstall
 preinstall: plumbing_service_client/preinstall
+preinstall: launch01_basic/preinstall
 preinstall: plumbing_test/preinstall
 
 .PHONY : preinstall
@@ -81,11 +85,13 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
+clean: plumbing_my/clean
 clean: plumbing_head/clean
 clean: plumbing_head_src/clean
 clean: plumbing_param_server/clean
 clean: plumbing_pub_sub/clean
 clean: plumbing_service_client/clean
+clean: launch01_basic/clean
 clean: plumbing_test/clean
 
 .PHONY : clean
@@ -148,6 +154,38 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/clean
 
 #=============================================================================
+# Directory level rules for directory launch01_basic
+
+# Recursive "all" directory target.
+launch01_basic/all:
+
+.PHONY : launch01_basic/all
+
+# Recursive "preinstall" directory target.
+launch01_basic/preinstall:
+
+.PHONY : launch01_basic/preinstall
+
+# Recursive "clean" directory target.
+launch01_basic/clean: launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+launch01_basic/clean: launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+.PHONY : launch01_basic/clean
+
+#=============================================================================
 # Directory level rules for directory plumbing_head
 
 # Recursive "all" directory target.
@@ -199,6 +237,24 @@ plumbing_head_src/clean: plumbing_head_src/CMakeFiles/use_hello.dir/clean
 plumbing_head_src/clean: plumbing_head_src/CMakeFiles/head_src.dir/clean
 
 .PHONY : plumbing_head_src/clean
+
+#=============================================================================
+# Directory level rules for directory plumbing_my
+
+# Recursive "all" directory target.
+plumbing_my/all:
+
+.PHONY : plumbing_my/all
+
+# Recursive "preinstall" directory target.
+plumbing_my/preinstall:
+
+.PHONY : plumbing_my/preinstall
+
+# Recursive "clean" directory target.
+plumbing_my/clean: plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : plumbing_my/clean
 
 #=============================================================================
 # Directory level rules for directory plumbing_param_server
@@ -310,22 +366,7 @@ plumbing_test/preinstall:
 # Recursive "clean" directory target.
 plumbing_test/clean: plumbing_test/CMakeFiles/test03_service_client.dir/clean
 plumbing_test/clean: plumbing_test/CMakeFiles/test02_sub_pose.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 plumbing_test/clean: plumbing_test/CMakeFiles/test01_pub_twist.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
-plumbing_test/clean: plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 
 .PHONY : plumbing_test/clean
 
@@ -572,6 +613,33 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build.make plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build.make plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build.make plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target plumbing_head/CMakeFiles/std_msgs_generate_messages_py.dir
@@ -1998,6 +2066,411 @@ plumbing_service_client/CMakeFiles/demo01_server.dir/clean:
 .PHONY : plumbing_service_client/CMakeFiles/demo01_server.dir/clean
 
 #=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_py"
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+.PHONY : std_srvs_generate_messages_py
+
+# clean rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_eus"
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_eus: launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
+
+.PHONY : turtlesim_generate_messages_eus
+
+# clean rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_lisp"
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_lisp: launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
+
+.PHONY : turtlesim_generate_messages_lisp
+
+# clean rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_nodejs"
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_nodejs: launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
+
+.PHONY : turtlesim_generate_messages_nodejs
+
+# clean rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_nodejs"
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_nodejs: launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_srvs_generate_messages_nodejs
+
+# clean rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_py"
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_py: launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+
+.PHONY : turtlesim_generate_messages_py
+
+# clean rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_cpp"
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+turtlesim_generate_messages_cpp: launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
+
+.PHONY : turtlesim_generate_messages_cpp
+
+# clean rule for target.
+launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+.PHONY : launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_cpp"
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+.PHONY : std_srvs_generate_messages_cpp
+
+# clean rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_eus"
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_eus: launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+.PHONY : std_srvs_generate_messages_eus
+
+# clean rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir
+
+# All Build rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+.PHONY : std_srvs_generate_messages_lisp
+
+# clean rule for target.
+launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+.PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+#=============================================================================
 # Target rules for target plumbing_test/CMakeFiles/test03_service_client.dir
 
 # All Build rule for target.
@@ -2016,21 +2489,21 @@ plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_head/CMakeFiles
 plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_head/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test03_service_client.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test03_service_client.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/depend
 	$(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num=49,50 "Built target test03_service_client"
@@ -2072,21 +2545,21 @@ plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_head/CMakeFiles/rosgr
 plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_head/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test02_sub_pose.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test02_sub_pose.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f plumbing_test/CMakeFiles/test02_sub_pose.dir/build.make plumbing_test/CMakeFiles/test02_sub_pose.dir/depend
 	$(MAKE) -f plumbing_test/CMakeFiles/test02_sub_pose.dir/build.make plumbing_test/CMakeFiles/test02_sub_pose.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num=47,48 "Built target test02_sub_pose"
@@ -2110,222 +2583,6 @@ plumbing_test/CMakeFiles/test02_sub_pose.dir/clean:
 .PHONY : plumbing_test/CMakeFiles/test02_sub_pose.dir/clean
 
 #=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_py"
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_py: plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-
-.PHONY : std_srvs_generate_messages_py
-
-# clean rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/clean
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_cpp"
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-turtlesim_generate_messages_cpp: plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
-
-.PHONY : turtlesim_generate_messages_cpp
-
-# clean rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# clean rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_nodejs"
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_nodejs: plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_srvs_generate_messages_nodejs
-
-# clean rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_py"
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/rule
-
-# Convenience name for target.
-turtlesim_generate_messages_py: plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/rule
-
-.PHONY : turtlesim_generate_messages_py
-
-# clean rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/clean
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# clean rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-#=============================================================================
 # Target rules for target plumbing_test/CMakeFiles/test01_pub_twist.dir
 
 # All Build rule for target.
@@ -2344,21 +2601,21 @@ plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_head/CMakeFiles/rosg
 plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_head/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-plumbing_test/CMakeFiles/test01_pub_twist.dir/all: plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/turtlesim_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+plumbing_test/CMakeFiles/test01_pub_twist.dir/all: launch01_basic/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 	$(MAKE) -f plumbing_test/CMakeFiles/test01_pub_twist.dir/build.make plumbing_test/CMakeFiles/test01_pub_twist.dir/depend
 	$(MAKE) -f plumbing_test/CMakeFiles/test01_pub_twist.dir/build.make plumbing_test/CMakeFiles/test01_pub_twist.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num=45,46 "Built target test01_pub_twist"
@@ -2380,195 +2637,6 @@ test01_pub_twist: plumbing_test/CMakeFiles/test01_pub_twist.dir/rule
 plumbing_test/CMakeFiles/test01_pub_twist.dir/clean:
 	$(MAKE) -f plumbing_test/CMakeFiles/test01_pub_twist.dir/build.make plumbing_test/CMakeFiles/test01_pub_twist.dir/clean
 .PHONY : plumbing_test/CMakeFiles/test01_pub_twist.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_lisp"
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-turtlesim_generate_messages_lisp: plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/rule
-
-.PHONY : turtlesim_generate_messages_lisp
-
-# clean rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_eus"
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-turtlesim_generate_messages_eus: plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/rule
-
-.PHONY : turtlesim_generate_messages_eus
-
-# clean rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_eus.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target turtlesim_generate_messages_nodejs"
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-turtlesim_generate_messages_nodejs: plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
-
-.PHONY : turtlesim_generate_messages_nodejs
-
-# clean rule for target.
-plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
-.PHONY : plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_cpp"
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_cpp: plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
-
-.PHONY : std_srvs_generate_messages_cpp
-
-# clean rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_eus"
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_eus: plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
-
-.PHONY : std_srvs_generate_messages_eus
-
-# clean rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
-
-#=============================================================================
-# Target rules for target plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir
-
-# All Build rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/CMakeFiles 0
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_lisp: plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-
-.PHONY : std_srvs_generate_messages_lisp
-
-# clean rule for target.
-plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
-.PHONY : plumbing_test/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

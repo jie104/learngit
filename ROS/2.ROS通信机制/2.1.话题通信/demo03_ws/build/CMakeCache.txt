@@ -455,6 +455,12 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 //Dependencies for the target
 head_src_LIB_DEPENDS:STATIC=general;/opt/ros/noetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;general;/opt/ros/noetic/lib/librosconsole.so;general;/opt/ros/noetic/lib/librosconsole_log4cxx.so;general;/opt/ros/noetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;general;/opt/ros/noetic/lib/libxmlrpcpp.so;general;/opt/ros/noetic/lib/libroscpp_serialization.so;general;/opt/ros/noetic/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;general;/opt/ros/noetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
 
+//Value Computed by CMake
+launch01_basic_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic
+
+//Value Computed by CMake
+launch01_basic_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/launch01_basic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
@@ -475,6 +481,12 @@ plumbing_head_src_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机
 
 //Value Computed by CMake
 plumbing_head_src_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head_src
+
+//Value Computed by CMake
+plumbing_my_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_my
+
+//Value Computed by CMake
+plumbing_my_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_my
 
 //Value Computed by CMake
 plumbing_param_server_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_param_server
@@ -683,7 +695,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

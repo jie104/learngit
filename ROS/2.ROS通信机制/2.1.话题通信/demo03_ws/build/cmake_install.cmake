@@ -131,11 +131,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/gtest/cmake_install.cmake")
+  include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_my/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head_src/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_param_server/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_service_client/cmake_install.cmake")
+  include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_test/cmake_install.cmake")
 
 endif()
