@@ -1,8 +1,0 @@
-prefix=/home/zxj/桌面/learngit/lidar_ws/devel
-
-Name: scan_filter
-Description: Description of scan_filter
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

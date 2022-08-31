@@ -1,2 +1,0 @@
-leimou_f30C_ros_intensity:scan_filter:srosbag_pub:wj_716_lidar
--DCATKIN_DEVEL_PREFIX=/home/zxj/桌面/learngit/lidar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/桌面/learngit/lidar_ws/install -G Unix Makefiles
