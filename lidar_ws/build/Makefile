@@ -948,6 +948,19 @@ sros_bag/fast:
 .PHONY : sros_bag/fast
 
 #=============================================================================
+# Target rules for targets named lidar_driver_node
+
+# Build rule for target.
+lidar_driver_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lidar_driver_node
+.PHONY : lidar_driver_node
+
+# fast build rule for target.
+lidar_driver_node/fast:
+	$(MAKE) -f standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build.make standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build
+.PHONY : lidar_driver_node/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
 
 # Build rule for target.
@@ -1124,6 +1137,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... sros_bag"
+	@echo "... lidar_driver_node"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... dynamic_reconfigure_generate_messages_py"

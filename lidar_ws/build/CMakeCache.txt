@@ -541,6 +541,12 @@ srosbag_pub_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/lidar_ws/build/srosbag_p
 //Value Computed by CMake
 srosbag_pub_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub
 
+//Value Computed by CMake
+standard_lidar_driver_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/lidar_ws/build/standard_lidar_driver
+
+//Value Computed by CMake
+standard_lidar_driver_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/lidar_ws/src/standard_lidar_driver
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
@@ -720,7 +726,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

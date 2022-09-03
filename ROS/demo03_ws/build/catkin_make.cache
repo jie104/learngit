@@ -1,0 +1,2 @@
+launch01_basic:plumbing_head:plumbing_head_src:plumbing_my:plumbing_param_server:plumbing_pub_sub:plumbing_service_client:plumbing_test:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/zxj/桌面/learngit/ROS/demo03_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/桌面/learngit/ROS/demo03_ws/install -G Unix Makefiles

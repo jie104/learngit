@@ -13,4 +13,9 @@ export PKG_CONFIG_PATH="/home/zxj/桌面/learngit/lidar_ws/devel/lib/pkgconfig:$
 export PWD='/home/zxj/桌面/learngit/lidar_ws/build'
 export PYTHONPATH="/home/zxj/桌面/learngit/lidar_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/home/zxj/桌面/learngit/lidar_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/zxj/lidar_ws/src:/home/zhengxiaojie/桌面/lidar_ws/src:/home/zxj/桌面/lidar_ws/src:/home/zxj/learngit/lidar_ws/src:/home/zxj/桌面/learngit/lidar_ws/src:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="<<<<<<< HEAD
+/home/zxj/lidar_ws/src:/home/zhengxiaojie/桌面/lidar_ws/src:/home/zxj/桌面/lidar_ws/src:/home/zxj/learngit/lidar_ws/src:/home/zxj/桌面/learngit/lidar_ws/src
+=======
+/home/zxj/lidar_ws/src:/home/zhengxiaojie/桌面/lidar_ws/src:/home/zxj/桌面/lidar_ws/src:/home/zxj/learngit/lidar_ws/src
+>>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
+:/home/zxj/桌面/learngit/lidar_ws/src:$ROS_PACKAGE_PATH"

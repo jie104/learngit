@@ -1,0 +1,6 @@
+<launch>
+    <!-- 由于rosparam在launch文件中较param执行快，导致参数未导入，先导出，因为可独立在另一个launch文件中 -->
+    <rosparam command="dump" file="$(find launch01_basic)/launch/params_out.yaml" />
+    <!-- 删除参数 -->
+    <rosparam command="delete" param="bg_B" />
+</launch>

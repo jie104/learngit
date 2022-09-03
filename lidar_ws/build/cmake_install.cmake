@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/zxj/桌面/learngit/lidar_ws/build/scan_filter/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/lidar_ws/build/leimou_f30C_ros_intensity/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/lidar_ws/build/srosbag_pub/cmake_install.cmake")
+  include("/home/zxj/桌面/learngit/lidar_ws/build/standard_lidar_driver/cmake_install.cmake")
   include("/home/zxj/桌面/learngit/lidar_ws/build/wj_716_lidar/cmake_install.cmake")
 
 endif()

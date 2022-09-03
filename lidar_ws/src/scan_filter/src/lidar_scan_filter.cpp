@@ -14,7 +14,7 @@ public:
         :max_distance_(max_distance),min_thresh_(min_thresh){
 
         ROS_INFO("订阅话题");
-        sub_=nh_.subscribe<sensor_msgs::LaserScan>("/scan",1000,&sub_pub::Filter,this);
+        sub_=nh_.subscribe<sensor_msgs::LaserScan>("/scan",1000,&sub_pub::filter,this);
 
         // pub_=nh_.advertise<sensor_msgs::LaserScan>("/scan_pub",1000);
 
@@ -22,11 +22,11 @@ public:
     }
     ~sub_pub(){}
 
-    void Filter(const sensor_msgs::LaserScan::ConstPtr& scan ){
+    void filter(const sensor_msgs::LaserScan::ConstPtr& scan ){
 
         ranges = scan->ranges;
         std::vector<int> indexes;
-        const int step = 3;
+        const int step = 2;
         double cos_increment = cos(scan->angle_increment * (double)step);
         double theta_thresh=sin((double)scan->angle_increment * (double)step)/sin(0.17);//临界值,用于识别断点
         int scan_size = ranges.size() - step;
@@ -67,14 +67,27 @@ public:
         
 
         }
+<<<<<<< HEAD
 
         //滤掉雷达噪点
         NoiseFilter(scan,ranges,indexes);
 
+=======
+<<<<<<< Updated upstream
+=======
+
+        //滤掉雷达噪点
+        // Noisefilter(scan,ranges,indexes);
+
+>>>>>>> Stashed changes
+>>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
         for (auto &index:indexes) {
             ranges[index] = 100;
-        }
-   
+    }
+
+    //再滤一次点
+//    filterByDrap(ranges,indexes,step,scan->angle_increment);
+
     scan_.ranges=ranges;
     scan_.angle_min=scan->angle_min;
     scan_.angle_max=scan->angle_max; 
@@ -86,8 +99,59 @@ public:
 
 }
 
+<<<<<<< HEAD
     void NoiseFilter(const sensor_msgs::LaserScan::ConstPtr& scan,std::vector<float>& ranges,std::vector<int>& indexes ){
         int interval=1;
+=======
+<<<<<<< Updated upstream
+=======
+    //滤除托尾
+    void filterByDrap(std::vector<float>& ranges,std::vector<int>& indexes, const int step,float angle_increment){
+        double cos_increment = cos(angle_increment * (double)step);
+        double theta_thresh=sin((double)angle_increment * (double)step)/sin(0.17);//临界值,用于识别断点
+        int scan_size = ranges.size() - step;
+
+//        std::vector<int> indexes;
+        for (int i = step; i < scan_size; i++) {
+            if (ranges[i] == 100 || ranges[i] == 0 || ranges[i] > max_distance_) {
+                continue;
+            }
+            double dist_direction = (ranges[i + step] - ranges[i - step]);            
+
+            for (int k = -step; k < step; ++k) {
+                double tmp_direction = (ranges[i + k + 1] - ranges[i + k]);
+                if (dist_direction * tmp_direction <= 0) {
+                    continue;
+                }
+            }
+            double dist_1 = std::sqrt(ranges[i] * ranges[i] + ranges[i - step] * ranges[i - step] -
+                                    2 * ranges[i] * ranges[i - step] * cos_increment);
+            double dist_2 = std::sqrt(ranges[i] * ranges[i] + ranges[i + step] * ranges[i + step] -
+                                    2 * ranges[i] * ranges[i + step] * cos_increment);
+
+            double range_thresh_1 = ranges[i] * theta_thresh + min_thresh_;
+            double range_thresh_2 = ranges[i + step] * theta_thresh + min_thresh_;
+            if(dist_1 > range_thresh_1 && dist_2 > range_thresh_2) {
+                for (int j = -step; j <= step; ++j) {
+                    indexes.push_back(i + j);
+                }
+            }
+
+
+        
+
+        }
+
+
+        for (auto &index:indexes) {
+            ranges[index] = 100;
+        }
+
+    }
+
+    void Noisefilter(const sensor_msgs::LaserScan::ConstPtr& scan,std::vector<float>& ranges,std::vector<int>& indexes ){
+        int interval=3;
+>>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
         ranges[0]=100;
         for (int k=interval;k<=ranges.size()-interval-2;k++){
             int num1=0;
@@ -188,6 +252,10 @@ public:
         }
 
     }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 private:
     double max_distance_;    //TODO

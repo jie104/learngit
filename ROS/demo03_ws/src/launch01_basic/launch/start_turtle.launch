@@ -1,0 +1,34 @@
+<!-- <launch deprecated="此文件已经过时，不建议使用"> -->
+<launch>
+    <!--启动节点 -->
+    <!-- args="xxx xxx xxx"(可选) -->
+    <!-- respawn="true" 节点关闭后自动重启，如关闭终端程序，则不重启 -->
+    <!-- raspawn_delay="N"  如果respawn为true，那么延迟N秒后启动节点 -->
+    <!-- required="true |false" 若为true,节点退出后关闭整个系统 -->
+    <!-- ns="hello" 设置命名空间启动节点 ，可以避免节点重名问题-->
+    <!-- param 使用：向参数服务器设置参数 -->
+    <!-- <node pkg= "turtlesim" type="turtlesim_node" name="my_turtle" output="screen" respawn="false"  respawn_delay="2" required="false"  ns="hello" /> -->
+   
+    <!-- 格式1：lanuch下，node外 -->
+   <param name="param_A" type="int" value="100" />
+
+   <!-- rosparam使用：操作参数服务器数据 -->
+    <!-- 格式1：lanuch下，node外 -->
+    <!-- 加载参数 -->
+    <rosparam command="load" file="$(find launch01_basic)/launch/params.yaml" />
+    <!-- 导出参数，由于rosparam在launch文件中较param执行快，导致参数未导入，先导出，因为可独立在另一个launch文件中 -->
+    <rosparam command="dump" file="$(find launch01_basic)/launch/params_out.yaml" />
+
+    <node pkg= "turtlesim" type="turtlesim_node" name="my_turtle" output="screen"  >
+        <!-- 将原话题修改为cmd_vel -->
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel" />
+
+        <!-- 格式2：node 下 会将节点名作为参数前缀-->
+        <param name="param_B" type="double" value="3.14" />
+
+        <!-- 格式2：node下 -->
+        <rosparam command="load" file="$(find launch01_basic)/launch/params.yaml" />
+    </node>
+    <!-- 键盘控制节点 -->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="my_key" output="screen" />
+</launch>

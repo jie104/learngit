@@ -1,2 +1,0 @@
-plumbing_head:plumbing_head_src:plumbing_param_server:plumbing_pub_sub:plumbing_service_client:plumbing_test
--DCATKIN_DEVEL_PREFIX=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install -G Unix Makefiles

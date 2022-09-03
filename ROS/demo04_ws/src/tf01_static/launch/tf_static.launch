@@ -1,0 +1,8 @@
+<launch>
+    <node name="tf_pub" pkg="tf01_static" type="demo01_static_pub" output="screen" />
+    <node name="tf_sub" pkg="tf01_static" type="demo02_static_sub" output="screen" />
+
+    <!-- RVIZ -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find tf01_static)/rviz/tf.rviz" />
+
+</launch>

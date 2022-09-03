@@ -1,0 +1,24 @@
+bg_B: 255
+bg_G: 50
+bg_R: 100
+my_turtle:
+  background_b: 255
+  background_g: 86
+  background_r: 69
+  bg_B: 255
+  bg_G: 50
+  bg_R: 100
+  param_B: 3.14
+param_A: 100
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_zxj__33509: http://zxj:33509/
+    host_zxj__35813: http://zxj:35813/
+    host_zxj__41281: http://zxj:41281/
+rosversion: '1.15.14
+
+  '
+run_id: c5e22668-2a5a-11ed-bb0f-f5605602dfac
