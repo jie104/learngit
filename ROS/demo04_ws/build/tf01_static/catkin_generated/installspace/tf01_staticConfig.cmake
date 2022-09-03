@@ -67,14 +67,14 @@ set(tf01_static_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf01_static_SOURCE_PREFIX /home/zxj/learngit/ROS/demo04_ws/src/tf01_static)
-  set(tf01_static_DEVEL_PREFIX /home/zxj/learngit/ROS/demo04_ws/devel)
+  set(tf01_static_SOURCE_PREFIX /home/zxj/桌面/learngit/ROS/demo04_ws/src/tf01_static)
+  set(tf01_static_DEVEL_PREFIX /home/zxj/桌面/learngit/ROS/demo04_ws/devel)
   set(tf01_static_INSTALL_PREFIX "")
   set(tf01_static_PREFIX ${tf01_static_DEVEL_PREFIX})
 else()
   set(tf01_static_SOURCE_PREFIX "")
   set(tf01_static_DEVEL_PREFIX "")
-  set(tf01_static_INSTALL_PREFIX /home/zxj/learngit/ROS/demo04_ws/install)
+  set(tf01_static_INSTALL_PREFIX /home/zxj/桌面/learngit/ROS/demo04_ws/install)
   set(tf01_static_PREFIX ${tf01_static_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/learngit/ROS/demo04_ws/install/lib;/home/zxj/learngit/ROS/demo04_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/桌面/learngit/ROS/demo04_ws/install/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

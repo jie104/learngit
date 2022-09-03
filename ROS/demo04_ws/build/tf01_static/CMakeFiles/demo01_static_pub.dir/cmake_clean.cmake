@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/learngit/ROS/demo04_ws/devel/lib/tf01_static/demo01_static_pub"
-  "/home/zxj/learngit/ROS/demo04_ws/devel/lib/tf01_static/demo01_static_pub.pdb"
+  "/home/zxj/桌面/learngit/ROS/demo04_ws/devel/lib/tf01_static/demo01_static_pub"
+  "/home/zxj/桌面/learngit/ROS/demo04_ws/devel/lib/tf01_static/demo01_static_pub.pdb"
   "CMakeFiles/demo01_static_pub.dir/src/demo01_static_pub.cpp.o"
 )
 

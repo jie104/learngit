@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/learngit/ROS/demo04_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/demo04_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/learngit/ROS/demo04_ws/build
+CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/demo04_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -115,8 +115,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/learngit/ROS/demo04_ws/build/CMakeFiles /home/zxj/learngit/ROS/demo04_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/demo04_ws/build/CMakeFiles /home/zxj/桌面/learngit/ROS/demo04_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/learngit/ROS/demo04_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/ROS/demo04_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -765,6 +765,19 @@ actionlib_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
+#=============================================================================
+# Target rules for targets named demo01_dynamic_pub
+
+# Build rule for target.
+demo01_dynamic_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo01_dynamic_pub
+.PHONY : demo01_dynamic_pub
+
+# fast build rule for target.
+demo01_dynamic_pub/fast:
+	$(MAKE) -f tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build.make tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build
+.PHONY : demo01_dynamic_pub/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -824,6 +837,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... demo01_dynamic_pub"
 .PHONY : help
 
 

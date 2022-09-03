@@ -1,4 +1,4 @@
-prefix=/home/zxj/learngit/ROS/demo04_ws/devel
+prefix=/home/zxj/桌面/learngit/ROS/demo04_ws/devel
 
 Name: tf01_static
 Description: Description of tf01_static

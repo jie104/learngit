@@ -16,11 +16,14 @@
         6.spin();
 */
 
+// ****不同传感器的该模块实现高度类似，所以可考虑通过指令实现****
+// rosrun tf2_ros static_transform_publisher x偏移量 y偏移量 z偏移量 z偏航角 y俯仰角 x翻滚角 父坐标系 子坐标系
+
 int main(int argc,char* argv[])
 {
     // 2.设置编码，节点初始化  NodeHandle;
     setlocale(LC_ALL,"");
-    ros::init(argc,argv,"static_pub");
+    ros::init(argc,argv,"static_pub");   
     ros::NodeHandle nh;
     // 3.创建发布对象；
     tf2_ros::StaticTransformBroadcaster pub;

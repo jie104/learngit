@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/learngit/ROS/demo04_ws/src/tf01_static/src/demo01_static_pub.cpp
+/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf01_static/src/demo01_static_pub.cpp
 ros/ros.h
-/home/zxj/learngit/ROS/demo04_ws/src/tf01_static/src/ros/ros.h
+/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf01_static/src/ros/ros.h
 tf2_ros/static_transform_broadcaster.h
-/home/zxj/learngit/ROS/demo04_ws/src/tf01_static/src/tf2_ros/static_transform_broadcaster.h
+/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf01_static/src/tf2_ros/static_transform_broadcaster.h
 geometry_msgs/TransformStamped.h
-/home/zxj/learngit/ROS/demo04_ws/src/tf01_static/src/geometry_msgs/TransformStamped.h
+/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf01_static/src/geometry_msgs/TransformStamped.h
 tf2/LinearMath/Quaternion.h
-/home/zxj/learngit/ROS/demo04_ws/src/tf01_static/src/tf2/LinearMath/Quaternion.h
+/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf01_static/src/tf2/LinearMath/Quaternion.h
 
 /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 string
