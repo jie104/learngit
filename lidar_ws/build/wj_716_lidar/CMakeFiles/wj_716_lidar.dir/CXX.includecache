@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 /home/zxj/桌面/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-=======
-/home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -28,19 +24,11 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-<<<<<<< HEAD
 /home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar/src/async_client.cpp
 async_client.h
 /home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar/src/async_client.h
 
 /home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar/src/async_client.h
-=======
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/async_client.cpp
-async_client.h
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/async_client.h
-
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/async_client.h
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 iostream
 -
 stdio.h
@@ -58,7 +46,6 @@ string
 unistd.h
 -
 
-<<<<<<< HEAD
 /home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_01.cpp
 ros/ros.h
 -
@@ -78,27 +65,6 @@ iostream
 -
 string.h
 /home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar/src/string.h
-=======
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_01.cpp
-ros/ros.h
--
-async_client.h
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/async_client.h
-wj_716_lidar_protocol.h
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_protocol.h
-
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_protocol.cpp
-wj_716_lidar_protocol.h
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_protocol.h
-iostream
--
-
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_protocol.h
-iostream
--
-string.h
-/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/string.h
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 boost/shared_ptr.hpp
 -
 boost/asio.hpp

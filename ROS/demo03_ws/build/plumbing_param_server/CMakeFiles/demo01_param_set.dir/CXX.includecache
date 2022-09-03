@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_param_server/src/demo01_param_set.cpp
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_param_server/src/demo01_param_set.cpp
 ros/ros.h
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_param_server/src/ros/ros.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_param_server/src/ros/ros.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

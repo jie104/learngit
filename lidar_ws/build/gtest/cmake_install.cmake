@@ -2,11 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/lidar_ws/install")
-=======
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/learngit/lidar_ws/install")
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
   include("/home/zxj/桌面/learngit/lidar_ws/build/gtest/googlemock/cmake_install.cmake")
-=======
-  include("/home/zxj/learngit/lidar_ws/build/gtest/googlemock/cmake_install.cmake")
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 endif()
 

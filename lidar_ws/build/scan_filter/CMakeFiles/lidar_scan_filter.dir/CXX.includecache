@@ -6,7 +6,6 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 /home/zxj/桌面/learngit/lidar_ws/src/scan_filter/src/lidar_scan_filter.cpp
 ros/ros.h
 /home/zxj/桌面/learngit/lidar_ws/src/scan_filter/src/ros/ros.h
@@ -15,14 +14,6 @@ sensor_msgs/LaserScan.h
 vector
 -
 cmath
-=======
-/home/zxj/learngit/lidar_ws/src/scan_filter/src/lidar_scan_filter.cpp
-ros/ros.h
-/home/zxj/learngit/lidar_ws/src/scan_filter/src/ros/ros.h
-sensor_msgs/LaserScan.h
-/home/zxj/learngit/lidar_ws/src/scan_filter/src/sensor_msgs/LaserScan.h
-glog/logging.h
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 -
 
 /opt/ros/noetic/include/ros/advertise_options.h

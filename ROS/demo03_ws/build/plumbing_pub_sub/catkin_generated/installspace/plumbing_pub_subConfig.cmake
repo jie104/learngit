@@ -67,14 +67,14 @@ set(plumbing_pub_sub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(plumbing_pub_sub_SOURCE_PREFIX /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub)
-  set(plumbing_pub_sub_DEVEL_PREFIX /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel)
+  set(plumbing_pub_sub_SOURCE_PREFIX /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub)
+  set(plumbing_pub_sub_DEVEL_PREFIX /home/zxj/桌面/learngit/ROS/demo03_ws/devel)
   set(plumbing_pub_sub_INSTALL_PREFIX "")
   set(plumbing_pub_sub_PREFIX ${plumbing_pub_sub_DEVEL_PREFIX})
 else()
   set(plumbing_pub_sub_SOURCE_PREFIX "")
   set(plumbing_pub_sub_DEVEL_PREFIX "")
-  set(plumbing_pub_sub_INSTALL_PREFIX /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install)
+  set(plumbing_pub_sub_INSTALL_PREFIX /home/zxj/桌面/learngit/ROS/demo03_ws/install)
   set(plumbing_pub_sub_PREFIX ${plumbing_pub_sub_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install/lib;/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/桌面/learngit/ROS/demo03_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

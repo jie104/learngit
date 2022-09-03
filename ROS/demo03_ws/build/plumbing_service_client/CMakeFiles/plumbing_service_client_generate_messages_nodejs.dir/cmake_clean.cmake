@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/share/gennodejs/ros/plumbing_service_client/srv/Addints.js"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/devel/share/gennodejs/ros/plumbing_service_client/srv/Addints.js"
   "CMakeFiles/plumbing_service_client_generate_messages_nodejs"
 )
 

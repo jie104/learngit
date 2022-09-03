@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build
+CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_ex
 .PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_my && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_my && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_my /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_my /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/demo03_ws/src /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_my /home/zxj/桌面/learngit/ROS/demo03_ws/build /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_my /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbing_my/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

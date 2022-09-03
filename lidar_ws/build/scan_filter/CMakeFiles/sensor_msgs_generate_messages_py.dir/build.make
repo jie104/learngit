@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/lidar_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -70,18 +63,10 @@ scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/build: sensor_msgs_g
 .PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 
 scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/lidar_ws/src /home/zxj/桌面/learngit/lidar_ws/src/scan_filter /home/zxj/桌面/learngit/lidar_ws/build /home/zxj/桌面/learngit/lidar_ws/build/scan_filter /home/zxj/桌面/learngit/lidar_ws/build/scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/zxj/learngit/lidar_ws/build/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
-.PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src/scan_filter /home/zxj/learngit/lidar_ws/build /home/zxj/learngit/lidar_ws/build/scan_filter /home/zxj/learngit/lidar_ws/build/scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

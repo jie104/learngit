@@ -4,9 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "sensor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lsros_bag".split(';') if "-lsros_bag" != "" else []
 PROJECT_NAME = "srosbag_pub"
-<<<<<<< HEAD
 PROJECT_SPACE_DIR = "/home/zxj/桌面/learngit/lidar_ws/install"
-=======
-PROJECT_SPACE_DIR = "/home/zxj/learngit/lidar_ws/install"
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 PROJECT_VERSION = "0.0.0"

@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
   "/home/zxj/桌面/learngit/lidar_ws/src/scan_filter/src/lidar_scan_filter.cpp" "/home/zxj/桌面/learngit/lidar_ws/build/scan_filter/CMakeFiles/lidar_scan_filter.dir/src/lidar_scan_filter.cpp.o"
-=======
-  "/home/zxj/learngit/lidar_ws/src/scan_filter/src/lidar_scan_filter.cpp" "/home/zxj/learngit/lidar_ws/build/scan_filter/CMakeFiles/lidar_scan_filter.dir/src/lidar_scan_filter.cpp.o"
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

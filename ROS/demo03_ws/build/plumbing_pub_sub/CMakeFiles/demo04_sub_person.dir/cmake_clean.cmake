@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib/plumbing_pub_sub/demo04_sub_person"
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib/plumbing_pub_sub/demo04_sub_person.pdb"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib/plumbing_pub_sub/demo04_sub_person"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib/plumbing_pub_sub/demo04_sub_person.pdb"
   "CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o"
 )
 

@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/lidar_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 # Utility rule file for clean_test_results.
 
@@ -61,11 +54,7 @@ CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-<<<<<<< HEAD
 	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/zxj/桌面/learngit/lidar_ws/build/test_results
-=======
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/zxj/learngit/lidar_ws/build/test_results
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -82,10 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/lidar_ws/src /home/zxj/桌面/learngit/lidar_ws/src /home/zxj/桌面/learngit/lidar_ws/build /home/zxj/桌面/learngit/lidar_ws/build /home/zxj/桌面/learngit/lidar_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/build /home/zxj/learngit/lidar_ws/build /home/zxj/learngit/lidar_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

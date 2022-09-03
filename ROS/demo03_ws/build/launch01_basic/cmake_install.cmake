@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/launch01_basic
+# Install script for directory: /home/zxj/桌面/learngit/ROS/demo03_ws/src/launch01_basic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/ROS/demo03_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic/catkin_generated/installspace/launch01_basic.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/demo03_ws/build/launch01_basic/catkin_generated/installspace/launch01_basic.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch01_basic/cmake" TYPE FILE FILES
-    "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic/catkin_generated/installspace/launch01_basicConfig.cmake"
-    "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic/catkin_generated/installspace/launch01_basicConfig-version.cmake"
+    "/home/zxj/桌面/learngit/ROS/demo03_ws/build/launch01_basic/catkin_generated/installspace/launch01_basicConfig.cmake"
+    "/home/zxj/桌面/learngit/ROS/demo03_ws/build/launch01_basic/catkin_generated/installspace/launch01_basicConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch01_basic" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/launch01_basic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch01_basic" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/demo03_ws/src/launch01_basic/package.xml")
 endif()
 

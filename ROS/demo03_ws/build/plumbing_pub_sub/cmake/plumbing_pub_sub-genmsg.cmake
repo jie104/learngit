@@ -2,7 +2,7 @@
 
 message(STATUS "plumbing_pub_sub: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iplumbing_pub_sub:/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iplumbing_pub_sub:/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(plumbing_pub_sub_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
 add_custom_target(_plumbing_pub_sub_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "plumbing_pub_sub" "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "plumbing_pub_sub" "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_plumbing_pub_sub_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(plumbing_pub_sub
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/plumbing_pub_sub
@@ -49,7 +49,7 @@ add_custom_target(plumbing_pub_sub_generate_messages_cpp
 add_dependencies(plumbing_pub_sub_generate_messages plumbing_pub_sub_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
 add_dependencies(plumbing_pub_sub_generate_messages_cpp _plumbing_pub_sub_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS plumbing_pub_sub_generate_messages_
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(plumbing_pub_sub
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/plumbing_pub_sub
@@ -82,7 +82,7 @@ add_custom_target(plumbing_pub_sub_generate_messages_eus
 add_dependencies(plumbing_pub_sub_generate_messages plumbing_pub_sub_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
 add_dependencies(plumbing_pub_sub_generate_messages_eus _plumbing_pub_sub_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS plumbing_pub_sub_generate_messages_
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(plumbing_pub_sub
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/plumbing_pub_sub
@@ -115,7 +115,7 @@ add_custom_target(plumbing_pub_sub_generate_messages_lisp
 add_dependencies(plumbing_pub_sub_generate_messages plumbing_pub_sub_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
 add_dependencies(plumbing_pub_sub_generate_messages_lisp _plumbing_pub_sub_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS plumbing_pub_sub_generate_messages_
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(plumbing_pub_sub
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/plumbing_pub_sub
@@ -148,7 +148,7 @@ add_custom_target(plumbing_pub_sub_generate_messages_nodejs
 add_dependencies(plumbing_pub_sub_generate_messages plumbing_pub_sub_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
 add_dependencies(plumbing_pub_sub_generate_messages_nodejs _plumbing_pub_sub_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS plumbing_pub_sub_generate_messages_
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(plumbing_pub_sub
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/plumbing_pub_sub
@@ -181,7 +181,7 @@ add_custom_target(plumbing_pub_sub_generate_messages_py
 add_dependencies(plumbing_pub_sub_generate_messages plumbing_pub_sub_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
+get_filename_component(_filename "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg" NAME_WE)
 add_dependencies(plumbing_pub_sub_generate_messages_py _plumbing_pub_sub_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

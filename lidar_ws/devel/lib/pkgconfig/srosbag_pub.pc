@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 prefix=/home/zxj/桌面/learngit/lidar_ws/devel
-=======
-prefix=/home/zxj/learngit/lidar_ws/devel
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 Name: srosbag_pub
 Description: Description of srosbag_pub
 Version: 0.0.0
-<<<<<<< HEAD
 Cflags: -I/home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub/include/srosbag
-=======
-Cflags: -I/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 Libs: -L${prefix}/lib -lsros_bag
 Requires: sensor_msgs

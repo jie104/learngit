@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head
+# Install script for directory: /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/ROS/demo03_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head/catkin_generated/installspace/plumbing_head.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_head/catkin_generated/installspace/plumbing_head.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_head/cmake" TYPE FILE FILES
-    "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head/catkin_generated/installspace/plumbing_headConfig.cmake"
-    "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head/catkin_generated/installspace/plumbing_headConfig-version.cmake"
+    "/home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_head/catkin_generated/installspace/plumbing_headConfig.cmake"
+    "/home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_head/catkin_generated/installspace/plumbing_headConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_head" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_head" TYPE FILE FILES "/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/package.xml")
 endif()
 

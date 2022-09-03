@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/lidar_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,15 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/lidar_ws/build/CMakeFiles /home/zxj/桌面/learngit/lidar_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/lidar_ws/build/CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/learngit/lidar_ws/build/CMakeFiles /home/zxj/learngit/lidar_ws/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/learngit/lidar_ws/build/CMakeFiles 0
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : all
 
 # The main clean target
@@ -961,6 +948,19 @@ sros_bag/fast:
 .PHONY : sros_bag/fast
 
 #=============================================================================
+# Target rules for targets named lidar_driver_node
+
+# Build rule for target.
+lidar_driver_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lidar_driver_node
+.PHONY : lidar_driver_node
+
+# fast build rule for target.
+lidar_driver_node/fast:
+	$(MAKE) -f standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build.make standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build
+.PHONY : lidar_driver_node/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
 
 # Build rule for target.
@@ -1137,6 +1137,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... sros_bag"
+	@echo "... lidar_driver_node"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
 	@echo "... dynamic_reconfigure_generate_messages_py"

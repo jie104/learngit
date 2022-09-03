@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 prefix=/home/zxj/桌面/learngit/lidar_ws/install
-=======
-prefix=/home/zxj/learngit/lidar_ws/install
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 Name: leimou_f30_ros
 Description: Description of leimou_f30_ros

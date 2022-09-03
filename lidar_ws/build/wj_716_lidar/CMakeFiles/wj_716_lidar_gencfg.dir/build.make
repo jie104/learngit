@@ -43,24 +43,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/lidar_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 # Utility rule file for wj_716_lidar_gencfg.
 
 # Include the progress variables for this target.
 include wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/progress.make
 
-<<<<<<< HEAD
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg: /home/zxj/桌面/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg: /home/zxj/桌面/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py
 
@@ -89,36 +81,6 @@ wj_716_lidar_gencfg: /home/zxj/桌面/learngit/lidar_ws/devel/share/wj_716_lidar
 wj_716_lidar_gencfg: /home/zxj/桌面/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig-usage.dox
 wj_716_lidar_gencfg: /home/zxj/桌面/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py
 wj_716_lidar_gencfg: /home/zxj/桌面/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.wikidoc
-=======
-wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py
-
-
-/home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h: /home/zxj/learngit/lidar_ws/src/wj_716_lidar/cfg/wj_716_lidar.cfg
-/home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/learngit/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/wj_716_lidar.cfg: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h /home/zxj/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py"
-	cd /home/zxj/learngit/lidar_ws/build/wj_716_lidar && ../catkin_generated/env_cached.sh /home/zxj/learngit/lidar_ws/build/wj_716_lidar/setup_custom_pythonpath.sh /home/zxj/learngit/lidar_ws/src/wj_716_lidar/cfg/wj_716_lidar.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar /home/zxj/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar
-
-/home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox
-
-/home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig-usage.dox: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig-usage.dox
-
-/home/zxj/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/zxj/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py
-
-/home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.wikidoc: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.wikidoc
-
-wj_716_lidar_gencfg: wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg
-wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h
-wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox
-wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig-usage.dox
-wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py
-wj_716_lidar_gencfg: /home/zxj/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.wikidoc
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 wj_716_lidar_gencfg: wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build.make
 
 .PHONY : wj_716_lidar_gencfg
@@ -129,18 +91,10 @@ wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build: wj_716_lidar_gencfg
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build
 
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/clean:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build/wj_716_lidar && $(CMAKE_COMMAND) -P CMakeFiles/wj_716_lidar_gencfg.dir/cmake_clean.cmake
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/clean
 
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/depend:
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/lidar_ws/src /home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar /home/zxj/桌面/learngit/lidar_ws/build /home/zxj/桌面/learngit/lidar_ws/build/wj_716_lidar /home/zxj/桌面/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/zxj/learngit/lidar_ws/build/wj_716_lidar && $(CMAKE_COMMAND) -P CMakeFiles/wj_716_lidar_gencfg.dir/cmake_clean.cmake
-.PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/clean
-
-wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/depend:
-	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src/wj_716_lidar /home/zxj/learngit/lidar_ws/build /home/zxj/learngit/lidar_ws/build/wj_716_lidar /home/zxj/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/depend
 

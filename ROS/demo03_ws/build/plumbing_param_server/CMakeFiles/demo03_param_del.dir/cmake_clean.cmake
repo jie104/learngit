@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib/plumbing_param_server/demo03_param_del"
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/lib/plumbing_param_server/demo03_param_del.pdb"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib/plumbing_param_server/demo03_param_del"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib/plumbing_param_server/demo03_param_del.pdb"
   "CMakeFiles/demo03_param_del.dir/src/demo03_param_del.cpp.o"
 )
 

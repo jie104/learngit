@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head/include/plumbing_head/hello.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/include/plumbing_head/hello.h
 
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head/src/hello.cpp
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/src/hello.cpp
 ros/ros.h
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head/src/ros/ros.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/src/ros/ros.h
 plumbing_head/hello.h
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head/src/plumbing_head/hello.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/src/plumbing_head/hello.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

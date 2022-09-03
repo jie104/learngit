@@ -67,23 +67,14 @@ set(scan_filter_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-<<<<<<< HEAD
   set(scan_filter_SOURCE_PREFIX /home/zxj/桌面/learngit/lidar_ws/src/scan_filter)
   set(scan_filter_DEVEL_PREFIX /home/zxj/桌面/learngit/lidar_ws/devel)
-=======
-  set(scan_filter_SOURCE_PREFIX /home/zxj/learngit/lidar_ws/src/scan_filter)
-  set(scan_filter_DEVEL_PREFIX /home/zxj/learngit/lidar_ws/devel)
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
   set(scan_filter_INSTALL_PREFIX "")
   set(scan_filter_PREFIX ${scan_filter_DEVEL_PREFIX})
 else()
   set(scan_filter_SOURCE_PREFIX "")
   set(scan_filter_DEVEL_PREFIX "")
-<<<<<<< HEAD
   set(scan_filter_INSTALL_PREFIX /home/zxj/桌面/learngit/lidar_ws/install)
-=======
-  set(scan_filter_INSTALL_PREFIX /home/zxj/learngit/lidar_ws/install)
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
   set(scan_filter_PREFIX ${scan_filter_INSTALL_PREFIX})
 endif()
 
@@ -163,11 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-<<<<<<< HEAD
     foreach(path /home/zxj/桌面/learngit/lidar_ws/install/lib;/opt/ros/noetic/lib)
-=======
-    foreach(path /home/zxj/learngit/lidar_ws/install/lib;/opt/ros/noetic/lib)
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

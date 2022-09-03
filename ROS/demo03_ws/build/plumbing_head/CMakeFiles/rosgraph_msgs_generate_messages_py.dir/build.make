@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build
+CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgraph_
 .PHONY : plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_head && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_head /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/demo03_ws/src /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head /home/zxj/桌面/learngit/ROS/demo03_ws/build /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_head /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbing_head/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 /home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.cpp
 leimou_f30_driver.h
 /home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
-=======
-/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.cpp
-leimou_f30_driver.h
-/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 iostream
 -
 string
@@ -48,11 +42,7 @@ cstdint
 errno.h
 -
 
-<<<<<<< HEAD
 /home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
-=======
-/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 string
 -
 cstdint

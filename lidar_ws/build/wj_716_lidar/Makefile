@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/lidar_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/lidar_ws/build/CMakeFiles /home/zxj/桌面/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/progress.marks
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/桌面/learngit/lidar_ws/build/CMakeFiles 0
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/learngit/lidar_ws/build/CMakeFiles /home/zxj/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/progress.marks
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/learngit/lidar_ws/build/CMakeFiles 0
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/clean
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/clean
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/preinstall
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/preinstall
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/preinstall
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/preinstall
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : depend
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ dynamic_reconfigure_generate_messages_cpp: wj_716_lidar/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ dynamic_reconfigure_generate_messages_eus: wj_716_lidar/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ dynamic_reconfigure_generate_messages_py: wj_716_lidar/CMakeFiles/dynamic_reconf
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ dynamic_reconfigure_gencfg: wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.d
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ dynamic_reconfigure_generate_messages_nodejs: wj_716_lidar/CMakeFiles/dynamic_re
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ wj_716_lidar_gencfg: wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/rule
 
 # fast build rule for target.
 wj_716_lidar_gencfg/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar_gencfg/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ dynamic_reconfigure_generate_messages_lisp: wj_716_lidar/CMakeFiles/dynamic_reco
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 wj_716_lidar/CMakeFiles/wj_716_lidar.dir/rule:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/wj_716_lidar.dir/rule
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wj_716_lidar/CMakeFiles/wj_716_lidar.dir/rule
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar.dir/rule
 
 # Convenience name for target.
@@ -373,11 +284,7 @@ wj_716_lidar: wj_716_lidar/CMakeFiles/wj_716_lidar.dir/rule
 
 # fast build rule for target.
 wj_716_lidar/fast:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : wj_716_lidar/fast
 
 src/async_client.o: src/async_client.cpp.o
@@ -386,11 +293,7 @@ src/async_client.o: src/async_client.cpp.o
 
 # target to build an object file
 src/async_client.cpp.o:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.o
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.o
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/async_client.cpp.o
 
 src/async_client.i: src/async_client.cpp.i
@@ -399,11 +302,7 @@ src/async_client.i: src/async_client.cpp.i
 
 # target to preprocess a source file
 src/async_client.cpp.i:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.i
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.i
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/async_client.cpp.i
 
 src/async_client.s: src/async_client.cpp.s
@@ -412,11 +311,7 @@ src/async_client.s: src/async_client.cpp.s
 
 # target to generate assembly for a file
 src/async_client.cpp.s:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.s
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.s
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/async_client.cpp.s
 
 src/wj_716_lidar_01.o: src/wj_716_lidar_01.cpp.o
@@ -425,11 +320,7 @@ src/wj_716_lidar_01.o: src/wj_716_lidar_01.cpp.o
 
 # target to build an object file
 src/wj_716_lidar_01.cpp.o:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.o
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.o
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/wj_716_lidar_01.cpp.o
 
 src/wj_716_lidar_01.i: src/wj_716_lidar_01.cpp.i
@@ -438,11 +329,7 @@ src/wj_716_lidar_01.i: src/wj_716_lidar_01.cpp.i
 
 # target to preprocess a source file
 src/wj_716_lidar_01.cpp.i:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.i
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.i
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/wj_716_lidar_01.cpp.i
 
 src/wj_716_lidar_01.s: src/wj_716_lidar_01.cpp.s
@@ -451,11 +338,7 @@ src/wj_716_lidar_01.s: src/wj_716_lidar_01.cpp.s
 
 # target to generate assembly for a file
 src/wj_716_lidar_01.cpp.s:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.s
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.s
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/wj_716_lidar_01.cpp.s
 
 src/wj_716_lidar_protocol.o: src/wj_716_lidar_protocol.cpp.o
@@ -464,11 +347,7 @@ src/wj_716_lidar_protocol.o: src/wj_716_lidar_protocol.cpp.o
 
 # target to build an object file
 src/wj_716_lidar_protocol.cpp.o:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.o
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.o
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/wj_716_lidar_protocol.cpp.o
 
 src/wj_716_lidar_protocol.i: src/wj_716_lidar_protocol.cpp.i
@@ -477,11 +356,7 @@ src/wj_716_lidar_protocol.i: src/wj_716_lidar_protocol.cpp.i
 
 # target to preprocess a source file
 src/wj_716_lidar_protocol.cpp.i:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.i
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.i
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/wj_716_lidar_protocol.cpp.i
 
 src/wj_716_lidar_protocol.s: src/wj_716_lidar_protocol.cpp.s
@@ -490,11 +365,7 @@ src/wj_716_lidar_protocol.s: src/wj_716_lidar_protocol.cpp.s
 
 # target to generate assembly for a file
 src/wj_716_lidar_protocol.cpp.s:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.s
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(MAKE) -f wj_716_lidar/CMakeFiles/wj_716_lidar.dir/build.make wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.s
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : src/wj_716_lidar_protocol.cpp.s
 
 # Help Target
@@ -538,10 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
 	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
 .PHONY : cmake_check_build_system
 

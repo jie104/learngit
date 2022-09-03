@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_service_client/Addints.h"
+  "/home/zxj/桌面/learngit/ROS/demo03_ws/devel/include/plumbing_service_client/Addints.h"
   "CMakeFiles/plumbing_service_client_generate_messages_cpp"
 )
 

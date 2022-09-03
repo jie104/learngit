@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build
+CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/build
 
 # Utility rule file for std_srvs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build: std_srvs_gen
 .PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 
 launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build/launch01_basic && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
 
 launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/depend:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/launch01_basic /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/demo03_ws/src /home/zxj/桌面/learngit/ROS/demo03_ws/src/launch01_basic /home/zxj/桌面/learngit/ROS/demo03_ws/build /home/zxj/桌面/learngit/ROS/demo03_ws/build/launch01_basic /home/zxj/桌面/learngit/ROS/demo03_ws/build/launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : launch01_basic/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
 

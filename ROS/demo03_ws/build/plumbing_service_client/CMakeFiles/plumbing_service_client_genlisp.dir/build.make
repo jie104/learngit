@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build
+CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/build
 
 # Utility rule file for plumbing_service_client_genlisp.
 
@@ -63,10 +63,10 @@ plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/build: pl
 .PHONY : plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/build
 
 plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/clean:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_service_client && $(CMAKE_COMMAND) -P CMakeFiles/plumbing_service_client_genlisp.dir/cmake_clean.cmake
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_service_client && $(CMAKE_COMMAND) -P CMakeFiles/plumbing_service_client_genlisp.dir/cmake_clean.cmake
 .PHONY : plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/clean
 
 plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/depend:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_service_client /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_service_client /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/demo03_ws/src /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_service_client /home/zxj/桌面/learngit/ROS/demo03_ws/build /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_service_client /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbing_service_client/CMakeFiles/plumbing_service_client_genlisp.dir/depend
 

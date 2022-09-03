@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include/plumbing_pub_sub/Person.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/devel/include/plumbing_pub_sub/Person.h
 string
 -
 vector
@@ -22,13 +22,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/src/demo03_pub_person.cpp
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/demo03_pub_person.cpp
 ros/ros.h
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/src/ros/ros.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/ros/ros.h
 plumbing_pub_sub/Person.h
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/src/plumbing_pub_sub/Person.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/plumbing_pub_sub/Person.h
 plumbing_pub_sub/Person.h
-/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/src/plumbing_pub_sub/Person.h
+/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/plumbing_pub_sub/Person.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

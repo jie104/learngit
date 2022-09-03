@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
   "/home/zxj/桌面/learngit/lidar_ws/src/leimou_f30C_ros_intensity/test/test_leimou_f30.cpp" "/home/zxj/桌面/learngit/lidar_ws/build/leimou_f30C_ros_intensity/CMakeFiles/test_leimou_f30_node.dir/test/test_leimou_f30.cpp.o"
-=======
-  "/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/test/test_leimou_f30.cpp" "/home/zxj/learngit/lidar_ws/build/leimou_f30C_ros_intensity/CMakeFiles/test_leimou_f30_node.dir/test/test_leimou_f30.cpp.o"
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,11 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-<<<<<<< HEAD
   "/home/zxj/桌面/learngit/lidar_ws/build/leimou_f30C_ros_intensity/CMakeFiles/leimou_f30_driver.dir/DependInfo.cmake"
-=======
-  "/home/zxj/learngit/lidar_ws/build/leimou_f30C_ros_intensity/CMakeFiles/leimou_f30_driver.dir/DependInfo.cmake"
->>>>>>> 09226450a16102fd150477c4c838dbded307c8c4
   )
 
 # Fortran module output directory.

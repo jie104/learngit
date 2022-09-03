@@ -1,8 +1,8 @@
-prefix=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel
+prefix=/home/zxj/桌面/learngit/ROS/demo03_ws/devel
 
 Name: plumbing_service_client
 Description: Description of plumbing_service_client
 Version: 0.0.0
-Cflags: -I/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/devel/include
+Cflags: -I/home/zxj/桌面/learngit/ROS/demo03_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy std_msgs message_runtime

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build
+CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/demo03_ws/build
 
 # Utility rule file for _plumbing_pub_sub_generate_messages_check_deps_Person.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通
 include plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/progress.make
 
 plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py plumbing_pub_sub /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub/msg/Person.msg 
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_pub_sub && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py plumbing_pub_sub /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/msg/Person.msg 
 
 _plumbing_pub_sub_generate_messages_check_deps_Person: plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person
 _plumbing_pub_sub_generate_messages_check_deps_Person: plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/build.make
@@ -67,10 +67,10 @@ plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Perso
 .PHONY : plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/build
 
 plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/clean:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/cmake_clean.cmake
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/cmake_clean.cmake
 .PHONY : plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/clean
 
 plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/depend:
-	cd /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/src/plumbing_pub_sub /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub /home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/build/plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/桌面/learngit/ROS/demo03_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/ROS/demo03_ws/src /home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub /home/zxj/桌面/learngit/ROS/demo03_ws/build /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_pub_sub /home/zxj/桌面/learngit/ROS/demo03_ws/build/plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbing_pub_sub/CMakeFiles/_plumbing_pub_sub_generate_messages_check_deps_Person.dir/depend
 
