@@ -67,5 +67,6 @@ int main(int argc, char* argv[])
     ros::Subscriber sub=nh.subscribe("/turtle1/pose",100,doPose);
     // 4.回调函数处理订阅的消息：将位姿态信息转换成坐标相对关系并发布
     ros::spin();
+    return 0;
 
 }

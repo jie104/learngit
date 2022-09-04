@@ -1,2 +1,2 @@
-tf01_static:tf02_dynamic
+tf01_static:tf02_dynamic:tf03_tfs
 -DCATKIN_DEVEL_PREFIX=/home/zxj/桌面/learngit/ROS/demo04_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/桌面/learngit/ROS/demo04_ws/install -G Unix Makefiles

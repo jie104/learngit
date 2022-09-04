@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/rule:
+	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/rule
+.PHONY : tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/rule
+
+# Convenience name for target.
+demo02_dynamic_sub: tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/rule
+
+.PHONY : demo02_dynamic_sub
+
+# fast build rule for target.
+demo02_dynamic_sub/fast:
+	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/build.make tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/build
+.PHONY : demo02_dynamic_sub/fast
+
+# Convenience name for target.
 tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/rule:
 	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/rule
 .PHONY : tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/rule
@@ -209,6 +224,33 @@ src/demo01_dynamic_pub.cpp.s:
 	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build.make tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/src/demo01_dynamic_pub.cpp.s
 .PHONY : src/demo01_dynamic_pub.cpp.s
 
+src/demo02_dynamic_sub.o: src/demo02_dynamic_sub.cpp.o
+
+.PHONY : src/demo02_dynamic_sub.o
+
+# target to build an object file
+src/demo02_dynamic_sub.cpp.o:
+	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/build.make tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/src/demo02_dynamic_sub.cpp.o
+.PHONY : src/demo02_dynamic_sub.cpp.o
+
+src/demo02_dynamic_sub.i: src/demo02_dynamic_sub.cpp.i
+
+.PHONY : src/demo02_dynamic_sub.i
+
+# target to preprocess a source file
+src/demo02_dynamic_sub.cpp.i:
+	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/build.make tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/src/demo02_dynamic_sub.cpp.i
+.PHONY : src/demo02_dynamic_sub.cpp.i
+
+src/demo02_dynamic_sub.s: src/demo02_dynamic_sub.cpp.s
+
+.PHONY : src/demo02_dynamic_sub.s
+
+# target to generate assembly for a file
+src/demo02_dynamic_sub.cpp.s:
+	cd /home/zxj/桌面/learngit/ROS/demo04_ws/build && $(MAKE) -f tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/build.make tf02_dynamic/CMakeFiles/demo02_dynamic_sub.dir/src/demo02_dynamic_sub.cpp.s
+.PHONY : src/demo02_dynamic_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +261,7 @@ help:
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... demo02_dynamic_sub"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
@@ -226,6 +269,9 @@ help:
 	@echo "... src/demo01_dynamic_pub.o"
 	@echo "... src/demo01_dynamic_pub.i"
 	@echo "... src/demo01_dynamic_pub.s"
+	@echo "... src/demo02_dynamic_sub.o"
+	@echo "... src/demo02_dynamic_sub.i"
+	@echo "... src/demo02_dynamic_sub.s"
 .PHONY : help
 
 
