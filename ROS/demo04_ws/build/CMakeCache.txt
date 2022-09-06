@@ -497,6 +497,9 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
+
 //Value Computed by CMake
 tf01_static_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf01_static
 
@@ -515,6 +518,12 @@ tf03_tfs_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf03_tf
 //Value Computed by CMake
 tf03_tfs_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf03_tfs
 
+//Value Computed by CMake
+tf04_test_BINARY_DIR:STATIC=/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test
+
+//Value Computed by CMake
+tf04_test_SOURCE_DIR:STATIC=/home/zxj/桌面/learngit/ROS/demo04_ws/src/tf04_test
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
 
@@ -532,6 +541,9 @@ tf2_r_ros_DIR:PATH=tf2_r_ros_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for tf2_ros.
 tf2_ros_DIR:PATH=/opt/ros/noetic/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -686,7 +698,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
