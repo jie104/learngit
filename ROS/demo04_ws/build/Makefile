@@ -831,19 +831,6 @@ turtlesim_generate_messages_lisp/fast:
 .PHONY : turtlesim_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named turtlesim_generate_messages_nodejs
-
-# Build rule for target.
-turtlesim_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_nodejs
-.PHONY : turtlesim_generate_messages_nodejs
-
-# fast build rule for target.
-turtlesim_generate_messages_nodejs/fast:
-	$(MAKE) -f tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
-.PHONY : turtlesim_generate_messages_nodejs/fast
-
-#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_py
 
 # Build rule for target.
@@ -881,6 +868,32 @@ test02_pub_turtle: cmake_check_build_system
 test02_pub_turtle/fast:
 	$(MAKE) -f tf04_test/CMakeFiles/test02_pub_turtle.dir/build.make tf04_test/CMakeFiles/test02_pub_turtle.dir/build
 .PHONY : test02_pub_turtle/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_generate_messages_nodejs
+
+# Build rule for target.
+turtlesim_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtlesim_generate_messages_nodejs
+.PHONY : turtlesim_generate_messages_nodejs
+
+# fast build rule for target.
+turtlesim_generate_messages_nodejs/fast:
+	$(MAKE) -f tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
+.PHONY : turtlesim_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named test03_control_turtle2
+
+# Build rule for target.
+test03_control_turtle2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test03_control_turtle2
+.PHONY : test03_control_turtle2
+
+# fast build rule for target.
+test03_control_turtle2/fast:
+	$(MAKE) -f tf04_test/CMakeFiles/test03_control_turtle2.dir/build.make tf04_test/CMakeFiles/test03_control_turtle2.dir/build
+.PHONY : test03_control_turtle2/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_eus
@@ -1024,10 +1037,11 @@ help:
 	@echo "... demo01_tfs"
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_lisp"
-	@echo "... turtlesim_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... test02_pub_turtle"
+	@echo "... turtlesim_generate_messages_nodejs"
+	@echo "... test03_control_turtle2"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_py"

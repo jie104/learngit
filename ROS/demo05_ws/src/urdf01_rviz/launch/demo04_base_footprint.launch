@@ -1,0 +1,24 @@
+<launch>
+    <!-- 1.在参数服务器载入 urdf文件 -->
+    <param name="robot_description" textfile="$(find urdf01_rviz)/urdf/urdf/demo04_base_footprint.urdf" />
+    <!-- 2.启动rviz文件 -->
+
+    <!-- 
+        只有上述两条语句:
+            表现:设置头显示位置和颜色异常
+            提示:缺少: No transform form [camera] to [base_link] 缺少camera 到 base_link的坐标变换
+            原因: rviz中显示 URDF时,必须发布不同部件间的 坐标系 关系
+            解决:ROS中提供了关于机器人模型显示的坐标系发布相关节点(两个)
+     -->
+    <!-- 关节状态发布节点 -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+   
+    <!-- 机器人状态发布节点 -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+    <!-- 添加控制关节运动节点 -->
+    <!-- <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" /> -->
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find urdf01_rviz)/config/block.rviz" />
+
+</launch>

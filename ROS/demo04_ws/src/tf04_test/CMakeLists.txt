@@ -140,7 +140,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(test01_new_turtle src/test01_new_turtle.cpp)
 add_executable(test02_pub_turtle src/test02_pub_turtle.cpp)
-
+add_executable(test03_control_turtle2 src/test03_control_turtle2.cpp)
 
 
 ## Rename C++ executable without prefix
@@ -154,7 +154,7 @@ add_executable(test02_pub_turtle src/test02_pub_turtle.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(test01_new_turtle ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(test02_pub_turtle ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
+add_dependencies(test03_control_turtle2 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
@@ -165,6 +165,9 @@ target_link_libraries(test01_new_turtle
   ${catkin_LIBRARIES}
 )
 target_link_libraries(test02_pub_turtle
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(test03_control_turtle2
   ${catkin_LIBRARIES}
 )
 

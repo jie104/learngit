@@ -1,0 +1,42 @@
+<!-- 设置不同形状的机器人部件 -->
+<robot name="mycar">
+    <link name="base_link">
+        <visual>
+            <!--1.形状 -->
+            <geometry>
+                <!-- 1.立方体 -->
+                <!-- <box size="0.3 0.2 0.1" /> -->
+                <!-- 2.圆柱体 -->
+                <!-- <cylinder radius="0.1" length="2" /> -->
+                <!-- 3.球体 -->
+                <!-- <sphere radius="1" /> -->
+                <!-- 4.皮肤, 将专门的机器人模型皮肤导入,格式遵循一定格式-->
+                <mesh filename="package://urdf01_rviz/meshes/autolabor_mini.stl"/>
+            </geometry>
+            <!-- 2.偏移量与倾斜弧度,即六维偏移量 -->
+            <!-- 
+                xyz 设置机器人模型在 xyz 上的偏移量
+                rpy 用于设置倾斜弧度 x(翻滚) y(俯仰) z(偏航)
+            -->
+            <origin xyz="0 0 0" rpy="1.57 0 1.57" />
+            
+            <!-- 3.颜色 -->
+            <!-- 
+                rgba:
+                    r=red 
+                    g=green
+                    b=blue
+                    a=透明度 
+                四者取值 [0,1]
+            -->
+            <material name="car_color">
+                <color rgba="0.5 0.2 0.3 0.5" />
+            </material>
+        </visual>
+
+        
+    </link>
+
+    
+
+</robot>
