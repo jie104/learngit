@@ -99,14 +99,16 @@
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/install.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/rebuild_cache.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/edit_cache.dir
+/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/test.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_eus.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_lisp.dir
-/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/install/strip.dir
-/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/std_srvs_generate_messages_py.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/std_srvs_generate_messages_cpp.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/list_install_components.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/test02_pub_turtle.dir
+/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/install/strip.dir
+/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir
+/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/test03_control_turtle2.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/std_srvs_generate_messages_eus.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/std_srvs_generate_messages_lisp.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_py.dir
@@ -114,4 +116,3 @@
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/install/local.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/turtlesim_generate_messages_cpp.dir
 /home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/test01_new_turtle.dir
-/home/zxj/桌面/learngit/ROS/demo04_ws/build/tf04_test/CMakeFiles/test.dir
