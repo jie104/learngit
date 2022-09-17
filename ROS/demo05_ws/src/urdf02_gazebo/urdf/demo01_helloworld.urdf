@@ -1,0 +1,38 @@
+<robot name="mycar" >
+    <link name="base_link" >
+    <!-- 可视化部分 -->
+        <visual>
+            <geometry>
+                <box size= "0.5 0.3 0.1" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <!-- 该颜色设置在gazebo下不可用，需考虑实际环境情况 -->
+            <material name="yellow">
+                <color rgba="0.0 0.3 0 0.5" />
+            </material>
+        </visual>
+
+    <!-- gazebo仿真，需要再加两个标签 -->
+        <!-- 如果是标准几何体，直接复制visual 的 geometry 和origin  -->
+        <!-- 1.设置碰撞参数 -->
+        <collision>
+            <geometry>
+                <box size= "0.5 0.3 0.1" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+           
+        </collision>
+        <!-- 2.设置碰撞矩阵 -->
+        <inertial>
+            <origin xyz="0 0 0"  /> <!--质量偏移量-->
+            <mass value="2" />  <!--设置质量-->
+            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="1.0" izz="1.0" />   <!--设置各个方向的惯性值-->
+        </inertial>
+
+    </link>
+    <!-- gazebo有自己的顏色设置标签 -->
+    <gazebo reference="base_link">   <!--这里引用指设置哪个连杆的颜色-->
+        <material >Gazebo/Red</material >   <!--中间开头需大写-->
+    </gazebo>
+
+</robot>

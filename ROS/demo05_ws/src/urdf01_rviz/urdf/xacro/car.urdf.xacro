@@ -1,0 +1,11 @@
+<robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro" >
+    <!-- 包含底盘,摄像头与雷达的xacro文件 -->
+        <!-- 包含操作相当于复制粘贴,顺便去除根标签 -->
+    <xacro:include filename="demo05_car_base.urdf.xacro" />
+    <xacro:include filename="demo06_car_camera.urdf.xacro" />
+    <xacro:include filename="demo07_car_laser.urdf.xacro" />
+
+
+
+
+</robot>
