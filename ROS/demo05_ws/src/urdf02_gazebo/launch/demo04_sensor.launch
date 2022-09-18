@@ -1,0 +1,22 @@
+<launch>
+    <!-- 1.在参数服务器中载入URDF -->
+    <!-- <param name="robot_description" textfile="$(find urdf01_rviz)/urdf/xacro/demo05_car_base.urdf"/> -->
+    <!-- <param name="robot_description" command="$(find xacro)/xacro $(find urdf01_rviz)/urdf/xacro/car.urdf.xacro"/> -->
+
+    <!-- 添加点云坐标系到Kinect连杆坐标系的静态坐标变换 xyz rpy  父级坐标系/camera  子级坐标系/camera_depth  从父级坐标系到子级坐标系的坐标变换-->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="static_transform_publisher" args="0 0 0 -1.57 0 -1.57 /camera /camera_depth"  />
+
+
+   <!-- 关节状态发布节点 -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+   
+    <!-- 机器人状态发布节点 -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+    <!-- 5.添加控制关节运动节点 -->
+    <!-- <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" /> -->
+
+    <!-- 2.启动RVIZ -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find urdf01_rviz)/config/block.rviz" />
+
+</launch>

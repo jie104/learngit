@@ -7,4 +7,16 @@
     <xacro:include filename="demo06_car_camera.urdf.xacro" />
     <xacro:include filename="demo07_car_laser.urdf.xacro" />
 
+    <!-- 集成运动控制 -->
+    <xacro:include filename="gazebo/move.xacro" />
+
+    <!-- 集成雷达 -->
+    <xacro:include filename="gazebo/laser.xacro" />
+
+    <!-- 集成相机 -->
+    <!-- <xacro:include filename="gazebo/camera.xacro" /> -->
+
+    <!-- 集成深度相机 -->
+    <xacro:include filename="gazebo/kinect.xacro" />
+
 </robot>
