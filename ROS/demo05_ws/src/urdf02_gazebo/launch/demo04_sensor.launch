@@ -17,6 +17,6 @@
     <!-- <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" /> -->
 
     <!-- 2.启动RVIZ -->
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find urdf01_rviz)/config/block.rviz" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find nav_demo)/config/nav.rviz" />
 
 </launch>

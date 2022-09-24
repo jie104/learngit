@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
 
     /// wanji lidar
     std::shared_ptr<sros::WanjiLaserProtocol> wanJi(new sros::WanjiLaserProtocol());
-    sros::TcpScanDataReceiver receiver(wanJi, "192.168.71.101", 2110); // tcp 2.5Hz
+    sros::TcpScanDataReceiver receiver(wanJi, "192.168.71.100", 2110); // tcp 2.5Hz
 
 //    std::shared_ptr<sros::WanjiLaserProtocolUDP> wanJi(new sros::WanjiLaserProtocolUDP());
 //    sros::UdpScanDataReceiver receiver(wanJi, "192.168.71.101", 2110);

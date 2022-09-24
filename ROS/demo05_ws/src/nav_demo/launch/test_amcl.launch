@@ -1,0 +1,17 @@
+<!-- 测试文件 -->
+<launch>
+    <!-- 启动rviz -->
+    <!-- 坐标转化节点 -->
+    <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />
+    <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+    <node name="rviz" pkg="rviz" type="rviz"  />
+
+    <!-- 启动gazebo仿真环境 -->
+    <include file="$(find urdf02_gazebo)/launch/demo03_env.launch" />
+    <!-- 加载地图服务 -->
+    <include file="$(find nav_demo)/launch/nav03_map_server.launch" />
+
+    <!-- amcl文件 -->
+    <include file="$(find nav_demo)/launch/nav04_amcl.launch" />
+
+</launch>
