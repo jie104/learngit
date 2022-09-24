@@ -1,0 +1,8 @@
+prefix=/home/zxj/桌面/learngit/standard_lidar4_ws/install
+
+Name: standard_lidar_driver
+Description: Description of standard_lidar_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs tf

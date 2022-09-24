@@ -1,0 +1,9 @@
+<launch>
+    <!-- 有些问题，待修改 -->
+  <include file = "$(find urdf02_gazebo)/launch/demo03_env.launch" />
+
+  <!-- <include file = "$(find urdf02_gazebo)/launch/demo04_sensor.launch" /> -->
+  <include file = "$(find nav_demo)/launch/nav01_slam.launch" />
+  <!-- <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" /> -->
+
+</launch>
