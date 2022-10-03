@@ -1,0 +1,8 @@
+prefix=/home/zxj/other/charging_station/recoglize/devel
+
+Name: errorRecoglize
+Description: Description of errorRecoglize
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

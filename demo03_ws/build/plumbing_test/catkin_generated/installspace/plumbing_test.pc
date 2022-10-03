@@ -1,8 +1,0 @@
-prefix=/home/zxj/桌面/learngit/ROS/2.ROS通信机制/2.1.话题通信/demo03_ws/install
-
-Name: plumbing_test
-Description: Description of plumbing_test
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

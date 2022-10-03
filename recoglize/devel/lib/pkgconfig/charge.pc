@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/recoglize/devel
+
+Name: charge
+Description: Description of charge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

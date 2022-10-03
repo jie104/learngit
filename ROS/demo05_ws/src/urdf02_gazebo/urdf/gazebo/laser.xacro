@@ -5,14 +5,15 @@
     <sensor type="ray" name="rplidar">   <!--雷达类型-->
       <pose>0 0 0 0 0 0</pose>      <!--雷达偏移量-->
       <visualize>true</visualize>   <!--gazebo上是否显示雷达射线-->
-      <update_rate>5.5</update_rate>    <!--雷达频率-->
+      <update_rate>20</update_rate>    <!--雷达频率-->
       <ray>
         <scan>
           <horizontal>
-            <samples>360</samples>      <!--雷达一帧的点数-->
-            <resolution>1</resolution>  <!--角度分辨率-->
-            <min_angle>-3</min_angle>   <!--扫描角度最小值，弧度制-->
-            <max_angle>3</max_angle>    <!--扫描角度最大值，弧度制-->
+          <!-- 每帧的点云数量=sample*resolution -->
+            <samples>18000</samples>      
+            <resolution>0.1</resolution>  <!--角度分辨率,角度制-->
+            <min_angle>-1.57</min_angle>   <!--扫描角度最小值，弧度制-->
+            <max_angle>1.57</max_angle>    <!--扫描角度最大值，弧度制-->
           </horizontal>
         </scan>
         <range>

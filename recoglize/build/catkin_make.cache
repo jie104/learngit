@@ -1,0 +1,2 @@
+charge:deviation_recognize
+-DCATKIN_DEVEL_PREFIX=/home/zxj/workspace/obstacle_and_filter/recoglize/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/workspace/obstacle_and_filter/recoglize/install -G Unix Makefiles

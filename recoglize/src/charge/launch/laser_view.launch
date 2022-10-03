@@ -1,0 +1,9 @@
+<launch> 
+  <node pkg="rosbag" type="play" name="player"  args="--clock /home/zxj/data/sim/laser_sim_2.bag"/>
+  <!-- 注意这里bag文件的路径必须为绝对路径-->
+
+ <!--name:节点名称，pkg：功能包名称，type:所运行的节点名（C++文件）-->
+  <node name="deviation_node" pkg="charge" type="main1"  output="screen" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find charge)/rviz/laser_view.rviz" />
+
+</launch>
