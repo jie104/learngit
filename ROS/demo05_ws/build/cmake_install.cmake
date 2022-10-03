@@ -131,6 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/zxj/桌面/learngit/ROS/demo05_ws/build/gtest/cmake_install.cmake")
+  include("/home/zxj/桌面/learngit/ROS/demo05_ws/build/nav_demo/cmake_install.cmake")
+  include("/home/zxj/桌面/learngit/ROS/demo05_ws/build/urdf01_rviz/cmake_install.cmake")
+  include("/home/zxj/桌面/learngit/ROS/demo05_ws/build/urdf02_gazebo/cmake_install.cmake")
 
 endif()
 

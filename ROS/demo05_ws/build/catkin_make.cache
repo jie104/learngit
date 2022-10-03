@@ -1,2 +1,2 @@
-
+nav_demo:urdf01_rviz:urdf02_gazebo
 -DCATKIN_DEVEL_PREFIX=/home/zxj/桌面/learngit/ROS/demo05_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/桌面/learngit/ROS/demo05_ws/install -G Unix Makefiles

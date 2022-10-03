@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/recoglize/devel
+
+Name: deviation_recognize
+Description: Description of deviation_recognize
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

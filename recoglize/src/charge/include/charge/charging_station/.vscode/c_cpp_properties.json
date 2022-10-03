@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/shj/sorb/test/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/shj/selfwork/vins_mono/src/VINS-Mono-master/camera_model/include/**",
+        "/home/shj/selfwork/recoglize/src/charge/include/**",
+        "/home/shj/sorb/test/src/demo4/include/**",
+        "/home/shj/sorb/test/src/demo5/include/**",
+        "/home/shj/sorb/test/src/demo6/include/**",
+        "/home/shj/sorb/test/src/demo7/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
