@@ -67,14 +67,14 @@ set(pepperl_fuchs_r2000_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(pepperl_fuchs_r2000_SOURCE_PREFIX /home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000)
-  set(pepperl_fuchs_r2000_DEVEL_PREFIX /home/zxj/桌面/learngit/standard_lidar4_ws/devel)
+  set(pepperl_fuchs_r2000_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000)
+  set(pepperl_fuchs_r2000_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel)
   set(pepperl_fuchs_r2000_INSTALL_PREFIX "")
   set(pepperl_fuchs_r2000_PREFIX ${pepperl_fuchs_r2000_DEVEL_PREFIX})
 else()
   set(pepperl_fuchs_r2000_SOURCE_PREFIX "")
   set(pepperl_fuchs_r2000_DEVEL_PREFIX "")
-  set(pepperl_fuchs_r2000_INSTALL_PREFIX /home/zxj/桌面/learngit/standard_lidar4_ws/install)
+  set(pepperl_fuchs_r2000_INSTALL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install)
   set(pepperl_fuchs_r2000_PREFIX ${pepperl_fuchs_r2000_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(pepperl_fuchs_r2000_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include;/usr/include " STREQUAL " ")
+if(NOT "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include;/usr/include " STREQUAL " ")
   set(pepperl_fuchs_r2000_INCLUDE_DIRS "")
-  set(_include_dirs "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include;/usr/include")
+  set(_include_dirs "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include;/usr/include")
   if(NOT "https://github.com/dillenberger/pepperl_fuchs/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/dillenberger/pepperl_fuchs/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/pepperl_fuchs_r2000 " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_f
         message(FATAL_ERROR "Project 'pepperl_fuchs_r2000' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'pepperl_fuchs_r2000' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'pepperl_fuchs_r2000' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/${idir}'.  ${_report}")
     endif()
     _list_append_unique(pepperl_fuchs_r2000_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/桌面/learngit/standard_lidar4_ws/devel/lib;/home/zxj/catkin_ws/devel/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib;/home/zxj/catkin_ws/devel/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
         auto t2 = std::chrono::high_resolution_clock::now();
         ///  消耗 0.178529 s
         if (receiver.getScan(scan)) {
-            LOG(INFO) << "get scan!";
+            // LOG(INFO) << "get scan!";
         }
         auto t22 = std::chrono::high_resolution_clock::now();
         auto elased_time2 = std::chrono::duration_cast<std::chrono::nanoseconds>(t22 - t2).count()/1.0e9;

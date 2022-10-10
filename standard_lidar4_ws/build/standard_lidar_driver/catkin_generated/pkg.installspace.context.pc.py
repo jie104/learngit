@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs;tf".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "standard_lidar_driver"
-PROJECT_SPACE_DIR = "/home/zxj/桌面/learngit/standard_lidar4_ws/install"
+PROJECT_SPACE_DIR = "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install"
 PROJECT_VERSION = "0.0.0"

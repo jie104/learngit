@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
         std::shared_ptr<ScanMsg> scan; // 指向 ScanMsg类型的。
         auto t2 = std::chrono::high_resolution_clock::now();
         if (receiver.getScan(scan)) {
-            LOG(INFO) << "get scan!";
+            // LOG(INFO) << "get scan!";
         }
         auto t22 = std::chrono::high_resolution_clock::now();
         auto elased_time2 = std::chrono::duration_cast<std::chrono::nanoseconds>(t22 - t2).count()/1.0e9;

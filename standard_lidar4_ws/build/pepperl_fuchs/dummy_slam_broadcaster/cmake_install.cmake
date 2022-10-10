@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/dummy_slam_broadcaster
+# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/dummy_slam_broadcaster
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/standard_lidar4_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/build/pepperl_fuchs/dummy_slam_broadcaster/catkin_generated/installspace/dummy_slam_broadcaster.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/pepperl_fuchs/dummy_slam_broadcaster/catkin_generated/installspace/dummy_slam_broadcaster.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dummy_slam_broadcaster/cmake" TYPE FILE FILES
-    "/home/zxj/桌面/learngit/standard_lidar4_ws/build/pepperl_fuchs/dummy_slam_broadcaster/catkin_generated/installspace/dummy_slam_broadcasterConfig.cmake"
-    "/home/zxj/桌面/learngit/standard_lidar4_ws/build/pepperl_fuchs/dummy_slam_broadcaster/catkin_generated/installspace/dummy_slam_broadcasterConfig-version.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/pepperl_fuchs/dummy_slam_broadcaster/catkin_generated/installspace/dummy_slam_broadcasterConfig.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/pepperl_fuchs/dummy_slam_broadcaster/catkin_generated/installspace/dummy_slam_broadcasterConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dummy_slam_broadcaster" TYPE FILE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/dummy_slam_broadcaster/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dummy_slam_broadcaster" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/dummy_slam_broadcaster/package.xml")
 endif()
 

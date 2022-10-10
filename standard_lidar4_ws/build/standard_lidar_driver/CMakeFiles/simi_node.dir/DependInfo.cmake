@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive2_node2.cpp" "/home/zxj/桌面/learngit/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o"
+  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive2_node2.cpp" "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

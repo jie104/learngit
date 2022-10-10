@@ -1,0 +1,30 @@
+<launch>
+  <!-- <include file = "$(find pepperl_fuchs_r2000)/launch/r2000.launch" /> -->
+
+
+   <!-- <include file = "$(find pepperl_fuchs_r2000)/launch/r2000.launch" /> 倍加福雷达 -->
+  <!-- name:节点名称，pkg：功能包名称，type:所运行的节点名（C++文件） -->
+  <!-- <node name="SIMI" pkg="standard_lidar_driver" type="simi_node"  output="screen" /> -->  <!--星秒雷达-->
+  <!-- <node name="WANJI" pkg="standard_lidar_driver" type="wanji_node"  output="screen" /> -->   <!--万集雷达-->
+   <!-- <node name="ORADAR" pkg="standard_lidar_driver" type="oradar_node"  />   奥锐达雷达 -->
+  
+  <node name="player" pkg="rosbag" type="play" args="--clock /home/zxj/data/lidar_detect/pepperl_oradar1.bag -l" />
+  <node name="lowcost_lidar" pkg="lidar_inspect" type="Lidar_RangeError_ave"  output="screen" >
+    <param name = "LowCostTopic" type="string" value = "/ORADAR/orad_scan" />   <!--传感器话题-->
+    <param name = "Max_num_" type="int" value = "500" />    <!--循环次数-->
+  </node>
+
+    <!--pepperl & lowcost-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find standard_lidar_driver)/rviz/pepperl_oradar.rviz" />
+</launch>
+
+ 
+
+
+
+
+
+
+
+
+

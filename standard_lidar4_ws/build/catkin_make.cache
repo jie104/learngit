@@ -1,2 +1,2 @@
-pepperl_fuchs/dummy_slam_broadcaster:pepperl_fuchs/pepperl_fuchs_r2000:standard_lidar_driver
--DCATKIN_DEVEL_PREFIX=/home/zxj/桌面/learngit/standard_lidar4_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/桌面/learngit/standard_lidar4_ws/install -G Unix Makefiles
+lidar_inspect:pepperl_fuchs/dummy_slam_broadcaster:pepperl_fuchs/pepperl_fuchs_r2000:standard_lidar_driver
+-DCATKIN_DEVEL_PREFIX=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install -G Unix Makefiles

@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/learngit/standard_lidar4_ws/install
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install
 
 Name: pepperl_fuchs_r2000
 Description: Description of pepperl_fuchs_r2000

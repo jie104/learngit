@@ -1,0 +1,15 @@
+<launch>
+  <include file = "$(find pepperl_fuchs_r2000)/launch/r2000.launch" />
+  <!-- name:节点名称，pkg：功能包名称，type:所运行的节点名（C++文件） -->
+  <!-- <node name="SIMI" pkg="standard_lidar_driver" type="simi_node"  output="screen" /> -->
+  <!-- <node name="WANJI" pkg="standard_lidar_driver" type="wanji_node"  output="screen" /> -->
+  <node name="ORADAR" pkg="standard_lidar_driver" type="oradar_node"  output="screen" /> 
+
+<!-- RVIZ -->
+  <!--pepperl & SIMI-->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find standard_lidar_driver)/rviz/pepperl_simi.rviz" /> -->
+
+  <!--pepperl & AORADAR-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find standard_lidar_driver)/rviz/lidar_interaction.rviz" />
+
+</launch>
