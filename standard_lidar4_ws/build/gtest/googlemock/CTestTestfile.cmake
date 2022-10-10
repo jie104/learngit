@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/zxj/桌面/learngit/standard_lidar4_ws/build/gtest/googlemock
+# Build directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

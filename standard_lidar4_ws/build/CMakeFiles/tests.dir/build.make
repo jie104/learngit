@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/zxj/桌面/learngit/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/standard_lidar4_ws/src /home/zxj/桌面/learngit/standard_lidar4_ws/src /home/zxj/桌面/learngit/standard_lidar4_ws/build /home/zxj/桌面/learngit/standard_lidar4_ws/build /home/zxj/桌面/learngit/standard_lidar4_ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/learngit/standard_lidar4_ws/install
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install
 
 Name: dummy_slam_broadcaster
 Description: Description of dummy_slam_broadcaster

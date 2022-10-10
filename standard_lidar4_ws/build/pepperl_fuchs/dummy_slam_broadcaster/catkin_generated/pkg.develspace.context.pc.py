@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "dummy_slam_broadcaster"
-PROJECT_SPACE_DIR = "/home/zxj/桌面/learngit/standard_lidar4_ws/devel"
+PROJECT_SPACE_DIR = "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel"
 PROJECT_VERSION = "0.1.3"

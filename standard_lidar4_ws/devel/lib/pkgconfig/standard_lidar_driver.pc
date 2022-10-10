@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/learngit/standard_lidar4_ws/devel
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel
 
 Name: standard_lidar_driver
 Description: Description of standard_lidar_driver

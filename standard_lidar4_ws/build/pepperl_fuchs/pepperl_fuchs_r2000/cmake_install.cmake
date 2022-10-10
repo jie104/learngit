@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000
+# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/standard_lidar4_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/build/pepperl_fuchs/pepperl_fuchs_r2000/catkin_generated/installspace/pepperl_fuchs_r2000.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/pepperl_fuchs/pepperl_fuchs_r2000/catkin_generated/installspace/pepperl_fuchs_r2000.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000/cmake" TYPE FILE FILES
-    "/home/zxj/桌面/learngit/standard_lidar4_ws/build/pepperl_fuchs/pepperl_fuchs_r2000/catkin_generated/installspace/pepperl_fuchs_r2000Config.cmake"
-    "/home/zxj/桌面/learngit/standard_lidar4_ws/build/pepperl_fuchs/pepperl_fuchs_r2000/catkin_generated/installspace/pepperl_fuchs_r2000Config-version.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/pepperl_fuchs/pepperl_fuchs_r2000/catkin_generated/installspace/pepperl_fuchs_r2000Config.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/pepperl_fuchs/pepperl_fuchs_r2000/catkin_generated/installspace/pepperl_fuchs_r2000Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000" TYPE FILE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libr2000_driver.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/devel/lib/libr2000_driver.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/libr2000_driver.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libr2000_driver.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libr2000_driver.so")
     file(RPATH_CHANGE
@@ -82,12 +82,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/r2000_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000" TYPE EXECUTABLE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/r2000_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000" TYPE EXECUTABLE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/r2000_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/r2000_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/r2000_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/r2000_node"
-         OLD_RPATH "/home/zxj/桌面/learngit/standard_lidar4_ws/devel/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/r2000_node")
@@ -102,12 +102,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/driver_example"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000" TYPE EXECUTABLE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/driver_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000" TYPE EXECUTABLE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/driver_example")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/driver_example" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/driver_example")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/driver_example"
-         OLD_RPATH "/home/zxj/桌面/learngit/standard_lidar4_ws/devel/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pepperl_fuchs_r2000/driver_example")
@@ -116,14 +116,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pepperl_fuchs_r2000" TYPE DIRECTORY FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include/pepperl_fuchs_r2000/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pepperl_fuchs_r2000" TYPE DIRECTORY FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include/pepperl_fuchs_r2000/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000/launch" TYPE FILE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/launch/r2000.launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000/launch" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/launch/r2000.launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000/rviz" TYPE FILE FILES "/home/zxj/桌面/learngit/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/rviz/rviz.rviz")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepperl_fuchs_r2000/rviz" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/rviz/rviz.rviz")
 endif()
 
