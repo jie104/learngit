@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/statement.dir/statement.cpp.o  -o statement 

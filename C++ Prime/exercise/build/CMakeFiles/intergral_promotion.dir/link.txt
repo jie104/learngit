@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/intergral_promotion.dir/intergral_promotion.cpp.o  -o intergral_promotion 
