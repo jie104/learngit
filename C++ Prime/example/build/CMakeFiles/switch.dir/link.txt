@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/switch.dir/switch.cpp.o  -o switch 
