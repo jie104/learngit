@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/use_Sales_data.dir/use_Sales_data.cpp.o -o use_Sales_data 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/Study/C++ Prime/example/switch.cpp" "/home/zxj/桌面/Study/C++ Prime/example/build/CMakeFiles/switch.dir/switch.cpp.o"
+  "/home/zxj/桌面/learngit/C++ Prime/example/switch.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/build/CMakeFiles/switch.dir/switch.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

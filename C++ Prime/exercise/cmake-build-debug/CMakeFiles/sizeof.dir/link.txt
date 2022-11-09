@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/sizeof.dir/sizeof.cpp.o -o sizeof 
