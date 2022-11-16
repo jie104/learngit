@@ -58,10 +58,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zxj/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/zxj/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zxj/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/zxj/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -128,6 +128,45 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named local_object
+
+# Build rule for target.
+local_object: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 local_object
+.PHONY : local_object
+
+# fast build rule for target.
+local_object/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/build
+.PHONY : local_object/fast
+
+#=============================================================================
+# Target rules for targets named function_base
+
+# Build rule for target.
+function_base: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function_base
+.PHONY : function_base
+
+# fast build rule for target.
+function_base/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/build
+.PHONY : function_base/fast
+
+#=============================================================================
+# Target rules for targets named exception
+
+# Build rule for target.
+exception: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exception
+.PHONY : exception
+
+# fast build rule for target.
+exception/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/build
+.PHONY : exception/fast
 
 #=============================================================================
 # Target rules for targets named switch
@@ -298,6 +337,60 @@ comma_operator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_operator.dir/build.make CMakeFiles/comma_operator.dir/build
 .PHONY : comma_operator/fast
 
+6-function/function_base.o: 6-function/function_base.cpp.o
+
+.PHONY : 6-function/function_base.o
+
+# target to build an object file
+6-function/function_base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/6-function/function_base.cpp.o
+.PHONY : 6-function/function_base.cpp.o
+
+6-function/function_base.i: 6-function/function_base.cpp.i
+
+.PHONY : 6-function/function_base.i
+
+# target to preprocess a source file
+6-function/function_base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/6-function/function_base.cpp.i
+.PHONY : 6-function/function_base.cpp.i
+
+6-function/function_base.s: 6-function/function_base.cpp.s
+
+.PHONY : 6-function/function_base.s
+
+# target to generate assembly for a file
+6-function/function_base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/6-function/function_base.cpp.s
+.PHONY : 6-function/function_base.cpp.s
+
+6-function/local_object.o: 6-function/local_object.cpp.o
+
+.PHONY : 6-function/local_object.o
+
+# target to build an object file
+6-function/local_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/6-function/local_object.cpp.o
+.PHONY : 6-function/local_object.cpp.o
+
+6-function/local_object.i: 6-function/local_object.cpp.i
+
+.PHONY : 6-function/local_object.i
+
+# target to preprocess a source file
+6-function/local_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/6-function/local_object.cpp.i
+.PHONY : 6-function/local_object.cpp.i
+
+6-function/local_object.s: 6-function/local_object.cpp.s
+
+.PHONY : 6-function/local_object.s
+
+# target to generate assembly for a file
+6-function/local_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/6-function/local_object.cpp.s
+.PHONY : 6-function/local_object.cpp.s
+
 Vector.o: Vector.cpp.o
 
 .PHONY : Vector.o
@@ -405,6 +498,33 @@ example_13.s: example_13.cpp.s
 example_13.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_13.dir/build.make CMakeFiles/example_13.dir/example_13.cpp.s
 .PHONY : example_13.cpp.s
+
+exception.o: exception.cpp.o
+
+.PHONY : exception.o
+
+# target to build an object file
+exception.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.o
+.PHONY : exception.cpp.o
+
+exception.i: exception.cpp.i
+
+.PHONY : exception.i
+
+# target to preprocess a source file
+exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.i
+.PHONY : exception.cpp.i
+
+exception.s: exception.cpp.s
+
+.PHONY : exception.s
+
+# target to generate assembly for a file
+exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.s
+.PHONY : exception.cpp.s
 
 expression.o: expression.cpp.o
 
@@ -661,15 +781,24 @@ help:
 	@echo "... comma_operator"
 	@echo "... eigen"
 	@echo "... example_13"
+	@echo "... exception"
 	@echo "... expression"
+	@echo "... function_base"
 	@echo "... implicit_convert"
 	@echo "... inbuilt_array2"
 	@echo "... intergral_promotion"
 	@echo "... iterator"
 	@echo "... iterator1"
+	@echo "... local_object"
 	@echo "... statement"
 	@echo "... string"
 	@echo "... switch"
+	@echo "... 6-function/function_base.o"
+	@echo "... 6-function/function_base.i"
+	@echo "... 6-function/function_base.s"
+	@echo "... 6-function/local_object.o"
+	@echo "... 6-function/local_object.i"
+	@echo "... 6-function/local_object.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"
@@ -682,6 +811,9 @@ help:
 	@echo "... example_13.o"
 	@echo "... example_13.i"
 	@echo "... example_13.s"
+	@echo "... exception.o"
+	@echo "... exception.i"
+	@echo "... exception.s"
 	@echo "... expression.o"
 	@echo "... expression.i"
 	@echo "... expression.s"

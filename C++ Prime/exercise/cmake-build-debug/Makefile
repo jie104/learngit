@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,240 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Vector
+
+# Build rule for target.
+Vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector
+.PHONY : Vector
+
+# fast build rule for target.
+Vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
+.PHONY : Vector/fast
+
+#=============================================================================
+# Target rules for targets named string1
+
+# Build rule for target.
+string1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string1
+.PHONY : string1
+
+# fast build rule for target.
+string1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/build
+.PHONY : string1/fast
+
+#=============================================================================
+# Target rules for targets named use_Sales_data
+
+# Build rule for target.
+use_Sales_data: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 use_Sales_data
+.PHONY : use_Sales_data
+
+# fast build rule for target.
+use_Sales_data/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/use_Sales_data.dir/build.make CMakeFiles/use_Sales_data.dir/build
+.PHONY : use_Sales_data/fast
+
+#=============================================================================
+# Target rules for targets named exercise4
+
+# Build rule for target.
+exercise4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise4
+.PHONY : exercise4
+
+# fast build rule for target.
+exercise4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise4.dir/build.make CMakeFiles/exercise4.dir/build
+.PHONY : exercise4/fast
+
+#=============================================================================
+# Target rules for targets named exercise5
+
+# Build rule for target.
+exercise5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise5
+.PHONY : exercise5
+
+# fast build rule for target.
+exercise5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise5.dir/build.make CMakeFiles/exercise5.dir/build
+.PHONY : exercise5/fast
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
+
+#=============================================================================
+# Target rules for targets named iterator2
+
+# Build rule for target.
+iterator2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator2
+.PHONY : iterator2
+
+# fast build rule for target.
+iterator2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator2.dir/build.make CMakeFiles/iterator2.dir/build
+.PHONY : iterator2/fast
+
+#=============================================================================
+# Target rules for targets named exercise_2.5.3
+
+# Build rule for target.
+exercise_2.5.3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise_2.5.3
+.PHONY : exercise_2.5.3
+
+# fast build rule for target.
+exercise_2.5.3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise_2.5.3.dir/build.make CMakeFiles/exercise_2.5.3.dir/build
+.PHONY : exercise_2.5.3/fast
+
+#=============================================================================
+# Target rules for targets named exercise2
+
+# Build rule for target.
+exercise2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise2
+.PHONY : exercise2
+
+# fast build rule for target.
+exercise2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
+.PHONY : exercise2/fast
+
+#=============================================================================
+# Target rules for targets named exercise3
+
+# Build rule for target.
+exercise3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise3
+.PHONY : exercise3
+
+# fast build rule for target.
+exercise3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
+.PHONY : exercise3/fast
+
+#=============================================================================
+# Target rules for targets named inbuilt_array
+
+# Build rule for target.
+inbuilt_array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array
+.PHONY : inbuilt_array
+
+# fast build rule for target.
+inbuilt_array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array.dir/build.make CMakeFiles/inbuilt_array.dir/build
+.PHONY : inbuilt_array/fast
+
+#=============================================================================
+# Target rules for targets named iterator
+
+# Build rule for target.
+iterator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator
+.PHONY : iterator
+
+# fast build rule for target.
+iterator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
+.PHONY : iterator/fast
+
+#=============================================================================
+# Target rules for targets named iterator1
+
+# Build rule for target.
+iterator1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator1
+.PHONY : iterator1
+
+# fast build rule for target.
+iterator1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator1.dir/build.make CMakeFiles/iterator1.dir/build
+.PHONY : iterator1/fast
+
+#=============================================================================
+# Target rules for targets named inbuilt_array1
+
+# Build rule for target.
+inbuilt_array1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array1
+.PHONY : inbuilt_array1
+
+# fast build rule for target.
+inbuilt_array1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array1.dir/build.make CMakeFiles/inbuilt_array1.dir/build
+.PHONY : inbuilt_array1/fast
+
+#=============================================================================
+# Target rules for targets named intergral_promotion
+
+# Build rule for target.
+intergral_promotion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intergral_promotion
+.PHONY : intergral_promotion
+
+# fast build rule for target.
+intergral_promotion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/intergral_promotion.dir/build.make CMakeFiles/intergral_promotion.dir/build
+.PHONY : intergral_promotion/fast
+
+#=============================================================================
+# Target rules for targets named inbuilt_array2
+
+# Build rule for target.
+inbuilt_array2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array2
+.PHONY : inbuilt_array2
+
+# fast build rule for target.
+inbuilt_array2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array2.dir/build.make CMakeFiles/inbuilt_array2.dir/build
+.PHONY : inbuilt_array2/fast
+
+#=============================================================================
+# Target rules for targets named sizeof
+
+# Build rule for target.
+sizeof: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeof
+.PHONY : sizeof
+
+# fast build rule for target.
+sizeof/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
+.PHONY : sizeof/fast
+
+#=============================================================================
 # Target rules for targets named switch
 
 # Build rule for target.
@@ -156,238 +390,17 @@ expression/fast:
 .PHONY : expression/fast
 
 #=============================================================================
-# Target rules for targets named sizeof
+# Target rules for targets named exception
 
 # Build rule for target.
-sizeof: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeof
-.PHONY : sizeof
+exception: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exception
+.PHONY : exception
 
 # fast build rule for target.
-sizeof/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof.dir/build.make CMakeFiles/sizeof.dir/build
-.PHONY : sizeof/fast
-
-#=============================================================================
-# Target rules for targets named inbuilt_array2
-
-# Build rule for target.
-inbuilt_array2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array2
-.PHONY : inbuilt_array2
-
-# fast build rule for target.
-inbuilt_array2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array2.dir/build.make CMakeFiles/inbuilt_array2.dir/build
-.PHONY : inbuilt_array2/fast
-
-#=============================================================================
-# Target rules for targets named intergral_promotion
-
-# Build rule for target.
-intergral_promotion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intergral_promotion
-.PHONY : intergral_promotion
-
-# fast build rule for target.
-intergral_promotion/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/intergral_promotion.dir/build.make CMakeFiles/intergral_promotion.dir/build
-.PHONY : intergral_promotion/fast
-
-#=============================================================================
-# Target rules for targets named inbuilt_array1
-
-# Build rule for target.
-inbuilt_array1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array1
-.PHONY : inbuilt_array1
-
-# fast build rule for target.
-inbuilt_array1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array1.dir/build.make CMakeFiles/inbuilt_array1.dir/build
-.PHONY : inbuilt_array1/fast
-
-#=============================================================================
-# Target rules for targets named iterator1
-
-# Build rule for target.
-iterator1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator1
-.PHONY : iterator1
-
-# fast build rule for target.
-iterator1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator1.dir/build.make CMakeFiles/iterator1.dir/build
-.PHONY : iterator1/fast
-
-#=============================================================================
-# Target rules for targets named iterator
-
-# Build rule for target.
-iterator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator
-.PHONY : iterator
-
-# fast build rule for target.
-iterator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
-.PHONY : iterator/fast
-
-#=============================================================================
-# Target rules for targets named inbuilt_array
-
-# Build rule for target.
-inbuilt_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array
-.PHONY : inbuilt_array
-
-# fast build rule for target.
-inbuilt_array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array.dir/build.make CMakeFiles/inbuilt_array.dir/build
-.PHONY : inbuilt_array/fast
-
-#=============================================================================
-# Target rules for targets named exercise3
-
-# Build rule for target.
-exercise3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise3
-.PHONY : exercise3
-
-# fast build rule for target.
-exercise3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
-.PHONY : exercise3/fast
-
-#=============================================================================
-# Target rules for targets named exercise2
-
-# Build rule for target.
-exercise2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise2
-.PHONY : exercise2
-
-# fast build rule for target.
-exercise2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
-.PHONY : exercise2/fast
-
-#=============================================================================
-# Target rules for targets named exercise_2.5.3
-
-# Build rule for target.
-exercise_2.5.3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise_2.5.3
-.PHONY : exercise_2.5.3
-
-# fast build rule for target.
-exercise_2.5.3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise_2.5.3.dir/build.make CMakeFiles/exercise_2.5.3.dir/build
-.PHONY : exercise_2.5.3/fast
-
-#=============================================================================
-# Target rules for targets named iterator2
-
-# Build rule for target.
-iterator2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator2
-.PHONY : iterator2
-
-# fast build rule for target.
-iterator2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator2.dir/build.make CMakeFiles/iterator2.dir/build
-.PHONY : iterator2/fast
-
-#=============================================================================
-# Target rules for targets named string
-
-# Build rule for target.
-string: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string
-.PHONY : string
-
-# fast build rule for target.
-string/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
-.PHONY : string/fast
-
-#=============================================================================
-# Target rules for targets named 1
-
-# Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
-.PHONY : 1
-
-# fast build rule for target.
-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
-
-#=============================================================================
-# Target rules for targets named exercise5
-
-# Build rule for target.
-exercise5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise5
-.PHONY : exercise5
-
-# fast build rule for target.
-exercise5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise5.dir/build.make CMakeFiles/exercise5.dir/build
-.PHONY : exercise5/fast
-
-#=============================================================================
-# Target rules for targets named exercise4
-
-# Build rule for target.
-exercise4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise4
-.PHONY : exercise4
-
-# fast build rule for target.
-exercise4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise4.dir/build.make CMakeFiles/exercise4.dir/build
-.PHONY : exercise4/fast
-
-#=============================================================================
-# Target rules for targets named use_Sales_data
-
-# Build rule for target.
-use_Sales_data: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 use_Sales_data
-.PHONY : use_Sales_data
-
-# fast build rule for target.
-use_Sales_data/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/use_Sales_data.dir/build.make CMakeFiles/use_Sales_data.dir/build
-.PHONY : use_Sales_data/fast
-
-#=============================================================================
-# Target rules for targets named string1
-
-# Build rule for target.
-string1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string1
-.PHONY : string1
-
-# fast build rule for target.
-string1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/build
-.PHONY : string1/fast
-
-#=============================================================================
-# Target rules for targets named Vector
-
-# Build rule for target.
-Vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector
-.PHONY : Vector
-
-# fast build rule for target.
-Vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
-.PHONY : Vector/fast
+exception/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/build
+.PHONY : exception/fast
 
 1.o: 1.cpp.o
 
@@ -442,6 +455,33 @@ Vector.s: Vector.cpp.s
 Vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/Vector.cpp.s
 .PHONY : Vector.cpp.s
+
+exception.o: exception.cpp.o
+
+.PHONY : exception.o
+
+# target to build an object file
+exception.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.o
+.PHONY : exception.cpp.o
+
+exception.i: exception.cpp.i
+
+.PHONY : exception.i
+
+# target to preprocess a source file
+exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.i
+.PHONY : exception.cpp.i
+
+exception.s: exception.cpp.s
+
+.PHONY : exception.s
+
+# target to generate assembly for a file
+exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.s
+.PHONY : exception.cpp.s
 
 exercise2.o: exercise2.cpp.o
 
@@ -939,6 +979,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 1"
 	@echo "... Vector"
+	@echo "... exception"
 	@echo "... exercise2"
 	@echo "... exercise3"
 	@echo "... exercise4"
@@ -963,6 +1004,9 @@ help:
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"
+	@echo "... exception.o"
+	@echo "... exception.i"
+	@echo "... exception.s"
 	@echo "... exercise2.o"
 	@echo "... exercise2.i"
 	@echo "... exercise2.s"

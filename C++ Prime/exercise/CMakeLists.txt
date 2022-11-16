@@ -30,6 +30,7 @@ add_executable(expression expression.cpp)
 add_executable(sizeof sizeof.cpp)
 add_executable(intergral_promotion intergral_promotion.cpp)
 add_executable(switch switch.cpp)
+add_executable(exception exception.cpp)
 
 
 #将目标库链接到可执行目标

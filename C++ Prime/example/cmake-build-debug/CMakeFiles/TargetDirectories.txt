@@ -1,3 +1,6 @@
+/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/local_object.dir
+/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/function_base.dir
+/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/exception.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/switch.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/statement.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/implicit_convert.dir

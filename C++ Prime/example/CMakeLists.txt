@@ -29,7 +29,10 @@ add_executable(intergral_promotion intergral_promotion.cpp)
 add_executable(implicit_convert implicit_convert.cpp)
 add_executable(statement statement.cpp)
 add_executable(switch switch.cpp)
+add_executable(exception exception.cpp)
+add_executable(function_base 6-function/function_base.cpp)
 
+add_executable(local_object 6-function/local_object.cpp)
 # add_executable(decltype decltype.cpp)
 
 #add_dependencies(head_src ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
