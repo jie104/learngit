@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b58c50e3-4ed6-4771-87c7-d37198482486" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/C___Prime.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/C___Prime" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/C___Prime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/C___Prime.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/C___Prime.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/Vector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/Vector.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/comma_operator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/comma_operator.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/eigen.dir/eigen.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/example_13.dir/example_13.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/expression.dir/expression.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/implicit_convert.dir/implicit_convert.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/inbuilt_array2.dir/inbuilt_array2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/intergral_promotion.dir/intergral_promotion.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator.dir/iterator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/iterator1.dir/iterator1.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/statement.dir/statement.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/string.dir/string.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/CMakeFiles/switch.dir/switch.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/Vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++ Prime/example/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/comma_operator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/eigen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/example_13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/expression" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/implicit_convert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/inbuilt_array2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/intergral_promotion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/iterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/iterator1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/statement" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/string" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++ Prime/example/build/switch" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2HASQfWXzehqMp3r3G9QJBL7XPT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo_ws" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b58c50e3-4ed6-4771-87c7-d37198482486" name="Default Changelist" comment="" />
+      <created>1667726379319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667726379319</updated>
+      <workItem from="1667726380535" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

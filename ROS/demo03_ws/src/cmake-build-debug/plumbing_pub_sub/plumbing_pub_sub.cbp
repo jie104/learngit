@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="plumbing_pub_sub"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\cpp_common\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_runtime\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rostime\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rostime\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosconsole\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_msgs\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rospy\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rospy\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_generation\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_generation\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gencpp\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geneus\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geneus\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genlisp\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gennodejs\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genpy\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genpy\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\turtlesim\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\turtlesim\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_srvs\;CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\python3\;CMake Files\..\..\..\..\..\..\..\usr\lib\python3\dist-packages\;CMake Files\..\..\..\..\..\..\..\usr\lib\python3\dist-packages\catkin_pkg\;CMake Files\..\..\..\..\..\..\..\usr\lib\python3\dist-packages\catkin_pkg\templates\;CMake Files\..\..\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;CMake Files\cmake-build-debug\plumbing_my\;CMake Files\cmake-build-debug\plumbing_my\catkin_generated\;CMake Files\cmake-build-debug\plumbing_head\;CMake Files\cmake-build-debug\plumbing_head\catkin_generated\;CMake Files\cmake-build-debug\plumbing_head_src\;CMake Files\cmake-build-debug\plumbing_head_src\catkin_generated\;CMake Files\cmake-build-debug\plumbing_param_server\;CMake Files\cmake-build-debug\plumbing_param_server\catkin_generated\;CMake Files\cmake-build-debug\plumbing_pub_sub\;CMake Files\cmake-build-debug\plumbing_pub_sub\catkin_generated\;CMake Files\cmake-build-debug\plumbing_pub_sub\cmake\;CMake Files\cmake-build-debug\devel\;CMake Files\cmake-build-debug\devel\share\;CMake Files\cmake-build-debug\devel\share\plumbing_pub_sub\;CMake Files\cmake-build-debug\devel\share\plumbing_pub_sub\cmake\;CMake Files\cmake-build-debug\devel\share\plumbing_service_client\;CMake Files\cmake-build-debug\devel\share\plumbing_service_client\cmake\;CMake Files\cmake-build-debug\plumbing_service_client\;CMake Files\cmake-build-debug\plumbing_service_client\catkin_generated\;CMake Files\cmake-build-debug\plumbing_service_client\cmake\;CMake Files\cmake-build-debug\launch01_basic\;CMake Files\cmake-build-debug\launch01_basic\catkin_generated\;CMake Files\cmake-build-debug\plumbing_test\;CMake Files\cmake-build-debug\plumbing_test\catkin_generated\;CMake Files\plumbing_my\;CMake Files\plumbing_head\;CMake Files\plumbing_head_src\;CMake Files\plumbing_param_server\;CMake Files\plumbing_pub_sub\;CMake Files\plumbing_service_client\;CMake Files\launch01_basic\;CMake Files\plumbing_test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_generate_messages_nodejs">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_geneus">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_geneus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_generate_messages_eus">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_gennodejs">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_gennodejs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_generate_messages_lisp">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_plumbing_pub_sub_generate_messages_check_deps_Person">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 _plumbing_pub_sub_generate_messages_check_deps_Person"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_genpy">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_genpy"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_gencpp">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_gencpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo01_pub">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo01_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo01_pub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo01_pub/fast">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo01_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo01_pub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo04_sub_person">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo04_sub_person" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo04_sub_person"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo04_sub_person/fast">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo04_sub_person" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo04_sub_person/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo02_sub">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo02_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo02_sub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo02_sub/fast">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo02_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo02_sub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo03_pub_person">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo03_pub_person" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo03_pub_person"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo03_pub_person/fast">
+				<Option output="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub/demo03_pub_person" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/lib/plumbing_pub_sub"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;plumbing_pub_sub&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 demo03_pub_person/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_generate_messages">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_generate_messages"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_generate_messages_cpp">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_genlisp">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_genlisp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="plumbing_pub_sub_generate_messages_py">
+				<Option working_dir="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 plumbing_pub_sub_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/demo01_pub.cpp">
+			<Option target="demo01_pub"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/demo02_sub.cpp">
+			<Option target="demo02_sub"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/demo03_pub_person.cpp">
+			<Option target="demo03_pub_person"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/src/demo04_sub_person.cpp">
+			<Option target="demo04_sub_person"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/package.xml">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/all.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/assert.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkinConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_add_env_hooks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_destinations.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_generate_environment.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_install_python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_metapackage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_package.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_package_xml.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_python_setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_symlink_install.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/catkin_workspace.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/custom_install.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/debug_message.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/em_expand.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/empy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/find_program_required.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/interrogate_setup_dot_py.py">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/legacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/list_append_deduplicate.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/list_append_unique.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/stamp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/string_starts_with.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/platform/lsb.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/platform/ubuntu.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/platform/windows.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/test/catkin_download_test_data.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/test/gtest.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/test/nosetests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/test/tests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/tools/doxygen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/tools/rt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/_setup_util.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/env.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/generate_cached_setup.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/order_packages.context.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/pkg.context.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/rosinstall.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/em/order_packages.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/catkin/cmake/em/pkg.pc.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp/cmake/roscppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp/cmake/roscppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/cpp_common/cmake/cpp_commonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/message_runtime/cmake/message_runtimeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rostime/cmake/rostimeConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rostime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rostime/cmake/rostimeConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rostime\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rospy/cmake/rospyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rospy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/rospy/cmake/rospyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\rospy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/message_generation/cmake/message_generationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/message_generation/cmake/message_generationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/gencpp/cmake/gencpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/gencpp/cmake/gencppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/gencpp/cmake/gencppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/genmsgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/genmsgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/pkg-genmsg.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/pkg-genmsg.context.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/geneus/cmake/geneus-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/geneus/cmake/geneusConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/geneus/cmake/geneusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genlisp/cmake/genlisp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genlisp/cmake/genlispConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genlisp/cmake/genlispConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/gennodejs/cmake/gennodejs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/gennodejs/cmake/gennodejsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genpy/cmake/genpy-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genpy/cmake/genpyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/genpy/cmake/genpyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/turtlesim/cmake/turtlesim-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\turtlesim\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/turtlesim/cmake/turtlesimConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\turtlesim\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/turtlesim/cmake/turtlesimConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\turtlesim\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_srvs/cmake/std_srvs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_srvs/cmake/std_srvsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../opt/ros/noetic/share/std_srvs/cmake/std_srvsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\opt\ros\noetic\share\std_srvs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../usr/lib/python3/dist-packages/catkin_pkg/templates/metapackage.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\python3\dist-packages\catkin_pkg\templates\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../usr/src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\src\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../usr/src/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\src\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../usr/src/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\src\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/../../../../../../../usr/src/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\src\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/catkin/catkin_generated/version/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin\catkin_generated\version\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/catkin_generated/order_packages.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\installspace\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_my/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_my\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_head/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_head\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_head/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_head\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_head_src/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_head_src\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_head_src/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_head_src\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_param_server/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_param_server\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_param_server/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_param_server\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_pub_sub\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_pub_sub\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/catkin_generated/plumbing_pub_sub-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_pub_sub\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/catkin_generated/plumbing_pub_sub-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_pub_sub\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_pub_sub/cmake/plumbing_pub_sub-genmsg.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_pub_sub\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/share/plumbing_pub_sub/cmake/plumbing_pub_sub-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\plumbing_pub_sub\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/devel/share/plumbing_service_client/cmake/plumbing_service_client-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\plumbing_service_client\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_service_client/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_service_client\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_service_client/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_service_client\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_service_client/catkin_generated/plumbing_service_client-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_service_client\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_service_client/catkin_generated/plumbing_service_client-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_service_client\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_service_client/cmake/plumbing_service_client-genmsg.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_service_client\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/launch01_basic/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\launch01_basic\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/launch01_basic/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\launch01_basic\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_test/catkin_generated/ordered_paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_test\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/cmake-build-debug/plumbing_test/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\plumbing_test\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_my/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_my\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_my/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_my\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_head\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_head\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head_src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_head_src\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_head_src/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_head_src\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_param_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_param_server\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_param_server/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_param_server\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_pub_sub\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_pub_sub/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_pub_sub\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_service_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_service_client\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_service_client/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_service_client\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/launch01_basic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\launch01_basic\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/launch01_basic/package.xml">
+			<Option virtualFolder="CMake Files\launch01_basic\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plumbing_test\"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/ROS/demo03_ws/src/plumbing_test/package.xml">
+			<Option virtualFolder="CMake Files\plumbing_test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

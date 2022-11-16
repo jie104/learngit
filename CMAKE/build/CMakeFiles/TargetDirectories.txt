@@ -1,0 +1,3 @@
+/home/zxj/桌面/learngit/CMAKE/build/CMakeFiles/edit_cache.dir
+/home/zxj/桌面/learngit/CMAKE/build/CMakeFiles/rebuild_cache.dir
+/home/zxj/桌面/learngit/CMAKE/build/CMakeFiles/Example.dir
