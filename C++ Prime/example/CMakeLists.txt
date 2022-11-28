@@ -32,7 +32,25 @@ add_executable(switch switch.cpp)
 add_executable(exception exception.cpp)
 add_executable(function_base 6-function/function_base.cpp)
 
+
 add_executable(local_object 6-function/local_object.cpp)
+add_executable(reference_parameter reference_parameter.cpp)
+add_executable(array_form_parameter 6-function/array_form_parameter.cpp)
+
+add_executable(initializer_list 6-function/initializer_list.cpp)
+
+add_executable(array_point 6-function/array_point.cpp)
+
+#add_executable(function_overload 6-function/function_overload.cpp)
+#add_executable(special_language_feature 6-function/special_language_feature.cpp)
+
+add_executable(constexpr_function 6-function/constexpr_function.cpp)
+
+add_executable(debug_help 6-function/debug_help.cpp)
+
+add_executable(function_match 6-function/function_match.cpp)
+
+add_executable(function_pointer 6-function/function_pointer.cpp)
 # add_executable(decltype decltype.cpp)
 
 #add_dependencies(head_src ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})

@@ -1,0 +1,4 @@
+/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/zxj/桌面/learngit/producter_customer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxj/桌面/learngit/producter_customer/cmake-build-debug

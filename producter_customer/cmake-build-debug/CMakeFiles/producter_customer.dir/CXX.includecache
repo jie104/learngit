@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/producter_customer/producter_customer.cpp
+iostream
+-
+thread
+-
+vector
+-
+mutex
+-
+condition_variable
+-
+queue
+-
+unistd.h
+-
+pthread.h
+-
+

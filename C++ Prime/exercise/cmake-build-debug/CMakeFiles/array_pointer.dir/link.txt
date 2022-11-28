@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/array_pointer.dir/6-function/array_pointer.cpp.o -o array_pointer 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/zxj/桌面/Study/C++ Prime/exercise"
+CMAKE_SOURCE_DIR = "/home/zxj/桌面/learngit/C++ Prime/exercise"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/zxj/桌面/Study/C++ Prime/exercise/build"
+CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/exercise/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/Study/C++ Prime/exercise/build/CMakeFiles" "/home/zxj/桌面/Study/C++ Prime/exercise/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/exercise/build/CMakeFiles" "/home/zxj/桌面/learngit/C++ Prime/exercise/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/Study/C++ Prime/exercise/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/exercise/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named const_reference
+
+# Build rule for target.
+const_reference: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 const_reference
+.PHONY : const_reference
+
+# fast build rule for target.
+const_reference/fast:
+	$(MAKE) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/build
+.PHONY : const_reference/fast
+
+#=============================================================================
+# Target rules for targets named exception
+
+# Build rule for target.
+exception: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exception
+.PHONY : exception
+
+# fast build rule for target.
+exception/fast:
+	$(MAKE) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/build
+.PHONY : exception/fast
 
 #=============================================================================
 # Target rules for targets named intergral_promotion
@@ -161,6 +187,19 @@ inbuilt_array1: cmake_check_build_system
 inbuilt_array1/fast:
 	$(MAKE) -f CMakeFiles/inbuilt_array1.dir/build.make CMakeFiles/inbuilt_array1.dir/build
 .PHONY : inbuilt_array1/fast
+
+#=============================================================================
+# Target rules for targets named switch
+
+# Build rule for target.
+switch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 switch
+.PHONY : switch
+
+# fast build rule for target.
+switch/fast:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
+.PHONY : switch/fast
 
 #=============================================================================
 # Target rules for targets named inbuilt_array
@@ -332,6 +371,19 @@ iterator1/fast:
 .PHONY : iterator1/fast
 
 #=============================================================================
+# Target rules for targets named array_form_parameter
+
+# Build rule for target.
+array_form_parameter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array_form_parameter
+.PHONY : array_form_parameter
+
+# fast build rule for target.
+array_form_parameter/fast:
+	$(MAKE) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/build
+.PHONY : array_form_parameter/fast
+
+#=============================================================================
 # Target rules for targets named exercise2
 
 # Build rule for target.
@@ -384,6 +436,60 @@ iterator2/fast:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.s
 .PHONY : 1.cpp.s
 
+6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
+
+.PHONY : 6-function/array_form_parameter.o
+
+# target to build an object file
+6-function/array_form_parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/6-function/array_form_parameter.cpp.o
+.PHONY : 6-function/array_form_parameter.cpp.o
+
+6-function/array_form_parameter.i: 6-function/array_form_parameter.cpp.i
+
+.PHONY : 6-function/array_form_parameter.i
+
+# target to preprocess a source file
+6-function/array_form_parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/6-function/array_form_parameter.cpp.i
+.PHONY : 6-function/array_form_parameter.cpp.i
+
+6-function/array_form_parameter.s: 6-function/array_form_parameter.cpp.s
+
+.PHONY : 6-function/array_form_parameter.s
+
+# target to generate assembly for a file
+6-function/array_form_parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/6-function/array_form_parameter.cpp.s
+.PHONY : 6-function/array_form_parameter.cpp.s
+
+6-function/const_reference.o: 6-function/const_reference.cpp.o
+
+.PHONY : 6-function/const_reference.o
+
+# target to build an object file
+6-function/const_reference.cpp.o:
+	$(MAKE) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/6-function/const_reference.cpp.o
+.PHONY : 6-function/const_reference.cpp.o
+
+6-function/const_reference.i: 6-function/const_reference.cpp.i
+
+.PHONY : 6-function/const_reference.i
+
+# target to preprocess a source file
+6-function/const_reference.cpp.i:
+	$(MAKE) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/6-function/const_reference.cpp.i
+.PHONY : 6-function/const_reference.cpp.i
+
+6-function/const_reference.s: 6-function/const_reference.cpp.s
+
+.PHONY : 6-function/const_reference.s
+
+# target to generate assembly for a file
+6-function/const_reference.cpp.s:
+	$(MAKE) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/6-function/const_reference.cpp.s
+.PHONY : 6-function/const_reference.cpp.s
+
 Vector.o: Vector.cpp.o
 
 .PHONY : Vector.o
@@ -410,6 +516,33 @@ Vector.s: Vector.cpp.s
 Vector.cpp.s:
 	$(MAKE) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/Vector.cpp.s
 .PHONY : Vector.cpp.s
+
+exception.o: exception.cpp.o
+
+.PHONY : exception.o
+
+# target to build an object file
+exception.cpp.o:
+	$(MAKE) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.o
+.PHONY : exception.cpp.o
+
+exception.i: exception.cpp.i
+
+.PHONY : exception.i
+
+# target to preprocess a source file
+exception.cpp.i:
+	$(MAKE) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.i
+.PHONY : exception.cpp.i
+
+exception.s: exception.cpp.s
+
+.PHONY : exception.s
+
+# target to generate assembly for a file
+exception.cpp.s:
+	$(MAKE) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/exception.cpp.s
+.PHONY : exception.cpp.s
 
 exercise2.o: exercise2.cpp.o
 
@@ -843,6 +976,33 @@ string1.cpp.s:
 	$(MAKE) -f CMakeFiles/string1.dir/build.make CMakeFiles/string1.dir/string1.cpp.s
 .PHONY : string1.cpp.s
 
+switch.o: switch.cpp.o
+
+.PHONY : switch.o
+
+# target to build an object file
+switch.cpp.o:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/switch.cpp.o
+.PHONY : switch.cpp.o
+
+switch.i: switch.cpp.i
+
+.PHONY : switch.i
+
+# target to preprocess a source file
+switch.cpp.i:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/switch.cpp.i
+.PHONY : switch.cpp.i
+
+switch.s: switch.cpp.s
+
+.PHONY : switch.s
+
+# target to generate assembly for a file
+switch.cpp.s:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/switch.cpp.s
+.PHONY : switch.cpp.s
+
 use_Sales_data.o: use_Sales_data.cpp.o
 
 .PHONY : use_Sales_data.o
@@ -878,10 +1038,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... const_reference"
+	@echo "... exception"
 	@echo "... intergral_promotion"
 	@echo "... sizeof"
 	@echo "... expression"
 	@echo "... inbuilt_array1"
+	@echo "... switch"
 	@echo "... inbuilt_array"
 	@echo "... Vector"
 	@echo "... string"
@@ -895,14 +1058,24 @@ help:
 	@echo "... inbuilt_array2"
 	@echo "... string1"
 	@echo "... iterator1"
+	@echo "... array_form_parameter"
 	@echo "... exercise2"
 	@echo "... iterator2"
 	@echo "... 1.o"
 	@echo "... 1.i"
 	@echo "... 1.s"
+	@echo "... 6-function/array_form_parameter.o"
+	@echo "... 6-function/array_form_parameter.i"
+	@echo "... 6-function/array_form_parameter.s"
+	@echo "... 6-function/const_reference.o"
+	@echo "... 6-function/const_reference.i"
+	@echo "... 6-function/const_reference.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"
+	@echo "... exception.o"
+	@echo "... exception.i"
+	@echo "... exception.s"
 	@echo "... exercise2.o"
 	@echo "... exercise2.i"
 	@echo "... exercise2.s"
@@ -951,6 +1124,9 @@ help:
 	@echo "... string1.o"
 	@echo "... string1.i"
 	@echo "... string1.s"
+	@echo "... switch.o"
+	@echo "... switch.i"
+	@echo "... switch.s"
 	@echo "... use_Sales_data.o"
 	@echo "... use_Sales_data.i"
 	@echo "... use_Sales_data.s"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/Study/C++ Prime/exercise/inbuilt_array.cpp" "/home/zxj/桌面/Study/C++ Prime/exercise/build/CMakeFiles/inbuilt_array.dir/inbuilt_array.cpp.o"
+  "/home/zxj/桌面/learngit/C++ Prime/exercise/inbuilt_array.cpp" "/home/zxj/桌面/learngit/C++ Prime/exercise/build/CMakeFiles/inbuilt_array.dir/inbuilt_array.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -31,6 +31,17 @@ add_executable(sizeof sizeof.cpp)
 add_executable(intergral_promotion intergral_promotion.cpp)
 add_executable(switch switch.cpp)
 add_executable(exception exception.cpp)
+#add_executable(pointer_form_parameter pointer_form_parameter.cpp)
+add_executable(const_reference 6-function/const_reference.cpp)
+add_executable(array_form_parameter 6-function/array_form_parameter.cpp)
+
+add_executable(initializer_list 6-function/initializer_list.cpp)
+add_executable(reference 6-function/reference.cpp)
+
+add_executable(array_pointer 6-function/array_pointer.cpp)
+
+add_executable(function_overload 6-function/function_overload.cpp)
+add_executable(function_pointer 6-function/function_pointer.cpp)
 
 
 #将目标库链接到可执行目标

@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++11  -pthread -g CMakeFiles/producter_customer.dir/producter_customer.cpp.o -o producter_customer 
