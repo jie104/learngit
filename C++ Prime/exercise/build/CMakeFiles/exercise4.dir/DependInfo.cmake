@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/Study/C++ Prime/exercise/exercise4.cpp" "/home/zxj/桌面/Study/C++ Prime/exercise/build/CMakeFiles/exercise4.dir/exercise4.cpp.o"
+  "/home/zxj/桌面/learngit/C++ Prime/exercise/exercise4.cpp" "/home/zxj/桌面/learngit/C++ Prime/exercise/build/CMakeFiles/exercise4.dir/exercise4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

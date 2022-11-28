@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/桌面/Study/C++ Prime/exercise/header_file/use_Sales_data.h
+/home/zxj/桌面/learngit/C++ Prime/exercise/header_file/use_Sales_data.h
 iostream
 -
 string
 -
 
-/home/zxj/桌面/Study/C++ Prime/exercise/use_Sales_data.cpp
+/home/zxj/桌面/learngit/C++ Prime/exercise/use_Sales_data.cpp
 iostream
 -
 string
 -
 header_file/use_Sales_data.h
-/home/zxj/桌面/Study/C++ Prime/exercise/header_file/use_Sales_data.h
+/home/zxj/桌面/learngit/C++ Prime/exercise/header_file/use_Sales_data.h
 

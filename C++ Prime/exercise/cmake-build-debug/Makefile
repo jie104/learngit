@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,6 +128,45 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named function_pointer
+
+# Build rule for target.
+function_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function_pointer
+.PHONY : function_pointer
+
+# fast build rule for target.
+function_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/build
+.PHONY : function_pointer/fast
+
+#=============================================================================
+# Target rules for targets named initializer_list
+
+# Build rule for target.
+initializer_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 initializer_list
+.PHONY : initializer_list
+
+# fast build rule for target.
+initializer_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer_list.dir/build.make CMakeFiles/initializer_list.dir/build
+.PHONY : initializer_list/fast
+
+#=============================================================================
+# Target rules for targets named array_form_parameter
+
+# Build rule for target.
+array_form_parameter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array_form_parameter
+.PHONY : array_form_parameter
+
+# fast build rule for target.
+array_form_parameter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/build
+.PHONY : array_form_parameter/fast
 
 #=============================================================================
 # Target rules for targets named Vector
@@ -260,6 +299,19 @@ exercise2/fast:
 .PHONY : exercise2/fast
 
 #=============================================================================
+# Target rules for targets named const_reference
+
+# Build rule for target.
+const_reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 const_reference
+.PHONY : const_reference
+
+# fast build rule for target.
+const_reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/build
+.PHONY : const_reference/fast
+
+#=============================================================================
 # Target rules for targets named exercise3
 
 # Build rule for target.
@@ -271,6 +323,19 @@ exercise3: cmake_check_build_system
 exercise3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
 .PHONY : exercise3/fast
+
+#=============================================================================
+# Target rules for targets named reference
+
+# Build rule for target.
+reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reference
+.PHONY : reference
+
+# fast build rule for target.
+reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/build
+.PHONY : reference/fast
 
 #=============================================================================
 # Target rules for targets named inbuilt_array
@@ -297,6 +362,19 @@ iterator: cmake_check_build_system
 iterator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
 .PHONY : iterator/fast
+
+#=============================================================================
+# Target rules for targets named function_overload
+
+# Build rule for target.
+function_overload: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function_overload
+.PHONY : function_overload
+
+# fast build rule for target.
+function_overload/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_overload.dir/build.make CMakeFiles/function_overload.dir/build
+.PHONY : function_overload/fast
 
 #=============================================================================
 # Target rules for targets named iterator1
@@ -349,6 +427,19 @@ inbuilt_array2: cmake_check_build_system
 inbuilt_array2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array2.dir/build.make CMakeFiles/inbuilt_array2.dir/build
 .PHONY : inbuilt_array2/fast
+
+#=============================================================================
+# Target rules for targets named array_pointer
+
+# Build rule for target.
+array_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array_pointer
+.PHONY : array_pointer
+
+# fast build rule for target.
+array_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_pointer.dir/build.make CMakeFiles/array_pointer.dir/build
+.PHONY : array_pointer/fast
 
 #=============================================================================
 # Target rules for targets named sizeof
@@ -428,6 +519,195 @@ exception/fast:
 1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.s
 .PHONY : 1.cpp.s
+
+6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
+
+.PHONY : 6-function/array_form_parameter.o
+
+# target to build an object file
+6-function/array_form_parameter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/6-function/array_form_parameter.cpp.o
+.PHONY : 6-function/array_form_parameter.cpp.o
+
+6-function/array_form_parameter.i: 6-function/array_form_parameter.cpp.i
+
+.PHONY : 6-function/array_form_parameter.i
+
+# target to preprocess a source file
+6-function/array_form_parameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/6-function/array_form_parameter.cpp.i
+.PHONY : 6-function/array_form_parameter.cpp.i
+
+6-function/array_form_parameter.s: 6-function/array_form_parameter.cpp.s
+
+.PHONY : 6-function/array_form_parameter.s
+
+# target to generate assembly for a file
+6-function/array_form_parameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/6-function/array_form_parameter.cpp.s
+.PHONY : 6-function/array_form_parameter.cpp.s
+
+6-function/array_pointer.o: 6-function/array_pointer.cpp.o
+
+.PHONY : 6-function/array_pointer.o
+
+# target to build an object file
+6-function/array_pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_pointer.dir/build.make CMakeFiles/array_pointer.dir/6-function/array_pointer.cpp.o
+.PHONY : 6-function/array_pointer.cpp.o
+
+6-function/array_pointer.i: 6-function/array_pointer.cpp.i
+
+.PHONY : 6-function/array_pointer.i
+
+# target to preprocess a source file
+6-function/array_pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_pointer.dir/build.make CMakeFiles/array_pointer.dir/6-function/array_pointer.cpp.i
+.PHONY : 6-function/array_pointer.cpp.i
+
+6-function/array_pointer.s: 6-function/array_pointer.cpp.s
+
+.PHONY : 6-function/array_pointer.s
+
+# target to generate assembly for a file
+6-function/array_pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_pointer.dir/build.make CMakeFiles/array_pointer.dir/6-function/array_pointer.cpp.s
+.PHONY : 6-function/array_pointer.cpp.s
+
+6-function/const_reference.o: 6-function/const_reference.cpp.o
+
+.PHONY : 6-function/const_reference.o
+
+# target to build an object file
+6-function/const_reference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/6-function/const_reference.cpp.o
+.PHONY : 6-function/const_reference.cpp.o
+
+6-function/const_reference.i: 6-function/const_reference.cpp.i
+
+.PHONY : 6-function/const_reference.i
+
+# target to preprocess a source file
+6-function/const_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/6-function/const_reference.cpp.i
+.PHONY : 6-function/const_reference.cpp.i
+
+6-function/const_reference.s: 6-function/const_reference.cpp.s
+
+.PHONY : 6-function/const_reference.s
+
+# target to generate assembly for a file
+6-function/const_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_reference.dir/build.make CMakeFiles/const_reference.dir/6-function/const_reference.cpp.s
+.PHONY : 6-function/const_reference.cpp.s
+
+6-function/function_overload.o: 6-function/function_overload.cpp.o
+
+.PHONY : 6-function/function_overload.o
+
+# target to build an object file
+6-function/function_overload.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_overload.dir/build.make CMakeFiles/function_overload.dir/6-function/function_overload.cpp.o
+.PHONY : 6-function/function_overload.cpp.o
+
+6-function/function_overload.i: 6-function/function_overload.cpp.i
+
+.PHONY : 6-function/function_overload.i
+
+# target to preprocess a source file
+6-function/function_overload.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_overload.dir/build.make CMakeFiles/function_overload.dir/6-function/function_overload.cpp.i
+.PHONY : 6-function/function_overload.cpp.i
+
+6-function/function_overload.s: 6-function/function_overload.cpp.s
+
+.PHONY : 6-function/function_overload.s
+
+# target to generate assembly for a file
+6-function/function_overload.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_overload.dir/build.make CMakeFiles/function_overload.dir/6-function/function_overload.cpp.s
+.PHONY : 6-function/function_overload.cpp.s
+
+6-function/function_pointer.o: 6-function/function_pointer.cpp.o
+
+.PHONY : 6-function/function_pointer.o
+
+# target to build an object file
+6-function/function_pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/6-function/function_pointer.cpp.o
+.PHONY : 6-function/function_pointer.cpp.o
+
+6-function/function_pointer.i: 6-function/function_pointer.cpp.i
+
+.PHONY : 6-function/function_pointer.i
+
+# target to preprocess a source file
+6-function/function_pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/6-function/function_pointer.cpp.i
+.PHONY : 6-function/function_pointer.cpp.i
+
+6-function/function_pointer.s: 6-function/function_pointer.cpp.s
+
+.PHONY : 6-function/function_pointer.s
+
+# target to generate assembly for a file
+6-function/function_pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/6-function/function_pointer.cpp.s
+.PHONY : 6-function/function_pointer.cpp.s
+
+6-function/initializer_list.o: 6-function/initializer_list.cpp.o
+
+.PHONY : 6-function/initializer_list.o
+
+# target to build an object file
+6-function/initializer_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer_list.dir/build.make CMakeFiles/initializer_list.dir/6-function/initializer_list.cpp.o
+.PHONY : 6-function/initializer_list.cpp.o
+
+6-function/initializer_list.i: 6-function/initializer_list.cpp.i
+
+.PHONY : 6-function/initializer_list.i
+
+# target to preprocess a source file
+6-function/initializer_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer_list.dir/build.make CMakeFiles/initializer_list.dir/6-function/initializer_list.cpp.i
+.PHONY : 6-function/initializer_list.cpp.i
+
+6-function/initializer_list.s: 6-function/initializer_list.cpp.s
+
+.PHONY : 6-function/initializer_list.s
+
+# target to generate assembly for a file
+6-function/initializer_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer_list.dir/build.make CMakeFiles/initializer_list.dir/6-function/initializer_list.cpp.s
+.PHONY : 6-function/initializer_list.cpp.s
+
+6-function/reference.o: 6-function/reference.cpp.o
+
+.PHONY : 6-function/reference.o
+
+# target to build an object file
+6-function/reference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/6-function/reference.cpp.o
+.PHONY : 6-function/reference.cpp.o
+
+6-function/reference.i: 6-function/reference.cpp.i
+
+.PHONY : 6-function/reference.i
+
+# target to preprocess a source file
+6-function/reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/6-function/reference.cpp.i
+.PHONY : 6-function/reference.cpp.i
+
+6-function/reference.s: 6-function/reference.cpp.s
+
+.PHONY : 6-function/reference.s
+
+# target to generate assembly for a file
+6-function/reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/6-function/reference.cpp.s
+.PHONY : 6-function/reference.cpp.s
 
 Vector.o: Vector.cpp.o
 
@@ -979,6 +1259,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 1"
 	@echo "... Vector"
+	@echo "... array_form_parameter"
+	@echo "... array_pointer"
+	@echo "... const_reference"
 	@echo "... exception"
 	@echo "... exercise2"
 	@echo "... exercise3"
@@ -986,13 +1269,17 @@ help:
 	@echo "... exercise5"
 	@echo "... exercise_2.5.3"
 	@echo "... expression"
+	@echo "... function_overload"
+	@echo "... function_pointer"
 	@echo "... inbuilt_array"
 	@echo "... inbuilt_array1"
 	@echo "... inbuilt_array2"
+	@echo "... initializer_list"
 	@echo "... intergral_promotion"
 	@echo "... iterator"
 	@echo "... iterator1"
 	@echo "... iterator2"
+	@echo "... reference"
 	@echo "... sizeof"
 	@echo "... string"
 	@echo "... string1"
@@ -1001,6 +1288,27 @@ help:
 	@echo "... 1.o"
 	@echo "... 1.i"
 	@echo "... 1.s"
+	@echo "... 6-function/array_form_parameter.o"
+	@echo "... 6-function/array_form_parameter.i"
+	@echo "... 6-function/array_form_parameter.s"
+	@echo "... 6-function/array_pointer.o"
+	@echo "... 6-function/array_pointer.i"
+	@echo "... 6-function/array_pointer.s"
+	@echo "... 6-function/const_reference.o"
+	@echo "... 6-function/const_reference.i"
+	@echo "... 6-function/const_reference.s"
+	@echo "... 6-function/function_overload.o"
+	@echo "... 6-function/function_overload.i"
+	@echo "... 6-function/function_overload.s"
+	@echo "... 6-function/function_pointer.o"
+	@echo "... 6-function/function_pointer.i"
+	@echo "... 6-function/function_pointer.s"
+	@echo "... 6-function/initializer_list.o"
+	@echo "... 6-function/initializer_list.i"
+	@echo "... 6-function/initializer_list.s"
+	@echo "... 6-function/reference.o"
+	@echo "... 6-function/reference.i"
+	@echo "... 6-function/reference.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"
