@@ -51,6 +51,19 @@ add_executable(debug_help 6-function/debug_help.cpp)
 add_executable(function_match 6-function/function_match.cpp)
 
 add_executable(function_pointer 6-function/function_pointer.cpp)
+
+add_executable(for for.cpp)
+add_executable(define_abstract_data_type 7-class/define_abstract_data_type.cpp)
+
+add_executable(access_control_and_Encapsulation 7-class/access_control_and_Encapsulation.cpp)
+
+add_executable(class_other_feature 7-class/class_other_feature.cpp)
+
+add_executable(constructor_function_refind 7-class/constructor_function_refind.cpp)
+
+add_executable(entrust_constructor_function 7-class/entrust_constructor_function.cpp)
+add_executable(11111 11111.cpp)
+#add_executable(define_abstract_data_type 6-function/define_abstract_data_type.cpp)
 # add_executable(decltype decltype.cpp)
 
 #add_dependencies(head_src ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
