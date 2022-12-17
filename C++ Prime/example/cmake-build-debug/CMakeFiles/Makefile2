@@ -72,11 +72,17 @@ CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/entrust_constructor_function.dir/all
+all: CMakeFiles/access_control_and_Encapsulation.dir/all
+all: CMakeFiles/constructor_function_refind.dir/all
+all: CMakeFiles/for.dir/all
 all: CMakeFiles/function_pointer.dir/all
 all: CMakeFiles/function_match.dir/all
+all: CMakeFiles/11111.dir/all
 all: CMakeFiles/comma_operator.dir/all
 all: CMakeFiles/eigen.dir/all
 all: CMakeFiles/inbuilt_array2.dir/all
+all: CMakeFiles/class_other_feature.dir/all
 all: CMakeFiles/iterator1.dir/all
 all: CMakeFiles/string.dir/all
 all: CMakeFiles/Vector.dir/all
@@ -85,6 +91,7 @@ all: CMakeFiles/intergral_promotion.dir/all
 all: CMakeFiles/debug_help.dir/all
 all: CMakeFiles/array_form_parameter.dir/all
 all: CMakeFiles/implicit_convert.dir/all
+all: CMakeFiles/define_abstract_data_type.dir/all
 all: CMakeFiles/statement.dir/all
 all: CMakeFiles/switch.dir/all
 all: CMakeFiles/expression.dir/all
@@ -105,11 +112,17 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/entrust_constructor_function.dir/clean
+clean: CMakeFiles/access_control_and_Encapsulation.dir/clean
+clean: CMakeFiles/constructor_function_refind.dir/clean
+clean: CMakeFiles/for.dir/clean
 clean: CMakeFiles/function_pointer.dir/clean
 clean: CMakeFiles/function_match.dir/clean
+clean: CMakeFiles/11111.dir/clean
 clean: CMakeFiles/comma_operator.dir/clean
 clean: CMakeFiles/eigen.dir/clean
 clean: CMakeFiles/inbuilt_array2.dir/clean
+clean: CMakeFiles/class_other_feature.dir/clean
 clean: CMakeFiles/iterator1.dir/clean
 clean: CMakeFiles/string.dir/clean
 clean: CMakeFiles/Vector.dir/clean
@@ -118,6 +131,7 @@ clean: CMakeFiles/intergral_promotion.dir/clean
 clean: CMakeFiles/debug_help.dir/clean
 clean: CMakeFiles/array_form_parameter.dir/clean
 clean: CMakeFiles/implicit_convert.dir/clean
+clean: CMakeFiles/define_abstract_data_type.dir/clean
 clean: CMakeFiles/statement.dir/clean
 clean: CMakeFiles/switch.dir/clean
 clean: CMakeFiles/expression.dir/clean
@@ -133,13 +147,121 @@ clean: CMakeFiles/array_point.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/entrust_constructor_function.dir
+
+# All Build rule for target.
+CMakeFiles/entrust_constructor_function.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entrust_constructor_function.dir/build.make CMakeFiles/entrust_constructor_function.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entrust_constructor_function.dir/build.make CMakeFiles/entrust_constructor_function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=25,26 "Built target entrust_constructor_function"
+.PHONY : CMakeFiles/entrust_constructor_function.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/entrust_constructor_function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/entrust_constructor_function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/entrust_constructor_function.dir/rule
+
+# Convenience name for target.
+entrust_constructor_function: CMakeFiles/entrust_constructor_function.dir/rule
+
+.PHONY : entrust_constructor_function
+
+# clean rule for target.
+CMakeFiles/entrust_constructor_function.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entrust_constructor_function.dir/build.make CMakeFiles/entrust_constructor_function.dir/clean
+.PHONY : CMakeFiles/entrust_constructor_function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/access_control_and_Encapsulation.dir
+
+# All Build rule for target.
+CMakeFiles/access_control_and_Encapsulation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/access_control_and_Encapsulation.dir/build.make CMakeFiles/access_control_and_Encapsulation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/access_control_and_Encapsulation.dir/build.make CMakeFiles/access_control_and_Encapsulation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target access_control_and_Encapsulation"
+.PHONY : CMakeFiles/access_control_and_Encapsulation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/access_control_and_Encapsulation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/access_control_and_Encapsulation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/access_control_and_Encapsulation.dir/rule
+
+# Convenience name for target.
+access_control_and_Encapsulation: CMakeFiles/access_control_and_Encapsulation.dir/rule
+
+.PHONY : access_control_and_Encapsulation
+
+# clean rule for target.
+CMakeFiles/access_control_and_Encapsulation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/access_control_and_Encapsulation.dir/build.make CMakeFiles/access_control_and_Encapsulation.dir/clean
+.PHONY : CMakeFiles/access_control_and_Encapsulation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/constructor_function_refind.dir
+
+# All Build rule for target.
+CMakeFiles/constructor_function_refind.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/constructor_function_refind.dir/build.make CMakeFiles/constructor_function_refind.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/constructor_function_refind.dir/build.make CMakeFiles/constructor_function_refind.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=17,18 "Built target constructor_function_refind"
+.PHONY : CMakeFiles/constructor_function_refind.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/constructor_function_refind.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/constructor_function_refind.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/constructor_function_refind.dir/rule
+
+# Convenience name for target.
+constructor_function_refind: CMakeFiles/constructor_function_refind.dir/rule
+
+.PHONY : constructor_function_refind
+
+# clean rule for target.
+CMakeFiles/constructor_function_refind.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/constructor_function_refind.dir/build.make CMakeFiles/constructor_function_refind.dir/clean
+.PHONY : CMakeFiles/constructor_function_refind.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/for.dir
+
+# All Build rule for target.
+CMakeFiles/for.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=33,34 "Built target for"
+.PHONY : CMakeFiles/for.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/for.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/for.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/for.dir/rule
+
+# Convenience name for target.
+for: CMakeFiles/for.dir/rule
+
+.PHONY : for
+
+# clean rule for target.
+CMakeFiles/for.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/clean
+.PHONY : CMakeFiles/for.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/function_pointer.dir
 
 # All Build rule for target.
 CMakeFiles/function_pointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=25,26 "Built target function_pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=39,40 "Built target function_pointer"
 .PHONY : CMakeFiles/function_pointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +288,7 @@ CMakeFiles/function_pointer.dir/clean:
 CMakeFiles/function_match.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_match.dir/build.make CMakeFiles/function_match.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_match.dir/build.make CMakeFiles/function_match.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=23,24 "Built target function_match"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=37,38 "Built target function_match"
 .PHONY : CMakeFiles/function_match.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,13 +309,40 @@ CMakeFiles/function_match.dir/clean:
 .PHONY : CMakeFiles/function_match.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/11111.dir
+
+# All Build rule for target.
+CMakeFiles/11111.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11111.dir/build.make CMakeFiles/11111.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11111.dir/build.make CMakeFiles/11111.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target 11111"
+.PHONY : CMakeFiles/11111.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/11111.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/11111.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/11111.dir/rule
+
+# Convenience name for target.
+11111: CMakeFiles/11111.dir/rule
+
+.PHONY : 11111
+
+# clean rule for target.
+CMakeFiles/11111.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11111.dir/build.make CMakeFiles/11111.dir/clean
+.PHONY : CMakeFiles/11111.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/comma_operator.dir
 
 # All Build rule for target.
 CMakeFiles/comma_operator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_operator.dir/build.make CMakeFiles/comma_operator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_operator.dir/build.make CMakeFiles/comma_operator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target comma_operator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=13,14 "Built target comma_operator"
 .PHONY : CMakeFiles/comma_operator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -220,7 +369,7 @@ CMakeFiles/comma_operator.dir/clean:
 CMakeFiles/eigen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen.dir/build.make CMakeFiles/eigen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen.dir/build.make CMakeFiles/eigen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=13,14 "Built target eigen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=23,24 "Built target eigen"
 .PHONY : CMakeFiles/eigen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +396,7 @@ CMakeFiles/eigen.dir/clean:
 CMakeFiles/inbuilt_array2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array2.dir/build.make CMakeFiles/inbuilt_array2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array2.dir/build.make CMakeFiles/inbuilt_array2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=29,30 "Built target inbuilt_array2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=43,44 "Built target inbuilt_array2"
 .PHONY : CMakeFiles/inbuilt_array2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -268,13 +417,40 @@ CMakeFiles/inbuilt_array2.dir/clean:
 .PHONY : CMakeFiles/inbuilt_array2.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/class_other_feature.dir
+
+# All Build rule for target.
+CMakeFiles/class_other_feature.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_other_feature.dir/build.make CMakeFiles/class_other_feature.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_other_feature.dir/build.make CMakeFiles/class_other_feature.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=11,12 "Built target class_other_feature"
+.PHONY : CMakeFiles/class_other_feature.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/class_other_feature.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/class_other_feature.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/class_other_feature.dir/rule
+
+# Convenience name for target.
+class_other_feature: CMakeFiles/class_other_feature.dir/rule
+
+.PHONY : class_other_feature
+
+# clean rule for target.
+CMakeFiles/class_other_feature.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_other_feature.dir/build.make CMakeFiles/class_other_feature.dir/clean
+.PHONY : CMakeFiles/class_other_feature.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/iterator1.dir
 
 # All Build rule for target.
 CMakeFiles/iterator1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator1.dir/build.make CMakeFiles/iterator1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator1.dir/build.make CMakeFiles/iterator1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=37,38 "Built target iterator1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=51,52 "Built target iterator1"
 .PHONY : CMakeFiles/iterator1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -301,7 +477,7 @@ CMakeFiles/iterator1.dir/clean:
 CMakeFiles/string.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=45,46 "Built target string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=59,60 "Built target string"
 .PHONY : CMakeFiles/string.dir/all
 
 # Build rule for subdir invocation for target.
@@ -328,7 +504,7 @@ CMakeFiles/string.dir/clean:
 CMakeFiles/Vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target Vector"
 .PHONY : CMakeFiles/Vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -355,7 +531,7 @@ CMakeFiles/Vector.dir/clean:
 CMakeFiles/example_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_13.dir/build.make CMakeFiles/example_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_13.dir/build.make CMakeFiles/example_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=15,16 "Built target example_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=27,28 "Built target example_13"
 .PHONY : CMakeFiles/example_13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -382,7 +558,7 @@ CMakeFiles/example_13.dir/clean:
 CMakeFiles/intergral_promotion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intergral_promotion.dir/build.make CMakeFiles/intergral_promotion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intergral_promotion.dir/build.make CMakeFiles/intergral_promotion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=33,34 "Built target intergral_promotion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=47,48 "Built target intergral_promotion"
 .PHONY : CMakeFiles/intergral_promotion.dir/all
 
 # Build rule for subdir invocation for target.
@@ -409,7 +585,7 @@ CMakeFiles/intergral_promotion.dir/clean:
 CMakeFiles/debug_help.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_help.dir/build.make CMakeFiles/debug_help.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_help.dir/build.make CMakeFiles/debug_help.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=11,12 "Built target debug_help"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=19,20 "Built target debug_help"
 .PHONY : CMakeFiles/debug_help.dir/all
 
 # Build rule for subdir invocation for target.
@@ -436,7 +612,7 @@ CMakeFiles/debug_help.dir/clean:
 CMakeFiles/array_form_parameter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target array_form_parameter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target array_form_parameter"
 .PHONY : CMakeFiles/array_form_parameter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -463,7 +639,7 @@ CMakeFiles/array_form_parameter.dir/clean:
 CMakeFiles/implicit_convert.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_convert.dir/build.make CMakeFiles/implicit_convert.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_convert.dir/build.make CMakeFiles/implicit_convert.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=27,28 "Built target implicit_convert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=41,42 "Built target implicit_convert"
 .PHONY : CMakeFiles/implicit_convert.dir/all
 
 # Build rule for subdir invocation for target.
@@ -484,13 +660,40 @@ CMakeFiles/implicit_convert.dir/clean:
 .PHONY : CMakeFiles/implicit_convert.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/define_abstract_data_type.dir
+
+# All Build rule for target.
+CMakeFiles/define_abstract_data_type.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/define_abstract_data_type.dir/build.make CMakeFiles/define_abstract_data_type.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/define_abstract_data_type.dir/build.make CMakeFiles/define_abstract_data_type.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=21,22 "Built target define_abstract_data_type"
+.PHONY : CMakeFiles/define_abstract_data_type.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/define_abstract_data_type.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/define_abstract_data_type.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/define_abstract_data_type.dir/rule
+
+# Convenience name for target.
+define_abstract_data_type: CMakeFiles/define_abstract_data_type.dir/rule
+
+.PHONY : define_abstract_data_type
+
+# clean rule for target.
+CMakeFiles/define_abstract_data_type.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/define_abstract_data_type.dir/build.make CMakeFiles/define_abstract_data_type.dir/clean
+.PHONY : CMakeFiles/define_abstract_data_type.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/statement.dir
 
 # All Build rule for target.
 CMakeFiles/statement.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/statement.dir/build.make CMakeFiles/statement.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/statement.dir/build.make CMakeFiles/statement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=43,44 "Built target statement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=57,58 "Built target statement"
 .PHONY : CMakeFiles/statement.dir/all
 
 # Build rule for subdir invocation for target.
@@ -517,7 +720,7 @@ CMakeFiles/statement.dir/clean:
 CMakeFiles/switch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=47,48 "Built target switch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=61,62 "Built target switch"
 .PHONY : CMakeFiles/switch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -544,7 +747,7 @@ CMakeFiles/switch.dir/clean:
 CMakeFiles/expression.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/expression.dir/build.make CMakeFiles/expression.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/expression.dir/build.make CMakeFiles/expression.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=19,20 "Built target expression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=31,32 "Built target expression"
 .PHONY : CMakeFiles/expression.dir/all
 
 # Build rule for subdir invocation for target.
@@ -571,7 +774,7 @@ CMakeFiles/expression.dir/clean:
 CMakeFiles/exception.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=17,18 "Built target exception"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=29,30 "Built target exception"
 .PHONY : CMakeFiles/exception.dir/all
 
 # Build rule for subdir invocation for target.
@@ -598,7 +801,7 @@ CMakeFiles/exception.dir/clean:
 CMakeFiles/function_base.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=21,22 "Built target function_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=35,36 "Built target function_base"
 .PHONY : CMakeFiles/function_base.dir/all
 
 # Build rule for subdir invocation for target.
@@ -625,7 +828,7 @@ CMakeFiles/function_base.dir/clean:
 CMakeFiles/local_object.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=39,40 "Built target local_object"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=53,54 "Built target local_object"
 .PHONY : CMakeFiles/local_object.dir/all
 
 # Build rule for subdir invocation for target.
@@ -652,7 +855,7 @@ CMakeFiles/local_object.dir/clean:
 CMakeFiles/reference_parameter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference_parameter.dir/build.make CMakeFiles/reference_parameter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference_parameter.dir/build.make CMakeFiles/reference_parameter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=41,42 "Built target reference_parameter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=55,56 "Built target reference_parameter"
 .PHONY : CMakeFiles/reference_parameter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -679,7 +882,7 @@ CMakeFiles/reference_parameter.dir/clean:
 CMakeFiles/initializer_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer_list.dir/build.make CMakeFiles/initializer_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer_list.dir/build.make CMakeFiles/initializer_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=31,32 "Built target initializer_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=45,46 "Built target initializer_list"
 .PHONY : CMakeFiles/initializer_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -706,7 +909,7 @@ CMakeFiles/initializer_list.dir/clean:
 CMakeFiles/constexpr_function.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/constexpr_function.dir/build.make CMakeFiles/constexpr_function.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/constexpr_function.dir/build.make CMakeFiles/constexpr_function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target constexpr_function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=15,16 "Built target constexpr_function"
 .PHONY : CMakeFiles/constexpr_function.dir/all
 
 # Build rule for subdir invocation for target.
@@ -733,7 +936,7 @@ CMakeFiles/constexpr_function.dir/clean:
 CMakeFiles/iterator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=35,36 "Built target iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=49,50 "Built target iterator"
 .PHONY : CMakeFiles/iterator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -760,7 +963,7 @@ CMakeFiles/iterator.dir/clean:
 CMakeFiles/array_point.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_point.dir/build.make CMakeFiles/array_point.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_point.dir/build.make CMakeFiles/array_point.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target array_point"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target array_point"
 .PHONY : CMakeFiles/array_point.dir/all
 
 # Build rule for subdir invocation for target.
