@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/C++ Prime/example/10-generic_algorithms/iostream_iterator.cpp
+iostream
+-
+iterator
+-
+vector
+-
+algorithm
+-
+numeric
+-
+memory
+-
+

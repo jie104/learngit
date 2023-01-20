@@ -78,6 +78,14 @@ add_executable(container_adapter 9-order_container/container_adapter.cpp)
 add_executable(acquaintance_generic_algorithms 10-generic_algorithms/acquaintance_generic_algorithms.cpp)
 
 add_executable(customize_operator 10-generic_algorithms/customize_operator.cpp)
+add_executable(revisit_iterator 10-generic_algorithms/revisit_iterator.cpp)
+
+add_executable(iostream_iterator 10-generic_algorithms/iostream_iterator.cpp)
+
+add_executable(use_associate_containers 11-associative_containers/use_associate_containers.cpp)
+add_executable(associate_containers_overview 11-associative_containers/associate_containers_overview.cpp)
+
+add_executable(associate_containers_operator 11-associative_containers/associate_containers_operator.cpp)
 
 #add_executable(define_abstract_data_type 6-function/define_abstract_data_type.cpp)
 # add_executable(decltype decltype.cpp)

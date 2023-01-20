@@ -8,6 +8,26 @@
 #include <set>
 #include<iterator>
 #include <algorithm>
+#include <functional>
+
+std::ostream &print(std::ostream &os,const std::string &s,char c){
+    return os << s << c;
+}
+
+//此声明说明名字_1定义在名字空间placeholders中，而命名空间又定义在std中
+using std::placeholders::_1;
+
+//说明来自std::placeholders的名字可以在我们程序中直接使用
+using namespace std::placeholders;
+
+double f(double a,double b,double c,double d,double f){
+    return a+b+c+d-f;
+}
+
+
+bool check_size(const std::string &s,std::string::size_type sz){
+    return s.size() >= sz;
+}
 
 //标准库算法不能直接对迭代器而不是容器进行操作。因此，算法不能直接添加或删除元素
 void elimDups(std::vector<std::string> &words)
@@ -124,6 +144,49 @@ int main()
     for (auto &x:words){
         std::cout << "words1: " << x << std::endl;
     }
-}
 
+/***
+    可以将bind看作一个通用的函数适配器，它接受一个可调用对象，生成一个新的可调用对象来
+    “适应”原对象的参数列表
+    调用bind的一般形式：
+    auto newCallable=bind(callable,arg_list);
+    其中，newCallable本身是一个可调用对象，arg_list是一个逗号分隔的参数列表
+ ***/
+    auto newCallable=std::bind(isShorter,"sdafa","gwgw");
+    std::cout << "bind: " << newCallable() << std::endl;
+
+    auto check6=std::bind(check_size,std::placeholders::_1,6);
+    std::string s="hello";
+    bool b1=check6(s);  //check6(s) 会调用check_size(s,6)
+
+/***
+    传递给g的参数按位置绑定到占位符，即第一个参数绑定到_1,第二个参数绑定到_2
+    auto g=bind(f,a,b,_2,c,_1)
+    bind调用会将
+        g(_1,_2)
+    映射为
+        f(a,b,_2,c,_1)
+ ***/
+    auto g=std::bind(f,0,0,_2,0,_1);
+    std::cout << "g: " << g(3,2) << std::endl;
+
+    //用bind重排参数顺序
+    std::cout << "正常比较顺序.................." << std::endl;
+    std::sort(words.begin(),words.end(), isShorter);
+    for(auto &x:words){
+        std::cout << x << std::endl;
+    }
+
+    //按单词长度由长至短排列
+    std::cout << "比较顺序交换..................." << std::endl;
+    std::sort(words.begin(),words.end(),std::bind(isShorter,_2,_1));
+    for(auto &x:words){
+        std::cout << x << std::endl;
+    }
+
+    //ostream不能被拷贝
+    std::ostream &os=std::cout;
+    std::for_each(words.begin(),words.end(),
+                  std::bind(print,std::ref(os),_1,' '));
+}
 

@@ -54,8 +54,9 @@ add_executable(overview 10-generic_algorithms/overview.cpp)
 
 add_executable(accquaintance_generic_algrithms 10-generic_algorithms/accquaintance_generic_algrithms.cpp)
 
+add_executable(associate_containers_operator 11-associative_containers/associate_containers_operator.cpp)
 
-
+add_executable(use_container_operator 11-associative_containers/use_container_operator.cpp)
 #将目标库链接到可执行目标
 #target_link_libraries(hello_world message)
 
