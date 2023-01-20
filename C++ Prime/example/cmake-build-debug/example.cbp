@@ -17,6 +17,226 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="acquaintance_generic_algorithms">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/acquaintance_generic_algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 acquaintance_generic_algorithms"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acquaintance_generic_algorithms/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/acquaintance_generic_algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 acquaintance_generic_algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_other_operator">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/string_other_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 string_other_operator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_other_operator/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/string_other_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 string_other_operator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_obj_how_to_increase">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/vector_obj_how_to_increase" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 vector_obj_how_to_increase"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_obj_how_to_increase/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/vector_obj_how_to_increase" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 vector_obj_how_to_increase/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="container_lib_overview">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/container_lib_overview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 container_lib_overview"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="container_lib_overview/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/container_lib_overview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 container_lib_overview/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO_string">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/IO_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO_string"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO_string/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/IO_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO_string/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="entrust_constructor_function">
 				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/entrust_constructor_function" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
@@ -281,6 +501,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="container_adapter">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/container_adapter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 container_adapter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="container_adapter/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/container_adapter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 container_adapter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="11111">
 				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/11111" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
@@ -364,6 +628,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 comma_operator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO_file">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/IO_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO_file"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO_file/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/IO_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO_file/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -594,6 +902,50 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="order_container_operator">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/order_container_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 order_container_operator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="order_container_operator/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/order_container_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 order_container_operator/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1083,6 +1435,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="IO_class">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/IO_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO_class"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IO_class/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/IO_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 IO_class/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="function_base">
 				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/function_base" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
@@ -1269,6 +1665,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="customize_operator">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/customize_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 customize_operator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="customize_operator/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/customize_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 customize_operator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="constexpr_function">
 				<Option output="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/constexpr_function" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"/>
@@ -1402,6 +1842,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/10-generic_algorithms/acquaintance_generic_algorithms.cpp">
+			<Option target="acquaintance_generic_algorithms"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/10-generic_algorithms/customize_operator.cpp">
+			<Option target="customize_operator"/>
+		</Unit>
 		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/11111.cpp">
 			<Option target="11111"/>
 		</Unit>
@@ -1446,6 +1892,30 @@
 		</Unit>
 		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/7-class/entrust_constructor_function.cpp">
 			<Option target="entrust_constructor_function"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/8-IO_lib/IO_class.cpp">
+			<Option target="IO_class"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/8-IO_lib/IO_file.cpp">
+			<Option target="IO_file"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/8-IO_lib/IO_string.cpp">
+			<Option target="IO_string"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/container_adapter.cpp">
+			<Option target="container_adapter"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/container_lib_overview.cpp">
+			<Option target="container_lib_overview"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp">
+			<Option target="order_container_operator"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/string_other_operator.cpp">
+			<Option target="string_other_operator"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/vector_obj_how_to_increase.cpp">
+			<Option target="vector_obj_how_to_increase"/>
 		</Unit>
 		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/example/Vector.cpp">
 			<Option target="Vector"/>

@@ -57,27 +57,27 @@ include standard_lidar_driver/CMakeFiles/simi_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include standard_lidar_driver/CMakeFiles/simi_node.dir/flags.make
 
-standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o: standard_lidar_driver/CMakeFiles/simi_node.dir/flags.make
-standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive2_node2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o -c /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive2_node2.cpp
+standard_lidar_driver/CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.o: standard_lidar_driver/CMakeFiles/simi_node.dir/flags.make
+standard_lidar_driver/CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.o: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/simi_nodes/lidar_driver_simi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.o"
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.o -c /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/simi_nodes/lidar_driver_simi.cpp
 
-standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.i"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive2_node2.cpp > CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.i
+standard_lidar_driver/CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.i"
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/simi_nodes/lidar_driver_simi.cpp > CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.i
 
-standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.s"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive2_node2.cpp -o CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.s
+standard_lidar_driver/CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.s"
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/simi_nodes/lidar_driver_simi.cpp -o CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.s
 
 # Object files for target simi_node
 simi_node_OBJECTS = \
-"CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o"
+"CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.o"
 
 # External object files for target simi_node
 simi_node_EXTERNAL_OBJECTS =
 
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/simi_node: standard_lidar_driver/CMakeFiles/simi_node.dir/src/lidar_drive2_node2.cpp.o
+/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/simi_node: standard_lidar_driver/CMakeFiles/simi_node.dir/src/simi_nodes/lidar_driver_simi.cpp.o
 /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/simi_node: standard_lidar_driver/CMakeFiles/simi_node.dir/build.make
 /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/simi_node: /opt/ros/noetic/lib/libtf.so
 /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/simi_node: /opt/ros/noetic/lib/libtf2_ros.so

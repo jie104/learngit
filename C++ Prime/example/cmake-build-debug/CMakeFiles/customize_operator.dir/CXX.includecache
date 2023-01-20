@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/C++ Prime/example/10-generic_algorithms/customize_operator.cpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgmock_maind.so -o ../lib/libgmock_maind.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/zy/雷达内参标定/Lidar-in-calibration_ws/src/Lidar_in_calibration/cmake-build-debug/gtest/lib ../lib/libgmockd.so ../lib/libgtestd.so -lpthread 

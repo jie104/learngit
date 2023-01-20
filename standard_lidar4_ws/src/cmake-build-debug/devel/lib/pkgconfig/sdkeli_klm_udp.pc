@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel
+
+Name: sdkeli_klm_udp
+Description: Description of sdkeli_klm_udp
+Version: 0.0.1
+Cflags: -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/include -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp/include -I/usr/include
+Libs: -L${prefix}/lib -lsdkeli_klm_udp_lib /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+Requires: roscpp sensor_msgs diagnostic_updater dynamic_reconfigure

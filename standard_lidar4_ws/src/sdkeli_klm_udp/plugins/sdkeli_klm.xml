@@ -1,0 +1,3 @@
+<library path="lib/libsdkeli_klm_nodelet">
+  	<class name="sdkeli_klm_udp/SDKeliKlmNodelet" type="sdkeli_klm_udp::SDKeliKlmNodelet" base_class_type="nodelet::Nodelet"/>
+</library>

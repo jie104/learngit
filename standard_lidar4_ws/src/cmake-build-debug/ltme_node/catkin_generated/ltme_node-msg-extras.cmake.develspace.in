@@ -1,0 +1,2 @@
+set(ltme_node_MESSAGE_FILES "")
+set(ltme_node_SERVICE_FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/ltme_node/srv/QuerySerial.srv;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/ltme_node/srv/QueryFirmwareVersion.srv;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/ltme_node/srv/QueryHardwareVersion.srv")

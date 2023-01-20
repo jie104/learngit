@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: laser_rack_filter
+Description: Description of laser_rack_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

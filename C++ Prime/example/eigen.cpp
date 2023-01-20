@@ -16,6 +16,8 @@ Eigen::Isometry2f EuclTf(const Eigen::Vector3f& src_point,const Eigen::Vector3f&
     return T;
 
 }
+
+//将以src_point为原点的坐标系上的点云转化到转化到标准坐标系上，即原点(0,0)
 Eigen::Isometry2f CoordinateTf(const Eigen::Vector3f& src_point){
     Eigen::Matrix2f R;
     float theta=src_point[2];
@@ -28,15 +30,15 @@ Eigen::Isometry2f CoordinateTf(const Eigen::Vector3f& src_point){
     T.pretranslate(t);
     T.rotate(R);
 
-    Eigen::Isometry2d T_temp = Eigen::Isometry2d::Identity();
-    T_temp.rotate(src_point[2]);
-    T_temp.pretranslate(Eigen::Vector2d(src_point[0], src_point[1]));
-
-    std::cout << "----T---" << std::endl;
-    std::cout << T.matrix() << std::endl;
-
-    std::cout << "----T_temp---" << std::endl;
-    std::cout << T_temp.inverse().matrix() << std::endl;
+//    Eigen::Isometry2d T_temp = Eigen::Isometry2d::Identity();
+//    T_temp.rotate(src_point[2]);
+//    T_temp.pretranslate(Eigen::Vector2d(src_point[0], src_point[1]));
+//
+//    std::cout << "----T---" << std::endl;
+//    std::cout << T.matrix() << std::endl;
+//
+//    std::cout << "----T_temp---" << std::endl;
+//    std::cout << T_temp.inverse().matrix() << std::endl;
 
 
 
@@ -95,20 +97,20 @@ int main()
 //    Eigen::Vector2f c=R*a.head(2)+t;
 //    std::cout << "c: " << c << std::endl;
 //
-    Eigen::Vector3f O2(3,3,M_PI/4);
-    Eigen::Vector3f O3(0,0,0);
-    Eigen::Vector2f P_O2(2,0);
+//    Eigen::Vector3f O2(3,3,M_PI/4);
+//    Eigen::Vector3f O3(0,0,0);
+//    Eigen::Vector2f P_O2(2,0);
 
 //    Eigen::Isometry2f T2=CoordinateTf(O2);
 //    Eigen::Isometry2f T3=CoordinateTf(O3);
 //    Eigen::Vector2f P_03=T2*P_O2;
 //    std::cout << "P_03: " << P_03 << std::endl;
 
-    Eigen::Affine2f T4= CoordinateTf(O2);
-//    Eigen::Vector2f P_04=T4*P_O2;
-//    std::cout << "P_04: " << P_04 << std::endl;
-    std::cout << "T inverse: " << std::endl;
-    std::cout << T4.inverse()*Eigen::Vector2f(0,0) << std::endl;
+//    Eigen::Affine2f T4= CoordinateTf(O2);
+////    Eigen::Vector2f P_04=T4*P_O2;
+////    std::cout << "P_04: " << P_04 << std::endl;
+//    std::cout << "T inverse: " << std::endl;
+//    std::cout << T4.inverse()*Eigen::Vector2f(0,0) << std::endl;
 
 
 
@@ -146,6 +148,22 @@ int main()
 //    Eigen::Vector2f OC=T1*OD;
 //
 //    std::cout << OC << std::endl;
+
+
+    Eigen::Affine2f T1(
+            Eigen::Translation2f(1, 4) * Eigen::Rotation2Df(M_PI/3));
+
+    Eigen::Vector3f v(1,4,M_PI/3);
+    Eigen::Isometry2f T2= CoordinateTf(v);
+
+    auto v1=Eigen::Vector2f(6,2);
+
+    //作用相同
+    std::cout << "T1: " << T1*v1 << std::endl;
+    std::cout << "T2: " << T2*v1 << std::endl;
+
+
+
 
 
 }

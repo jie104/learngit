@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install
+
+Name: lidar_inspect
+Description: Description of lidar_inspect
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

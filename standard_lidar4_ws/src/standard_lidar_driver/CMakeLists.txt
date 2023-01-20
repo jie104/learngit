@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   tf
+#  liburg_c
 )
 
 ## System dependencies are found with CMake's conventions
@@ -135,10 +136,38 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/lidar_driver_node.cpp)
-add_executable(simi_node src/lidar_drive2_node2.cpp)
-add_executable(wanji_node src/lidar_drive3_node3.cpp)
-add_executable(oradar_node src/lidar_driver_node.cpp)
+# set(URG_SRC PROJECT_SOURCE_DIR/src/standard_lidar_driver/src/standard_lidar_protocol/UST10LX/urg_c/src)
+# file(GLOB_RECURSE URG_file "URG_SRC/*.c")
+# add_library(urgc STATIC ${URG_file})
+#include_directories(${LIBRARY_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
+add_library(liburg_c  src/standard_lidar_protocol/UST10LX/urg_c/src/urg_sensor.c
+		src/standard_lidar_protocol/UST10LX/urg_c//src/urg_utils.c
+		src/standard_lidar_protocol/UST10LX/urg_c//src/urg_debug.c
+		src/standard_lidar_protocol/UST10LX/urg_c//src/urg_connection.c
+		src/standard_lidar_protocol/UST10LX/urg_c//src/urg_ring_buffer.c
+		src/standard_lidar_protocol/UST10LX/urg_c/src/urg_serial_linux.c
+		src/standard_lidar_protocol/UST10LX/urg_c/src//urg_serial_utils_linux.c
+		src/standard_lidar_protocol/UST10LX/urg_c//src/urg_tcpclient.c
+		src/standard_lidar_protocol/UST10LX/urg_c/src/urg_time.c
 
+)
+
+add_library(urg_c_wrapper  src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp)
+
+
+add_executable(simi_node src/simi_nodes/lidar_driver_simi.cpp)
+add_executable(simi_node_1 src/simi_nodes/lidar_driver_simi1.cpp)
+add_executable(simi_node_2 src/simi_nodes/lidar_driver_simi2.cpp)
+
+
+#add_executable(wanji_node src/lidar_driver_wanji.cpp)
+add_executable(oradar_node src/oradar_nodes/lidar_driver_oradar.cpp)
+add_executable(oradar_node_1 src/oradar_nodes/lidar_driver_oradar1.cpp)
+add_executable(oradar_node_2 src/oradar_nodes/lidar_driver_oradar2.cpp)
+
+add_executable(hokuyo_node src/lidar_driver_hokuyo.cpp)
+
+#add_executable(oba_keli_node src/lidar_driver_oba_keli.cpp)
 
 
 ## Rename C++ executable without prefix
@@ -160,13 +189,47 @@ target_link_libraries(simi_node
         ${catkin_LIBRARIES}
         glog
         )
-target_link_libraries(wanji_node
-        ${catkin_LIBRARIES}
-        glog)
+target_link_libraries(simi_node_1
+		${catkin_LIBRARIES}
+		glog
+		)
+
+target_link_libraries(simi_node_2
+		${catkin_LIBRARIES}
+		glog
+		)
+
+
+
+
+#target_link_libraries(wanji_node
+#        ${catkin_LIBRARIES}
+#        glog)
 
 target_link_libraries(oradar_node
 ${catkin_LIBRARIES}
 glog)
+
+target_link_libraries(oradar_node_1
+		${catkin_LIBRARIES}
+		glog)
+
+target_link_libraries(oradar_node_2
+		${catkin_LIBRARIES}
+		glog)
+
+
+target_link_libraries(hokuyo_node PUBLIC
+${catkin_LIBRARIES}
+urg_c_wrapper
+glog
+liburg_c
+)
+
+
+#target_link_libraries(oba_keli_node
+#		${catkin_LIBRARIES}
+#		glog)
 
 
 #############

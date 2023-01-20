@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../devel/lib/ord_sdk.a CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.o CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.o CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.o CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.o
+/usr/bin/ranlib ../../devel/lib/ord_sdk.a

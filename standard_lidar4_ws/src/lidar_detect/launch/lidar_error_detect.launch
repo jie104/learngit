@@ -1,0 +1,83 @@
+<launch>
+    <!--    添加倍加福雷达R2000-->
+    <include file="$(find pepperl_fuchs_r2000)/launch/r2000.launch"/>
+    <!--    添加keli安全雷达1-->
+<!--        <include file="$(find sdkeli_klm_udp)/launch/sdkeli_klm_udp_with_1_lidar.launch"/>-->
+
+    <!--    添加LT-R1-->
+<!--        <include file="$(find ltme_node)/launch/lt-r1.launch"/>-->
+
+    <!--    添加H1E0-03B-->
+<!--    <include file="$(find c200_lidar)/launch/c200.launch"/>-->
+
+    <!--    添加HE3051-->
+<!--        <include file="$(find hins_he_driver)/launch/hins_he_driver.launch"/>-->
+
+    <!--    添加LE50821-->
+<!--    <include file="$(find hins_le_driver)/launch/hins_le_driver.launch"/>-->
+
+    <!-- name:节点名称，pkg：功能包名称，type:所运行的节点名（C++文件） -->
+    <!--    添加万集雷达-->
+    <!-- <node name="WANJI" pkg="standard_lidar_driver" type="wanji_node"  /> -->
+    <!--    添加奥锐达雷达-->
+    <node name="ORADAR" pkg="standard_lidar_driver" type="oradar_node">
+        <param name="ip" type="string" value="192.168.71.100"/>   <!--传感器话题-->
+        <param name="port" type="int" value="2007"/>    <!--循环次数-->
+    </node>
+
+<!--    <node name="ORADAR_1" pkg="standard_lidar_driver" type="oradar_node_1">-->
+<!--        <param name="ip" type="string" value="192.168.71.203"/>   &lt;!&ndash;传感器话题&ndash;&gt;-->
+<!--        <param name="port" type="int" value="2007"/>    &lt;!&ndash;循环次数&ndash;&gt;-->
+<!--    </node>-->
+
+<!--    <node name="ORADAR_2" pkg="standard_lidar_driver" type="oradar_node_2">-->
+<!--        <param name="ip" type="string" value="192.168.71.103"/>   &lt;!&ndash;传感器话题&ndash;&gt;-->
+<!--        <param name="port" type="int" value="2007"/>    &lt;!&ndash;循环次数&ndash;&gt;-->
+<!--    </node>-->
+    <!--    添加北洋雷达-->
+    <!--   <node name="HOKUYO" pkg="standard_lidar_driver" type="hokuyo_node"  />   -->
+    <!--    利用包运行-->
+<!--          <node name="player" pkg="rosbag" type="play" args="&#45;&#45;clock /home/zxj/data/ICP/locate_simi_oba_oradar_oradar1_1.bag -l" />-->
+
+<!--        <node name="tf" pkg="lidar_detect" type="icp_calib_obastacle_lidar" />-->
+
+<!--         <node name="SIMI" pkg="standard_lidar_driver" type="simi_node"  >-->
+<!--            <param name="ip" type="string" value="192.168.71.100" />   &lt;!&ndash;传感器话题&ndash;&gt;-->
+<!--            <param name="port" type="int" value="2368"/>-->
+<!--        </node>-->
+
+    <!--    添加星秒雷达-->
+
+<!--     <node name="SIMI_1" pkg="standard_lidar_driver" type="simi_node_1"  >-->
+<!--        <param name="ip" type="string" value="192.168.71.102"/>   &lt;!&ndash;传感器话题&ndash;&gt;-->
+<!--        <param name="port" type="int" value="2368"/>    &lt;!&ndash;循环次数&ndash;&gt;-->
+<!--    </node>-->
+
+<!--     <node name="SIMI_2" pkg="standard_lidar_driver" type="simi_node_2"  >-->
+<!--        <param name="ip" type="string" value="192.168.71.102"/>   &lt;!&ndash;传感器话题&ndash;&gt;-->
+<!--        <param name="port" type="int" value="2368"/>    &lt;!&ndash;循环次数&ndash;&gt;-->
+<!--    </node>-->
+
+
+
+
+    <!--  运行雷达质检程序-->
+    <node name="lowcost_lidar" pkg="lidar_detect" type="lidar_interpara_calibra" output="screen">
+        <param name="LowCostTopic" type="string" value="/oradar_node/scan"/>   <!--传感器话题-->
+        <param name="Max_num_" type="int" value="500"/>    <!--循环次数-->
+    </node>
+
+    <!--pepperl & lowcost-->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find standard_lidar_driver)/rviz/pepperl_lowcost_pcl.rviz"/>
+</launch>
+
+ 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/Lidar-in-calibration_ws/install
+
+Name: lidar_in_calib
+Description: Description of lidar_in_calib
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

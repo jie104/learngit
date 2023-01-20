@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/exam.dir/6-function/function_pointer.cpp.o -o exam 

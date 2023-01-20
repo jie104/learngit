@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <launch>
   <arg name="frame_id" default="scan"/>
-  <arg name="scanner_ip" default="192.168.71.101"/>
-  <arg name="scan_frequency" default="40"/>
+  <arg name="scanner_ip" default="192.168.71.102"/>
+  <arg name="scan_frequency" default="20"/>
   <arg name="samples_per_scan" default="3600"/>
 
   <!-- R2000 Driver -->
@@ -12,6 +12,14 @@
     <param name="scan_frequency" value="$(arg scan_frequency)"/>
     <param name="samples_per_scan" value="$(arg samples_per_scan)"/>
   </node>
+
+  <!--  R2E0 -->
+<!--  <node pkg="pepperl_fuchs_r2000" type="R2E0_node" name="R2E0_node" >-->
+<!--    <param name="frame_id1" value="scan"/>-->
+<!--    <param name="scanner_ip1" value="10.0.10.9"/>-->
+<!--    <param name="scan_frequency1" value="20"/>-->
+<!--    <param name="samples_per_scan1" value="3600"/>-->
+<!--  </node>-->
 
   <!-- RVIZ -->
   <!-- <node pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="-d $(find pepperl_fuchs_r2000)/rviz/rviz.rviz"/> -->

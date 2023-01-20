@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../devel/lib/libsros_bag.a CMakeFiles/sros_bag.dir/bagmodule/bag.cpp.o CMakeFiles/sros_bag.dir/bagmodule/global_bag_config.cpp.o CMakeFiles/sros_bag.dir/bagmodule/bag_play.cpp.o CMakeFiles/sros_bag.dir/bagmodule/bag_record.cpp.o CMakeFiles/sros_bag.dir/bag_manager_singleton.cpp.o CMakeFiles/sros_bag.dir/msg/pub_msg/core/util/time.cpp.o
+/usr/bin/ranlib ../../../devel/lib/libsros_bag.a

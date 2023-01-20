@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.o  -o /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/oradar_ros/scan_frame_test  /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ord_sdk.a -lpthread 

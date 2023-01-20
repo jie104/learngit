@@ -1,0 +1,8 @@
+prefix=/home/zy/雷达内参标定/Lidar-in-calibration_ws/src/Lidar_in_calibration/cmake-build-debug/devel
+
+Name: lidar_in_calib
+Description: Description of lidar_in_calib
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

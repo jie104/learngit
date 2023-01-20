@@ -1,8 +1,16 @@
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/overview.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/IO_string.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/IO_file.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/accquaintance_generic_algrithms.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/IO_class.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/function_pointer.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/example.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/initializer_list.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/order_container_overview.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/array_form_parameter.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/order_container_operator.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/Vector.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/string1.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/use_Sales_data.dir

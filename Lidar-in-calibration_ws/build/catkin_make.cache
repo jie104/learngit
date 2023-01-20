@@ -1,0 +1,2 @@
+Lidar_in_calibration
+-DCATKIN_DEVEL_PREFIX=/home/zxj/workspace/obstacle_and_filter/Lidar-in-calibration_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zxj/workspace/obstacle_and_filter/Lidar-in-calibration_ws/install -G Unix Makefiles

@@ -4,14 +4,15 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/noetic/include/"
-
+                "/opt/ros/noetic/include/",
+                "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/standard_lidar_protocol/UST10LX/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4

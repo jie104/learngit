@@ -130,6 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named acquaintance_generic_algorithms
+
+# Build rule for target.
+acquaintance_generic_algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acquaintance_generic_algorithms
+.PHONY : acquaintance_generic_algorithms
+
+# fast build rule for target.
+acquaintance_generic_algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquaintance_generic_algorithms.dir/build.make CMakeFiles/acquaintance_generic_algorithms.dir/build
+.PHONY : acquaintance_generic_algorithms/fast
+
+#=============================================================================
+# Target rules for targets named string_other_operator
+
+# Build rule for target.
+string_other_operator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string_other_operator
+.PHONY : string_other_operator
+
+# fast build rule for target.
+string_other_operator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_other_operator.dir/build.make CMakeFiles/string_other_operator.dir/build
+.PHONY : string_other_operator/fast
+
+#=============================================================================
+# Target rules for targets named vector_obj_how_to_increase
+
+# Build rule for target.
+vector_obj_how_to_increase: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector_obj_how_to_increase
+.PHONY : vector_obj_how_to_increase
+
+# fast build rule for target.
+vector_obj_how_to_increase/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_obj_how_to_increase.dir/build.make CMakeFiles/vector_obj_how_to_increase.dir/build
+.PHONY : vector_obj_how_to_increase/fast
+
+#=============================================================================
+# Target rules for targets named container_lib_overview
+
+# Build rule for target.
+container_lib_overview: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 container_lib_overview
+.PHONY : container_lib_overview
+
+# fast build rule for target.
+container_lib_overview/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_lib_overview.dir/build.make CMakeFiles/container_lib_overview.dir/build
+.PHONY : container_lib_overview/fast
+
+#=============================================================================
+# Target rules for targets named IO_string
+
+# Build rule for target.
+IO_string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_string
+.PHONY : IO_string
+
+# fast build rule for target.
+IO_string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/build
+.PHONY : IO_string/fast
+
+#=============================================================================
 # Target rules for targets named entrust_constructor_function
 
 # Build rule for target.
@@ -208,6 +273,19 @@ function_match/fast:
 .PHONY : function_match/fast
 
 #=============================================================================
+# Target rules for targets named container_adapter
+
+# Build rule for target.
+container_adapter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 container_adapter
+.PHONY : container_adapter
+
+# fast build rule for target.
+container_adapter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_adapter.dir/build.make CMakeFiles/container_adapter.dir/build
+.PHONY : container_adapter/fast
+
+#=============================================================================
 # Target rules for targets named 11111
 
 # Build rule for target.
@@ -232,6 +310,19 @@ comma_operator: cmake_check_build_system
 comma_operator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_operator.dir/build.make CMakeFiles/comma_operator.dir/build
 .PHONY : comma_operator/fast
+
+#=============================================================================
+# Target rules for targets named IO_file
+
+# Build rule for target.
+IO_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_file
+.PHONY : IO_file
+
+# fast build rule for target.
+IO_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/build
+.PHONY : IO_file/fast
 
 #=============================================================================
 # Target rules for targets named eigen
@@ -297,6 +388,19 @@ string: cmake_check_build_system
 string/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
 .PHONY : string/fast
+
+#=============================================================================
+# Target rules for targets named order_container_operator
+
+# Build rule for target.
+order_container_operator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 order_container_operator
+.PHONY : order_container_operator
+
+# fast build rule for target.
+order_container_operator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/build
+.PHONY : order_container_operator/fast
 
 #=============================================================================
 # Target rules for targets named Vector
@@ -442,6 +546,19 @@ exception/fast:
 .PHONY : exception/fast
 
 #=============================================================================
+# Target rules for targets named IO_class
+
+# Build rule for target.
+IO_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_class
+.PHONY : IO_class
+
+# fast build rule for target.
+IO_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/build
+.PHONY : IO_class/fast
+
+#=============================================================================
 # Target rules for targets named function_base
 
 # Build rule for target.
@@ -494,6 +611,19 @@ initializer_list/fast:
 .PHONY : initializer_list/fast
 
 #=============================================================================
+# Target rules for targets named customize_operator
+
+# Build rule for target.
+customize_operator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 customize_operator
+.PHONY : customize_operator
+
+# fast build rule for target.
+customize_operator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customize_operator.dir/build.make CMakeFiles/customize_operator.dir/build
+.PHONY : customize_operator/fast
+
+#=============================================================================
 # Target rules for targets named constexpr_function
 
 # Build rule for target.
@@ -531,6 +661,60 @@ array_point: cmake_check_build_system
 array_point/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_point.dir/build.make CMakeFiles/array_point.dir/build
 .PHONY : array_point/fast
+
+10-generic_algorithms/acquaintance_generic_algorithms.o: 10-generic_algorithms/acquaintance_generic_algorithms.cpp.o
+
+.PHONY : 10-generic_algorithms/acquaintance_generic_algorithms.o
+
+# target to build an object file
+10-generic_algorithms/acquaintance_generic_algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquaintance_generic_algorithms.dir/build.make CMakeFiles/acquaintance_generic_algorithms.dir/10-generic_algorithms/acquaintance_generic_algorithms.cpp.o
+.PHONY : 10-generic_algorithms/acquaintance_generic_algorithms.cpp.o
+
+10-generic_algorithms/acquaintance_generic_algorithms.i: 10-generic_algorithms/acquaintance_generic_algorithms.cpp.i
+
+.PHONY : 10-generic_algorithms/acquaintance_generic_algorithms.i
+
+# target to preprocess a source file
+10-generic_algorithms/acquaintance_generic_algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquaintance_generic_algorithms.dir/build.make CMakeFiles/acquaintance_generic_algorithms.dir/10-generic_algorithms/acquaintance_generic_algorithms.cpp.i
+.PHONY : 10-generic_algorithms/acquaintance_generic_algorithms.cpp.i
+
+10-generic_algorithms/acquaintance_generic_algorithms.s: 10-generic_algorithms/acquaintance_generic_algorithms.cpp.s
+
+.PHONY : 10-generic_algorithms/acquaintance_generic_algorithms.s
+
+# target to generate assembly for a file
+10-generic_algorithms/acquaintance_generic_algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquaintance_generic_algorithms.dir/build.make CMakeFiles/acquaintance_generic_algorithms.dir/10-generic_algorithms/acquaintance_generic_algorithms.cpp.s
+.PHONY : 10-generic_algorithms/acquaintance_generic_algorithms.cpp.s
+
+10-generic_algorithms/customize_operator.o: 10-generic_algorithms/customize_operator.cpp.o
+
+.PHONY : 10-generic_algorithms/customize_operator.o
+
+# target to build an object file
+10-generic_algorithms/customize_operator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customize_operator.dir/build.make CMakeFiles/customize_operator.dir/10-generic_algorithms/customize_operator.cpp.o
+.PHONY : 10-generic_algorithms/customize_operator.cpp.o
+
+10-generic_algorithms/customize_operator.i: 10-generic_algorithms/customize_operator.cpp.i
+
+.PHONY : 10-generic_algorithms/customize_operator.i
+
+# target to preprocess a source file
+10-generic_algorithms/customize_operator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customize_operator.dir/build.make CMakeFiles/customize_operator.dir/10-generic_algorithms/customize_operator.cpp.i
+.PHONY : 10-generic_algorithms/customize_operator.cpp.i
+
+10-generic_algorithms/customize_operator.s: 10-generic_algorithms/customize_operator.cpp.s
+
+.PHONY : 10-generic_algorithms/customize_operator.s
+
+# target to generate assembly for a file
+10-generic_algorithms/customize_operator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/customize_operator.dir/build.make CMakeFiles/customize_operator.dir/10-generic_algorithms/customize_operator.cpp.s
+.PHONY : 10-generic_algorithms/customize_operator.cpp.s
 
 11111.o: 11111.cpp.o
 
@@ -936,6 +1120,222 @@ array_point/fast:
 7-class/entrust_constructor_function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/entrust_constructor_function.dir/build.make CMakeFiles/entrust_constructor_function.dir/7-class/entrust_constructor_function.cpp.s
 .PHONY : 7-class/entrust_constructor_function.cpp.s
+
+8-IO_lib/IO_class.o: 8-IO_lib/IO_class.cpp.o
+
+.PHONY : 8-IO_lib/IO_class.o
+
+# target to build an object file
+8-IO_lib/IO_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/8-IO_lib/IO_class.cpp.o
+.PHONY : 8-IO_lib/IO_class.cpp.o
+
+8-IO_lib/IO_class.i: 8-IO_lib/IO_class.cpp.i
+
+.PHONY : 8-IO_lib/IO_class.i
+
+# target to preprocess a source file
+8-IO_lib/IO_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/8-IO_lib/IO_class.cpp.i
+.PHONY : 8-IO_lib/IO_class.cpp.i
+
+8-IO_lib/IO_class.s: 8-IO_lib/IO_class.cpp.s
+
+.PHONY : 8-IO_lib/IO_class.s
+
+# target to generate assembly for a file
+8-IO_lib/IO_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/8-IO_lib/IO_class.cpp.s
+.PHONY : 8-IO_lib/IO_class.cpp.s
+
+8-IO_lib/IO_file.o: 8-IO_lib/IO_file.cpp.o
+
+.PHONY : 8-IO_lib/IO_file.o
+
+# target to build an object file
+8-IO_lib/IO_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/8-IO_lib/IO_file.cpp.o
+.PHONY : 8-IO_lib/IO_file.cpp.o
+
+8-IO_lib/IO_file.i: 8-IO_lib/IO_file.cpp.i
+
+.PHONY : 8-IO_lib/IO_file.i
+
+# target to preprocess a source file
+8-IO_lib/IO_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/8-IO_lib/IO_file.cpp.i
+.PHONY : 8-IO_lib/IO_file.cpp.i
+
+8-IO_lib/IO_file.s: 8-IO_lib/IO_file.cpp.s
+
+.PHONY : 8-IO_lib/IO_file.s
+
+# target to generate assembly for a file
+8-IO_lib/IO_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/8-IO_lib/IO_file.cpp.s
+.PHONY : 8-IO_lib/IO_file.cpp.s
+
+8-IO_lib/IO_string.o: 8-IO_lib/IO_string.cpp.o
+
+.PHONY : 8-IO_lib/IO_string.o
+
+# target to build an object file
+8-IO_lib/IO_string.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/8-IO_lib/IO_string.cpp.o
+.PHONY : 8-IO_lib/IO_string.cpp.o
+
+8-IO_lib/IO_string.i: 8-IO_lib/IO_string.cpp.i
+
+.PHONY : 8-IO_lib/IO_string.i
+
+# target to preprocess a source file
+8-IO_lib/IO_string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/8-IO_lib/IO_string.cpp.i
+.PHONY : 8-IO_lib/IO_string.cpp.i
+
+8-IO_lib/IO_string.s: 8-IO_lib/IO_string.cpp.s
+
+.PHONY : 8-IO_lib/IO_string.s
+
+# target to generate assembly for a file
+8-IO_lib/IO_string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/8-IO_lib/IO_string.cpp.s
+.PHONY : 8-IO_lib/IO_string.cpp.s
+
+9-order_container/container_adapter.o: 9-order_container/container_adapter.cpp.o
+
+.PHONY : 9-order_container/container_adapter.o
+
+# target to build an object file
+9-order_container/container_adapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_adapter.dir/build.make CMakeFiles/container_adapter.dir/9-order_container/container_adapter.cpp.o
+.PHONY : 9-order_container/container_adapter.cpp.o
+
+9-order_container/container_adapter.i: 9-order_container/container_adapter.cpp.i
+
+.PHONY : 9-order_container/container_adapter.i
+
+# target to preprocess a source file
+9-order_container/container_adapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_adapter.dir/build.make CMakeFiles/container_adapter.dir/9-order_container/container_adapter.cpp.i
+.PHONY : 9-order_container/container_adapter.cpp.i
+
+9-order_container/container_adapter.s: 9-order_container/container_adapter.cpp.s
+
+.PHONY : 9-order_container/container_adapter.s
+
+# target to generate assembly for a file
+9-order_container/container_adapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_adapter.dir/build.make CMakeFiles/container_adapter.dir/9-order_container/container_adapter.cpp.s
+.PHONY : 9-order_container/container_adapter.cpp.s
+
+9-order_container/container_lib_overview.o: 9-order_container/container_lib_overview.cpp.o
+
+.PHONY : 9-order_container/container_lib_overview.o
+
+# target to build an object file
+9-order_container/container_lib_overview.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_lib_overview.dir/build.make CMakeFiles/container_lib_overview.dir/9-order_container/container_lib_overview.cpp.o
+.PHONY : 9-order_container/container_lib_overview.cpp.o
+
+9-order_container/container_lib_overview.i: 9-order_container/container_lib_overview.cpp.i
+
+.PHONY : 9-order_container/container_lib_overview.i
+
+# target to preprocess a source file
+9-order_container/container_lib_overview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_lib_overview.dir/build.make CMakeFiles/container_lib_overview.dir/9-order_container/container_lib_overview.cpp.i
+.PHONY : 9-order_container/container_lib_overview.cpp.i
+
+9-order_container/container_lib_overview.s: 9-order_container/container_lib_overview.cpp.s
+
+.PHONY : 9-order_container/container_lib_overview.s
+
+# target to generate assembly for a file
+9-order_container/container_lib_overview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_lib_overview.dir/build.make CMakeFiles/container_lib_overview.dir/9-order_container/container_lib_overview.cpp.s
+.PHONY : 9-order_container/container_lib_overview.cpp.s
+
+9-order_container/order_container_operator.o: 9-order_container/order_container_operator.cpp.o
+
+.PHONY : 9-order_container/order_container_operator.o
+
+# target to build an object file
+9-order_container/order_container_operator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o
+.PHONY : 9-order_container/order_container_operator.cpp.o
+
+9-order_container/order_container_operator.i: 9-order_container/order_container_operator.cpp.i
+
+.PHONY : 9-order_container/order_container_operator.i
+
+# target to preprocess a source file
+9-order_container/order_container_operator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.i
+.PHONY : 9-order_container/order_container_operator.cpp.i
+
+9-order_container/order_container_operator.s: 9-order_container/order_container_operator.cpp.s
+
+.PHONY : 9-order_container/order_container_operator.s
+
+# target to generate assembly for a file
+9-order_container/order_container_operator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.s
+.PHONY : 9-order_container/order_container_operator.cpp.s
+
+9-order_container/string_other_operator.o: 9-order_container/string_other_operator.cpp.o
+
+.PHONY : 9-order_container/string_other_operator.o
+
+# target to build an object file
+9-order_container/string_other_operator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_other_operator.dir/build.make CMakeFiles/string_other_operator.dir/9-order_container/string_other_operator.cpp.o
+.PHONY : 9-order_container/string_other_operator.cpp.o
+
+9-order_container/string_other_operator.i: 9-order_container/string_other_operator.cpp.i
+
+.PHONY : 9-order_container/string_other_operator.i
+
+# target to preprocess a source file
+9-order_container/string_other_operator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_other_operator.dir/build.make CMakeFiles/string_other_operator.dir/9-order_container/string_other_operator.cpp.i
+.PHONY : 9-order_container/string_other_operator.cpp.i
+
+9-order_container/string_other_operator.s: 9-order_container/string_other_operator.cpp.s
+
+.PHONY : 9-order_container/string_other_operator.s
+
+# target to generate assembly for a file
+9-order_container/string_other_operator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_other_operator.dir/build.make CMakeFiles/string_other_operator.dir/9-order_container/string_other_operator.cpp.s
+.PHONY : 9-order_container/string_other_operator.cpp.s
+
+9-order_container/vector_obj_how_to_increase.o: 9-order_container/vector_obj_how_to_increase.cpp.o
+
+.PHONY : 9-order_container/vector_obj_how_to_increase.o
+
+# target to build an object file
+9-order_container/vector_obj_how_to_increase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_obj_how_to_increase.dir/build.make CMakeFiles/vector_obj_how_to_increase.dir/9-order_container/vector_obj_how_to_increase.cpp.o
+.PHONY : 9-order_container/vector_obj_how_to_increase.cpp.o
+
+9-order_container/vector_obj_how_to_increase.i: 9-order_container/vector_obj_how_to_increase.cpp.i
+
+.PHONY : 9-order_container/vector_obj_how_to_increase.i
+
+# target to preprocess a source file
+9-order_container/vector_obj_how_to_increase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_obj_how_to_increase.dir/build.make CMakeFiles/vector_obj_how_to_increase.dir/9-order_container/vector_obj_how_to_increase.cpp.i
+.PHONY : 9-order_container/vector_obj_how_to_increase.cpp.i
+
+9-order_container/vector_obj_how_to_increase.s: 9-order_container/vector_obj_how_to_increase.cpp.s
+
+.PHONY : 9-order_container/vector_obj_how_to_increase.s
+
+# target to generate assembly for a file
+9-order_container/vector_obj_how_to_increase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_obj_how_to_increase.dir/build.make CMakeFiles/vector_obj_how_to_increase.dir/9-order_container/vector_obj_how_to_increase.cpp.s
+.PHONY : 9-order_container/vector_obj_how_to_increase.cpp.s
 
 Vector.o: Vector.cpp.o
 
@@ -1378,14 +1778,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 11111"
+	@echo "... IO_class"
+	@echo "... IO_file"
+	@echo "... IO_string"
 	@echo "... Vector"
 	@echo "... access_control_and_Encapsulation"
+	@echo "... acquaintance_generic_algorithms"
 	@echo "... array_form_parameter"
 	@echo "... array_point"
 	@echo "... class_other_feature"
 	@echo "... comma_operator"
 	@echo "... constexpr_function"
 	@echo "... constructor_function_refind"
+	@echo "... container_adapter"
+	@echo "... container_lib_overview"
+	@echo "... customize_operator"
 	@echo "... debug_help"
 	@echo "... define_abstract_data_type"
 	@echo "... eigen"
@@ -1404,10 +1811,19 @@ help:
 	@echo "... iterator"
 	@echo "... iterator1"
 	@echo "... local_object"
+	@echo "... order_container_operator"
 	@echo "... reference_parameter"
 	@echo "... statement"
 	@echo "... string"
+	@echo "... string_other_operator"
 	@echo "... switch"
+	@echo "... vector_obj_how_to_increase"
+	@echo "... 10-generic_algorithms/acquaintance_generic_algorithms.o"
+	@echo "... 10-generic_algorithms/acquaintance_generic_algorithms.i"
+	@echo "... 10-generic_algorithms/acquaintance_generic_algorithms.s"
+	@echo "... 10-generic_algorithms/customize_operator.o"
+	@echo "... 10-generic_algorithms/customize_operator.i"
+	@echo "... 10-generic_algorithms/customize_operator.s"
 	@echo "... 11111.o"
 	@echo "... 11111.i"
 	@echo "... 11111.s"
@@ -1453,6 +1869,30 @@ help:
 	@echo "... 7-class/entrust_constructor_function.o"
 	@echo "... 7-class/entrust_constructor_function.i"
 	@echo "... 7-class/entrust_constructor_function.s"
+	@echo "... 8-IO_lib/IO_class.o"
+	@echo "... 8-IO_lib/IO_class.i"
+	@echo "... 8-IO_lib/IO_class.s"
+	@echo "... 8-IO_lib/IO_file.o"
+	@echo "... 8-IO_lib/IO_file.i"
+	@echo "... 8-IO_lib/IO_file.s"
+	@echo "... 8-IO_lib/IO_string.o"
+	@echo "... 8-IO_lib/IO_string.i"
+	@echo "... 8-IO_lib/IO_string.s"
+	@echo "... 9-order_container/container_adapter.o"
+	@echo "... 9-order_container/container_adapter.i"
+	@echo "... 9-order_container/container_adapter.s"
+	@echo "... 9-order_container/container_lib_overview.o"
+	@echo "... 9-order_container/container_lib_overview.i"
+	@echo "... 9-order_container/container_lib_overview.s"
+	@echo "... 9-order_container/order_container_operator.o"
+	@echo "... 9-order_container/order_container_operator.i"
+	@echo "... 9-order_container/order_container_operator.s"
+	@echo "... 9-order_container/string_other_operator.o"
+	@echo "... 9-order_container/string_other_operator.i"
+	@echo "... 9-order_container/string_other_operator.s"
+	@echo "... 9-order_container/vector_obj_how_to_increase.o"
+	@echo "... 9-order_container/vector_obj_how_to_increase.i"
+	@echo "... 9-order_container/vector_obj_how_to_increase.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"

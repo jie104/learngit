@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/learngit/lidar_ws/devel
+prefix=/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel
 
 Name: leimou_f30_ros
 Description: Description of leimou_f30_ros

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a  CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o
+/usr/bin/ranlib /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a

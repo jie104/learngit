@@ -42,6 +42,18 @@ add_executable(array_pointer 6-function/array_pointer.cpp)
 
 add_executable(function_overload 6-function/function_overload.cpp)
 add_executable(function_pointer 6-function/function_pointer.cpp)
+add_executable(example 7-class/example.cpp)
+
+add_executable(IO_class 8-IO_library/IO_class.cpp)
+add_executable(IO_file 8-IO_library/IO_file.cpp)
+add_executable(IO_string 8-IO_library/IO_string.cpp)
+
+add_executable(order_container_overview 9-order_container/order_container_overview.cpp)
+add_executable(order_container_operator 9-order_container/order_container_operator.cpp)
+add_executable(overview 10-generic_algorithms/overview.cpp)
+
+add_executable(accquaintance_generic_algrithms 10-generic_algorithms/accquaintance_generic_algrithms.cpp)
+
 
 
 #将目标库链接到可执行目标

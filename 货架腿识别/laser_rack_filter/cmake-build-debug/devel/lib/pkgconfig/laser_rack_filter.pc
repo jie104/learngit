@@ -1,0 +1,8 @@
+prefix=/home/zxj/桌面/货架腿识别/laser_rack_filter/cmake-build-debug/devel
+
+Name: laser_rack_filter
+Description: Description of laser_rack_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

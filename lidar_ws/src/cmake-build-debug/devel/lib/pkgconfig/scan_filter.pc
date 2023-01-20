@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel
+
+Name: scan_filter
+Description: Description of scan_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

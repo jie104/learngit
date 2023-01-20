@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++11 -g -rdynamic CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.o -o ../../../devel/lib/oradar_ros/scan_frame_test  ../../../devel/lib/ord_sdk.a -lpthread 

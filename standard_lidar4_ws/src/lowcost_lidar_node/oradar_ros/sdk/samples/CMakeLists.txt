@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 2.8.3)
+
+PROJECT(scan_frame_test)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+INCLUDE_DIRECTORIES(
+     ${CMAKE_SOURCE_DIR}
+     ${CMAKE_SOURCE_DIR}/../
+     ${CMAKE_CURRENT_BINARY_DIR}
+)
+
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+
+ADD_EXECUTABLE(${PROJECT_NAME}
+               get_scan_frame_test.cpp)
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ord_sdk pthread)

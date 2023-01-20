@@ -1,8 +1,8 @@
-prefix=/home/zxj/桌面/learngit/lidar_ws/devel
+prefix=/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel
 
 Name: srosbag_pub
 Description: Description of srosbag_pub
 Version: 0.0.0
-Cflags: -I/home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub/include/srosbag
+Cflags: -I/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag
 Libs: -L${prefix}/lib -lsros_bag
 Requires: sensor_msgs

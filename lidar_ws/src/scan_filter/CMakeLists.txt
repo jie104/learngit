@@ -149,6 +149,7 @@ add_executable(lidar_scan_filter src/lidar_scan_filter.cpp)
 ## Specify libraries to link a library or executable target against
 target_link_libraries(lidar_scan_filter
   ${catkin_LIBRARIES}
+  glog
 )
 
 #############

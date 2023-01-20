@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: srosbag_pub
+Description: Description of srosbag_pub
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsros_bag
+Requires: sensor_msgs

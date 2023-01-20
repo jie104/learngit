@@ -40,7 +40,7 @@ R2000Node::R2000Node():nh_("~")
     // Reading and checking parameters
     //-------------------------------------------------------------------------
     nh_.param("frame_id", frame_id_, std::string("/scan"));
-    nh_.param("scanner_ip",scanner_ip_,std::string(""));
+    nh_.param("scanner_ip",scanner_ip_,std::string("192.168.71.101"));
     nh_.param("scan_frequency",scan_frequency_,35);
     nh_.param("samples_per_scan",samples_per_scan_,3600);
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/zxj/桌面/货架腿识别/rack_detector/cmake-build-release/gtest/lib ../lib/libgtest.so -lpthread 

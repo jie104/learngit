@@ -42,9 +42,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/overview.dir/DependInfo.cmake"
+  "CMakeFiles/IO_string.dir/DependInfo.cmake"
+  "CMakeFiles/IO_file.dir/DependInfo.cmake"
+  "CMakeFiles/accquaintance_generic_algrithms.dir/DependInfo.cmake"
+  "CMakeFiles/IO_class.dir/DependInfo.cmake"
   "CMakeFiles/function_pointer.dir/DependInfo.cmake"
+  "CMakeFiles/example.dir/DependInfo.cmake"
   "CMakeFiles/initializer_list.dir/DependInfo.cmake"
+  "CMakeFiles/order_container_overview.dir/DependInfo.cmake"
   "CMakeFiles/array_form_parameter.dir/DependInfo.cmake"
+  "CMakeFiles/order_container_operator.dir/DependInfo.cmake"
   "CMakeFiles/Vector.dir/DependInfo.cmake"
   "CMakeFiles/string1.dir/DependInfo.cmake"
   "CMakeFiles/use_Sales_data.dir/DependInfo.cmake"

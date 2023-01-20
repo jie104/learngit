@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
 
 class Sales_data
 {
@@ -20,7 +21,10 @@ public:
     /*explicit*/ Sales_data(std::istream &is):Sales_data(){ read(is,*this);}
 
     std::string isbn() const {return bookNo;}
-    Sales_data& combine(const Sales_data&);
+    Sales_data &combine(const Sales_data&);
+    Sales_data &combine( Sales_data&);
+    Sales_data &combine(const Sales_data&) const;
+
     inline double avg_price() const;   //常量成员函数
 
     friend Sales_data add(const Sales_data&,const Sales_data&);
@@ -55,6 +59,18 @@ Sales_data& Sales_data::combine(const Sales_data & rhs) {
     return *this;   //返回调用该函数的对象
 }
 
+Sales_data& Sales_data::combine(Sales_data & rhs) {
+    units_sold+=rhs.units_sold; //把rhs成员加到this对象成员
+    revenue+=rhs.revenue;
+    return *this;   //返回调用该函数的对象
+}
+
+//this是指向常量的指针，不能修改，故报错
+//Sales_data& Sales_data::combine(const Sales_data & rhs) const{
+//    units_sold+=rhs.units_sold; //把rhs成员加到this对象成员
+//    revenue+=rhs.revenue;
+//    return *this;   //返回调用该函数的对象
+//}
 std::istream &read(std::istream& is,Sales_data& item){
     double price=0;
     is >> item.bookNo >> item.units_sold >> price;
@@ -183,7 +199,7 @@ private:
     static const char bkground;
 };
 
-int main()
+int main(int argc,char** argv)
 {
     //声明一个返回Sales_data的函数obj()
     Sales_data obj();
@@ -201,6 +217,7 @@ int main()
     item.combine(std::cin);
 
     Sales_data item1(null_book);    //正确，直接初始化
+
 //    Sales_data item2=null_book; //错误：不能将explicit构造函数用于拷贝形式的初始化过程
 
     item.combine(Sales_data(null_book));
@@ -220,5 +237,24 @@ int main()
     r=ac2->rate();  //通过指向Account对象的指针
 
     auto b=Bar::getInstance().apple;
+
+    std::vector<int> f;
+
+    std::ifstream input(argv[1]);   //打开销售记录
+    std::ofstream output(argv[2]);  //打开输出文件
+    Sales_data total;
+    if (read(input,total)){
+        Sales_data trans;
+        while (read(input,trans)){
+            if (total.isbn()==trans.isbn())
+                total.combine(trans);
+            else{
+                print(output,total) << std::endl;
+            }
+        }
+        print(output,total) << std::endl;
+    }else{
+        std::cerr << "No data?!" << std::endl;
+    }
 
 }

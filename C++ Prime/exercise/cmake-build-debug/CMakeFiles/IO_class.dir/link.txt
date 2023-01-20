@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/IO_class.dir/8-IO_library/IO_class.cpp.o -o IO_class 

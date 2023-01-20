@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/桌面/learngit/lidar_ws/src/scan_filter
+# Install script for directory: /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/lidar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/workspace/obstacle_and_filter/lidar_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/lidar_ws/build/scan_filter/catkin_generated/installspace/scan_filter.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/scan_filter/catkin_generated/installspace/scan_filter.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scan_filter/cmake" TYPE FILE FILES
-    "/home/zxj/桌面/learngit/lidar_ws/build/scan_filter/catkin_generated/installspace/scan_filterConfig.cmake"
-    "/home/zxj/桌面/learngit/lidar_ws/build/scan_filter/catkin_generated/installspace/scan_filterConfig-version.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/scan_filter/catkin_generated/installspace/scan_filterConfig.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/scan_filter/catkin_generated/installspace/scan_filterConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scan_filter" TYPE FILE FILES "/home/zxj/桌面/learngit/lidar_ws/src/scan_filter/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scan_filter" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter/package.xml")
 endif()
 

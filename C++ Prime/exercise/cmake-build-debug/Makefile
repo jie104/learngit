@@ -130,6 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named overview
+
+# Build rule for target.
+overview: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 overview
+.PHONY : overview
+
+# fast build rule for target.
+overview/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/build
+.PHONY : overview/fast
+
+#=============================================================================
+# Target rules for targets named IO_string
+
+# Build rule for target.
+IO_string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_string
+.PHONY : IO_string
+
+# fast build rule for target.
+IO_string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/build
+.PHONY : IO_string/fast
+
+#=============================================================================
+# Target rules for targets named IO_file
+
+# Build rule for target.
+IO_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_file
+.PHONY : IO_file
+
+# fast build rule for target.
+IO_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/build
+.PHONY : IO_file/fast
+
+#=============================================================================
+# Target rules for targets named accquaintance_generic_algrithms
+
+# Build rule for target.
+accquaintance_generic_algrithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 accquaintance_generic_algrithms
+.PHONY : accquaintance_generic_algrithms
+
+# fast build rule for target.
+accquaintance_generic_algrithms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/accquaintance_generic_algrithms.dir/build.make CMakeFiles/accquaintance_generic_algrithms.dir/build
+.PHONY : accquaintance_generic_algrithms/fast
+
+#=============================================================================
+# Target rules for targets named IO_class
+
+# Build rule for target.
+IO_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_class
+.PHONY : IO_class
+
+# fast build rule for target.
+IO_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/build
+.PHONY : IO_class/fast
+
+#=============================================================================
 # Target rules for targets named function_pointer
 
 # Build rule for target.
@@ -141,6 +206,19 @@ function_pointer: cmake_check_build_system
 function_pointer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/build
 .PHONY : function_pointer/fast
+
+#=============================================================================
+# Target rules for targets named example
+
+# Build rule for target.
+example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
+.PHONY : example
+
+# fast build rule for target.
+example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
+.PHONY : example/fast
 
 #=============================================================================
 # Target rules for targets named initializer_list
@@ -156,6 +234,19 @@ initializer_list/fast:
 .PHONY : initializer_list/fast
 
 #=============================================================================
+# Target rules for targets named order_container_overview
+
+# Build rule for target.
+order_container_overview: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 order_container_overview
+.PHONY : order_container_overview
+
+# fast build rule for target.
+order_container_overview/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_overview.dir/build.make CMakeFiles/order_container_overview.dir/build
+.PHONY : order_container_overview/fast
+
+#=============================================================================
 # Target rules for targets named array_form_parameter
 
 # Build rule for target.
@@ -167,6 +258,19 @@ array_form_parameter: cmake_check_build_system
 array_form_parameter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/build
 .PHONY : array_form_parameter/fast
+
+#=============================================================================
+# Target rules for targets named order_container_operator
+
+# Build rule for target.
+order_container_operator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 order_container_operator
+.PHONY : order_container_operator
+
+# fast build rule for target.
+order_container_operator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/build
+.PHONY : order_container_operator/fast
 
 #=============================================================================
 # Target rules for targets named Vector
@@ -520,6 +624,60 @@ exception/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.s
 .PHONY : 1.cpp.s
 
+10-generic_algorithms/accquaintance_generic_algrithms.o: 10-generic_algorithms/accquaintance_generic_algrithms.cpp.o
+
+.PHONY : 10-generic_algorithms/accquaintance_generic_algrithms.o
+
+# target to build an object file
+10-generic_algorithms/accquaintance_generic_algrithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/accquaintance_generic_algrithms.dir/build.make CMakeFiles/accquaintance_generic_algrithms.dir/10-generic_algorithms/accquaintance_generic_algrithms.cpp.o
+.PHONY : 10-generic_algorithms/accquaintance_generic_algrithms.cpp.o
+
+10-generic_algorithms/accquaintance_generic_algrithms.i: 10-generic_algorithms/accquaintance_generic_algrithms.cpp.i
+
+.PHONY : 10-generic_algorithms/accquaintance_generic_algrithms.i
+
+# target to preprocess a source file
+10-generic_algorithms/accquaintance_generic_algrithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/accquaintance_generic_algrithms.dir/build.make CMakeFiles/accquaintance_generic_algrithms.dir/10-generic_algorithms/accquaintance_generic_algrithms.cpp.i
+.PHONY : 10-generic_algorithms/accquaintance_generic_algrithms.cpp.i
+
+10-generic_algorithms/accquaintance_generic_algrithms.s: 10-generic_algorithms/accquaintance_generic_algrithms.cpp.s
+
+.PHONY : 10-generic_algorithms/accquaintance_generic_algrithms.s
+
+# target to generate assembly for a file
+10-generic_algorithms/accquaintance_generic_algrithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/accquaintance_generic_algrithms.dir/build.make CMakeFiles/accquaintance_generic_algrithms.dir/10-generic_algorithms/accquaintance_generic_algrithms.cpp.s
+.PHONY : 10-generic_algorithms/accquaintance_generic_algrithms.cpp.s
+
+10-generic_algorithms/overview.o: 10-generic_algorithms/overview.cpp.o
+
+.PHONY : 10-generic_algorithms/overview.o
+
+# target to build an object file
+10-generic_algorithms/overview.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/10-generic_algorithms/overview.cpp.o
+.PHONY : 10-generic_algorithms/overview.cpp.o
+
+10-generic_algorithms/overview.i: 10-generic_algorithms/overview.cpp.i
+
+.PHONY : 10-generic_algorithms/overview.i
+
+# target to preprocess a source file
+10-generic_algorithms/overview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/10-generic_algorithms/overview.cpp.i
+.PHONY : 10-generic_algorithms/overview.cpp.i
+
+10-generic_algorithms/overview.s: 10-generic_algorithms/overview.cpp.s
+
+.PHONY : 10-generic_algorithms/overview.s
+
+# target to generate assembly for a file
+10-generic_algorithms/overview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/10-generic_algorithms/overview.cpp.s
+.PHONY : 10-generic_algorithms/overview.cpp.s
+
 6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
 
 .PHONY : 6-function/array_form_parameter.o
@@ -708,6 +866,168 @@ exception/fast:
 6-function/reference.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference.dir/build.make CMakeFiles/reference.dir/6-function/reference.cpp.s
 .PHONY : 6-function/reference.cpp.s
+
+7-class/example.o: 7-class/example.cpp.o
+
+.PHONY : 7-class/example.o
+
+# target to build an object file
+7-class/example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/7-class/example.cpp.o
+.PHONY : 7-class/example.cpp.o
+
+7-class/example.i: 7-class/example.cpp.i
+
+.PHONY : 7-class/example.i
+
+# target to preprocess a source file
+7-class/example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/7-class/example.cpp.i
+.PHONY : 7-class/example.cpp.i
+
+7-class/example.s: 7-class/example.cpp.s
+
+.PHONY : 7-class/example.s
+
+# target to generate assembly for a file
+7-class/example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/7-class/example.cpp.s
+.PHONY : 7-class/example.cpp.s
+
+8-IO_library/IO_class.o: 8-IO_library/IO_class.cpp.o
+
+.PHONY : 8-IO_library/IO_class.o
+
+# target to build an object file
+8-IO_library/IO_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/8-IO_library/IO_class.cpp.o
+.PHONY : 8-IO_library/IO_class.cpp.o
+
+8-IO_library/IO_class.i: 8-IO_library/IO_class.cpp.i
+
+.PHONY : 8-IO_library/IO_class.i
+
+# target to preprocess a source file
+8-IO_library/IO_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/8-IO_library/IO_class.cpp.i
+.PHONY : 8-IO_library/IO_class.cpp.i
+
+8-IO_library/IO_class.s: 8-IO_library/IO_class.cpp.s
+
+.PHONY : 8-IO_library/IO_class.s
+
+# target to generate assembly for a file
+8-IO_library/IO_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/8-IO_library/IO_class.cpp.s
+.PHONY : 8-IO_library/IO_class.cpp.s
+
+8-IO_library/IO_file.o: 8-IO_library/IO_file.cpp.o
+
+.PHONY : 8-IO_library/IO_file.o
+
+# target to build an object file
+8-IO_library/IO_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/8-IO_library/IO_file.cpp.o
+.PHONY : 8-IO_library/IO_file.cpp.o
+
+8-IO_library/IO_file.i: 8-IO_library/IO_file.cpp.i
+
+.PHONY : 8-IO_library/IO_file.i
+
+# target to preprocess a source file
+8-IO_library/IO_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/8-IO_library/IO_file.cpp.i
+.PHONY : 8-IO_library/IO_file.cpp.i
+
+8-IO_library/IO_file.s: 8-IO_library/IO_file.cpp.s
+
+.PHONY : 8-IO_library/IO_file.s
+
+# target to generate assembly for a file
+8-IO_library/IO_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/8-IO_library/IO_file.cpp.s
+.PHONY : 8-IO_library/IO_file.cpp.s
+
+8-IO_library/IO_string.o: 8-IO_library/IO_string.cpp.o
+
+.PHONY : 8-IO_library/IO_string.o
+
+# target to build an object file
+8-IO_library/IO_string.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/8-IO_library/IO_string.cpp.o
+.PHONY : 8-IO_library/IO_string.cpp.o
+
+8-IO_library/IO_string.i: 8-IO_library/IO_string.cpp.i
+
+.PHONY : 8-IO_library/IO_string.i
+
+# target to preprocess a source file
+8-IO_library/IO_string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/8-IO_library/IO_string.cpp.i
+.PHONY : 8-IO_library/IO_string.cpp.i
+
+8-IO_library/IO_string.s: 8-IO_library/IO_string.cpp.s
+
+.PHONY : 8-IO_library/IO_string.s
+
+# target to generate assembly for a file
+8-IO_library/IO_string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/8-IO_library/IO_string.cpp.s
+.PHONY : 8-IO_library/IO_string.cpp.s
+
+9-order_container/order_container_operator.o: 9-order_container/order_container_operator.cpp.o
+
+.PHONY : 9-order_container/order_container_operator.o
+
+# target to build an object file
+9-order_container/order_container_operator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o
+.PHONY : 9-order_container/order_container_operator.cpp.o
+
+9-order_container/order_container_operator.i: 9-order_container/order_container_operator.cpp.i
+
+.PHONY : 9-order_container/order_container_operator.i
+
+# target to preprocess a source file
+9-order_container/order_container_operator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.i
+.PHONY : 9-order_container/order_container_operator.cpp.i
+
+9-order_container/order_container_operator.s: 9-order_container/order_container_operator.cpp.s
+
+.PHONY : 9-order_container/order_container_operator.s
+
+# target to generate assembly for a file
+9-order_container/order_container_operator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.s
+.PHONY : 9-order_container/order_container_operator.cpp.s
+
+9-order_container/order_container_overview.o: 9-order_container/order_container_overview.cpp.o
+
+.PHONY : 9-order_container/order_container_overview.o
+
+# target to build an object file
+9-order_container/order_container_overview.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_overview.dir/build.make CMakeFiles/order_container_overview.dir/9-order_container/order_container_overview.cpp.o
+.PHONY : 9-order_container/order_container_overview.cpp.o
+
+9-order_container/order_container_overview.i: 9-order_container/order_container_overview.cpp.i
+
+.PHONY : 9-order_container/order_container_overview.i
+
+# target to preprocess a source file
+9-order_container/order_container_overview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_overview.dir/build.make CMakeFiles/order_container_overview.dir/9-order_container/order_container_overview.cpp.i
+.PHONY : 9-order_container/order_container_overview.cpp.i
+
+9-order_container/order_container_overview.s: 9-order_container/order_container_overview.cpp.s
+
+.PHONY : 9-order_container/order_container_overview.s
+
+# target to generate assembly for a file
+9-order_container/order_container_overview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_overview.dir/build.make CMakeFiles/order_container_overview.dir/9-order_container/order_container_overview.cpp.s
+.PHONY : 9-order_container/order_container_overview.cpp.s
 
 Vector.o: Vector.cpp.o
 
@@ -1258,10 +1578,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 1"
+	@echo "... IO_class"
+	@echo "... IO_file"
+	@echo "... IO_string"
 	@echo "... Vector"
+	@echo "... accquaintance_generic_algrithms"
 	@echo "... array_form_parameter"
 	@echo "... array_pointer"
 	@echo "... const_reference"
+	@echo "... example"
 	@echo "... exception"
 	@echo "... exercise2"
 	@echo "... exercise3"
@@ -1279,6 +1604,9 @@ help:
 	@echo "... iterator"
 	@echo "... iterator1"
 	@echo "... iterator2"
+	@echo "... order_container_operator"
+	@echo "... order_container_overview"
+	@echo "... overview"
 	@echo "... reference"
 	@echo "... sizeof"
 	@echo "... string"
@@ -1288,6 +1616,12 @@ help:
 	@echo "... 1.o"
 	@echo "... 1.i"
 	@echo "... 1.s"
+	@echo "... 10-generic_algorithms/accquaintance_generic_algrithms.o"
+	@echo "... 10-generic_algorithms/accquaintance_generic_algrithms.i"
+	@echo "... 10-generic_algorithms/accquaintance_generic_algrithms.s"
+	@echo "... 10-generic_algorithms/overview.o"
+	@echo "... 10-generic_algorithms/overview.i"
+	@echo "... 10-generic_algorithms/overview.s"
 	@echo "... 6-function/array_form_parameter.o"
 	@echo "... 6-function/array_form_parameter.i"
 	@echo "... 6-function/array_form_parameter.s"
@@ -1309,6 +1643,24 @@ help:
 	@echo "... 6-function/reference.o"
 	@echo "... 6-function/reference.i"
 	@echo "... 6-function/reference.s"
+	@echo "... 7-class/example.o"
+	@echo "... 7-class/example.i"
+	@echo "... 7-class/example.s"
+	@echo "... 8-IO_library/IO_class.o"
+	@echo "... 8-IO_library/IO_class.i"
+	@echo "... 8-IO_library/IO_class.s"
+	@echo "... 8-IO_library/IO_file.o"
+	@echo "... 8-IO_library/IO_file.i"
+	@echo "... 8-IO_library/IO_file.s"
+	@echo "... 8-IO_library/IO_string.o"
+	@echo "... 8-IO_library/IO_string.i"
+	@echo "... 8-IO_library/IO_string.s"
+	@echo "... 9-order_container/order_container_operator.o"
+	@echo "... 9-order_container/order_container_operator.i"
+	@echo "... 9-order_container/order_container_operator.s"
+	@echo "... 9-order_container/order_container_overview.o"
+	@echo "... 9-order_container/order_container_overview.i"
+	@echo "... 9-order_container/order_container_overview.s"
 	@echo "... Vector.o"
 	@echo "... Vector.i"
 	@echo "... Vector.s"
