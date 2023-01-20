@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"wj_716_lidar\"
 
-CXX_INCLUDES = -I/home/zxj/桌面/learngit/lidar_ws/devel/include -I/home/zxj/桌面/learngit/lidar_ws/src/wj_716_lidar/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/include -I/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

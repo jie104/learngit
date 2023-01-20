@@ -6,15 +6,15 @@
 <!--
         <param name="bag_name"     value="Map201903151430"/>//该包的雷达点被车体盖板遮挡
 -->
-	<param name="bag_name" value="wanji_pepperl_1"/>
-        <param name="time_scale" value="1.0"/>   
+	<param name="bag_name" value="0117旋转测试"/>
+        <param name="time_scale" value="0.5 "/>
 <!--
         <param name="begin_play_time" type = "double" value="1573286200.563299"/>
 -->
 <!--
         <param name="begin_play_time" type = "double" value="1573360479.30518293"/>
 -->
-        <param name="begin_play_time" type = "double" value="0"/>
+        <param name="begin_play_time" type = "double" value="00.56162200"/>
     </node>
 
 

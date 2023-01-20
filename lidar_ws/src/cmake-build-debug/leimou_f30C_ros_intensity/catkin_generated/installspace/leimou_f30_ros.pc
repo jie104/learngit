@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: leimou_f30_ros
+Description: Description of leimou_f30_ros
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp

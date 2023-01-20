@@ -1,4 +1,4 @@
-# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_inspect
+# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_detect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

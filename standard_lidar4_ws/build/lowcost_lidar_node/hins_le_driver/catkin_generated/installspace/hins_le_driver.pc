@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install
+
+Name: hins_le_driver
+Description: Description of hins_le_driver
+Version: 2.6.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

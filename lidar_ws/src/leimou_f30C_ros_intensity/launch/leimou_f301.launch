@@ -14,7 +14,7 @@
     <param name = "start_angle" type = "int" value = "-45" />
     <param name = "stop_angle" type = "int" value = "225" />
     <!--reporting interval-->
-    <param name = "protocol_type" type = "int" value = "0" />
+	<param name = "protocol_type" type = "int" value = "0" />
     <param name = "transmission_mode" type = "int" value = "0" />
     <param name = "reporting_interval" type = "int" value = "66" />
     <!--laser range distance.-->

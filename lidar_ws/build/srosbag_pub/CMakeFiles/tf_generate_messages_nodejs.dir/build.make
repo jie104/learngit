@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/learngit/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/learngit/lidar_ws/build
+CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/build
 
 # Utility rule file for tf_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/build: tf_generate_messag
 .PHONY : srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/build
 
 srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/clean:
-	cd /home/zxj/桌面/learngit/lidar_ws/build/srosbag_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/clean
 
 srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/depend:
-	cd /home/zxj/桌面/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/learngit/lidar_ws/src /home/zxj/桌面/learngit/lidar_ws/src/srosbag_pub /home/zxj/桌面/learngit/lidar_ws/build /home/zxj/桌面/learngit/lidar_ws/build/srosbag_pub /home/zxj/桌面/learngit/lidar_ws/build/srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/lidar_ws/src /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub /home/zxj/workspace/obstacle_and_filter/lidar_ws/build /home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub /home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srosbag_pub/CMakeFiles/tf_generate_messages_nodejs.dir/depend
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o -o ../devel/lib/ltme_node/update_firmware  ../devel/lib/ldcp_sdk.a /usr/lib/x86_64-linux-gnu/libcrypto.so -lpthread 

@@ -1,0 +1,8 @@
+prefix=/home/zxj/桌面/货架腿识别/rack_detector/cmake-build-release/devel
+
+Name: rack_detector
+Description: Description of rack_detector
+Version: 0.0.0
+Cflags: -I/home/zxj/桌面/货架腿识别/rack_detector/include
+Libs: -L${prefix}/lib -lrack_detector
+Requires: tf

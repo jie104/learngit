@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zy/雷达内参标定/Lidar-in-calibration_ws/src/Lidar_in_calibration/cmake-build-debug/devel/setup.sh

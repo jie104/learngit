@@ -65,11 +65,11 @@ class OradarLaserProtocol: public LaserProtocolInterface {
         int64_t sync_time = getSyncTime(sys_recv_block_time, sensor_send_block_time); // use first block
         save_sync_times(sync_time);
         scan->scan_time = 1.0 / block.freq; // 雷达转360度的时间，ros系统用s为单位，其实可以用条件判断处理。
-#ifdef ROS_NODE
-        scan->header.stamp = ros::Time::now();
-#else
-        scan->time_ = sync_time + 90 / 360 * scan->scan_time * 1e6; // cal middle scan time, unit us, received end scan time of first package block (6 blocks)
-#endif
+//#ifdef ROS_NODE
+//        scan->header.stamp = ros::Time::now();
+//#else
+//        scan->time_ = sync_time + 90 / 360 * scan->scan_time * 1e6; // cal middle scan time, unit us, received end scan time of first package block (6 blocks)
+//#endif
         int scan_point_num = BLOCK_NUM * block.point_num;
         scan->angle_increment = ANGLE_RANGE_DEG / scan_point_num * M_PI / 180.0; // 15Hz 0.17857
         scan->angle_min = ANGLE_MIN_DEG * M_PI / 180.0;

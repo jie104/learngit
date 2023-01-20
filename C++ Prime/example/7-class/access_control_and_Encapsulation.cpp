@@ -18,10 +18,12 @@ public:
     Sales_data(std::istream&);
     std::string isbn() const {return bookNo;}
     Sales_data& combine(const Sales_data&);
+    Sales_data& combine(Sales_data&);
+    Sales_data &combine(const Sales_data&) const;
 
 private:
     double avg_price() const{
-        return units_sold? revenue/units_sold:0
+        return units_sold? revenue/units_sold:0;
     }
     std::string bookNo;
     unsigned units_sold=0;

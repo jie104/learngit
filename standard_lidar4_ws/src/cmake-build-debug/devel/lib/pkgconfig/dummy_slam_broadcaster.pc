@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel
+
+Name: dummy_slam_broadcaster
+Description: Description of dummy_slam_broadcaster
+Version: 0.1.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

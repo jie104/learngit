@@ -1,0 +1,9 @@
+<!--xml version = "1.0"-->
+
+<launch>
+  <!-- leimou f30 ros node -->
+  <include file = "$(find leimou_f30_ros)/launch/leimou_f30.launch" />
+  <!--rviz node-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find leimou_f30_ros)/leimou_f30.rviz" />
+
+</launch>

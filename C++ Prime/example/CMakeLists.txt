@@ -63,6 +63,22 @@ add_executable(constructor_function_refind 7-class/constructor_function_refind.c
 
 add_executable(entrust_constructor_function 7-class/entrust_constructor_function.cpp)
 add_executable(11111 11111.cpp)
+add_executable(IO_class 8-IO_lib/IO_class.cpp)
+add_executable(IO_file 8-IO_lib/IO_file.cpp)
+add_executable(IO_string 8-IO_lib/IO_string.cpp)
+add_executable(container_lib_overview 9-order_container/container_lib_overview.cpp)
+
+add_executable(order_container_operator 9-order_container/order_container_operator.cpp)
+
+add_executable(vector_obj_how_to_increase 9-order_container/vector_obj_how_to_increase.cpp)
+add_executable(string_other_operator 9-order_container/string_other_operator.cpp)
+
+add_executable(container_adapter 9-order_container/container_adapter.cpp)
+
+add_executable(acquaintance_generic_algorithms 10-generic_algorithms/acquaintance_generic_algorithms.cpp)
+
+add_executable(customize_operator 10-generic_algorithms/customize_operator.cpp)
+
 #add_executable(define_abstract_data_type 6-function/define_abstract_data_type.cpp)
 # add_executable(decltype decltype.cpp)
 

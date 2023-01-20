@@ -180,9 +180,6 @@ public:
     //重载
     void splitScan(ScanType &scan, std::vector<ContinousPoints> &continous_points,int step) {
         std::vector<float> ranges=scan->ranges;
-        // for (int i=0;i<ranges.size();i++ ){
-        //     LOG(INFO) << "ranges[" << i  << "]" << ": " << ranges[i];
-        // }
 
         int ranges_size=ranges.size();
         double angle_increment=scan->angle_increment;
@@ -196,13 +193,9 @@ public:
             // points.clear();
             for (int j=i-step;j<=i;j++){
                 points.emplace_back();
-                // LOG(INFO) << "angle_increment: " << angle_increment;
-                // LOG(INFO) << "angle_min: " << angle_min;
                 double angle=angle_min+angle_increment*(float)j;
                 points.back().x=ranges[j]*cos(angle);
                 points.back().y=ranges[j]*sin(angle);
-                // LOG(INFO) << "x: " << j << "," << points.back().x;
-                // LOG(INFO) << "y: " << j<< "," << points.back().y;
             }
             // angle1=calLineAngle(points);
             // Point sumVector=Point(points[1].x-points[0].x,points[1].y-points[0].y);
@@ -210,25 +203,15 @@ public:
             sumVector_1=calTrailPoint(points);
             points.clear();
 
-            // LOG(INFO) << "AFTER_POINT_1_SIZE: " << points.size();
             for (int j=i;j<step+i;j++){
                 points.emplace_back();
                 double angle=angle_min+angle_increment*(float)j;
                 points.back().x=ranges[j]*cos(angle);
                 points.back().y=ranges[j]*sin(angle);
             }
-            // angle2=calLineAngle(points);
-
-            // LOG(INFO) << "POINT_2_SIZE: " << points.size();
             sumVector_2=calTrailPoint(points);
-            // LOG(INFO) << "sumVector_1: " << sumVector_1.x << "," << sumVector_1.y;
-            // LOG(INFO) << "sumVector_2: " << sumVector_2.x << "," << sumVector_2.y;
-            // double theta=acos((sumVector_1*sumVector_2)/(fmod(sumVector_1)*fmod(sumVector_2)))
             sumVector_1.unitlize();
             sumVector_2.unitlize(); 
-            // if (fabs(angle1-angle2)< M_PI_2+2*angle_offset && fabs(angle1-angle2)> M_PI_2-2*angle_offset){
-            //     IDs.push_back(i);
-            // } 
             if (fabs(sumVector_1*sumVector_2)<0.05){
                 IDs.push_back(i);
             }

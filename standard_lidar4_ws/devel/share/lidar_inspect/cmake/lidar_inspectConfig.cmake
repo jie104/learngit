@@ -67,7 +67,7 @@ set(lidar_inspect_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(lidar_inspect_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_inspect)
+  set(lidar_inspect_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_detect)
   set(lidar_inspect_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel)
   set(lidar_inspect_INSTALL_PREFIX "")
   set(lidar_inspect_PREFIX ${lidar_inspect_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'lidar_inspect' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'lidar_inspect' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_inspect/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'lidar_inspect' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_detect/${idir}'.  ${_report}")
     endif()
     _list_append_unique(lidar_inspect_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib;/home/zxj/catkin_ws/devel/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib;/home/zxj/catkin_ws/devel/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

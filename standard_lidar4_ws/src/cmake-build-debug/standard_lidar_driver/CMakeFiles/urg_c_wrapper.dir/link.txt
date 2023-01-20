@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,liburg_c_wrapper.so -o ../devel/lib/liburg_c_wrapper.so CMakeFiles/urg_c_wrapper.dir/src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp.o 

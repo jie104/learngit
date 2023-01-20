@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+  xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+  xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+  xmlns:xacro="http://ros.org/wiki/xacro"
+  name="sdkeli_klm_udp">
+
+  <xacro:include filename="$(find sdkeli_klm_udp)/urdf/sdkeli_klm_udp.urdf.xacro" />
+
+  <xacro:sdkeli_klm name="laser" ros_topic="keli_scan" />
+</robot>

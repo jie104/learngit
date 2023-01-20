@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rack_detector
+Description: Description of rack_detector
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrack_detector
+Requires: tf

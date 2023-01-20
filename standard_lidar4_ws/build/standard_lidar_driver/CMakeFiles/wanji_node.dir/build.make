@@ -57,27 +57,27 @@ include standard_lidar_driver/CMakeFiles/wanji_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include standard_lidar_driver/CMakeFiles/wanji_node.dir/flags.make
 
-standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.o: standard_lidar_driver/CMakeFiles/wanji_node.dir/flags.make
-standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.o: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive3_node3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.o"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.o -c /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive3_node3.cpp
+standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.o: standard_lidar_driver/CMakeFiles/wanji_node.dir/flags.make
+standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.o: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_driver_wanji.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.o"
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.o -c /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_driver_wanji.cpp
 
-standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.i"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive3_node3.cpp > CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.i
+standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.i"
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_driver_wanji.cpp > CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.i
 
-standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.s"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_drive3_node3.cpp -o CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.s
+standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.s"
+	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_driver_wanji.cpp -o CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.s
 
 # Object files for target wanji_node
 wanji_node_OBJECTS = \
-"CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.o"
+"CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.o"
 
 # External object files for target wanji_node
 wanji_node_EXTERNAL_OBJECTS =
 
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/wanji_node: standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_drive3_node3.cpp.o
+/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/wanji_node: standard_lidar_driver/CMakeFiles/wanji_node.dir/src/lidar_driver_wanji.cpp.o
 /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/wanji_node: standard_lidar_driver/CMakeFiles/wanji_node.dir/build.make
 /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/wanji_node: /opt/ros/noetic/lib/libtf.so
 /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/wanji_node: /opt/ros/noetic/lib/libtf2_ros.so

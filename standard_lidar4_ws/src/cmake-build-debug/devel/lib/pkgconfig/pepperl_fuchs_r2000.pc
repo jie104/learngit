@@ -1,0 +1,8 @@
+prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel
+
+Name: pepperl_fuchs_r2000
+Description: Description of pepperl_fuchs_r2000
+Version: 0.1.3
+Cflags: -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000/include -I/usr/include
+Libs: -L${prefix}/lib -lr2000_driver
+Requires: roscpp sensor_msgs std_msgs

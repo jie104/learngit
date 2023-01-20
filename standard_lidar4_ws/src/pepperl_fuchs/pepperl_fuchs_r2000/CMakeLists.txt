@@ -41,20 +41,35 @@ target_link_libraries(r2000_driver
   ${catkin_LIBRARIES}
   ${Boost_LIBRARIES}
 )
+add_executable(R2E0_node
+        src/rosnode/R2E0.cpp
+        )
+target_link_libraries(R2E0_node
+        r2000_driver
+        )
 
 add_executable(r2000_node
-  src/rosnode/r2000_node.cpp
-)
+        src/rosnode/r2000_node.cpp
+        )
 target_link_libraries(r2000_node
-  r2000_driver
-)
+        r2000_driver
+        )
 
 add_executable(driver_example
   src/example/driver_example.cpp
 )
+
+add_executable(pepperl_driver
+        src/example/pepperl_driver.cpp
+        )
+
 target_link_libraries(driver_example
   r2000_driver
 )
+
+target_link_libraries(pepperl_driver
+        r2000_driver
+        )
 
 install(TARGETS r2000_driver r2000_node driver_example
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}

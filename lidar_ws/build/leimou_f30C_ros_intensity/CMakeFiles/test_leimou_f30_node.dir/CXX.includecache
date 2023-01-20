@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
+string
+-
+cstdint
+-
+time.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+boost/bind.hpp
+-
+boost/thread.hpp
+-
+
+/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/leimou_f30C_ros_intensity/test/test_leimou_f30.cpp
+../src/leimou_f30_driver.h
+/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
+iostream
+-
+sys/time.h
+-
+

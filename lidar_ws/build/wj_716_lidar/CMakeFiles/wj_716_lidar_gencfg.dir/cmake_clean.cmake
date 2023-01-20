@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/zxj/桌面/learngit/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h"
-  "/home/zxj/桌面/learngit/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py"
-  "/home/zxj/桌面/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig-usage.dox"
-  "/home/zxj/桌面/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox"
-  "/home/zxj/桌面/learngit/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.wikidoc"
+  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/include/wj_716_lidar/wj_716_lidarConfig.h"
+  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py"
+  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig-usage.dox"
+  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox"
+  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/share/wj_716_lidar/docs/wj_716_lidarConfig.wikidoc"
   "CMakeFiles/wj_716_lidar_gencfg"
 )
 

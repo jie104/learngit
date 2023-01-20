@@ -1,0 +1,21 @@
+<launch>
+  <node pkg="oradar_ros" type="oradar_pointcloud" name="oradar_pointcloud" output="screen">
+
+    <param name="device_model" value="MS500"/>
+    <param name="frame_id"     type="string"   value="pc_frame"/>       <!--配置frame_id-->
+    <param name="cloud_topic"  type="string"   value="point_cloud" />   <!--设置激光雷达的topic名称--> 
+    <param name="angle_min"    type="double"   value="-135.00" /> 	<!--设置最小角度，单位度。取值范围[-135,135]。default=-135.0-->
+    <param name="angle_max"    type="double"   value="135.00"/>   	<!--设置最大角度，单位度。取值范围[-135,135]。default=135.0-->
+    <param name="range_min"    type="double"   value="0.05" />    	<!--设置最小距离，单位米。default=0.05-->
+    <param name="range_max"    type="double"   value="30.0" />    	<!--设置最大距离，单位米。default=30-->
+    <param name="inverted"     type="bool"     value="false"/>    	<!--配置雷达是否倒装。倒装true，正装false-->
+    <param name="motor_speed"  type="int"      value="15" />      	<!--配置motor转速，单位Hz。取值10,15,20,25,30Hz。default=15Hz-->
+    <param name="lidar_ip"     type="string"   value="192.168.1.100" /> <!--雷达IP地址，默认为192.168.1.100-->
+    <param name="lidar_port"   type="int"      value="2007" />          <!--雷达端口号，默认为2007-->
+    <param name="filter_size"  type="int"      value="1"   />           <!--雷达滤波等级。取值0，1，2，3，4，5。default=1-->
+    <param name="motor_dir"    type="int"      value="0"   />          <!--电机旋转方向。0表示逆时针，1表示顺时针。default=0-->
+
+  </node>
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find oradar_ros)/rviz/oradar_pointcloud.rviz" />
+</launch>

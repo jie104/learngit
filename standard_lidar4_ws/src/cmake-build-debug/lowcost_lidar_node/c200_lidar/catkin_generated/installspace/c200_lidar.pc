@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: c200_lidar
+Description: Description of c200_lidar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="frame_id" default="scan"/>
+  <arg name="host" default="192.168.0.240"/>
+  <arg name="port" default="2111"/>
+  <arg name="range_min" default="0.05"/>
+  <arg name="range_max" default="30"/>
+  <arg name="offset_angle" default="-90"/>
+  <arg name="filterswitch" default="true"/>
+  <arg name="NTPswitch" default="false"/>
+  <!--gui yi hua kai guan -->
+  <arg name="NORswitch" default="true"/>
+  <!-- C200 Driver -->
+  <node pkg="c200_lidar" type="c200_lidar_node" name="c200_lidar_node" respawn="true" output="screen">
+    <param name="frame_id" value="$(arg frame_id)"/>
+    <param name="host" value="$(arg host)"/>
+    <param name="port" value="$(arg port)"/>
+    <param name="range_min" value="$(arg range_min)"/>
+    <param name="range_max" value="$(arg range_max)"/>
+    <param name="offset_angle" value="$(arg offset_angle)"/>
+    <param name="filterswitch" value="$(arg filterswitch)"/>
+    <param name="NTPswitch" value="$(arg NTPswitch)"/>
+    <param name="NORswitch" value="$(arg NORswitch)"/>
+    <!--<remap from="/c200_lidar_node/scan" to= "/scan"/>-->
+  </node>
+
+  <!-- RVIZ -->
+<!--  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find c200_lidar)/rviz/rviz.rviz" required="true" />-->
+
+</launch>

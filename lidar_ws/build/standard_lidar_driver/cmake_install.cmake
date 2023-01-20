@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/桌面/learngit/lidar_ws/src/standard_lidar_driver
+# Install script for directory: /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/standard_lidar_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/桌面/learngit/lidar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/workspace/obstacle_and_filter/lidar_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/桌面/learngit/lidar_ws/build/standard_lidar_driver/catkin_generated/installspace/standard_lidar_driver.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/standard_lidar_driver/catkin_generated/installspace/standard_lidar_driver.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/standard_lidar_driver/cmake" TYPE FILE FILES
-    "/home/zxj/桌面/learngit/lidar_ws/build/standard_lidar_driver/catkin_generated/installspace/standard_lidar_driverConfig.cmake"
-    "/home/zxj/桌面/learngit/lidar_ws/build/standard_lidar_driver/catkin_generated/installspace/standard_lidar_driverConfig-version.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/standard_lidar_driver/catkin_generated/installspace/standard_lidar_driverConfig.cmake"
+    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/standard_lidar_driver/catkin_generated/installspace/standard_lidar_driverConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/standard_lidar_driver" TYPE FILE FILES "/home/zxj/桌面/learngit/lidar_ws/src/standard_lidar_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/standard_lidar_driver" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/standard_lidar_driver/package.xml")
 endif()
 

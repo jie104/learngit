@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/accquaintance_generic_algrithms.dir/10-generic_algorithms/accquaintance_generic_algrithms.cpp.o -o accquaintance_generic_algrithms 

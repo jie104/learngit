@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/IO_.dir/7-class/entrust_constructor_function.cpp.o -o IO_ 
