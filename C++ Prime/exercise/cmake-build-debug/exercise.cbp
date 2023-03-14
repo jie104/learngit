@@ -17,6 +17,53 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+<<<<<<< HEAD
+=======
+			<Target title="dynamic_memory_and_technique_ptr">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/dynamic_memory_and_technique_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic_memory_and_technique_ptr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic_memory_and_technique_ptr/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/dynamic_memory_and_technique_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic_memory_and_technique_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+>>>>>>> dev
 			<Target title="use_container_operator">
 				<Option output="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/use_container_operator" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug"/>
@@ -1577,6 +1624,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="copy_assigment_destroyed">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/copy_assigment_destroyed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 copy_assigment_destroyed"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="copy_assigment_destroyed/fast">
+				<Option output="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/copy_assigment_destroyed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 copy_assigment_destroyed/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zxj/桌面/learngit/C++\ Prime/exercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="switch">
 				<Option output="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/switch" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug"/>
@@ -1725,6 +1816,15 @@
 		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/exercise/11-associative_containers/use_container_operator.cpp">
 			<Option target="use_container_operator"/>
 		</Unit>
+<<<<<<< HEAD
+=======
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/exercise/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp">
+			<Option target="dynamic_memory_and_technique_ptr"/>
+		</Unit>
+		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/exercise/13-copy_control/copy_assigment_destroyed.cpp">
+			<Option target="copy_assigment_destroyed"/>
+		</Unit>
+>>>>>>> dev
 		<Unit filename="/home/zxj/桌面/learngit/C++ Prime/exercise/6-function/array_form_parameter.cpp">
 			<Option target="array_form_parameter"/>
 		</Unit>

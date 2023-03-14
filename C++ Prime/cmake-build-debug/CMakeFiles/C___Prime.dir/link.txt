@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/C___Prime.dir/main.cpp.o -o C___Prime 

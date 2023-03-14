@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libStrBlob.so -o libStrBlob.so CMakeFiles/StrBlob.dir/12-dynamic_memory/StrBlob.cpp.o 

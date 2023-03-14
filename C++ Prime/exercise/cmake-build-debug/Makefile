@@ -130,6 +130,22 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named dynamic_memory_and_technique_ptr
+
+# Build rule for target.
+dynamic_memory_and_technique_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dynamic_memory_and_technique_ptr
+.PHONY : dynamic_memory_and_technique_ptr
+
+# fast build rule for target.
+dynamic_memory_and_technique_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_and_technique_ptr.dir/build.make CMakeFiles/dynamic_memory_and_technique_ptr.dir/build
+.PHONY : dynamic_memory_and_technique_ptr/fast
+
+#=============================================================================
+>>>>>>> dev
 # Target rules for targets named use_container_operator
 
 # Build rule for target.
@@ -585,6 +601,19 @@ sizeof/fast:
 .PHONY : sizeof/fast
 
 #=============================================================================
+# Target rules for targets named copy_assigment_destroyed
+
+# Build rule for target.
+copy_assigment_destroyed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assigment_destroyed
+.PHONY : copy_assigment_destroyed
+
+# fast build rule for target.
+copy_assigment_destroyed/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/build
+.PHONY : copy_assigment_destroyed/fast
+
+#=============================================================================
 # Target rules for targets named switch
 
 # Build rule for target.
@@ -758,6 +787,63 @@ exception/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/use_container_operator.dir/build.make CMakeFiles/use_container_operator.dir/11-associative_containers/use_container_operator.cpp.s
 .PHONY : 11-associative_containers/use_container_operator.cpp.s
 
+<<<<<<< HEAD
+=======
+12-dynamic_memory/dynamic_memory_and_technique_ptr.o: 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o
+
+.PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.o
+
+# target to build an object file
+12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_and_technique_ptr.dir/build.make CMakeFiles/dynamic_memory_and_technique_ptr.dir/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o
+.PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o
+
+12-dynamic_memory/dynamic_memory_and_technique_ptr.i: 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.i
+
+.PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.i
+
+# target to preprocess a source file
+12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_and_technique_ptr.dir/build.make CMakeFiles/dynamic_memory_and_technique_ptr.dir/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.i
+.PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.i
+
+12-dynamic_memory/dynamic_memory_and_technique_ptr.s: 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.s
+
+.PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.s
+
+# target to generate assembly for a file
+12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_and_technique_ptr.dir/build.make CMakeFiles/dynamic_memory_and_technique_ptr.dir/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.s
+.PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.s
+
+13-copy_control/copy_assigment_destroyed.o: 13-copy_control/copy_assigment_destroyed.cpp.o
+
+.PHONY : 13-copy_control/copy_assigment_destroyed.o
+
+# target to build an object file
+13-copy_control/copy_assigment_destroyed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.o
+.PHONY : 13-copy_control/copy_assigment_destroyed.cpp.o
+
+13-copy_control/copy_assigment_destroyed.i: 13-copy_control/copy_assigment_destroyed.cpp.i
+
+.PHONY : 13-copy_control/copy_assigment_destroyed.i
+
+# target to preprocess a source file
+13-copy_control/copy_assigment_destroyed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.i
+.PHONY : 13-copy_control/copy_assigment_destroyed.cpp.i
+
+13-copy_control/copy_assigment_destroyed.s: 13-copy_control/copy_assigment_destroyed.cpp.s
+
+.PHONY : 13-copy_control/copy_assigment_destroyed.s
+
+# target to generate assembly for a file
+13-copy_control/copy_assigment_destroyed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.s
+.PHONY : 13-copy_control/copy_assigment_destroyed.cpp.s
+
+>>>>>>> dev
 6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
 
 .PHONY : 6-function/array_form_parameter.o
@@ -1667,6 +1753,8 @@ help:
 	@echo "... array_pointer"
 	@echo "... associate_containers_operator"
 	@echo "... const_reference"
+	@echo "... copy_assigment_destroyed"
+	@echo "... dynamic_memory_and_technique_ptr"
 	@echo "... example"
 	@echo "... exception"
 	@echo "... exercise2"
@@ -1710,6 +1798,15 @@ help:
 	@echo "... 11-associative_containers/use_container_operator.o"
 	@echo "... 11-associative_containers/use_container_operator.i"
 	@echo "... 11-associative_containers/use_container_operator.s"
+<<<<<<< HEAD
+=======
+	@echo "... 12-dynamic_memory/dynamic_memory_and_technique_ptr.o"
+	@echo "... 12-dynamic_memory/dynamic_memory_and_technique_ptr.i"
+	@echo "... 12-dynamic_memory/dynamic_memory_and_technique_ptr.s"
+	@echo "... 13-copy_control/copy_assigment_destroyed.o"
+	@echo "... 13-copy_control/copy_assigment_destroyed.i"
+	@echo "... 13-copy_control/copy_assigment_destroyed.s"
+>>>>>>> dev
 	@echo "... 6-function/array_form_parameter.o"
 	@echo "... 6-function/array_form_parameter.i"
 	@echo "... 6-function/array_form_parameter.s"

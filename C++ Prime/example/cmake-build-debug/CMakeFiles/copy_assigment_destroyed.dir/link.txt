@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.o -o copy_assigment_destroyed 

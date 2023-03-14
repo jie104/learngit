@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/QueryResult.h
+map
+-
+vector
+-
+fstream
+-
+string
+-
+memory
+-
+set
+-
+iostream
+-
+
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/TextQuery.h
+QueryResult.h
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/QueryResult.h
+
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/main.cpp
+head_file/QueryResult.h
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/QueryResult.h
+head_file/TextQuery.h
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/TextQuery.h
+

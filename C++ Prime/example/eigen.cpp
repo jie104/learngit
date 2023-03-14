@@ -1,6 +1,7 @@
 #include <iostream>
 #include <eigen3/Eigen/Core>
 #include <eigen3/Eigen/Dense>
+#include <vector>
 
 #include <cmath>
 Eigen::Isometry2f EuclTf(const Eigen::Vector3f& src_point,const Eigen::Vector3f& tar_point){
@@ -161,6 +162,11 @@ int main()
     //作用相同
     std::cout << "T1: " << T1*v1 << std::endl;
     std::cout << "T2: " << T2*v1 << std::endl;
+
+    std::vector<Eigen::Array2i> v10;
+    v10.emplace_back(1,2);
+    v10.emplace_back(2,3);
+    v10.emplace_back(4,5);
 
 
 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/C++ Prime/exercise/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp
+iostream
+-
+memory
+-
+vector
+-
+string
+-
+new
+-
+

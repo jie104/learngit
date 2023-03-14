@@ -60,6 +60,9 @@ add_executable(use_container_operator 11-associative_containers/use_container_op
 #将目标库链接到可执行目标
 #target_link_libraries(hello_world message)
 
+add_executable(dynamic_memory_and_technique_ptr 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp)
+
+add_executable(copy_assigment_destroyed 13-copy_control/copy_assigment_destroyed.cpp)
 
 
 ########################用条件语句控制编译###############################

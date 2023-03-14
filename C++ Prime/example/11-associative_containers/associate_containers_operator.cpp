@@ -13,6 +13,10 @@
 #include <exception>
 #include <sstream>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 //读入给定文件，建立起转换关系
 std::map<std::string,std::string> buildMap(std::ifstream &map_file){
     std::map<std::string,std::string> trans_map;    //保存转化规则
@@ -274,5 +278,9 @@ int main()
     std::ifstream map_file("/home/zxj/桌面/learngit/C++ Prime/example/11-associative_containers/map_file.txt"),
                   transform("/home/zxj/桌面/learngit/C++ Prime/example/11-associative_containers/transform.txt");
     word_transform(map_file,transform);
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 }
 

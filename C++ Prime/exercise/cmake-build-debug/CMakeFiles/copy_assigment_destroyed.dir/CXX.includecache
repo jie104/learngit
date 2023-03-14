@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/C++ Prime/exercise/13-copy_control/copy_assigment_destroyed.cpp
+iostream
+-
+string
+-
+memory
+-
+vector
+-
+

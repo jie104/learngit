@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 CMAKE_PROGRESS_1 = 37
 CMAKE_PROGRESS_2 = 38
+=======
+CMAKE_PROGRESS_1 = 41
+CMAKE_PROGRESS_2 = 42
+>>>>>>> dev
 
