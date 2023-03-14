@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/dynamic_memory_and_technique_ptr.dir/DependInfo.cmake"
   "CMakeFiles/use_container_operator.dir/DependInfo.cmake"
   "CMakeFiles/overview.dir/DependInfo.cmake"
   "CMakeFiles/IO_string.dir/DependInfo.cmake"
@@ -77,6 +78,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/inbuilt_array2.dir/DependInfo.cmake"
   "CMakeFiles/array_pointer.dir/DependInfo.cmake"
   "CMakeFiles/sizeof.dir/DependInfo.cmake"
+  "CMakeFiles/copy_assigment_destroyed.dir/DependInfo.cmake"
   "CMakeFiles/switch.dir/DependInfo.cmake"
   "CMakeFiles/expression.dir/DependInfo.cmake"
   "CMakeFiles/exception.dir/DependInfo.cmake"

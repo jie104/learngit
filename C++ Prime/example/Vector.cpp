@@ -43,7 +43,9 @@ int main()
     }
 
 
-
+    std::vector<char> f;
+    f.resize(6);
+    std::cout << "11111111: " << f.data() << std::endl;
     
 
 

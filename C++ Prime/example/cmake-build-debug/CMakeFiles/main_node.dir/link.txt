@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/main_node.dir/12-dynamic_memory/main.cpp.o -o main_node  -Wl,-rpath,"/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug" libTextQuery.so 

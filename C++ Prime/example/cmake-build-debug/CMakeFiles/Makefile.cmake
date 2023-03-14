@@ -46,10 +46,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/main_node.dir/DependInfo.cmake"
+  "CMakeFiles/TextQuery.dir/DependInfo.cmake"
+  "CMakeFiles/StrBlob.dir/DependInfo.cmake"
+  "CMakeFiles/copy_assigment_destroyed.dir/DependInfo.cmake"
+  "CMakeFiles/unorder_container.dir/DependInfo.cmake"
   "CMakeFiles/array_point.dir/DependInfo.cmake"
+  "CMakeFiles/dynamic_arrays.dir/DependInfo.cmake"
   "CMakeFiles/constexpr_function.dir/DependInfo.cmake"
   "CMakeFiles/customize_operator.dir/DependInfo.cmake"
   "CMakeFiles/reference_parameter.dir/DependInfo.cmake"
+  "CMakeFiles/dynamic_memory_and_technique_ptr.dir/DependInfo.cmake"
   "CMakeFiles/local_object.dir/DependInfo.cmake"
   "CMakeFiles/function_base.dir/DependInfo.cmake"
   "CMakeFiles/exception.dir/DependInfo.cmake"
@@ -87,6 +94,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/container_lib_overview.dir/DependInfo.cmake"
   "CMakeFiles/vector_obj_how_to_increase.dir/DependInfo.cmake"
   "CMakeFiles/string_other_operator.dir/DependInfo.cmake"
+  "CMakeFiles/copy_assigment_operator.dir/DependInfo.cmake"
   "CMakeFiles/acquaintance_generic_algorithms.dir/DependInfo.cmake"
   "CMakeFiles/iostream_iterator.dir/DependInfo.cmake"
   "CMakeFiles/initializer_list.dir/DependInfo.cmake"

@@ -39,8 +39,8 @@ int main()
     std::cout << "ivec: size: " << ivec.size()
               << " capacity: " << ivec.capacity() << std::endl;
 
-    std::vector<int> v={1,2,3};
-    v.clear();
+    std::vector<int> v={1,2,3,4};
+//    v.clear();
     v.resize(10);
     for (auto &x:v){
         std::cout << "v: " << x << std::endl;

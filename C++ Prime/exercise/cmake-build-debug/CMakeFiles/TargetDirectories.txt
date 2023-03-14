@@ -1,3 +1,4 @@
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/dynamic_memory_and_technique_ptr.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/use_container_operator.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/overview.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/IO_string.dir
@@ -35,6 +36,7 @@
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/inbuilt_array2.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/array_pointer.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/sizeof.dir
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/copy_assigment_destroyed.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/switch.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/expression.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/exception.dir

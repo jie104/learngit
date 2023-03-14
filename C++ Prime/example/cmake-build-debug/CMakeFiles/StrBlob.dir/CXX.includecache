@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/StrBlob.cpp
+head_file/StrBlob.h
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/StrBlob.h
+
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/StrBlob.h
+iostream
+-
+memory
+-
+string
+-
+list
+-
+vector
+-
+algorithm
+-
+initializer_list
+-
+StrBlobPtr.hpp
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/StrBlobPtr.hpp
+
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/StrBlobPtr.hpp
+StrBlob.h
+/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/head_file/StrBlob.h
+exception
+-
+stdexcept
+-
+iostream
+-
+
