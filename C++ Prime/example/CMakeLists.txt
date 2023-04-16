@@ -93,6 +93,9 @@ add_executable(copy_assigment_destroyed 13-copy_control/copy_assigment_destroyed
 
 add_executable(copy_assigment_operator 13-copy_control/copy_assigment_operator.cpp)
 
+add_executable(copy_control_sample 13-copy_control/copy_control_sample.cpp)
+
+add_executable(dynamic_memory_management_class 13-copy_control/dynamic_memory_management_class.cpp)
 
 
 #set(StrBlobPtr 12-dynamic_memory/head_file/StrBloPtr.hpp)

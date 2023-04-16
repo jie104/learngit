@@ -64,6 +64,7 @@ add_executable(dynamic_memory_and_technique_ptr 12-dynamic_memory/dynamic_memory
 
 add_executable(copy_assigment_destroyed 13-copy_control/copy_assigment_destroyed.cpp)
 
+add_executable(copy_control_and_resoure_management 13-copy_control/copy_control_and_resoure_management.cpp)
 
 ########################用条件语句控制编译###############################
 

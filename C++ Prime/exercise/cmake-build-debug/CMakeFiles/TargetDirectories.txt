@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/copy_control_and_resoure_management.dir
+>>>>>>> b5aed9ee... 更新分支
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/dynamic_memory_and_technique_ptr.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/use_container_operator.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/overview.dir

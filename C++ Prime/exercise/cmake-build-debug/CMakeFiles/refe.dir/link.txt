@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/refe.dir/6-function/initializer_list.cpp.o -o refe 

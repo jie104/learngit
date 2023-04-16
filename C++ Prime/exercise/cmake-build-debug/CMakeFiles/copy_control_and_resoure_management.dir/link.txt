@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/copy_control_and_resoure_management.dir/13-copy_control/copy_control_and_resoure_management.cpp.o -o copy_control_and_resoure_management 

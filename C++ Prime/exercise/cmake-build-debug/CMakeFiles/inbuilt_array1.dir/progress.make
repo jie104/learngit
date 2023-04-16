@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 CMAKE_PROGRESS_1 = 47
 CMAKE_PROGRESS_2 = 48
+=======
+CMAKE_PROGRESS_1 = 49
+CMAKE_PROGRESS_2 = 50
+>>>>>>> b5aed9ee... 更新分支
 

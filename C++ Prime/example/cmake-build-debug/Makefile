@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/zxj/learngit/C++ Prime/example"
+CMAKE_SOURCE_DIR = "/home/zxj/桌面/learngit/C++ Prime/example"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/zxj/learngit/C++ Prime/example/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "/home/zxj/learngit/C++ Prime/example/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -167,6 +167,19 @@ StrBlob: cmake_check_build_system
 StrBlob/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrBlob.dir/build.make CMakeFiles/StrBlob.dir/build
 .PHONY : StrBlob/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_memory_management_class
+
+# Build rule for target.
+dynamic_memory_management_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dynamic_memory_management_class
+.PHONY : dynamic_memory_management_class
+
+# fast build rule for target.
+dynamic_memory_management_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/build
+.PHONY : dynamic_memory_management_class/fast
 
 #=============================================================================
 # Target rules for targets named copy_assigment_destroyed
@@ -793,6 +806,19 @@ iostream_iterator/fast:
 .PHONY : iostream_iterator/fast
 
 #=============================================================================
+# Target rules for targets named copy_control_sample
+
+# Build rule for target.
+copy_control_sample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_control_sample
+.PHONY : copy_control_sample
+
+# fast build rule for target.
+copy_control_sample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/build
+.PHONY : copy_control_sample/fast
+
+#=============================================================================
 # Target rules for targets named initializer_list
 
 # Build rule for target.
@@ -1262,6 +1288,60 @@ associate_containers_overview/fast:
 13-copy_control/copy_assigment_operator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_operator.dir/build.make CMakeFiles/copy_assigment_operator.dir/13-copy_control/copy_assigment_operator.cpp.s
 .PHONY : 13-copy_control/copy_assigment_operator.cpp.s
+
+13-copy_control/copy_control_sample.o: 13-copy_control/copy_control_sample.cpp.o
+
+.PHONY : 13-copy_control/copy_control_sample.o
+
+# target to build an object file
+13-copy_control/copy_control_sample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.o
+.PHONY : 13-copy_control/copy_control_sample.cpp.o
+
+13-copy_control/copy_control_sample.i: 13-copy_control/copy_control_sample.cpp.i
+
+.PHONY : 13-copy_control/copy_control_sample.i
+
+# target to preprocess a source file
+13-copy_control/copy_control_sample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.i
+.PHONY : 13-copy_control/copy_control_sample.cpp.i
+
+13-copy_control/copy_control_sample.s: 13-copy_control/copy_control_sample.cpp.s
+
+.PHONY : 13-copy_control/copy_control_sample.s
+
+# target to generate assembly for a file
+13-copy_control/copy_control_sample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.s
+.PHONY : 13-copy_control/copy_control_sample.cpp.s
+
+13-copy_control/dynamic_memory_management_class.o: 13-copy_control/dynamic_memory_management_class.cpp.o
+
+.PHONY : 13-copy_control/dynamic_memory_management_class.o
+
+# target to build an object file
+13-copy_control/dynamic_memory_management_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.o
+.PHONY : 13-copy_control/dynamic_memory_management_class.cpp.o
+
+13-copy_control/dynamic_memory_management_class.i: 13-copy_control/dynamic_memory_management_class.cpp.i
+
+.PHONY : 13-copy_control/dynamic_memory_management_class.i
+
+# target to preprocess a source file
+13-copy_control/dynamic_memory_management_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.i
+.PHONY : 13-copy_control/dynamic_memory_management_class.cpp.i
+
+13-copy_control/dynamic_memory_management_class.s: 13-copy_control/dynamic_memory_management_class.cpp.s
+
+.PHONY : 13-copy_control/dynamic_memory_management_class.s
+
+# target to generate assembly for a file
+13-copy_control/dynamic_memory_management_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.s
+.PHONY : 13-copy_control/dynamic_memory_management_class.cpp.s
 
 6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
 
@@ -2318,11 +2398,13 @@ help:
 	@echo "... container_lib_overview"
 	@echo "... copy_assigment_destroyed"
 	@echo "... copy_assigment_operator"
+	@echo "... copy_control_sample"
 	@echo "... customize_operator"
 	@echo "... debug_help"
 	@echo "... define_abstract_data_type"
 	@echo "... dynamic_arrays"
 	@echo "... dynamic_memory_and_technique_ptr"
+	@echo "... dynamic_memory_management_class"
 	@echo "... eigen"
 	@echo "... entrust_constructor_function"
 	@echo "... example_13"
@@ -2399,6 +2481,12 @@ help:
 	@echo "... 13-copy_control/copy_assigment_operator.o"
 	@echo "... 13-copy_control/copy_assigment_operator.i"
 	@echo "... 13-copy_control/copy_assigment_operator.s"
+	@echo "... 13-copy_control/copy_control_sample.o"
+	@echo "... 13-copy_control/copy_control_sample.i"
+	@echo "... 13-copy_control/copy_control_sample.s"
+	@echo "... 13-copy_control/dynamic_memory_management_class.o"
+	@echo "... 13-copy_control/dynamic_memory_management_class.i"
+	@echo "... 13-copy_control/dynamic_memory_management_class.s"
 	@echo "... 6-function/array_form_parameter.o"
 	@echo "... 6-function/array_form_parameter.i"
 	@echo "... 6-function/array_form_parameter.s"

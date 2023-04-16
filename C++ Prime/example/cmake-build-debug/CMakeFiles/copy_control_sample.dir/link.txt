@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.o -o copy_control_sample 
