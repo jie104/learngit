@@ -86,8 +86,6 @@ add_executable(use_associate_containers 11-associative_containers/use_associate_
 add_executable(associate_containers_overview 11-associative_containers/associate_containers_overview.cpp)
 
 add_executable(associate_containers_operator 11-associative_containers/associate_containers_operator.cpp)
-<<<<<<< HEAD
-=======
 
 add_executable(unorder_container 11-associative_containers/unorder_container.cpp)
 
@@ -95,6 +93,9 @@ add_executable(copy_assigment_destroyed 13-copy_control/copy_assigment_destroyed
 
 add_executable(copy_assigment_operator 13-copy_control/copy_assigment_operator.cpp)
 
+add_executable(copy_control_sample 13-copy_control/copy_control_sample.cpp)
+
+add_executable(dynamic_memory_management_class 13-copy_control/dynamic_memory_management_class.cpp)
 
 
 #set(StrBlobPtr 12-dynamic_memory/head_file/StrBloPtr.hpp)
@@ -110,7 +111,6 @@ target_link_libraries(main_node TextQuery)
 
 
 
->>>>>>> dev
 
 #add_executable(define_abstract_data_type 6-function/define_abstract_data_type.cpp)
 # add_executable(decltype decltype.cpp)

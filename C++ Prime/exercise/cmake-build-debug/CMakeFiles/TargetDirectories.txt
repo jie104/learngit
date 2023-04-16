@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
+/home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/copy_control_and_resoure_management.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/dynamic_memory_and_technique_ptr.dir
->>>>>>> dev
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/use_container_operator.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/overview.dir
 /home/zxj/桌面/learngit/C++ Prime/exercise/cmake-build-debug/CMakeFiles/IO_string.dir

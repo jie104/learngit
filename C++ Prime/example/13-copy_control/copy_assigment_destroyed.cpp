@@ -16,21 +16,21 @@ public:
 };
 
 //以Sales_data为例子，合成拷贝构造函数等价于
-class Sales_data{
-public:
-    Sales_data(const Sales_data&);
-private:
-    std::string bookNo;
-    int units_sold=0;
-    double revenue=0.0;
-};
-
-Sales_data::Sales_data(const Sales_data &orig):
-    bookNo(orig.bookNo),    //使用string的拷贝构造函数
-    units_sold(orig.units_sold),    //拷贝orig.units_sold
-    revenue(orig.revenue)       //拷贝orig.revenue
-    {    }
-
+//class Sales_data{
+//public:
+//    Sales_data(const Sales_data&);
+//private:
+//    std::string bookNo;
+//    int units_sold=0;
+//    double revenue=0.0;
+//};
+//
+//Sales_data::Sales_data(const Sales_data &orig):
+//    bookNo(orig.bookNo),    //使用string的拷贝构造函数
+//    units_sold(orig.units_sold),    //拷贝orig.units_sold
+//    revenue(orig.revenue)       //拷贝orig.revenue
+//    {    }
+//
 
 void f(std::vector<int>);
 
@@ -52,6 +52,11 @@ public:
     Sales_data(const Sales_data&)=default;
     Sales_data& operator=(const Sales_data&);
     ~Sales_data()=default;
+private:
+    std::string bookNo;
+    int units_sold=0;
+    double revenue=0.0;
+
 };
 
 //不希望合成的成员是内联函数，应该只对成员的类外定义使用=default，像对拷贝赋值运算符那样
@@ -63,11 +68,39 @@ Sales_data& Sales_data::operator=(const Sales_data &)=default;
 //删除的函数，虽然声明了他们，但不能以任何方式使用它们
 //在函数参数列表后面加上=delete来指出我们希望将它定义为删除
 struct NoCopy{
+    //与=default不同，=delete必须出现在函数第一次声明的时候，
+    // 这个差异与这些声明的含义在逻辑上是吻合的
     NoCopy()=default;   //使用合成默认构造函数
     NoCopy(const NoCopy&)=delete;   //阻止拷贝
     NoCopy &operator=(const NoCopy&)=delete;    //阻止赋值
     ~NoCopy()=default;  //使用合成的析构函数
 };
+
+///析构函数是不能删除的成员
+struct NoDtor{
+    NoDtor()=default;   //使用合成默认构造函数
+    ~NoDtor()=delete;   //不能销毁NoDtor
+};
+
+//对于删除了析构函数的类型，虽然不能定义这种类型的变量或成员，但可动态
+//分配这种类型的对象，但不能释放
+//NoDtor nd;  //错误：NoDtor的析构函数是删除的
+//NoDtor *p=new NoDtor(); //正确，但不能delete p
+//delete p;   //错误：NoDtor是删除的
+
+///private拷贝控制
+//新标准发布前，类通过将拷贝构造函数和拷贝赋值运算符声明为private来阻止拷贝
+class PrivateCopy{
+    //拷贝控制成员是private，因此普通用户代码无法访问
+    //为阻止友元函数和成员函数进行拷贝，可将拷贝控制成员声明为private，但并不定义它们
+    PrivateCopy(const PrivateCopy&);
+    PrivateCopy &operator=(const PrivateCopy&);
+
+public:
+    PrivateCopy()=default;  //使用合成的默认构造函数
+    ~PrivateCopy();
+};
+
 
 
 ///三五法则

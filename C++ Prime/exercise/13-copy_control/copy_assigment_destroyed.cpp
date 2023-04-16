@@ -68,6 +68,7 @@ class numbered{
 public:
     int mysn;
     numbered(){
+
     }
 
 
@@ -80,6 +81,41 @@ public:
 void f( numbered s){
     std::cout << s.mysn << std::endl;
 }
+
+//exercise 13.18
+class Emplpyee{
+public:
+    Emplpyee(){
+        id_++;
+        std::cout << "id: " << id_ << std::endl;
+    }
+
+    Emplpyee(std::string name):name_(name){
+        id_++;
+        std::cout << "id: " << id_ << std::endl;
+
+    }
+
+    Emplpyee(const Emplpyee& emplpyee):name_(emplpyee.name_)
+    {
+
+    }
+
+    Emplpyee &operator=(const Emplpyee& emplpyee){
+        name_=emplpyee.name_;
+        return *this;
+    }
+    ~Emplpyee(){}
+
+
+
+private:
+    std::string name_;
+    static unsigned id_;//TODO：静态成员类外定义
+
+
+};
+    unsigned Emplpyee::id_=0;
 
 
 int main(){
@@ -101,5 +137,9 @@ int main(){
     int l=1;
     f(b);
     f(c);
+
+    Emplpyee one,two;
+    Emplpyee three("jie"),four("jocon");
+
 
 }

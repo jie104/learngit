@@ -130,266 +130,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-<<<<<<< HEAD
-# Target rules for targets named array_point
-
-# Build rule for target.
-array_point: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array_point
-.PHONY : array_point
-
-# fast build rule for target.
-array_point/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_point.dir/build.make CMakeFiles/array_point.dir/build
-.PHONY : array_point/fast
-
-#=============================================================================
-# Target rules for targets named constexpr_function
-
-# Build rule for target.
-constexpr_function: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 constexpr_function
-.PHONY : constexpr_function
-
-# fast build rule for target.
-constexpr_function/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/constexpr_function.dir/build.make CMakeFiles/constexpr_function.dir/build
-.PHONY : constexpr_function/fast
-
-#=============================================================================
-# Target rules for targets named customize_operator
-
-# Build rule for target.
-customize_operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 customize_operator
-.PHONY : customize_operator
-
-# fast build rule for target.
-customize_operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/customize_operator.dir/build.make CMakeFiles/customize_operator.dir/build
-.PHONY : customize_operator/fast
-
-#=============================================================================
-# Target rules for targets named reference_parameter
-
-# Build rule for target.
-reference_parameter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reference_parameter
-.PHONY : reference_parameter
-
-# fast build rule for target.
-reference_parameter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reference_parameter.dir/build.make CMakeFiles/reference_parameter.dir/build
-.PHONY : reference_parameter/fast
-
-#=============================================================================
-# Target rules for targets named local_object
-
-# Build rule for target.
-local_object: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 local_object
-.PHONY : local_object
-
-# fast build rule for target.
-local_object/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/local_object.dir/build.make CMakeFiles/local_object.dir/build
-.PHONY : local_object/fast
-
-#=============================================================================
-# Target rules for targets named function_base
-
-# Build rule for target.
-function_base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function_base
-.PHONY : function_base
-
-# fast build rule for target.
-function_base/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_base.dir/build.make CMakeFiles/function_base.dir/build
-.PHONY : function_base/fast
-
-#=============================================================================
-# Target rules for targets named exception
-
-# Build rule for target.
-exception: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exception
-.PHONY : exception
-
-# fast build rule for target.
-exception/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception.dir/build.make CMakeFiles/exception.dir/build
-.PHONY : exception/fast
-
-#=============================================================================
-# Target rules for targets named expression
-
-# Build rule for target.
-expression: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 expression
-.PHONY : expression
-
-# fast build rule for target.
-expression/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/expression.dir/build.make CMakeFiles/expression.dir/build
-.PHONY : expression/fast
-
-#=============================================================================
-# Target rules for targets named switch
-
-# Build rule for target.
-switch: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 switch
-.PHONY : switch
-
-# fast build rule for target.
-switch/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
-.PHONY : switch/fast
-
-#=============================================================================
-# Target rules for targets named iterator
-
-# Build rule for target.
-iterator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator
-.PHONY : iterator
-
-# fast build rule for target.
-iterator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
-.PHONY : iterator/fast
-
-#=============================================================================
-# Target rules for targets named statement
-
-# Build rule for target.
-statement: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 statement
-.PHONY : statement
-
-# fast build rule for target.
-statement/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/statement.dir/build.make CMakeFiles/statement.dir/build
-.PHONY : statement/fast
-
-#=============================================================================
-# Target rules for targets named define_abstract_data_type
-
-# Build rule for target.
-define_abstract_data_type: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 define_abstract_data_type
-.PHONY : define_abstract_data_type
-
-# fast build rule for target.
-define_abstract_data_type/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/define_abstract_data_type.dir/build.make CMakeFiles/define_abstract_data_type.dir/build
-.PHONY : define_abstract_data_type/fast
-
-#=============================================================================
-# Target rules for targets named implicit_convert
-
-# Build rule for target.
-implicit_convert: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 implicit_convert
-.PHONY : implicit_convert
-
-# fast build rule for target.
-implicit_convert/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_convert.dir/build.make CMakeFiles/implicit_convert.dir/build
-.PHONY : implicit_convert/fast
-
-#=============================================================================
-# Target rules for targets named array_form_parameter
-
-# Build rule for target.
-array_form_parameter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array_form_parameter
-.PHONY : array_form_parameter
-
-# fast build rule for target.
-array_form_parameter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_form_parameter.dir/build.make CMakeFiles/array_form_parameter.dir/build
-.PHONY : array_form_parameter/fast
-
-#=============================================================================
-# Target rules for targets named intergral_promotion
-
-# Build rule for target.
-intergral_promotion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intergral_promotion
-.PHONY : intergral_promotion
-
-# fast build rule for target.
-intergral_promotion/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/intergral_promotion.dir/build.make CMakeFiles/intergral_promotion.dir/build
-.PHONY : intergral_promotion/fast
-
-#=============================================================================
-# Target rules for targets named example_13
-
-# Build rule for target.
-example_13: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example_13
-.PHONY : example_13
-
-# fast build rule for target.
-example_13/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_13.dir/build.make CMakeFiles/example_13.dir/build
-.PHONY : example_13/fast
-
-#=============================================================================
-# Target rules for targets named associate_containers_operator
-
-# Build rule for target.
-associate_containers_operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 associate_containers_operator
-.PHONY : associate_containers_operator
-
-# fast build rule for target.
-associate_containers_operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/associate_containers_operator.dir/build.make CMakeFiles/associate_containers_operator.dir/build
-.PHONY : associate_containers_operator/fast
-
-#=============================================================================
-# Target rules for targets named debug_help
-
-# Build rule for target.
-debug_help: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 debug_help
-.PHONY : debug_help
-
-# fast build rule for target.
-debug_help/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_help.dir/build.make CMakeFiles/debug_help.dir/build
-.PHONY : debug_help/fast
-
-#=============================================================================
-# Target rules for targets named Vector
-
-# Build rule for target.
-Vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vector
-.PHONY : Vector
-
-# fast build rule for target.
-Vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vector.dir/build.make CMakeFiles/Vector.dir/build
-.PHONY : Vector/fast
-
-#=============================================================================
-# Target rules for targets named order_container_operator
-
-# Build rule for target.
-order_container_operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 order_container_operator
-.PHONY : order_container_operator
-
-# fast build rule for target.
-order_container_operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/order_container_operator.dir/build.make CMakeFiles/order_container_operator.dir/build
-.PHONY : order_container_operator/fast
-=======
 # Target rules for targets named main_node
 
 # Build rule for target.
@@ -427,6 +167,19 @@ StrBlob: cmake_check_build_system
 StrBlob/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrBlob.dir/build.make CMakeFiles/StrBlob.dir/build
 .PHONY : StrBlob/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_memory_management_class
+
+# Build rule for target.
+dynamic_memory_management_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dynamic_memory_management_class
+.PHONY : dynamic_memory_management_class
+
+# fast build rule for target.
+dynamic_memory_management_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/build
+.PHONY : dynamic_memory_management_class/fast
 
 #=============================================================================
 # Target rules for targets named copy_assigment_destroyed
@@ -635,7 +388,6 @@ define_abstract_data_type: cmake_check_build_system
 define_abstract_data_type/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/define_abstract_data_type.dir/build.make CMakeFiles/define_abstract_data_type.dir/build
 .PHONY : define_abstract_data_type/fast
->>>>>>> dev
 
 #=============================================================================
 # Target rules for targets named implicit_convert
@@ -651,32 +403,6 @@ implicit_convert/fast:
 .PHONY : implicit_convert/fast
 
 #=============================================================================
-<<<<<<< HEAD
-# Target rules for targets named revisit_iterator
-
-# Build rule for target.
-revisit_iterator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 revisit_iterator
-.PHONY : revisit_iterator
-
-# fast build rule for target.
-revisit_iterator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/revisit_iterator.dir/build.make CMakeFiles/revisit_iterator.dir/build
-.PHONY : revisit_iterator/fast
-
-#=============================================================================
-# Target rules for targets named iterator1
-
-# Build rule for target.
-iterator1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator1
-.PHONY : iterator1
-
-# fast build rule for target.
-iterator1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator1.dir/build.make CMakeFiles/iterator1.dir/build
-.PHONY : iterator1/fast
-=======
 # Target rules for targets named array_form_parameter
 
 # Build rule for target.
@@ -701,35 +427,21 @@ intergral_promotion: cmake_check_build_system
 intergral_promotion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intergral_promotion.dir/build.make CMakeFiles/intergral_promotion.dir/build
 .PHONY : intergral_promotion/fast
->>>>>>> dev
 
 #=============================================================================
-# Target rules for targets named class_other_feature
+# Target rules for targets named example_13
 
 # Build rule for target.
-class_other_feature: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_other_feature
-.PHONY : class_other_feature
+example_13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example_13
+.PHONY : example_13
 
 # fast build rule for target.
-class_other_feature/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_other_feature.dir/build.make CMakeFiles/class_other_feature.dir/build
-.PHONY : class_other_feature/fast
+example_13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_13.dir/build.make CMakeFiles/example_13.dir/build
+.PHONY : example_13/fast
 
 #=============================================================================
-<<<<<<< HEAD
-# Target rules for targets named inbuilt_array2
-
-# Build rule for target.
-inbuilt_array2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inbuilt_array2
-.PHONY : inbuilt_array2
-
-# fast build rule for target.
-inbuilt_array2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inbuilt_array2.dir/build.make CMakeFiles/inbuilt_array2.dir/build
-.PHONY : inbuilt_array2/fast
-=======
 # Target rules for targets named associate_containers_operator
 
 # Build rule for target.
@@ -741,217 +453,21 @@ associate_containers_operator: cmake_check_build_system
 associate_containers_operator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/associate_containers_operator.dir/build.make CMakeFiles/associate_containers_operator.dir/build
 .PHONY : associate_containers_operator/fast
->>>>>>> dev
 
 #=============================================================================
-# Target rules for targets named eigen
+# Target rules for targets named debug_help
 
 # Build rule for target.
-eigen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eigen
-.PHONY : eigen
+debug_help: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 debug_help
+.PHONY : debug_help
 
 # fast build rule for target.
-eigen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen.dir/build.make CMakeFiles/eigen.dir/build
-.PHONY : eigen/fast
+debug_help/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_help.dir/build.make CMakeFiles/debug_help.dir/build
+.PHONY : debug_help/fast
 
 #=============================================================================
-# Target rules for targets named IO_file
-
-# Build rule for target.
-IO_file: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_file
-.PHONY : IO_file
-
-# fast build rule for target.
-IO_file/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_file.dir/build.make CMakeFiles/IO_file.dir/build
-.PHONY : IO_file/fast
-
-#=============================================================================
-# Target rules for targets named comma_operator
-
-# Build rule for target.
-comma_operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 comma_operator
-.PHONY : comma_operator
-
-# fast build rule for target.
-comma_operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_operator.dir/build.make CMakeFiles/comma_operator.dir/build
-.PHONY : comma_operator/fast
-
-#=============================================================================
-# Target rules for targets named 11111
-
-# Build rule for target.
-11111: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11111
-.PHONY : 11111
-
-# fast build rule for target.
-11111/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/11111.dir/build.make CMakeFiles/11111.dir/build
-.PHONY : 11111/fast
-
-#=============================================================================
-# Target rules for targets named container_adapter
-
-# Build rule for target.
-container_adapter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 container_adapter
-.PHONY : container_adapter
-
-# fast build rule for target.
-container_adapter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_adapter.dir/build.make CMakeFiles/container_adapter.dir/build
-.PHONY : container_adapter/fast
-
-#=============================================================================
-# Target rules for targets named function_match
-
-# Build rule for target.
-function_match: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function_match
-.PHONY : function_match
-
-# fast build rule for target.
-function_match/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_match.dir/build.make CMakeFiles/function_match.dir/build
-.PHONY : function_match/fast
-
-#=============================================================================
-# Target rules for targets named function_pointer
-
-# Build rule for target.
-function_pointer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function_pointer
-.PHONY : function_pointer
-
-# fast build rule for target.
-function_pointer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/function_pointer.dir/build.make CMakeFiles/function_pointer.dir/build
-.PHONY : function_pointer/fast
-
-#=============================================================================
-<<<<<<< HEAD
-# Target rules for targets named IO_class
-
-# Build rule for target.
-IO_class: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_class
-.PHONY : IO_class
-
-# fast build rule for target.
-IO_class/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_class.dir/build.make CMakeFiles/IO_class.dir/build
-.PHONY : IO_class/fast
-
-#=============================================================================
-# Target rules for targets named for
-
-# Build rule for target.
-for: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 for
-.PHONY : for
-
-# fast build rule for target.
-for/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/build
-.PHONY : for/fast
-
-#=============================================================================
-# Target rules for targets named constructor_function_refind
-
-# Build rule for target.
-constructor_function_refind: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 constructor_function_refind
-.PHONY : constructor_function_refind
-
-# fast build rule for target.
-constructor_function_refind/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/constructor_function_refind.dir/build.make CMakeFiles/constructor_function_refind.dir/build
-.PHONY : constructor_function_refind/fast
-
-#=============================================================================
-# Target rules for targets named access_control_and_Encapsulation
-
-# Build rule for target.
-access_control_and_Encapsulation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 access_control_and_Encapsulation
-.PHONY : access_control_and_Encapsulation
-
-# fast build rule for target.
-access_control_and_Encapsulation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/access_control_and_Encapsulation.dir/build.make CMakeFiles/access_control_and_Encapsulation.dir/build
-.PHONY : access_control_and_Encapsulation/fast
-
-#=============================================================================
-# Target rules for targets named entrust_constructor_function
-
-# Build rule for target.
-entrust_constructor_function: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 entrust_constructor_function
-.PHONY : entrust_constructor_function
-
-# fast build rule for target.
-entrust_constructor_function/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/entrust_constructor_function.dir/build.make CMakeFiles/entrust_constructor_function.dir/build
-.PHONY : entrust_constructor_function/fast
-
-#=============================================================================
-# Target rules for targets named IO_string
-
-# Build rule for target.
-IO_string: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IO_string
-.PHONY : IO_string
-
-# fast build rule for target.
-IO_string/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO_string.dir/build.make CMakeFiles/IO_string.dir/build
-.PHONY : IO_string/fast
-
-#=============================================================================
-# Target rules for targets named container_lib_overview
-
-# Build rule for target.
-container_lib_overview: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 container_lib_overview
-.PHONY : container_lib_overview
-
-# fast build rule for target.
-container_lib_overview/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/container_lib_overview.dir/build.make CMakeFiles/container_lib_overview.dir/build
-.PHONY : container_lib_overview/fast
-
-#=============================================================================
-# Target rules for targets named vector_obj_how_to_increase
-
-# Build rule for target.
-vector_obj_how_to_increase: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector_obj_how_to_increase
-.PHONY : vector_obj_how_to_increase
-
-# fast build rule for target.
-vector_obj_how_to_increase/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_obj_how_to_increase.dir/build.make CMakeFiles/vector_obj_how_to_increase.dir/build
-.PHONY : vector_obj_how_to_increase/fast
-
-#=============================================================================
-# Target rules for targets named string_other_operator
-
-# Build rule for target.
-string_other_operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string_other_operator
-.PHONY : string_other_operator
-
-# fast build rule for target.
-string_other_operator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/string_other_operator.dir/build.make CMakeFiles/string_other_operator.dir/build
-.PHONY : string_other_operator/fast
-=======
 # Target rules for targets named Vector
 
 # Build rule for target.
@@ -1262,7 +778,6 @@ copy_assigment_operator: cmake_check_build_system
 copy_assigment_operator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_operator.dir/build.make CMakeFiles/copy_assigment_operator.dir/build
 .PHONY : copy_assigment_operator/fast
->>>>>>> dev
 
 #=============================================================================
 # Target rules for targets named acquaintance_generic_algorithms
@@ -1289,6 +804,19 @@ iostream_iterator: cmake_check_build_system
 iostream_iterator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iostream_iterator.dir/build.make CMakeFiles/iostream_iterator.dir/build
 .PHONY : iostream_iterator/fast
+
+#=============================================================================
+# Target rules for targets named copy_control_sample
+
+# Build rule for target.
+copy_control_sample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_control_sample
+.PHONY : copy_control_sample
+
+# fast build rule for target.
+copy_control_sample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/build
+.PHONY : copy_control_sample/fast
 
 #=============================================================================
 # Target rules for targets named initializer_list
@@ -1491,8 +1019,6 @@ associate_containers_overview/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/associate_containers_overview.dir/build.make CMakeFiles/associate_containers_overview.dir/11-associative_containers/associate_containers_overview.cpp.s
 .PHONY : 11-associative_containers/associate_containers_overview.cpp.s
 
-<<<<<<< HEAD
-=======
 11-associative_containers/unorder_container.o: 11-associative_containers/unorder_container.cpp.o
 
 .PHONY : 11-associative_containers/unorder_container.o
@@ -1520,7 +1046,6 @@ associate_containers_overview/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unorder_container.dir/build.make CMakeFiles/unorder_container.dir/11-associative_containers/unorder_container.cpp.s
 .PHONY : 11-associative_containers/unorder_container.cpp.s
 
->>>>>>> dev
 11-associative_containers/use_associate_containers.o: 11-associative_containers/use_associate_containers.cpp.o
 
 .PHONY : 11-associative_containers/use_associate_containers.o
@@ -1763,6 +1288,60 @@ associate_containers_overview/fast:
 13-copy_control/copy_assigment_operator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_operator.dir/build.make CMakeFiles/copy_assigment_operator.dir/13-copy_control/copy_assigment_operator.cpp.s
 .PHONY : 13-copy_control/copy_assigment_operator.cpp.s
+
+13-copy_control/copy_control_sample.o: 13-copy_control/copy_control_sample.cpp.o
+
+.PHONY : 13-copy_control/copy_control_sample.o
+
+# target to build an object file
+13-copy_control/copy_control_sample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.o
+.PHONY : 13-copy_control/copy_control_sample.cpp.o
+
+13-copy_control/copy_control_sample.i: 13-copy_control/copy_control_sample.cpp.i
+
+.PHONY : 13-copy_control/copy_control_sample.i
+
+# target to preprocess a source file
+13-copy_control/copy_control_sample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.i
+.PHONY : 13-copy_control/copy_control_sample.cpp.i
+
+13-copy_control/copy_control_sample.s: 13-copy_control/copy_control_sample.cpp.s
+
+.PHONY : 13-copy_control/copy_control_sample.s
+
+# target to generate assembly for a file
+13-copy_control/copy_control_sample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_sample.dir/build.make CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.s
+.PHONY : 13-copy_control/copy_control_sample.cpp.s
+
+13-copy_control/dynamic_memory_management_class.o: 13-copy_control/dynamic_memory_management_class.cpp.o
+
+.PHONY : 13-copy_control/dynamic_memory_management_class.o
+
+# target to build an object file
+13-copy_control/dynamic_memory_management_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.o
+.PHONY : 13-copy_control/dynamic_memory_management_class.cpp.o
+
+13-copy_control/dynamic_memory_management_class.i: 13-copy_control/dynamic_memory_management_class.cpp.i
+
+.PHONY : 13-copy_control/dynamic_memory_management_class.i
+
+# target to preprocess a source file
+13-copy_control/dynamic_memory_management_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.i
+.PHONY : 13-copy_control/dynamic_memory_management_class.cpp.i
+
+13-copy_control/dynamic_memory_management_class.s: 13-copy_control/dynamic_memory_management_class.cpp.s
+
+.PHONY : 13-copy_control/dynamic_memory_management_class.s
+
+# target to generate assembly for a file
+13-copy_control/dynamic_memory_management_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.s
+.PHONY : 13-copy_control/dynamic_memory_management_class.cpp.s
 
 6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
 
@@ -2819,11 +2398,13 @@ help:
 	@echo "... container_lib_overview"
 	@echo "... copy_assigment_destroyed"
 	@echo "... copy_assigment_operator"
+	@echo "... copy_control_sample"
 	@echo "... customize_operator"
 	@echo "... debug_help"
 	@echo "... define_abstract_data_type"
 	@echo "... dynamic_arrays"
 	@echo "... dynamic_memory_and_technique_ptr"
+	@echo "... dynamic_memory_management_class"
 	@echo "... eigen"
 	@echo "... entrust_constructor_function"
 	@echo "... example_13"
@@ -2849,10 +2430,7 @@ help:
 	@echo "... string"
 	@echo "... string_other_operator"
 	@echo "... switch"
-<<<<<<< HEAD
-=======
 	@echo "... unorder_container"
->>>>>>> dev
 	@echo "... use_associate_containers"
 	@echo "... vector_obj_how_to_increase"
 	@echo "... 10-generic_algorithms/acquaintance_generic_algorithms.o"
@@ -2873,12 +2451,9 @@ help:
 	@echo "... 11-associative_containers/associate_containers_overview.o"
 	@echo "... 11-associative_containers/associate_containers_overview.i"
 	@echo "... 11-associative_containers/associate_containers_overview.s"
-<<<<<<< HEAD
-=======
 	@echo "... 11-associative_containers/unorder_container.o"
 	@echo "... 11-associative_containers/unorder_container.i"
 	@echo "... 11-associative_containers/unorder_container.s"
->>>>>>> dev
 	@echo "... 11-associative_containers/use_associate_containers.o"
 	@echo "... 11-associative_containers/use_associate_containers.i"
 	@echo "... 11-associative_containers/use_associate_containers.s"
@@ -2906,6 +2481,12 @@ help:
 	@echo "... 13-copy_control/copy_assigment_operator.o"
 	@echo "... 13-copy_control/copy_assigment_operator.i"
 	@echo "... 13-copy_control/copy_assigment_operator.s"
+	@echo "... 13-copy_control/copy_control_sample.o"
+	@echo "... 13-copy_control/copy_control_sample.i"
+	@echo "... 13-copy_control/copy_control_sample.s"
+	@echo "... 13-copy_control/dynamic_memory_management_class.o"
+	@echo "... 13-copy_control/dynamic_memory_management_class.i"
+	@echo "... 13-copy_control/dynamic_memory_management_class.s"
 	@echo "... 6-function/array_form_parameter.o"
 	@echo "... 6-function/array_form_parameter.i"
 	@echo "... 6-function/array_form_parameter.s"

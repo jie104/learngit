@@ -1,14 +1,9 @@
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/edit_cache.dir
-<<<<<<< HEAD
-/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/array_point.dir
-/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/constexpr_function.dir
-/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/customize_operator.dir
-/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/reference_parameter.dir
-=======
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/main_node.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/TextQuery.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/StrBlob.dir
+/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/dynamic_memory_management_class.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/copy_assigment_destroyed.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/unorder_container.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/array_point.dir
@@ -17,7 +12,6 @@
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/customize_operator.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/reference_parameter.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/dynamic_memory_and_technique_ptr.dir
->>>>>>> dev
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/local_object.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/function_base.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/exception.dir
@@ -55,12 +49,10 @@
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/container_lib_overview.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/vector_obj_how_to_increase.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/string_other_operator.dir
-<<<<<<< HEAD
-=======
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/copy_assigment_operator.dir
->>>>>>> dev
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/acquaintance_generic_algorithms.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/iostream_iterator.dir
+/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/copy_control_sample.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/initializer_list.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/use_associate_containers.dir
 /home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/associate_containers_overview.dir

@@ -42,10 +42,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-<<<<<<< HEAD
-=======
+  "CMakeFiles/copy_control_and_resoure_management.dir/DependInfo.cmake"
   "CMakeFiles/dynamic_memory_and_technique_ptr.dir/DependInfo.cmake"
->>>>>>> dev
   "CMakeFiles/use_container_operator.dir/DependInfo.cmake"
   "CMakeFiles/overview.dir/DependInfo.cmake"
   "CMakeFiles/IO_string.dir/DependInfo.cmake"

@@ -130,8 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-<<<<<<< HEAD
-=======
+# Target rules for targets named copy_control_and_resoure_management
+
+# Build rule for target.
+copy_control_and_resoure_management: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_control_and_resoure_management
+.PHONY : copy_control_and_resoure_management
+
+# fast build rule for target.
+copy_control_and_resoure_management/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_and_resoure_management.dir/build.make CMakeFiles/copy_control_and_resoure_management.dir/build
+.PHONY : copy_control_and_resoure_management/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_memory_and_technique_ptr
 
 # Build rule for target.
@@ -145,7 +156,6 @@ dynamic_memory_and_technique_ptr/fast:
 .PHONY : dynamic_memory_and_technique_ptr/fast
 
 #=============================================================================
->>>>>>> dev
 # Target rules for targets named use_container_operator
 
 # Build rule for target.
@@ -787,8 +797,6 @@ exception/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/use_container_operator.dir/build.make CMakeFiles/use_container_operator.dir/11-associative_containers/use_container_operator.cpp.s
 .PHONY : 11-associative_containers/use_container_operator.cpp.s
 
-<<<<<<< HEAD
-=======
 12-dynamic_memory/dynamic_memory_and_technique_ptr.o: 12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o
 
 .PHONY : 12-dynamic_memory/dynamic_memory_and_technique_ptr.o
@@ -843,7 +851,33 @@ exception/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.s
 .PHONY : 13-copy_control/copy_assigment_destroyed.cpp.s
 
->>>>>>> dev
+13-copy_control/copy_control_and_resoure_management.o: 13-copy_control/copy_control_and_resoure_management.cpp.o
+
+.PHONY : 13-copy_control/copy_control_and_resoure_management.o
+
+# target to build an object file
+13-copy_control/copy_control_and_resoure_management.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_and_resoure_management.dir/build.make CMakeFiles/copy_control_and_resoure_management.dir/13-copy_control/copy_control_and_resoure_management.cpp.o
+.PHONY : 13-copy_control/copy_control_and_resoure_management.cpp.o
+
+13-copy_control/copy_control_and_resoure_management.i: 13-copy_control/copy_control_and_resoure_management.cpp.i
+
+.PHONY : 13-copy_control/copy_control_and_resoure_management.i
+
+# target to preprocess a source file
+13-copy_control/copy_control_and_resoure_management.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_and_resoure_management.dir/build.make CMakeFiles/copy_control_and_resoure_management.dir/13-copy_control/copy_control_and_resoure_management.cpp.i
+.PHONY : 13-copy_control/copy_control_and_resoure_management.cpp.i
+
+13-copy_control/copy_control_and_resoure_management.s: 13-copy_control/copy_control_and_resoure_management.cpp.s
+
+.PHONY : 13-copy_control/copy_control_and_resoure_management.s
+
+# target to generate assembly for a file
+13-copy_control/copy_control_and_resoure_management.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_control_and_resoure_management.dir/build.make CMakeFiles/copy_control_and_resoure_management.dir/13-copy_control/copy_control_and_resoure_management.cpp.s
+.PHONY : 13-copy_control/copy_control_and_resoure_management.cpp.s
+
 6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
 
 .PHONY : 6-function/array_form_parameter.o
@@ -1754,6 +1788,7 @@ help:
 	@echo "... associate_containers_operator"
 	@echo "... const_reference"
 	@echo "... copy_assigment_destroyed"
+	@echo "... copy_control_and_resoure_management"
 	@echo "... dynamic_memory_and_technique_ptr"
 	@echo "... example"
 	@echo "... exception"
@@ -1798,15 +1833,15 @@ help:
 	@echo "... 11-associative_containers/use_container_operator.o"
 	@echo "... 11-associative_containers/use_container_operator.i"
 	@echo "... 11-associative_containers/use_container_operator.s"
-<<<<<<< HEAD
-=======
 	@echo "... 12-dynamic_memory/dynamic_memory_and_technique_ptr.o"
 	@echo "... 12-dynamic_memory/dynamic_memory_and_technique_ptr.i"
 	@echo "... 12-dynamic_memory/dynamic_memory_and_technique_ptr.s"
 	@echo "... 13-copy_control/copy_assigment_destroyed.o"
 	@echo "... 13-copy_control/copy_assigment_destroyed.i"
 	@echo "... 13-copy_control/copy_assigment_destroyed.s"
->>>>>>> dev
+	@echo "... 13-copy_control/copy_control_and_resoure_management.o"
+	@echo "... 13-copy_control/copy_control_and_resoure_management.i"
+	@echo "... 13-copy_control/copy_control_and_resoure_management.s"
 	@echo "... 6-function/array_form_parameter.o"
 	@echo "... 6-function/array_form_parameter.i"
 	@echo "... 6-function/array_form_parameter.s"

@@ -7,7 +7,7 @@
 #include <stdexcept>
 #include <iostream>
 
-
+class StrBlob;
 class StrBlobPtr{
 public:
     StrBlobPtr():curr(0){}
