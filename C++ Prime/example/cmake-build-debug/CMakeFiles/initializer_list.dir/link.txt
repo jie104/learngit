@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/initializer_list.dir/6-function/initializer_list.cpp.o -o initializer_list 
+/usr/bin/c++ -g -rdynamic CMakeFiles/initializer_list.dir/6-function/initializer_list.cpp.o -o initializer_list 

@@ -67,8 +67,8 @@ set(wj_716_lidar_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(wj_716_lidar_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar)
-  set(wj_716_lidar_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel)
+  set(wj_716_lidar_SOURCE_PREFIX /home/zxj/learngit/lidar_ws/src/wj_716_lidar)
+  set(wj_716_lidar_DEVEL_PREFIX /home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel)
   set(wj_716_lidar_INSTALL_PREFIX "")
   set(wj_716_lidar_PREFIX ${wj_716_lidar_DEVEL_PREFIX})
 else()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /usr/local/lib;/home/zxj/catkin_ws/devel/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /usr/local/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

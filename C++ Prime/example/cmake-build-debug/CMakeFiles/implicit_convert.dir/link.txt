@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/implicit_convert.dir/implicit_convert.cpp.o -o implicit_convert 
+/usr/bin/c++ -g -rdynamic CMakeFiles/implicit_convert.dir/implicit_convert.cpp.o -o implicit_convert 

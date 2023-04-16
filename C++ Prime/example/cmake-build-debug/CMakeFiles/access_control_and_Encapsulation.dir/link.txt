@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/access_control_and_Encapsulation.dir/7-class/access_control_and_Encapsulation.cpp.o -o access_control_and_Encapsulation 
+/usr/bin/c++ -g -rdynamic CMakeFiles/access_control_and_Encapsulation.dir/7-class/access_control_and_Encapsulation.cpp.o -o access_control_and_Encapsulation 

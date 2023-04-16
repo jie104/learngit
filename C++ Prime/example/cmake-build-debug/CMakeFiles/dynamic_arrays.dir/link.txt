@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/dynamic_arrays.dir/12-dynamic_memory/dynamic_arrays.cpp.o -o dynamic_arrays 
+/usr/bin/c++ -g -rdynamic CMakeFiles/dynamic_arrays.dir/12-dynamic_memory/dynamic_arrays.cpp.o -o dynamic_arrays 

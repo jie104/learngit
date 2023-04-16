@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar/src/async_client.cpp" "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.o"
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_01.cpp" "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.o"
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_protocol.cpp" "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.o"
+  "/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/async_client.cpp" "/home/zxj/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/async_client.cpp.o"
+  "/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_01.cpp" "/home/zxj/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_01.cpp.o"
+  "/home/zxj/learngit/lidar_ws/src/wj_716_lidar/src/wj_716_lidar_protocol.cpp" "/home/zxj/learngit/lidar_ws/build/wj_716_lidar/CMakeFiles/wj_716_lidar.dir/src/wj_716_lidar_protocol.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/include"
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar/include"
+  "/home/zxj/learngit/lidar_ws/devel/include"
+  "/home/zxj/learngit/lidar_ws/src/wj_716_lidar/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

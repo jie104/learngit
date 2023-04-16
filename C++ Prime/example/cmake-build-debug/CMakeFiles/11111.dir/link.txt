@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/11111.dir/11111.cpp.o -o 11111 
+/usr/bin/c++ -g -rdynamic CMakeFiles/11111.dir/11111.cpp.o -o 11111 

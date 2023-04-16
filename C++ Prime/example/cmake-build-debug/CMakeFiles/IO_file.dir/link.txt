@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/IO_file.dir/8-IO_lib/IO_file.cpp.o -o IO_file 
+/usr/bin/c++ -g -rdynamic CMakeFiles/IO_file.dir/8-IO_lib/IO_file.cpp.o -o IO_file 

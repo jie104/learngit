@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/C++ Prime/example/reference_parameter.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/reference_parameter.dir/reference_parameter.cpp.o"
+  "/home/zxj/learngit/C++ Prime/example/reference_parameter.cpp" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/reference_parameter.dir/reference_parameter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

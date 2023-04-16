@@ -67,8 +67,8 @@ set(scan_filter_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(scan_filter_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter)
-  set(scan_filter_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel)
+  set(scan_filter_SOURCE_PREFIX /home/zxj/learngit/lidar_ws/src/scan_filter)
+  set(scan_filter_DEVEL_PREFIX /home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel)
   set(scan_filter_INSTALL_PREFIX "")
   set(scan_filter_PREFIX ${scan_filter_DEVEL_PREFIX})
 else()
@@ -110,7 +110,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'scan_filter' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'scan_filter' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'scan_filter' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/learngit/lidar_ws/src/scan_filter/${idir}'.  ${_report}")
     endif()
     _list_append_unique(scan_filter_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel/lib;/home/zxj/catkin_ws/devel/lib;/home/zxj/桌面/learngit/ROS/demo03_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

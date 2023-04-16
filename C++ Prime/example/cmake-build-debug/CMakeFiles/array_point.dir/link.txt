@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/array_point.dir/6-function/array_point.cpp.o -o array_point 
+/usr/bin/c++ -g -rdynamic CMakeFiles/array_point.dir/6-function/array_point.cpp.o -o array_point 

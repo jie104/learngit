@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/C++ Prime/example/10-generic_algorithms/customize_operator.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/customize_operator.dir/10-generic_algorithms/customize_operator.cpp.o"
+  "/home/zxj/learngit/C++ Prime/example/10-generic_algorithms/customize_operator.cpp" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/customize_operator.dir/10-generic_algorithms/customize_operator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

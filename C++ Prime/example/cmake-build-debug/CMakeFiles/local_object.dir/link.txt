@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/local_object.dir/6-function/local_object.cpp.o -o local_object 
+/usr/bin/c++ -g -rdynamic CMakeFiles/local_object.dir/6-function/local_object.cpp.o -o local_object 

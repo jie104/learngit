@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/C++ Prime/example/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/dynamic_memory_and_technique_ptr.dir/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o"
+  "/home/zxj/learngit/C++ Prime/example/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/dynamic_memory_and_technique_ptr.dir/12-dynamic_memory/dynamic_memory_and_technique_ptr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/StrBlob.dir/DependInfo.cmake"
+  "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/StrBlob.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

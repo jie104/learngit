@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libTextQuery.so -o libTextQuery.so CMakeFiles/TextQuery.dir/12-dynamic_memory/TextQuery.cpp.o 
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libTextQuery.so -o libTextQuery.so CMakeFiles/TextQuery.dir/12-dynamic_memory/TextQuery.cpp.o 

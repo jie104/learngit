@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/define_abstract_data_type.dir/7-class/define_abstract_data_type.cpp.o -o define_abstract_data_type 
+/usr/bin/c++ -g -rdynamic CMakeFiles/define_abstract_data_type.dir/7-class/define_abstract_data_type.cpp.o -o define_abstract_data_type 

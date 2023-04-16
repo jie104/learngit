@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
+/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
 string
 -
 cstdint
@@ -24,9 +24,9 @@ boost/bind.hpp
 boost/thread.hpp
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_node.cpp
+/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_node.cpp
 leimou_f30_driver.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
+/home/zxj/learngit/lidar_ws/src/leimou_f30C_ros_intensity/src/leimou_f30_driver.h
 ros/ros.h
 -
 sensor_msgs/LaserScan.h
@@ -689,7 +689,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -
@@ -707,7 +707,7 @@ string
 -
 vector
 -
-map
+memory
 -
 ros/types.h
 -

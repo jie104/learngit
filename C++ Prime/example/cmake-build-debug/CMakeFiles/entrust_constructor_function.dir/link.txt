@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/entrust_constructor_function.dir/7-class/entrust_constructor_function.cpp.o -o entrust_constructor_function 
+/usr/bin/c++ -g -rdynamic CMakeFiles/entrust_constructor_function.dir/7-class/entrust_constructor_function.cpp.o -o entrust_constructor_function 

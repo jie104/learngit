@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/exception.dir/exception.cpp.o -o exception 
+/usr/bin/c++ -g -rdynamic CMakeFiles/exception.dir/exception.cpp.o -o exception 

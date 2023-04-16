@@ -1,4 +1,4 @@
-prefix=/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel
+prefix=/home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel
 
 Name: standard_lidar_driver
 Description: Description of standard_lidar_driver

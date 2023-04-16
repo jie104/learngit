@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for download_extra_data.
 
@@ -86,6 +86,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/lidar_ws/src /home/zxj/workspace/obstacle_and_filter/lidar_ws/src /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/learngit/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src/cmake-build-debug /home/zxj/learngit/lidar_ws/src/cmake-build-debug /home/zxj/learngit/lidar_ws/src/cmake-build-debug/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

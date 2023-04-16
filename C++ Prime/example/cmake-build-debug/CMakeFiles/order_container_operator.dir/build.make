@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/zxj/桌面/learngit/C++ Prime/example"
+CMAKE_SOURCE_DIR = "/home/zxj/learngit/C++ Prime/example"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/zxj/learngit/C++ Prime/example/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/order_container_operator.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/order_container_operator.dir/flags.make
 
 CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o: CMakeFiles/order_container_operator.dir/flags.make
 CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o: ../9-order_container/order_container_operator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o -c "/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o -c "/home/zxj/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp"
 
 CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp" > CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/zxj/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp" > CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.i
 
 CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp" -o CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/zxj/learngit/C++ Prime/example/9-order_container/order_container_operator.cpp" -o CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.s
 
 # Object files for target order_container_operator
 order_container_operator_OBJECTS = \
@@ -99,7 +99,7 @@ order_container_operator_EXTERNAL_OBJECTS =
 order_container_operator: CMakeFiles/order_container_operator.dir/9-order_container/order_container_operator.cpp.o
 order_container_operator: CMakeFiles/order_container_operator.dir/build.make
 order_container_operator: CMakeFiles/order_container_operator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable order_container_operator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable order_container_operator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/order_container_operator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -112,6 +112,6 @@ CMakeFiles/order_container_operator.dir/clean:
 .PHONY : CMakeFiles/order_container_operator.dir/clean
 
 CMakeFiles/order_container_operator.dir/depend:
-	cd "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/zxj/桌面/learngit/C++ Prime/example" "/home/zxj/桌面/learngit/C++ Prime/example" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/order_container_operator.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/zxj/learngit/C++ Prime/example/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/zxj/learngit/C++ Prime/example" "/home/zxj/learngit/C++ Prime/example" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/order_container_operator.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/order_container_operator.dir/depend
 

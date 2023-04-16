@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/statement.dir/statement.cpp.o -o statement 
+/usr/bin/c++ -g -rdynamic CMakeFiles/statement.dir/statement.cpp.o -o statement 

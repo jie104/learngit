@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/eigen.dir/eigen.cpp.o -o eigen 
+/usr/bin/c++ -g -rdynamic CMakeFiles/eigen.dir/eigen.cpp.o -o eigen 

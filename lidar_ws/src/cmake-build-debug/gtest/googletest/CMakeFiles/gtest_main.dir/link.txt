@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libgtest_maind.so -o ../lib/libgtest_maind.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/gtest/lib ../lib/libgtestd.so -lpthread 
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgtest_maind.so -o ../lib/libgtest_maind.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/zxj/learngit/lidar_ws/src/cmake-build-debug/gtest/lib ../lib/libgtestd.so -lpthread 

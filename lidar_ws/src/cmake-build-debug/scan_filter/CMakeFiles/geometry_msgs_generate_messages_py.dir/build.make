@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -82,10 +82,10 @@ scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/build: geometry_ms
 .PHONY : scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 
 scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/zxj/learngit/lidar_ws/src/cmake-build-debug/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/lidar_ws/src /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/scan_filter /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/learngit/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src/scan_filter /home/zxj/learngit/lidar_ws/src/cmake-build-debug /home/zxj/learngit/lidar_ws/src/cmake-build-debug/scan_filter /home/zxj/learngit/lidar_ws/src/cmake-build-debug/scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

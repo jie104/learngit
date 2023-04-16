@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/C++ Prime/example/inbuilt_array2.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/inbuilt_array2.dir/inbuilt_array2.cpp.o"
+  "/home/zxj/learngit/C++ Prime/example/inbuilt_array2.cpp" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/inbuilt_array2.dir/inbuilt_array2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/function_match.dir/6-function/function_match.cpp.o -o function_match 
+/usr/bin/c++ -g -rdynamic CMakeFiles/function_match.dir/6-function/function_match.cpp.o -o function_match 

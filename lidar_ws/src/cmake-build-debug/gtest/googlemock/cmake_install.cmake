@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/gtest/googletest/cmake_install.cmake")
+  include("/home/zxj/learngit/lidar_ws/src/cmake-build-debug/gtest/googletest/cmake_install.cmake")
 
 endif()
 

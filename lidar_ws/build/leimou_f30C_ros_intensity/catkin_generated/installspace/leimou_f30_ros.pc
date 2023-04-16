@@ -1,4 +1,4 @@
-prefix=/home/zxj/workspace/obstacle_and_filter/lidar_ws/install
+prefix=/home/zxj/learngit/lidar_ws/install
 
 Name: leimou_f30_ros
 Description: Description of leimou_f30_ros

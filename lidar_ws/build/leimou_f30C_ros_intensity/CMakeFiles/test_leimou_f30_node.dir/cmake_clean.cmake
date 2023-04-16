@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/lib/leimou_f30_ros/test_leimou_f30_node"
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/lib/leimou_f30_ros/test_leimou_f30_node.pdb"
+  "/home/zxj/learngit/lidar_ws/devel/lib/leimou_f30_ros/test_leimou_f30_node"
+  "/home/zxj/learngit/lidar_ws/devel/lib/leimou_f30_ros/test_leimou_f30_node.pdb"
   "CMakeFiles/test_leimou_f30_node.dir/test/test_leimou_f30.cpp.o"
 )
 

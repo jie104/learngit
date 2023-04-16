@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/for.dir/for.cpp.o -o for 
+/usr/bin/c++ -g -rdynamic CMakeFiles/for.dir/for.cpp.o -o for 

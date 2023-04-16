@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/function_pointer.dir/6-function/function_pointer.cpp.o -o function_pointer 
+/usr/bin/c++ -g -rdynamic CMakeFiles/function_pointer.dir/6-function/function_pointer.cpp.o -o function_pointer 

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/debug_help.dir/6-function/debug_help.cpp.o -o debug_help 
+/usr/bin/c++ -g -rdynamic CMakeFiles/debug_help.dir/6-function/debug_help.cpp.o -o debug_help 

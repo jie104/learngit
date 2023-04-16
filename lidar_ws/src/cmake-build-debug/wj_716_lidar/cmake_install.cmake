@@ -1,4 +1,4 @@
-# Install script for directory: /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar
+# Install script for directory: /home/zxj/learngit/lidar_ws/src/wj_716_lidar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,33 +43,33 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/wj_716_lidar" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel/include/wj_716_lidar/wj_716_lidarConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/wj_716_lidar" TYPE FILE FILES "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel/include/wj_716_lidar/wj_716_lidarConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/wj_716_lidar" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/wj_716_lidar" TYPE FILE FILES "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/wj_716_lidar" TYPE DIRECTORY FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/wj_716_lidar" TYPE DIRECTORY FILES "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/wj_716_lidar/catkin_generated/installspace/wj_716_lidar.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/wj_716_lidar/catkin_generated/installspace/wj_716_lidar.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wj_716_lidar/cmake" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/wj_716_lidar/catkin_generated/installspace/wj_716_lidarConfig.cmake"
-    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/wj_716_lidar/catkin_generated/installspace/wj_716_lidarConfig-version.cmake"
+    "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/wj_716_lidar/catkin_generated/installspace/wj_716_lidarConfig.cmake"
+    "/home/zxj/learngit/lidar_ws/src/cmake-build-debug/wj_716_lidar/catkin_generated/installspace/wj_716_lidarConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wj_716_lidar" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/wj_716_lidar/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wj_716_lidar" TYPE FILE FILES "/home/zxj/learngit/lidar_ws/src/wj_716_lidar/package.xml")
 endif()
 

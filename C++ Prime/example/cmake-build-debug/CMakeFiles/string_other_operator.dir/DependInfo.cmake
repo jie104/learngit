@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/C++ Prime/example/9-order_container/string_other_operator.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/string_other_operator.dir/9-order_container/string_other_operator.cpp.o"
+  "/home/zxj/learngit/C++ Prime/example/9-order_container/string_other_operator.cpp" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/string_other_operator.dir/9-order_container/string_other_operator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

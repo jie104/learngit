@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/class_other_feature.dir/7-class/class_other_feature.cpp.o -o class_other_feature 
+/usr/bin/c++ -g -rdynamic CMakeFiles/class_other_feature.dir/7-class/class_other_feature.cpp.o -o class_other_feature 

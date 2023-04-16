@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/reference_parameter.dir/reference_parameter.cpp.o -o reference_parameter 
+/usr/bin/c++ -g -rdynamic CMakeFiles/reference_parameter.dir/reference_parameter.cpp.o -o reference_parameter 

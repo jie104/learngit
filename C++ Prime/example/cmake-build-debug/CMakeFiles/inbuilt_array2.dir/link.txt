@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/inbuilt_array2.dir/inbuilt_array2.cpp.o -o inbuilt_array2 
+/usr/bin/c++ -g -rdynamic CMakeFiles/inbuilt_array2.dir/inbuilt_array2.cpp.o -o inbuilt_array2 

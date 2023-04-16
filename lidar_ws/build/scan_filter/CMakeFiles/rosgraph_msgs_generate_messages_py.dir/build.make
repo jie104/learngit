@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/learngit/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/build
+CMAKE_BINARY_DIR = /home/zxj/learngit/lidar_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgraph_ms
 .PHONY : scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/build/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/zxj/learngit/lidar_ws/build/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/lidar_ws/src /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter /home/zxj/workspace/obstacle_and_filter/lidar_ws/build /home/zxj/workspace/obstacle_and_filter/lidar_ws/build/scan_filter /home/zxj/workspace/obstacle_and_filter/lidar_ws/build/scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/learngit/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/learngit/lidar_ws/src /home/zxj/learngit/lidar_ws/src/scan_filter /home/zxj/learngit/lidar_ws/build /home/zxj/learngit/lidar_ws/build/scan_filter /home/zxj/learngit/lidar_ws/build/scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scan_filter/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

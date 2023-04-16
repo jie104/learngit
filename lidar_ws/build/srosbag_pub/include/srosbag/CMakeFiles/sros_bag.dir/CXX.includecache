@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bag_manager_singleton.cpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bag_manager_singleton.cpp
 bag_manager_singleton.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bag_manager_singleton.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bag_manager_singleton.h
 bagmodule/bag_record.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
 bagmodule/bag_play.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bag_manager_singleton.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bag_manager_singleton.h
 memory
 -
 boost/thread.hpp
@@ -22,39 +22,39 @@ boost/thread.hpp
 boost/function.hpp
 -
 msg/pub_msg/base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.cpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.cpp
 string.h
 -
 iostream
 -
 bag.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
 fstream
 -
 vector
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.cpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.cpp
 iostream
 -
 unistd.h
 -
 bag_play.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.h
 global_bag_config.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.h
 ../msg/record_msg/msg_factory.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/msg_factory.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/msg_factory.hpp
 ../msg/pub_msg/PoseStampedMsg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/PoseStampedMsg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/PoseStampedMsg.h
 ../msg/pub_msg/laser_scan_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/laser_scan_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/laser_scan_msg.hpp
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_play.h
 boost/bind.hpp
 -
 boost/asio.hpp
@@ -62,27 +62,27 @@ boost/asio.hpp
 boost/thread.hpp
 -
 bag.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
 bag_record.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
 ../msg/record_msg/all_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
 play_option.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/play_option.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/play_option.hpp
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.cpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.cpp
 iostream
 -
 bag_record.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
 ../msg/pub_msg/laser_scan_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/laser_scan_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/laser_scan_msg.hpp
 ../msg/pub_msg/PoseStampedMsg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/PoseStampedMsg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/PoseStampedMsg.h
 ../msg/pub_msg/slam_info_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/slam_info_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/slam_info_msg.hpp
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag_record.h
 boost/thread/pthread/mutex.hpp
 -
 boost/thread/pthread/condition_variable.hpp
@@ -90,17 +90,17 @@ boost/thread/pthread/condition_variable.hpp
 queue
 -
 ../msg/record_msg/all_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
 ../msg/pub_msg/base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 bag.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/bag.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.cpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.cpp
 global_bag_config.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/global_bag_config.h
 boost/bind.hpp
 -
 boost/asio.hpp
@@ -108,71 +108,71 @@ boost/asio.hpp
 boost/thread.hpp
 -
 ../msg/pub_msg/base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/play_option.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/bagmodule/play_option.hpp
 memory
 -
 boost/function.hpp
 -
 ../msg/pub_msg/base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/PoseStampedMsg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/PoseStampedMsg.h
 base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 pose.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/pose.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/pose.h
 memory
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 string
 -
 memory
 -
 core/util/time.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.cpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.cpp
 time.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
 chrono
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
 chrono
 -
 cstdint
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/laser_scan_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/laser_scan_msg.hpp
 vector
 -
 core/util/time.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/core/util/time.h
 base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/pose.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/pose.h
 vector
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/slam_info_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/slam_info_msg.hpp
 base_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/pub_msg/base_msg.h
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
 laser_scan_stamped_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/laser_scan_stamped_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/laser_scan_stamped_msg.hpp
 pose_stamped_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/pose_stamped_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/pose_stamped_msg.hpp
 gps_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/gps_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/gps_msg.hpp
 slam_info_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/slam_info_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/slam_info_msg.hpp
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
 assert.h
 -
 cstring
@@ -180,33 +180,33 @@ cstring
 memory
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/gps_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/gps_msg.hpp
 stdint.h
 -
 base_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
 vector
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/laser_scan_stamped_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/laser_scan_stamped_msg.hpp
 base_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
 assert.h
 -
 vector
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/msg_factory.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/msg_factory.hpp
 all_msg.h
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/all_msg.h
 memory
 -
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/pose_stamped_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/pose_stamped_msg.hpp
 base_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
 
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/slam_info_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/slam_info_msg.hpp
 base_msg.hpp
-/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
+/home/zxj/learngit/lidar_ws/src/srosbag_pub/include/srosbag/msg/record_msg/base_msg.hpp
 

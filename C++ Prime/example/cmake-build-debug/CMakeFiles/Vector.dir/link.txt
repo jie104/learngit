@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/Vector.dir/Vector.cpp.o -o Vector 
+/usr/bin/c++ -g -rdynamic CMakeFiles/Vector.dir/Vector.cpp.o -o Vector 

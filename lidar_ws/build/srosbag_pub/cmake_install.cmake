@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub
+# Install script for directory: /home/zxj/learngit/lidar_ws/src/srosbag_pub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/workspace/obstacle_and_filter/lidar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/learngit/lidar_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,23 +38,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub/catkin_generated/installspace/srosbag_pub.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/learngit/lidar_ws/build/srosbag_pub/catkin_generated/installspace/srosbag_pub.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srosbag_pub/cmake" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub/catkin_generated/installspace/srosbag_pubConfig.cmake"
-    "/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub/catkin_generated/installspace/srosbag_pubConfig-version.cmake"
+    "/home/zxj/learngit/lidar_ws/build/srosbag_pub/catkin_generated/installspace/srosbag_pubConfig.cmake"
+    "/home/zxj/learngit/lidar_ws/build/srosbag_pub/catkin_generated/installspace/srosbag_pubConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srosbag_pub" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/lidar_ws/src/srosbag_pub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srosbag_pub" TYPE FILE FILES "/home/zxj/learngit/lidar_ws/src/srosbag_pub/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zxj/workspace/obstacle_and_filter/lidar_ws/build/srosbag_pub/include/cmake_install.cmake")
+  include("/home/zxj/learngit/lidar_ws/build/srosbag_pub/include/cmake_install.cmake")
 
 endif()
 
