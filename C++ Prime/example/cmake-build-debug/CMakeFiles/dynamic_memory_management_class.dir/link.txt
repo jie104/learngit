@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.o -o dynamic_memory_management_class 
+/usr/bin/c++ -g -rdynamic CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.o -o dynamic_memory_management_class 

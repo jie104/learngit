@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/zxj/桌面/learngit/C++ Prime/example"
+CMAKE_SOURCE_DIR = "/home/zxj/learngit/C++ Prime/example"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/zxj/learngit/C++ Prime/example/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -1343,6 +1343,33 @@ associate_containers_overview/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_memory_management_class.dir/build.make CMakeFiles/dynamic_memory_management_class.dir/13-copy_control/dynamic_memory_management_class.cpp.s
 .PHONY : 13-copy_control/dynamic_memory_management_class.cpp.s
 
+13-copy_control/obj_move.o: 13-copy_control/obj_move.cpp.o
+
+.PHONY : 13-copy_control/obj_move.o
+
+# target to build an object file
+13-copy_control/obj_move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/obj_move.cpp.o
+.PHONY : 13-copy_control/obj_move.cpp.o
+
+13-copy_control/obj_move.i: 13-copy_control/obj_move.cpp.i
+
+.PHONY : 13-copy_control/obj_move.i
+
+# target to preprocess a source file
+13-copy_control/obj_move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/obj_move.cpp.i
+.PHONY : 13-copy_control/obj_move.cpp.i
+
+13-copy_control/obj_move.s: 13-copy_control/obj_move.cpp.s
+
+.PHONY : 13-copy_control/obj_move.s
+
+# target to generate assembly for a file
+13-copy_control/obj_move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assigment_destroyed.dir/build.make CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/obj_move.cpp.s
+.PHONY : 13-copy_control/obj_move.cpp.s
+
 6-function/array_form_parameter.o: 6-function/array_form_parameter.cpp.o
 
 .PHONY : 6-function/array_form_parameter.o
@@ -2487,6 +2514,9 @@ help:
 	@echo "... 13-copy_control/dynamic_memory_management_class.o"
 	@echo "... 13-copy_control/dynamic_memory_management_class.i"
 	@echo "... 13-copy_control/dynamic_memory_management_class.s"
+	@echo "... 13-copy_control/obj_move.o"
+	@echo "... 13-copy_control/obj_move.i"
+	@echo "... 13-copy_control/obj_move.s"
 	@echo "... 6-function/array_form_parameter.o"
 	@echo "... 6-function/array_form_parameter.i"
 	@echo "... 6-function/array_form_parameter.s"

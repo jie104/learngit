@@ -10,6 +10,20 @@ public:
     StrVec():   //allocator成员默认初始化
         elements(nullptr),first_free(nullptr),cap(nullptr){}
 
+    //移动构造函数
+    //与拷贝构造函数不同，移动构造函数不分配任何新内存
+    //不抛出异常的移动构造函数和移动赋值运算符必须标记未noexcept
+    StrVec(StrVec &&s) noexcept //移动操作不抛出任何异常
+    //成员初始化器接管ss中的资源
+    :elements(s.elements),first_free(s.first_free),cap(s.cap)
+    {
+        //令s进入这样的状态---对其运行析构函数是安全的
+        //如果忘记改变s.first_free，s.elements，s.cap
+        // 则销毁后源对象会释放掉我们刚刚移动的内存
+        s.elements=s.first_free=s.cap= nullptr;
+    }
+
+
     StrVec(const StrVec&);
     StrVec &operator=(const StrVec&);
     ~StrVec();

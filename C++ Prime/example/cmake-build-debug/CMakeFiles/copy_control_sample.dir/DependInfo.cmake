@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/桌面/learngit/C++ Prime/example/13-copy_control/copy_control_sample.cpp" "/home/zxj/桌面/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.o"
+  "/home/zxj/learngit/C++ Prime/example/13-copy_control/copy_control_sample.cpp" "/home/zxj/learngit/C++ Prime/example/cmake-build-debug/CMakeFiles/copy_control_sample.dir/13-copy_control/copy_control_sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

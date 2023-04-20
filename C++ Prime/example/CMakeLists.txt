@@ -89,7 +89,7 @@ add_executable(associate_containers_operator 11-associative_containers/associate
 
 add_executable(unorder_container 11-associative_containers/unorder_container.cpp)
 
-add_executable(copy_assigment_destroyed 13-copy_control/copy_assigment_destroyed.cpp)
+add_executable(copy_assigment_destroyed 13-copy_control/copy_assigment_destroyed.cpp 13-copy_control/obj_move.cpp)
 
 add_executable(copy_assigment_operator 13-copy_control/copy_assigment_operator.cpp)
 

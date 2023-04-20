@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.o -o copy_assigment_destroyed 
+/usr/bin/c++ -g -rdynamic CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/copy_assigment_destroyed.cpp.o CMakeFiles/copy_assigment_destroyed.dir/13-copy_control/obj_move.cpp.o -o copy_assigment_destroyed 
